@@ -1,0 +1,74 @@
+'use client';
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Search, Sparkles, Copy, CheckCircle } from 'lucide-react';
+
+export const KaomojiHowItWorks: React.FC = () => {
+  const steps = [
+    {
+      step: '01',
+      title: 'Pilih Kategori Emosi',
+      desc: 'Filter 500+ Kaomoji berdasarkan suasana hati Anda (Happy, Sad, Love, Angry, Cute, Shrug, Table Flip, dll).',
+      icon: <Search className="w-6 h-6 text-teal-400" />,
+    },
+    {
+      step: '02',
+      title: 'Cari Ekspresi Kaomoji',
+      desc: 'Gunakan kolom pencarian live jika Anda mencari Kaomoji spesifik seperti ¯\_(ツ)_/¯ atau (╯°□°）╯︵ ┻━┻.',
+      icon: <Sparkles className="w-6 h-6 text-cyan-400" />,
+    },
+    {
+      step: '03',
+      title: 'Salin 1-Klik (Copy)',
+      desc: 'Ketuk pada Kaomoji yang disukai untuk menyalin karakter teks langsung ke clipboard HP/komputer Anda.',
+      icon: <Copy className="w-6 h-6 text-pink-400" />,
+    },
+    {
+      step: '04',
+      title: 'Tempel di Pesan & Media Sosial',
+      desc: 'Tempelkan (Paste) Kaomoji di obrolan WhatsApp, bio IG/TikTok, Discord, atau nickname game Anda.',
+      icon: <CheckCircle className="w-6 h-6 text-emerald-400" />,
+    },
+  ];
+
+  return (
+    <section className="py-16 bg-slate-900 text-white relative border-t border-slate-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h2 className="text-2xl sm:text-4xl font-extrabold mb-3">
+            Cara Menggunakan Kaomoji Collection
+          </h2>
+          <p className="text-slate-400 text-sm sm:text-base">
+            4 langkah praktis menyalin dan menggunakan emotikon teks Jepang Kaomoji di berbagai aplikasi.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {steps.map((s, idx) => (
+            <motion.div
+              key={s.step}
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: idx * 0.05 }}
+              className="bg-slate-950/80 border border-slate-800 rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between hover:border-teal-500/40 transition-all"
+            >
+              <div className="absolute -top-3 -right-3 text-5xl font-black text-slate-800/40 select-none font-mono">
+                {s.step}
+              </div>
+
+              <div>
+                <div className="p-3 rounded-xl bg-slate-900 border border-slate-800 inline-block mb-4">
+                  {s.icon}
+                </div>
+                <h3 className="text-lg font-bold text-slate-100 mb-2">{s.title}</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">{s.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};

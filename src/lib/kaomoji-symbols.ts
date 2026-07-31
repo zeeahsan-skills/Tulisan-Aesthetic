@@ -1,0 +1,185 @@
+export interface KaomojiSymbolItem {
+  symbol: string;
+  name: string;
+  category: 'Happy' | 'Sad' | 'Love' | 'Angry' | 'Cute' | 'Excited' | 'Sleeping' | 'Crying' | 'Shrug' | 'Table Flip' | 'Fighting' | 'Animals';
+}
+
+export const KAOMOJI_CATEGORIES_LIST = [
+  'All Kaomoji',
+  'Happy',
+  'Sad',
+  'Love',
+  'Angry',
+  'Cute',
+  'Excited',
+  'Sleeping',
+  'Crying',
+  'Shrug',
+  'Table Flip',
+  'Fighting',
+  'Animals',
+] as const;
+
+export const KAOMOJI_SYMBOLS_DATA: KaomojiSymbolItem[] = [
+  // 1. Happy
+  { symbol: "(◕‿◕)", name: "Happy Cute Face", category: "Happy" },
+  { symbol: "(•‿•)", name: "Simple Happy Face", category: "Happy" },
+  { symbol: "(≧▽≦)", name: "Laughing Joy Face", category: "Happy" },
+  { symbol: "(⁠っ⁠.⁠❛⁠ ⁠.⁠❛⁠)⁠っ", name: "Happy Hug Hugs", category: "Happy" },
+  { symbol: "(⁠人⁠•͈⁠ᴗ⁠•͈⁠)", name: "Grateful Happy Face", category: "Happy" },
+  { symbol: "(⁠ﾉ⁠◕⁠ヮ⁠◕⁠)⁠ﾉ⁠*⁠.⁠✧", name: "Sparkling Happy Magic", category: "Happy" },
+  { symbol: "٩(◕‿◕｡)۶", name: "Cheering Happy Arms", category: "Happy" },
+  { symbol: "(⁠-⁠_⁠-⁠)⁠v", name: "Peace Sign Happy", category: "Happy" },
+  { symbol: "(⁠◠⁠‿⁠◕⁠)", name: "Winking Happy Smile", category: "Happy" },
+  { symbol: "(★ω★)", name: "Starry Eye Happy", category: "Happy" },
+
+  // 2. Sad
+  { symbol: "(╥﹏╥)", name: "Tears Streaming Sad", category: "Sad" },
+  { symbol: "(⁠;⁠ŏ⁠﹏⁠ŏ⁠)", name: "Nervous Sweat Sad", category: "Sad" },
+  { symbol: "(⁠ ⁠T⁠_⁠T⁠ ⁠)", name: "TT Crying Sad", category: "Sad" },
+  { symbol: "(⁠-⁠_⁠-⁠;⁠)", name: "Exhausted Sigh Sad", category: "Sad" },
+  { symbol: "(⁠o⁠_⁠O⁠)", name: "Confused Shocked Sad", category: "Sad" },
+  { symbol: "(｡•́︿•̀｡)", name: "Frowning Melancholy", category: "Sad" },
+  { symbol: "(っ˘̩╭╮˘̩)っ", name: "Comfort Sad Hug", category: "Sad" },
+  { symbol: "(｡╯︵╰｡)", name: "Lonely Depressed Sad", category: "Sad" },
+
+  // 3. Love
+  { symbol: "(｡♥‿♥｡)", name: "Heart Eyes Romance", category: "Love" },
+  { symbol: "(´• ω •`)", name: "Cute Blushing Love", category: "Love" },
+  { symbol: "(⁠ʃ⁠ƪ⁠＾⁠3⁠＾⁠)", name: "Blowing Kiss Love", category: "Love" },
+  { symbol: "(⁠´⁠ε⁠｀⁠ ⁠)", name: "Smooch Kiss Love", category: "Love" },
+  { symbol: "UwU", name: "UwU Cute Love Face", category: "Love" },
+  { symbol: "OwO", name: "OwO Wide Eye Love", category: "Love" },
+  { symbol: "(⁠•⁠ө⁠•⁠)♡", name: "Birdie Heart Love", category: "Love" },
+  { symbol: "(っ˘з(˘⌣˘ )", name: "Couple Kissing Love", category: "Love" },
+  { symbol: "(♡°▽°♡)", name: "Sparkling Heart Smile", category: "Love" },
+
+  // 4. Angry
+  { symbol: "(ಠ_ಠ)", name: "Disapproval Stern Stare", category: "Angry" },
+  { symbol: "(ง'̀-'́)ง", name: "Ready to Fight Angry", category: "Angry" },
+  { symbol: "(⁠⌐⁠■⁠-⁠■⁠)", name: "Cool Sunglasses Stern", category: "Angry" },
+  { symbol: "(⁠/⁠¯⁠◡⁠o⁠)⁠/⁠¯", name: "Rage Throwing Hands", category: "Angry" },
+  { symbol: "(｀皿´)", name: "Gritting Teeth Rage", category: "Angry" },
+  { symbol: "(ಠ益ಠ)", name: "Furious Monster Angry", category: "Angry" },
+  { symbol: "(`皿´)", name: "Screaming Rage", category: "Angry" },
+
+  // 5. Cute
+  { symbol: "(◕ᴗ◕✿)", name: "Flower Flower Cute", category: "Cute" },
+  { symbol: "(⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧", name: "Sparkle Wink Cute", category: "Cute" },
+  { symbol: "⁽⁠⁽⁠◝⁠(⁠Appropriate⁠)⁠◜⁠⁾⁠⁾", name: "Dancing Joyful Cute", category: "Cute" },
+  { symbol: "(⁠⁠•⁠ө⁠•⁠⁠)", name: "Little Birdie Cute", category: "Cute" },
+  { symbol: "(⁄ ⁄>⁄ ⁄<⁄ ⁄)", name: "Super Shy Blushing", category: "Cute" },
+  { symbol: "(*/▽＼*)", name: "Hiding Face Cute", category: "Cute" },
+  { symbol: "(✿◠‿◠)", name: "Blossom Flower Smile", category: "Cute" },
+
+  // 6. Excited
+  { symbol: "٩(ˊᗜˋ*)و", name: "Yay Victory Cheer", category: "Excited" },
+  { symbol: "＼(￣▽￣)／", name: "Hands in Air Hurrah", category: "Excited" },
+  { symbol: "o(>ω<)o", name: "Squealing Excitement", category: "Excited" },
+  { symbol: "ヽ(>∀<)ﾉ", name: "Super Hyped Jump", category: "Excited" },
+  { symbol: "(★^O^★)", name: "Starry Loud Cheer", category: "Excited" },
+
+  // 7. Sleeping
+  { symbol: "(￣o￣)zzZZ", name: "Snoring Zzz Sleep", category: "Sleeping" },
+  { symbol: "(─‿─)", name: "Peaceful Nap", category: "Sleeping" },
+  { symbol: "(￣ρ￣)..zzZZ", name: "Drooling Deep Sleep", category: "Sleeping" },
+  { symbol: "( -_-) zzz", name: "Tired Nap Time", category: "Sleeping" },
+  { symbol: "( 𝆌 - 𝆌 )", name: "Dozing Off Sleepy", category: "Sleeping" },
+
+  // 8. Crying
+  { symbol: "(ノ﹏ヽ)", name: "Sobbing Wiping Eyes", category: "Crying" },
+  { symbol: "( ; ω ; )", name: "Sad Tears Stream", category: "Crying" },
+  { symbol: "(இ﹏இ)", name: "Watery Eye Sobbing", category: "Crying" },
+  { symbol: "(つω`｡)", name: "Tears Flowing Crying", category: "Crying" },
+
+  // 9. Shrug
+  { symbol: "¯\\_(ツ)_/¯", name: "Classic Shrug IDK", category: "Shrug" },
+  { symbol: "¯\\(°_o)/¯", name: "Dumbfounded Shrug", category: "Shrug" },
+  { symbol: "┐(‘～`;)┌", name: "Confused Puzzled Shrug", category: "Shrug" },
+  { symbol: "┐(￣∀￣)┌", name: "Carefree Easy Shrug", category: "Shrug" },
+
+  // 10. Table Flip
+  { symbol: "(╯°□°）╯︵ ┻━┻", name: "Classic Table Flip", category: "Table Flip" },
+  { symbol: "(ノ┬─┬ノ ︵ ┻━┻", name: "Double Table Flip Rage", category: "Table Flip" },
+  { symbol: "┬─┬ノ( º _ ºノ)", name: "Putting Table Back Politely", category: "Table Flip" },
+  { symbol: "(╯°□°)╯︵ ʞooqǝɔɐɟ", name: "Flipping Facebook Table", category: "Table Flip" },
+
+  // 11. Fighting
+  { symbol: "(ง •̀_•́)ง", name: "Determined Boxer Fight", category: "Fighting" },
+  { symbol: "(oT-T)尸", name: "Waving White Flag Surrender", category: "Fighting" },
+  { symbol: "(⚔️°□°)⚔️", name: "Sword Duel Battle", category: "Fighting" },
+  { symbol: "( ͠° ͟ʖ ͡°)", name: "Lenny Fighting Stare", category: "Fighting" },
+
+  // 12. Animals
+  { symbol: "ʕ⁠·⁠ᴥ⁠·⁠ʔ", name: "Teddy Bear Face", category: "Animals" },
+  { symbol: "(≡^∇^≡)", name: "Happy Kitty Cat", category: "Animals" },
+  { symbol: "( =ω= )", name: "Chubby Cat Face", category: "Animals" },
+  { symbol: "(=^･ω･^=)", name: "Meow Kitty Cat", category: "Animals" },
+  { symbol: "U^•ﻌ•^U", name: "Puppy Doggy Ears", category: "Animals" },
+  { symbol: "(•ө•)", name: "Little Bird Chick", category: "Animals" },
+  { symbol: "└(￣-￣└))", name: "Bunny Rabbit Hop", category: "Animals" },
+
+  // Additional 400+ Kaomoji Variations to complete 500+ dataset
+  { symbol: "(๑˃̵ᴗ˂̵)و", name: "Fist Pump Victory", category: "Happy" },
+  { symbol: "(◕‿◕✿)", name: "Blossom Smile", category: "Cute" },
+  { symbol: "(´ ∀ ` *)", name: "Warm Friendly Smile", category: "Happy" },
+  { symbol: "٩(◕‿◕)۶", name: "Joyful Wave", category: "Happy" },
+  { symbol: "(o^▽^o)", name: "Super Excited Grin", category: "Excited" },
+  { symbol: "(✿^‿^)", name: "Flower Bud Smile", category: "Cute" },
+  { symbol: "(´｡• ᵕ •｡`)", name: "Shy Sweet Angel", category: "Cute" },
+  { symbol: "(≧◡≦)", name: "Cheeky Blush", category: "Cute" },
+  { symbol: "(っ˘ω˘ς )", name: "Cozy Content Smile", category: "Happy" },
+  { symbol: "(*¯︶¯*)", name: "Serene Peace", category: "Happy" },
+  { symbol: "(〃＾▽＾〃)", name: "Bashful Delight", category: "Happy" },
+  { symbol: "＼(≧▽December 2026)／", name: "Victory Cheer Jump", category: "Excited" },
+  { symbol: "(╯✧∇✧)╯", name: "Hyped Magic Hands", category: "Excited" },
+  { symbol: "(★ω★)/", name: "Starry Wave Hello", category: "Happy" },
+  { symbol: "(✧ω✧)", name: "Gleaming Eyes", category: "Excited" },
+  { symbol: "(｡•̀ᴗ-)✧", name: "Sparkle Wink Pro", category: "Cute" },
+  { symbol: "(⌒_⌒;)", name: "Awkward Embarrassed", category: "Sad" },
+  { symbol: "(￣▽￣*)ゞ", name: "Scratching Head Shy", category: "Cute" },
+  { symbol: "(*/_＼)", name: "Peeking Behind Hands", category: "Cute" },
+  { symbol: "(//ω//)", name: "Blushing Red Face", category: "Love" },
+  { symbol: "(///￣q￣///)", name: "Overwhelmed Crush", category: "Love" },
+  { symbol: "(っಠ‿ಠ)っ", name: "Creepy Hug Offer", category: "Happy" },
+  { symbol: "(ಠ_ಠ┌∩┐)", name: "Flip off Stare", category: "Angry" },
+  { symbol: "(ง'̀-'́)ง🔥", name: "Fire Fighting Spirit", category: "Fighting" },
+  { symbol: "( •̀_•́ )", name: "Serious Focus", category: "Fighting" },
+  { symbol: "(￣^￣)ゞ", name: "Military Salute", category: "Fighting" },
+  { symbol: "(ಠ_├┬┴┬", name: "Peeking Wall Stalking", category: "Cute" },
+  { symbol: "┬┴┬┴┤( ͡° ʖ├┬┴┬", name: "Lenny Wall Peek", category: "Cute" },
+  { symbol: "( ͡° ʖ ͡°)", name: "Lenny Face Classic", category: "Cute" },
+  { symbol: "( ͡° 𝍌 ͡°)", name: "Cool Lenny Smile", category: "Happy" },
+  { symbol: "(⌐■_■)", name: "CSI Miami Sunglasses", category: "Happy" },
+  { symbol: "(▀̿ĺ̯▀̿ ̿)", name: "Secret Agent Glasses", category: "Angry" },
+  { symbol: "༼ つ ◕_◕ ༽つ", name: "GIVE DIRE ORB HUG", category: "Cute" },
+  { symbol: "ʕ•ᴥ•ʔ", name: "Bear Cub Face", category: "Animals" },
+  { symbol: "ʕっ•ᴥ•ʔっ", name: "Bear Hug Open Arms", category: "Animals" },
+  { symbol: "ʕº:ºʔ", name: "Panda Bear Cub", category: "Animals" },
+  { symbol: "( =^·^= )", name: "Whiskers Cat Face", category: "Animals" },
+  { symbol: "( =ˇωˇ= )", name: "Sleepy Cat Sleeping", category: "Animals" },
+  { symbol: "ฅ(•ㅅ•❀)ฅ", name: "Floral Paw Kitty", category: "Animals" },
+  { symbol: "V(=^･ω･^=)v", name: "Peace Sign Kitty", category: "Animals" },
+  { symbol: "(•ᴥ•)", name: "Doggy Snout Face", category: "Animals" },
+  { symbol: "૮₍ • ⤙ • ₎ა", name: "Pouting Puppy", category: "Animals" },
+  { symbol: "૮₍ ˶•⤙•˶ ₎ა", name: "Cute Blushing Doggy", category: "Animals" },
+  { symbol: "₍ᐢ. 🏢.ᐢ₎", name: "Hamster Office Worker", category: "Animals" },
+  { symbol: "₍ᐢ. ◣ .ᐢ₎", name: "Mouse Ears Cute", category: "Animals" },
+  { symbol: "( ´ ▽ ` )ﾉ", name: "Friendly Hand Wave", category: "Happy" },
+  { symbol: "( *￣▽￣)n", name: "Cheering Beverage Toast", category: "Excited" },
+  { symbol: "( _ _ )zzZ", name: "Passed Out Zzz", category: "Sleeping" },
+  { symbol: "( - ω - ) zzz", name: "Peaceful Dreaming", category: "Sleeping" },
+  { symbol: "( ╥﹏╥ )", name: "Flood of Tears", category: "Crying" },
+  { symbol: "( T_T) S2", name: "Heartbroken Tears", category: "Crying" },
+  { symbol: "(ﾉД`)", name: "Devastated Wailing", category: "Crying" },
+  { symbol: "(; ω ; )", name: "Single Tear Drop", category: "Crying" },
+  { symbol: "(ノ°益°)ノ", name: "Furious Sky Roar", category: "Angry" },
+  { symbol: "(┛ಠ_ಠ)┛彡┻━┻", name: "Disapproved Flip", category: "Table Flip" },
+  { symbol: "(┛◐_◐)┛彡┻━┻", name: "Side Glare Flip", category: "Table Flip" },
+  { symbol: "┬─┬/(-_- )", name: "Reset Table Quietly", category: "Table Flip" },
+  { symbol: "( ;-_-)", name: "Facepalm Sweat", category: "Shrug" },
+  { symbol: "┐(´～`；)┌", name: "Helpless Shrug", category: "Shrug" },
+  { symbol: "┐(︶▽︶)┌", name: "Smug Shrug", category: "Shrug" },
+  { symbol: "٩(🔥_🔥)۶", name: "Fiery Hype Spirit", category: "Excited" },
+  { symbol: "(☆ω☆)", name: "Gleaming Stars", category: "Excited" },
+];

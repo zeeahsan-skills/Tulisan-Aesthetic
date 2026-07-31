@@ -1,0 +1,139 @@
+// Gaming Nickname presets and generator logic for popular games
+
+export interface GameNicknameCategory {
+  id: string;
+  gameName: string;
+  badge: string;
+  color: string; // Tailwind class
+  icon: string;
+  description: string;
+  samples: string[];
+  href?: string;
+}
+
+export const GAMING_NICKNAMES: GameNicknameCategory[] = [
+  {
+    id: 'free-fire',
+    gameName: 'Free Fire (FF)',
+    badge: 'Paling Populer',
+    color: 'from-amber-500 to-red-600',
+    icon: 'Flame',
+    description: 'Preset nickname pro player Free Fire dengan simbol border sayap, mahkota, dan crosshair.',
+    href: '/game/free-fire',
+    samples: [
+      '꧁༺SáNyt༻꧂',
+      '⚡N I N J A⚡',
+      '꧁[FF]-S N I P E R-꧂',
+      '★P R O G A M E R★',
+      '༺L E G E N D༻',
+      '🔥C R A Z Y🔥',
+      '꧁༺D E V I L༻꧂',
+      '亗 𝙆 𝙄 𝙉 𝙂 亗',
+      'V I P • S N I P E R',
+      '✿S Y A K I R A✿',
+    ],
+  },
+  {
+    id: 'pubg-mobile',
+    gameName: 'PUBG Mobile',
+    badge: 'Tactical',
+    color: 'from-yellow-500 to-amber-700',
+    icon: 'Target',
+    description: 'NicknamePUBG dengan font military, simbol Jepang, clan tag & spasi transparan.',
+    samples: [
+      '乂S N I P E R乂',
+      '『PUBG』S T R I K E R',
+      '亗 𝙂 𝙊 𝘿 𝙇 𝙄 𝙆 𝙀 亗',
+      '【 Clan 】A S S A S S I N',
+      '帝•K I L L E R•帝',
+      '⦇D A R K⦈',
+      '父P H A N T O M父',
+      '乡T E R R O R乡',
+      '『V I P』V E N O M',
+      '✦S H A D O W✦',
+    ],
+  },
+  {
+    id: 'mobile-legends',
+    gameName: 'Mobile Legends (MLBB)',
+    badge: 'Esports',
+    color: 'from-blue-600 to-indigo-700',
+    icon: 'Swords',
+    description: 'Nama squad & akun MLBB aesthetic dengan simbol mahkota, petir, dan bintang.',
+    href: '/game/mobile-legends',
+    samples: [
+      '♛M A Y H E M♛',
+      '⚡L E G E N D⚡',
+      '✿M Y T H I C✿',
+      '꧁༺L A N C E L O T༻꧂',
+      '༺F A N N I༻',
+      '★S A V A G E★',
+      '亗 𝙑 𝙄 𝙋 亗',
+      '『MLBB』S Y N C',
+      '✧V E L O C I T Y✧',
+      '帝•B A N G B A N G•帝',
+    ],
+  },
+  {
+    id: 'valorant',
+    gameName: 'Valorant',
+    badge: 'Clean & Minimal',
+    color: 'from-rose-500 to-red-600',
+    icon: 'Crosshair',
+    description: 'Name tag Valorant modern minimalis dengan simbol cakar, angka romawi, dan gaya cyber.',
+    samples: [
+      'J E T T // 01',
+      '⚡R E A P E R⚡',
+      'O M E N . 𝟩𝟩',
+      '『C H A M P』',
+      '✦V A L O R A N T✦',
+      '╳ S I L E N T ╳',
+      'V I P E R - 𝟢𝟫',
+      '✧A P E X✧',
+      'P H O E N I X • 𝟢𝟨',
+      'R A Z E ⚡ X',
+    ],
+  },
+  {
+    id: 'roblox',
+    gameName: 'Roblox',
+    badge: 'Cute & Aesthetic',
+    color: 'from-emerald-500 to-teal-700',
+    icon: 'Gamepad2',
+    description: 'Username Roblox aesthetic dengan hati, bunga, kaomoji, dan karakter imut.',
+    href: '/game/roblox',
+    samples: [
+      '♡ softie_vibes ♡',
+      '✿ boba_tea ✿',
+      '✧ cloud_angel ✧',
+      '꒰ angel_wings ꒱',
+      '🧸 teddy_bear 🧸',
+      '🌸 sakura_blossom 🌸',
+      '🥛 strawberry_milk 🥛',
+      '✨ moon_light ✨',
+      ' (⁠✿⁠ ⁠♡⁠) cutie_pie',
+      '🎀 ribbon_princess 🎀',
+    ],
+  },
+  {
+    id: 'cod-mobile',
+    gameName: 'COD Mobile (CODM)',
+    badge: 'Aggressive',
+    color: 'from-orange-500 to-amber-600',
+    icon: 'Zap',
+    description: 'Nickname Call of Duty Mobile dengan tag operator, tengkorak, dan font military.',
+    href: '/game/cod-mobile',
+    samples: [
+      '💀G H O S T💀',
+      '⚡S O A P⚡',
+      '『CODM』P R I C E',
+      '亗 𝙒 𝘼 𝙍 𝙍 𝙄 𝙊 𝙍 亗',
+      '乂D E A T H乂',
+      '★V E N G E A N C E★',
+      '༺S T R I K E R༻',
+      '帝•O P E R A T O R•帝',
+      '⦇S N I P E R⦈',
+      '🔥F I R E T E A M🔥',
+    ],
+  },
+];
