@@ -84,7 +84,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="id" className="dark">
+    <html lang="id" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
