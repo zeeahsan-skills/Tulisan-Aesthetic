@@ -1,26 +1,29 @@
 import type { Metadata } from 'next';
 import PlatformClientPage from './PlatformClientPage';
+import { PLATFORM_PILLAR_FAQS } from '@/lib/platform-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Font Aesthetic Media Sosial - Instagram, TikTok, WhatsApp, Discord & FB',
+  title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord 2026',
   description:
-    'Generator tulisan aesthetic terbaik untuk semua platform media sosial: Bio IG, Caption TikTok, Info WhatsApp, Server Discord & Status Facebook 100% kompatibel.',
+    'Pusat alat generator font media sosial gratis. Ubah tulisan biasa menjadi font aesthetic untuk bio Instagram, caption TikTok, status WhatsApp, postingan Facebook & role Discord.',
   keywords: [
-    'font instagram bio',
-    'font tiktok caption',
-    'font whatsapp aesthetic',
-    'discord channel font',
-    'facebook text generator',
-    'tulisan aesthetic media sosial',
+    'font platform media sosial',
+    'font bio instagram',
+    'font caption tiktok',
+    'font status whatsapp',
+    'font facebook aesthetic',
+    'font discord server role',
+    'generator tulisan medsos',
+    'unicode font converter',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisanaesthetic.id/platform',
   },
   openGraph: {
-    title: 'Font Aesthetic Media Sosial - Instagram, TikTok, WhatsApp & Discord',
+    title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord',
     description:
-      'Temukan gaya font aesthetic khusus yang kompatibel 100% untuk Instagram, TikTok, WhatsApp, Discord & Facebook.',
+      'Pusat converter font aesthetic terlengkap untuk Instagram, TikTok, WhatsApp, Facebook, dan Discord secara instan tanpa aplikasi.',
     url: 'https://tulisanaesthetic.id/platform',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -28,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Aesthetic Multi-Platform Support',
-    description: 'Ubah teks media sosial kamu jadi lebih keren & aesthetic.',
+    title: 'Font Generator Platform Media Sosial',
+    description: 'Bikin bio & caption media sosial aesthetic dengan font Unicode unik.',
   },
   robots: 'index, follow',
 };
@@ -48,8 +51,56 @@ export default function PlatformPage() {
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Platform Media Sosial',
+        name: 'Platform Font Generators',
         item: 'https://tulisanaesthetic.id/platform',
+      },
+    ],
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: PLATFORM_PILLAR_FAQS.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Social Media Platform Font Generators Hub',
+    description: 'Central hub for Instagram, TikTok, WhatsApp, Facebook, and Discord font generators.',
+    url: 'https://tulisanaesthetic.id/platform',
+    mainEntity: [
+      {
+        '@type': 'ItemPage',
+        name: 'Instagram Font Generator',
+        url: 'https://tulisanaesthetic.id/platform/instagram',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'TikTok Font Generator',
+        url: 'https://tulisanaesthetic.id/platform/tiktok',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'WhatsApp Font Generator',
+        url: 'https://tulisanaesthetic.id/platform/whatsapp',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'Facebook Font Generator',
+        url: 'https://tulisanaesthetic.id/platform/facebook',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'Discord Font Generator',
+        url: 'https://tulisanaesthetic.id/platform/discord',
       },
     ],
   };
@@ -59,6 +110,14 @@ export default function PlatformPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
       <PlatformClientPage />
     </>

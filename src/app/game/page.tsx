@@ -1,26 +1,31 @@
 import type { Metadata } from 'next';
 import GameClientPage from './GameClientPage';
+import { GAME_PILLAR_FAQS } from '@/lib/game-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Gaming Nickname Aesthetic Generator - FF, PUBG, MLBB, Valorant & Roblox',
+  title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB, Roblox & CODM 2026',
   description:
-    'Buat nama akun game aesthetic pro player untuk Free Fire, PUBG Mobile, Mobile Legends (MLBB), Valorant & Roblox. Simbol payung, mahkota, sayap, & font unik.',
+    'Pusat generator nama game keren ala pro player esports. Buat nickname aesthetic untuk Free Fire (FF), PUBG Mobile, Mobile Legends, Roblox & CODM dengan simbol payung, mahkota, sayap, & spasi kosong transparan.',
   keywords: [
-    'nickname ff aesthetic',
-    'nama pubg keren',
-    'nickname mlbb pro',
-    'valorant name generator',
-    'roblox username aesthetic',
-    'simbol nama game',
+    'nickname game aesthetic',
+    'font game generator',
+    'nama game keren',
+    'simbol nama ff payung',
+    'nama ff mahkota',
+    'nickname pubg aesthetic',
+    'nama squad mlbb pro',
+    'username roblox aesthetic',
+    'spasi kosong ff',
+    'esports name generator',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisanaesthetic.id/game',
   },
   openGraph: {
-    title: 'Gaming Nickname Aesthetic Generator - FF, PUBG, MLBB & Valorant',
+    title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB & Roblox',
     description:
-      'Koleksi nickname game pro player dan generator nama akun game aesthetic gratis.',
+      'Generator nama akun game pro player esports terlengkap dengan simbol payung, mahkota, sayap, dan font Unicode gratis.',
     url: 'https://tulisanaesthetic.id/game',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -28,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gaming Nickname Aesthetic Generator',
+    title: 'Font & Nickname Game Aesthetic Generator',
     description: 'Buat nama akun game keren ala pro player esports dalam hitungan detik.',
   },
   robots: 'index, follow',
@@ -54,11 +59,67 @@ export default function GamePage() {
     ],
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: GAME_PILLAR_FAQS.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Esports Gaming Nickname Generators Hub',
+    description: 'Central hub for Free Fire, PUBG Mobile, Mobile Legends, Roblox, and COD Mobile nickname generators.',
+    url: 'https://tulisanaesthetic.id/game',
+    mainEntity: [
+      {
+        '@type': 'ItemPage',
+        name: 'Free Fire Name Generator',
+        url: 'https://tulisanaesthetic.id/free-fire',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'PUBG Mobile Name Generator',
+        url: 'https://tulisanaesthetic.id/pubg-mobile',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'Mobile Legends Name Generator',
+        url: 'https://tulisanaesthetic.id/mobile-legends',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'Roblox Username Generator',
+        url: 'https://tulisanaesthetic.id/roblox',
+      },
+      {
+        '@type': 'ItemPage',
+        name: 'COD Mobile Name Generator',
+        url: 'https://tulisanaesthetic.id/cod-mobile',
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
       <GameClientPage />
     </>

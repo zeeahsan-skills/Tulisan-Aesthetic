@@ -4,11 +4,14 @@ import React, { useState } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Toast } from '@/components/Toast';
-import { PlatformSection } from '@/components/PlatformSection';
-import { HeroSection } from '@/components/HeroSection';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { FAQSection } from '@/components/FAQSection';
-import { CTASection } from '@/components/CTASection';
+import { PlatformPillarHero } from '@/components/platform-hub/PlatformPillarHero';
+import { PlatformOverview } from '@/components/platform-hub/PlatformOverview';
+import { PlatformComparisonGrid } from '@/components/platform-hub/PlatformComparisonGrid';
+import { PlatformUseCases } from '@/components/platform-hub/PlatformUseCases';
+import { PlatformTipsGuide } from '@/components/platform-hub/PlatformTipsGuide';
+import { PlatformPillarFAQ } from '@/components/platform-hub/PlatformPillarFAQ';
+import { PlatformPillarArticles } from '@/components/platform-hub/PlatformPillarArticles';
+import { PlatformPillarCTA } from '@/components/platform-hub/PlatformPillarCTA';
 
 export default function PlatformClientPage() {
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -26,11 +29,14 @@ export default function PlatformClientPage() {
       <Navbar />
 
       <main className="flex-1">
-        <HeroSection onCopy={showToast} />
-        <PlatformSection />
-        <WhyChooseUs />
-        <FAQSection />
-        <CTASection />
+        <PlatformPillarHero onCopy={showToast} />
+        <PlatformOverview />
+        <PlatformComparisonGrid />
+        <PlatformUseCases />
+        <PlatformTipsGuide />
+        <PlatformPillarFAQ />
+        <PlatformPillarArticles />
+        <PlatformPillarCTA />
       </main>
 
       <Footer />

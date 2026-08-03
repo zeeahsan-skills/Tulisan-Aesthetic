@@ -4,11 +4,15 @@ import React, { useState } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Toast } from '@/components/Toast';
-import { GamingNicknames } from '@/components/GamingNicknames';
-import { HeroSection } from '@/components/HeroSection';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { FAQSection } from '@/components/FAQSection';
-import { CTASection } from '@/components/CTASection';
+import { GamePillarHero } from '@/components/game-hub/GamePillarHero';
+import { GameImportanceSection } from '@/components/game-hub/GameImportanceSection';
+import { GameFeaturedGrid } from '@/components/game-hub/GameFeaturedGrid';
+import { GameBestSymbolsGrid } from '@/components/game-hub/GameBestSymbolsGrid';
+import { GameUnicodeCompatibility } from '@/components/game-hub/GameUnicodeCompatibility';
+import { GameNicknameTips } from '@/components/game-hub/GameNicknameTips';
+import { GamePillarFAQ } from '@/components/game-hub/GamePillarFAQ';
+import { GamePillarArticles } from '@/components/game-hub/GamePillarArticles';
+import { GamePillarCTA } from '@/components/game-hub/GamePillarCTA';
 
 export default function GameClientPage() {
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -26,11 +30,15 @@ export default function GameClientPage() {
       <Navbar />
 
       <main className="flex-1">
-        <HeroSection onCopy={showToast} />
-        <GamingNicknames onCopy={showToast} />
-        <WhyChooseUs />
-        <FAQSection />
-        <CTASection />
+        <GamePillarHero onCopy={showToast} />
+        <GameImportanceSection />
+        <GameFeaturedGrid />
+        <GameBestSymbolsGrid onCopy={showToast} />
+        <GameUnicodeCompatibility />
+        <GameNicknameTips />
+        <GamePillarFAQ />
+        <GamePillarArticles />
+        <GamePillarCTA />
       </main>
 
       <Footer />
