@@ -2,24 +2,20 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, Sun, Moon, Menu, X } from 'lucide-react';
 import { useTheme } from '@/context/ThemeContext';
 import { useLanguage } from '@/context/LanguageContext';
+import { NAVIGATION_ITEMS } from '@/lib/navigation';
+import { NavDropdown } from '@/components/navigation/NavDropdown';
+import { MobileNavAccordion } from '@/components/navigation/MobileNavAccordion';
 
 export function Navbar() {
   const { theme, toggleTheme } = useTheme();
   const { lang, setLang, t } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const navLinks = [
-    { name: t.nav.home, href: '/#hero' },
-    { name: t.nav.fontStyles, href: '/#popular-fonts' },
-    { name: t.nav.platforms, href: '/#platforms' },
-    { name: t.nav.games, href: '/#gaming-nicknames' },
-    { name: t.nav.symbols, href: '/#symbols' },
-    { name: t.nav.blog, href: '/#blog' },
-  ];
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur-xl bg-white/70 dark:bg-slate-950/80 border-b border-slate-200/60 dark:border-purple-900/30 transition-colors duration-300">
@@ -27,7 +23,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           
           {/* Logo */}
-          <Link href="/#hero" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-3 group">
             <div className="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-tr from-purple-600 via-purple-500 to-pink-500 text-white shadow-lg shadow-purple-500/25 group-hover:scale-105 transition-transform duration-300">
               <Sparkles className="w-6 h-6 animate-pulse" />
               <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur opacity-30 group-hover:opacity-70 transition duration-300 -z-10" />
@@ -42,16 +38,15 @@ export function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center space-x-1 lg:space-x-2">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className="px-3.5 py-2 rounded-xl text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-purple-600 dark:hover:text-pink-400 hover:bg-slate-100 dark:hover:bg-purple-900/20 transition-all duration-200"
-              >
-                {link.name}
-              </Link>
+          {/* Desktop Navigation Links with Dropdowns */}
+          <nav className="hidden md:flex items-center space-x-1 lg:space-x-2" aria-label="Main Navigation">
+            {NAVIGATION_ITEMS.map((item) => (
+              <NavDropdown
+                key={item.id}
+                item={item}
+                pathname={pathname}
+                lang={lang}
+              />
             ))}
           </nav>
 
@@ -92,7 +87,7 @@ export function Navbar() {
 
             {/* CTA Button */}
             <Link
-              href="/#hero"
+              href="/"
               className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-semibold shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 flex items-center gap-2"
             >
               <Sparkles className="w-4 h-4" />
@@ -100,16 +95,19 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-2">
             <button
               onClick={toggleTheme}
+              aria-label="Toggle Dark Mode"
               className="p-2 rounded-xl bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300"
             >
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle Mobile Menu"
+              aria-expanded={mobileMenuOpen}
               className="p-2 rounded-xl bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -126,18 +124,17 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-b border-slate-200 dark:border-purple-900/30 bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl px-4 pt-2 pb-6 space-y-3"
+            className="md:hidden border-b border-slate-200 dark:border-purple-900/30 bg-white/95 dark:bg-slate-950/95 backdrop-blur-xl px-4 pt-2 pb-6 space-y-3 max-h-[85vh] overflow-y-auto"
           >
             <div className="flex flex-col space-y-2">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="px-4 py-2.5 rounded-xl text-base font-medium text-slate-800 dark:text-slate-200 hover:bg-purple-500/10 hover:text-purple-600 transition"
-                >
-                  {link.name}
-                </Link>
+              {NAVIGATION_ITEMS.map((item) => (
+                <MobileNavAccordion
+                  key={item.id}
+                  item={item}
+                  pathname={pathname}
+                  lang={lang}
+                  onCloseMobileMenu={() => setMobileMenuOpen(false)}
+                />
               ))}
             </div>
 

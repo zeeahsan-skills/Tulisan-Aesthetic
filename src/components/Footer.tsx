@@ -47,7 +47,7 @@ export function Footer() {
           
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/#hero" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3">
               <div className="flex items-center justify-center w-10 h-10 rounded-2xl bg-gradient-to-tr from-purple-600 to-pink-500 text-white shadow-md">
                 <Sparkles className="w-5 h-5" />
               </div>
@@ -107,32 +107,32 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#hero" className="hover:text-pink-400 transition">
+                <Link href="/" className="hover:text-pink-400 transition">
                   {t.nav.home}
                 </Link>
               </li>
               <li>
-                <Link href="/#popular-fonts" className="hover:text-pink-400 transition">
+                <Link href="/font" className="hover:text-pink-400 transition">
                   {t.nav.fontStyles}
                 </Link>
               </li>
               <li>
-                <Link href="/#platforms" className="hover:text-pink-400 transition">
+                <Link href="/platform" className="hover:text-pink-400 transition">
                   {t.nav.platforms}
                 </Link>
               </li>
               <li>
-                <Link href="/#gaming-nicknames" className="hover:text-pink-400 transition">
+                <Link href="/game" className="hover:text-pink-400 transition">
                   {t.nav.games}
                 </Link>
               </li>
               <li>
-                <Link href="/#symbols" className="hover:text-pink-400 transition">
+                <Link href="/simbol" className="hover:text-pink-400 transition">
                   {t.nav.symbols}
                 </Link>
               </li>
               <li>
-                <Link href="/#blog" className="hover:text-pink-400 transition">
+                <Link href="/blog" className="hover:text-pink-400 transition">
                   {t.nav.blog}
                 </Link>
               </li>
