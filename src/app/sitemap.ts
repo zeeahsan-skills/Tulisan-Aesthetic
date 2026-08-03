@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogArticleRoutes = ['apa-itu-unicode', 'cara-membuat-nama-keren', 'font-instagram', 'font-tiktok', 'font-whatsapp'];
 
-  const mainHubRoutes = ['game', 'nama-game-keren', 'free-fire', 'pubg-mobile', 'mobile-legends', 'roblox', 'cod-mobile', 'blog', 'bold', 'privacy', 'terms', 'disclaimer', 'contact'];
+  const mainHubRoutes = ['platform', 'font-media-sosial', 'game', 'nama-game-keren', 'free-fire', 'pubg-mobile', 'mobile-legends', 'roblox', 'cod-mobile', 'blog', 'bold', 'privacy', 'terms', 'disclaimer', 'contact'];
 
   const fontEntries: MetadataRoute.Sitemap = fontRoutes.map((route) => ({
     url: `${baseUrl}/font/${route}`,
