@@ -833,7 +833,7 @@ export const TINY_FONT_STYLES: FontStyle[] = [
   },
 ];
 
-export const ALL_FONT_STYLES: FontStyle[] = [
+const CORE_ALL_FONT_STYLES: FontStyle[] = [
   {
     id: 'huruf-keren',
     name: 'Huruf Keren (Aesthetic)',
@@ -949,6 +949,34 @@ export const ALL_FONT_STYLES: FontStyle[] = [
     transform: (t) => `⚔️ ${mapChars(t, SMALL_CAPS_MAP)} ⚔️`,
   },
 ];
+
+function combineFontStyles(...styleArrays: FontStyle[][]): FontStyle[] {
+  const map = new Map<string, FontStyle>();
+  for (const styleArray of styleArrays) {
+    if (Array.isArray(styleArray)) {
+      for (const style of styleArray) {
+        if (!map.has(style.id)) {
+          map.set(style.id, style);
+        }
+      }
+    }
+  }
+  return Array.from(map.values());
+}
+
+export const ALL_FONT_STYLES: FontStyle[] = combineFontStyles(
+  CORE_ALL_FONT_STYLES,
+  GOTHIC_FONT_STYLES,
+  TINY_FONT_STYLES,
+  BUBBLE_FONT_STYLES,
+  STRIKETHROUGH_FONT_STYLES,
+  FLIPPED_FONT_STYLES,
+  SCARY_FONT_STYLES,
+  SPARKLY_FONT_STYLES,
+  CONNECTED_FONT_STYLES,
+  SQUARE_FONT_STYLES,
+  NUMBER_FONT_STYLES
+);
 
 export function transformText(text: string, styleId: string): string {
   const style =
