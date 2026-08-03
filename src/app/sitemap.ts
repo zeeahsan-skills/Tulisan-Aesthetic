@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogArticleRoutes = ['apa-itu-unicode', 'cara-membuat-nama-keren', 'font-instagram', 'font-tiktok', 'font-whatsapp'];
 
-  const mainHubRoutes = ['blog', 'privacy', 'terms', 'disclaimer', 'contact'];
+  const mainHubRoutes = ['blog', 'bold', 'privacy', 'terms', 'disclaimer', 'contact'];
 
   const fontEntries: MetadataRoute.Sitemap = fontRoutes.map((route) => ({
     url: `${baseUrl}/font/${route}`,

@@ -23,7 +23,7 @@ export const NAVIGATION_ITEMS: NavItem[] = [
     href: '/font',
     children: [
       { id: 'font-huruf-keren', labelId: 'Huruf Keren', labelEn: 'Aesthetic Font', href: '/font/huruf-keren', descriptionId: 'Huruf kecil superscript aesthetic' },
-      { id: 'font-bold', labelId: 'Bold / Tebal', labelEn: 'Bold Sans', href: '/font/bold', descriptionId: 'Teks tebal sans-serif penjelas' },
+      { id: 'font-bold', labelId: 'Bold / Tebal', labelEn: 'Bold Sans', href: '/bold', descriptionId: 'Teks tebal sans-serif penjelas' },
       { id: 'font-bubble', labelId: 'Bubble Text', labelEn: 'Bubble Text', href: '/font/bubble', descriptionId: 'Huruf dilingkari lingkaran' },
       { id: 'font-cursive', labelId: 'Cursive / Script', labelEn: 'Cursive Script', href: '/font/cursive', descriptionId: 'Tulisan tangan halus dan anggun' },
       { id: 'font-gothic', labelId: 'Gothic / Fraktur', labelEn: 'Gothic Medieval', href: '/font/gothic', descriptionId: 'Kaligrafi abad pertengahan' },
