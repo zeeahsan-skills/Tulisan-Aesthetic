@@ -53,11 +53,11 @@ export const NAVIGATION_ITEMS: NavItem[] = [
     labelEn: 'Game Nickname',
     href: '/game',
     children: [
-      { id: 'game-free-fire', labelId: 'Free Fire', labelEn: 'Free Fire', href: '/game/free-fire', badge: 'Popular', descriptionId: 'Nick FF Simbol Payung & Mahkota' },
-      { id: 'game-pubg', labelId: 'PUBG Mobile', labelEn: 'PUBG Mobile', href: '/game/pubg-mobile', descriptionId: 'Nick Clan & Pro Player PUBG' },
-      { id: 'game-mlbb', labelId: 'Mobile Legends', labelEn: 'Mobile Legends', href: '/game/mobile-legends', descriptionId: 'Nickname Esports MLBB' },
-      { id: 'game-roblox', labelId: 'Roblox', labelEn: 'Roblox', href: '/game/roblox', descriptionId: 'Username Aesthetic Roblox' },
-      { id: 'game-codm', labelId: 'COD Mobile', labelEn: 'COD Mobile', href: '/game/cod-mobile', descriptionId: 'Name Clan CODM' },
+      { id: 'game-free-fire', labelId: 'Free Fire', labelEn: 'Free Fire', href: '/free-fire', badge: 'Popular', descriptionId: 'Nick FF Simbol Payung & Mahkota' },
+      { id: 'game-pubg', labelId: 'PUBG Mobile', labelEn: 'PUBG Mobile', href: '/pubg-mobile', descriptionId: 'Nick Clan & Pro Player PUBG' },
+      { id: 'game-mlbb', labelId: 'Mobile Legends', labelEn: 'Mobile Legends', href: '/mobile-legends', descriptionId: 'Nickname Esports MLBB' },
+      { id: 'game-roblox', labelId: 'Roblox', labelEn: 'Roblox', href: '/roblox', descriptionId: 'Username Aesthetic Roblox' },
+      { id: 'game-codm', labelId: 'COD Mobile', labelEn: 'COD Mobile', href: '/cod-mobile', descriptionId: 'Name Clan CODM' },
     ],
   },
   {

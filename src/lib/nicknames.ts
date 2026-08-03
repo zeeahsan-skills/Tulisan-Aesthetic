@@ -19,7 +19,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-amber-500 to-red-600',
     icon: 'Flame',
     description: 'Preset nickname pro player Free Fire dengan simbol border sayap, mahkota, dan crosshair.',
-    href: '/game/free-fire',
+    href: '/free-fire',
     samples: [
       '꧁༺SáNyt༻꧂',
       '⚡N I N J A⚡',
@@ -40,6 +40,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-yellow-500 to-amber-700',
     icon: 'Target',
     description: 'NicknamePUBG dengan font military, simbol Jepang, clan tag & spasi transparan.',
+    href: '/pubg-mobile',
     samples: [
       '乂S N I P E R乂',
       '『PUBG』S T R I K E R',
@@ -60,7 +61,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-blue-600 to-indigo-700',
     icon: 'Swords',
     description: 'Nama squad & akun MLBB aesthetic dengan simbol mahkota, petir, dan bintang.',
-    href: '/game/mobile-legends',
+    href: '/mobile-legends',
     samples: [
       '♛M A Y H E M♛',
       '⚡L E G E N D⚡',
@@ -101,7 +102,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-emerald-500 to-teal-700',
     icon: 'Gamepad2',
     description: 'Username Roblox aesthetic dengan hati, bunga, kaomoji, dan karakter imut.',
-    href: '/game/roblox',
+    href: '/roblox',
     samples: [
       '♡ softie_vibes ♡',
       '✿ boba_tea ✿',
@@ -122,7 +123,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-orange-500 to-amber-600',
     icon: 'Zap',
     description: 'Nickname Call of Duty Mobile dengan tag operator, tengkorak, dan font military.',
-    href: '/game/cod-mobile',
+    href: '/cod-mobile',
     samples: [
       '💀G H O S T💀',
       '⚡S O A P⚡',
