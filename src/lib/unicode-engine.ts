@@ -113,6 +113,83 @@ const SUBSCRIPT_MAP = createCharMap(
   ['ₐ', 'b', 'c', 'd', 'ₑ', 'f', 'g', 'ₕ', 'ᵢ', 'ⱼ', 'ₖ', 'ₗ', 'ₘ', 'ₙ', 'ₒ', 'ₚ', 'q', 'ᵣ', 'ₛ', 'ₜ', 'ᵤ', 'ᵥ', 'w', 'ₓ', 'y', 'z']
 );
 
+// 11. Bold Serif
+const BOLD_SERIF_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D400 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D41A + i))
+);
+
+// 12. Italic Serif
+const ITALIC_SERIF_MAP = createCharMap(
+  ['𝐴', '𝐵', '𝐶', '𝐷', '𝐸', '𝐹', '𝐺', '𝐻', '𝐼', '𝐽', '𝐾', '𝐿', '𝑀', '𝑁', '𝑂', '𝑃', '𝑄', '𝑅', '𝑆', '𝑇', '𝑈', '𝑉', '𝑾', '𝑋', '𝑌', '𝑍'],
+  ['𝑎', '𝑏', '𝑐', '𝑑', '𝑒', '𝑓', '𝑔', 'ℎ', '𝑖', '𝑗', '𝑘', '𝑙', '𝑚', '𝑛', '𝑜', '𝑝', '𝑞', '𝑟', '𝑠', '𝑡', '𝑢', '𝑣', '𝑤', '𝑥', '𝑦', '𝑧']
+);
+
+// 13. Bold Italic Serif
+const BOLD_ITALIC_SERIF_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D468 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D482 + i))
+);
+
+// 14. Sans Italic
+const SANS_ITALIC_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D622 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D63C + i))
+);
+
+// 15. Sans Bold Italic
+const SANS_BOLD_ITALIC_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D656 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D670 + i))
+);
+
+// 16. Monospace
+const MONOSPACE_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D670 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1D68A + i))
+);
+
+// 17. Parenthesized Letters
+const PARENTHESIZED_LETTERS_MAP = createCharMap(
+  ['⒜', '⒝', '⒞', '⒟', '⒠', '⒡', '⒢', '⒣', '⒤', '⒥', '⒦', '⒧', '⒨', '⒩', '⒪', '⒫', '⒬', '⒭', '⒮', '⒯', '⒰', '⒱', '⒲', '⒳', '⒴', '⒵'],
+  ['⒜', '⒝', '⒞', '⒟', '⒠', '⒡', '⒢', '⒣', '⒤', '⒥', '⒦', '⒧', '⒨', '⒩', '⒪', '⒫', '⒬', '⒭', '⒮', '⒯', '⒰', '⒱', '⒲', '⒳', '⒴', '⒵']
+);
+
+// 18. Regional Indicator Flags
+const REGIONAL_INDICATOR_MAP = createCharMap(
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1F1E6 + i)),
+  Array.from({ length: 26 }, (_, i) => String.fromCodePoint(0x1F1E6 + i))
+);
+
+export function singleStrike(text: string): string {
+  return text.split('').map((c) => c + '\u0336').join('');
+}
+
+export function doubleStrike(text: string): string {
+  return text.split('').map((c) => c + '\u0333').join('');
+}
+
+export function singleUnderline(text: string): string {
+  return text.split('').map((c) => c + '\u0332').join('');
+}
+
+export function doubleUnderline(text: string): string {
+  return text.split('').map((c) => c + '\u0347').join('');
+}
+
+export function dottedAbove(text: string): string {
+  return text.split('').map((c) => c + '\u0307').join('');
+}
+
+export function tildeStrike(text: string): string {
+  return text.split('').map((c) => c + '\u0334').join('');
+}
+
+export function slashStrike(text: string): string {
+  return text.split('').map((c) => c + '\u0337').join('');
+}
+
+
 // Number Digit Maps
 const CIRCLED_DIGIT_MAP: Record<string, string> = { '0':'⓪', '1':'①', '2':'②', '3':'③', '4':'④', '5':'⑤', '6':'⑥', '7':'⑦', '8':'⑧', '9':'⑨' };
 const DARK_CIRCLED_DIGIT_MAP: Record<string, string> = { '0':'⓿', '1':'❶', '2':'❷', '3':'❸', '4':'❹', '5':'❺', '6':'❻', '7':'❼', '8':'❽', '9':'❾' };
@@ -950,6 +1027,68 @@ const CORE_ALL_FONT_STYLES: FontStyle[] = [
   },
 ];
 
+export const FIFTY_FONT_STYLES: FontStyle[] = [
+  // 1-10: Basic Typography
+  { id: 'bold-sans', name: 'Bold Sans (Tebal Modern)', category: 'Popular', transform: (t) => mapChars(t, BOLD_SANS_MAP) },
+  { id: 'bold-serif', name: 'Bold Serif (Tebal Klasik)', category: 'Popular', transform: (t) => mapChars(t, BOLD_SERIF_MAP) },
+  { id: 'italic-serif', name: 'Italic Serif (Miring)', category: 'Fancy', transform: (t) => mapChars(t, ITALIC_SERIF_MAP) },
+  { id: 'bold-italic-serif', name: 'Bold Italic (Tebal Miring)', category: 'Popular', transform: (t) => mapChars(t, BOLD_ITALIC_SERIF_MAP) },
+  { id: 'sans-italic', name: 'Sans Italic (Miring Modern)', category: 'Simple', transform: (t) => mapChars(t, SANS_ITALIC_MAP) },
+  { id: 'sans-bold-italic', name: 'Sans Bold Italic (Tebal Miring Modern)', category: 'Popular', transform: (t) => mapChars(t, SANS_BOLD_ITALIC_MAP) },
+  { id: 'cursive-script', name: 'Cursive / Script (Tulisan Tangan)', category: 'Fancy', transform: (t) => mapChars(t, CURSIVE_MAP) },
+  { id: 'bold-cursive', name: 'Bold Cursive (Tulisan Sambung Tebal)', category: 'Fancy', transform: (t) => mapChars(t, BOLD_CURSIVE_MAP) },
+  { id: 'double-struck', name: 'Double Struck / Blackboard', category: 'Fancy', transform: (t) => mapChars(t, DOUBLE_STRUCK_MAP) },
+  { id: 'monospace', name: 'Monospace (Kode / Mesin Tik)', category: 'Simple', transform: (t) => mapChars(t, MONOSPACE_MAP) },
+
+  // 11-20: Gothic, Shapes & Enclosed
+  { id: 'gothic-bold', name: 'Gothic / Fraktur Bold', category: 'Gothic', transform: (t) => mapChars(t, GOTHIC_BOLD_MAP) },
+  { id: 'fraktur-regular', name: 'Fraktur Regular (Blackletter)', category: 'Gothic', transform: (t) => mapChars(t, FRAKTUR_REGULAR_MAP) },
+  { id: 'bubble-light', name: 'Bubble Outline (Lingkaran)', category: 'Cute', transform: (t) => mapChars(t, BUBBLE_MAP) },
+  { id: 'dark-bubble', name: 'Dark Bubble (Lingkaran Solid)', category: 'Cute', transform: (t) => mapChars(t, DARK_BUBBLE_MAP) },
+  { id: 'square-box', name: 'Square Box (Kotak Outline)', category: 'Gaming', transform: (t) => mapChars(t, SQUARE_MAP) },
+  { id: 'dark-square', name: 'Dark Square (Kotak Solid)', category: 'Gaming', transform: (t) => mapChars(t, DARK_SQUARE_MAP) },
+  { id: 'small-caps', name: 'Small Caps (Kapital Mini)', category: 'Popular', transform: (t) => mapChars(t, SMALL_CAPS_MAP) },
+  { id: 'superscript', name: 'Superscript (Kecil Atas)', category: 'Cute', transform: (t) => mapChars(t, SUPERSCRIPT_MAP) },
+  { id: 'subscript', name: 'Subscript (Kecil Bawah)', category: 'Cute', transform: (t) => mapChars(t, SUBSCRIPT_MAP) },
+  { id: 'vaporwave', name: 'Vaporwave (Fullwidth Full)', category: 'Simple', transform: (t) => mapChars(t, FULLWIDTH_MAP) },
+
+  // 21-30: Enclosed Variants, Cyber & Striking
+  { id: 'parenthesized-letters', name: 'Parenthesized (Kurung)', category: 'Simple', transform: (t) => mapChars(t, PARENTHESIZED_LETTERS_MAP) },
+  { id: 'regional-indicator', name: 'Regional Indicator (Bendera)', category: 'Gaming', transform: (t) => mapChars(t, REGIONAL_INDICATOR_MAP) },
+  { id: 'glitch-zalgo', name: 'Glitch Zalgo (Cyber)', category: 'Gaming', transform: (t) => glitchText(t) },
+  { id: 'zalgo-heavy', name: 'Zalgo Heavy (Distorted)', category: 'Gaming', transform: (t) => zalgoHeavyText(t) },
+  { id: 'upside-down', name: 'Upside Down (Terbalik)', category: 'Simple', transform: (t) => flipText(t) },
+  { id: 'flipped-text', name: 'Flipped Text (Reversed)', category: 'Simple', transform: (t) => reverseFlipText(t) },
+  { id: 'mirror-text', name: 'Mirror Text (Cermin)', category: 'Simple', transform: (t) => mirrorText(t) },
+  { id: 'single-strikethrough', name: 'Single Strikethrough (Coret Single)', category: 'Simple', transform: (t) => singleStrike(t) },
+  { id: 'double-strikethrough', name: 'Double Strikethrough (Coret Ganda)', category: 'Simple', transform: (t) => doubleStrike(t) },
+  { id: 'single-underline', name: 'Single Underline (Garis Bawah)', category: 'Simple', transform: (t) => singleUnderline(t) },
+
+  // 31-40: Lines & Decorative Borders
+  { id: 'double-underline', name: 'Double Underline (Garis Bawah Ganda)', category: 'Simple', transform: (t) => doubleUnderline(t) },
+  { id: 'dotted-above', name: 'Dotted Above (Titik Atas)', category: 'Cute', transform: (t) => dottedAbove(t) },
+  { id: 'tilde-strike', name: 'Tilde Strike (Gelombang ~)', category: 'Simple', transform: (t) => tildeStrike(t) },
+  { id: 'slash-strike', name: 'Slash Strike (Miring /)', category: 'Simple', transform: (t) => slashStrike(t) },
+  { id: 'sparkle-sparkle', name: 'Sparkle Deco ✨', category: 'Cute', transform: (t) => `✨ ${t} ✨` },
+  { id: 'star-borders', name: 'Stars Deco ★彡 彡★', category: 'Gaming', transform: (t) => `★彡 ${t} 彡★` },
+  { id: 'heart-sides', name: 'Heart Deco ♡ ♡', category: 'Cute', transform: (t) => `♡ ${mapChars(t, CURSIVE_MAP)} ♡` },
+  { id: 'border-wings', name: 'Wings Deco ꧁༺ ༻꧂', category: 'Gaming', transform: (t) => `꧁༺ ${mapChars(t, SMALL_CAPS_MAP)} ༻꧂` },
+  { id: 'japanese-style', name: 'Japanese Brackets 『 』', category: 'Fancy', transform: (t) => `『 ${t} 』` },
+  { id: 'bracket-style', name: 'Cross Swords ⚔️', category: 'Gaming', transform: (t) => `⚔️ ${mapChars(t, SMALL_CAPS_MAP)} ⚔️` },
+
+  // 41-50: Cute & Gaming Decorative Styles
+  { id: 'flower-blossom', name: 'Flower Blossom ❈ ❈', category: 'Cute', transform: (t) => `❈ ${mapChars(t, CURSIVE_MAP)} ❈` },
+  { id: 'diamond-sparkle', name: 'Diamond Deco ♦ ♦', category: 'Fancy', transform: (t) => `♦ ${mapChars(t, SMALL_CAPS_MAP)} ♦` },
+  { id: 'royal-crown', name: 'Royal Crown 👑 👑', category: 'Gaming', transform: (t) => `👑 ${mapChars(t, BOLD_SANS_MAP)} 👑` },
+  { id: 'demon-skull', name: 'Skull Horror 💀 💀', category: 'Gothic', transform: (t) => `💀 ${glitchText(t)} 💀` },
+  { id: 'fire-flame', name: 'Fire Flame 🔥 🔥', category: 'Gaming', transform: (t) => `🔥 ${mapChars(t, BOLD_SANS_MAP)} 🔥` },
+  { id: 'lightning-bolt', name: 'Lightning Bolt ⚡ ⚡', category: 'Gaming', transform: (t) => `⚡ ${mapChars(t, SMALL_CAPS_MAP)} ⚡` },
+  { id: 'rose-blossom', name: 'Rose Blossom 🌹 🌹', category: 'Cute', transform: (t) => `🌹 ${mapChars(t, CURSIVE_MAP)} 🌹` },
+  { id: 'target-scope', name: 'Target Scope 🎯 🎯', category: 'Gaming', transform: (t) => `🎯 ${mapChars(t, SQUARE_MAP)} 🎯` },
+  { id: 'king-emperor', name: 'King Emperor ♔ ♔', category: 'Fancy', transform: (t) => `♔ ${mapChars(t, GOTHIC_BOLD_MAP)} ♔` },
+  { id: 'music-notes', name: 'Music Notes 🎵 🎵', category: 'Cute', transform: (t) => `🎵 ${mapChars(t, CURSIVE_MAP)} 🎵` },
+];
+
 function combineFontStyles(...styleArrays: FontStyle[][]): FontStyle[] {
   const map = new Map<string, FontStyle>();
   for (const styleArray of styleArrays) {
@@ -965,6 +1104,7 @@ function combineFontStyles(...styleArrays: FontStyle[][]): FontStyle[] {
 }
 
 export const ALL_FONT_STYLES: FontStyle[] = combineFontStyles(
+  FIFTY_FONT_STYLES,
   CORE_ALL_FONT_STYLES,
   GOTHIC_FONT_STYLES,
   TINY_FONT_STYLES,
@@ -980,17 +1120,10 @@ export const ALL_FONT_STYLES: FontStyle[] = combineFontStyles(
 
 export function transformText(text: string, styleId: string): string {
   const style =
+    FIFTY_FONT_STYLES.find((s) => s.id === styleId) ||
     ALL_FONT_STYLES.find((s) => s.id === styleId) ||
-    GOTHIC_FONT_STYLES.find((s) => s.id === styleId) ||
-    BUBBLE_FONT_STYLES.find((s) => s.id === styleId) ||
-    TINY_FONT_STYLES.find((s) => s.id === styleId) ||
-    STRIKETHROUGH_FONT_STYLES.find((s) => s.id === styleId) ||
-    FLIPPED_FONT_STYLES.find((s) => s.id === styleId) ||
-    SCARY_FONT_STYLES.find((s) => s.id === styleId) ||
-    SPARKLY_FONT_STYLES.find((s) => s.id === styleId) ||
-    CONNECTED_FONT_STYLES.find((s) => s.id === styleId) ||
-    SQUARE_FONT_STYLES.find((s) => s.id === styleId) ||
-    NUMBER_FONT_STYLES.find((s) => s.id === styleId);
+    GOTHIC_FONT_STYLES.find((s) => s.id === styleId);
   if (!style) return text;
   return style.transform(text);
 }
+
