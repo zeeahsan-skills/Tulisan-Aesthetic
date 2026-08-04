@@ -23,14 +23,14 @@ export function InstagramRelatedPages() {
     },
     {
       title: 'Font Kursif / Sambung',
-      path: '/font/kursif',
+      path: '/font/miring-kursif',
       desc: 'Tulisan tangan indah & kaligrafi anggun untuk bio.',
       icon: Type,
       color: 'from-pink-500 to-rose-500',
     },
     {
       title: 'Font Bubble / Circled',
-      path: '/font/bubble',
+      path: '/font/gelembung',
       desc: 'Huruf dilingkari lingkaran bulat unik dan imut.',
       icon: Circle,
       color: 'from-rose-500 to-amber-500',

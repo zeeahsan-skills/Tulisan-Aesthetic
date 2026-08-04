@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import FontClientPage from '../FontClientPage';
+import BerkilauClientPage from '../berkilau/BerkilauClientPage';
 
 export const metadata: Metadata = {
   title: 'Tulisan Tebal (Bold Font Generator) - Converter Teks Aesthetic 2026',
@@ -12,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function FontTebalPage() {
-  return <FontClientPage />;
+  return <BerkilauClientPage />;
 }

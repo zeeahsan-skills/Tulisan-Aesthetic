@@ -8,7 +8,7 @@ export function RelatedFonts() {
   const relatedList = [
     {
       title: 'Font Kecil (Tiny Font)',
-      href: '/font/kecil',
+      href: '/font/tiny',
       preview: 'ᵃʰˢᵃⁿ ᵗᵘˡⁱˢᵃⁿ',
       desc: 'Huruf kecil terangkat superscript & Small Caps mini.',
       icon: Hash,

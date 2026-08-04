@@ -38,7 +38,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
       preview: '𝗧𝘂𝗹𝗶𝘀𝗮𝗻 𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰',
       desc: 'Teks tebal sans-serif Unicode yang menonjol. Sangat cocok untuk judul postingan atau penekanan pesan.',
       color: 'from-blue-500 to-cyan-600',
-      href: '/bold',
+      href: '/font/tebal',
     },
     {
       id: 'gothic',
@@ -65,7 +65,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
       preview: 'ᴛᴜʟɪsᴀɴ ᴀᴇsᴛʜᴇᴛɪᴄ',
       desc: 'Format huruf kapital mini berukuran seragam. Menjadikan bio Instagram terlihat rapi & profesional.',
       color: 'from-emerald-500 to-teal-600',
-      href: '/font/kecil',
+      href: '/font/tiny',
     },
     {
       id: 'glitch',

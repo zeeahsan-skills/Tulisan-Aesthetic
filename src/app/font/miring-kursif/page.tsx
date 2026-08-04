@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import FontClientPage from '../FontClientPage';
+import BerkilauClientPage from '../berkilau/BerkilauClientPage';
 
 export const metadata: Metadata = {
   title: 'Tulisan Miring Kursif (Cursive Font Generator) - Converter 2026',
@@ -12,5 +12,5 @@ export const metadata: Metadata = {
 };
 
 export default function FontMiringKursifPage() {
-  return <FontClientPage />;
+  return <BerkilauClientPage />;
 }

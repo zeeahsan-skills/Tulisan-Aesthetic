@@ -4,12 +4,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tulisanaesthetic.id';
 
   const fontRoutes = [
+    'huruf-keren',
+    'tebal',
+    'miring-kursif',
+    'gelembung',
+    'gothic-fraktur',
+    'tiny',
     'angka',
     'berkilau',
     'garis',
-    'gelembung',
-    'gothic-fraktur',
-    'kecil',
+    'glitch',
     'kotak',
     'memutar',
     'menakutkan',
@@ -17,23 +21,56 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'terhubung',
   ];
 
-  const platformRoutes = ['discord', 'facebook', 'instagram', 'tiktok', 'whatsapp'];
+  const platformRoutes = [
+    'instagram',
+    'tiktok',
+    'whatsapp',
+    'facebook',
+    'discord',
+    'twitter-x',
+  ];
 
-  const gameRoutes = ['free-fire', 'pubg-mobile', 'mobile-legends', 'roblox', 'cod-mobile'];
+  const gameRoutes = [
+    'valorant',
+  ];
+
+  const standaloneGameRoutes = [
+    'free-fire',
+    'pubg-mobile',
+    'mobile-legends',
+    'roblox',
+    'cod-mobile',
+    'nama-game-keren',
+  ];
 
   const symbolRoutes = [
     '',
     '/bintang',
-    '/mahkota',
+    '/hati',
     '/bunga',
     '/panah',
     '/emoji',
+    '/mahkota',
     '/kaomoji',
   ];
 
-  const blogArticleRoutes = ['apa-itu-unicode', 'cara-membuat-nama-keren', 'font-instagram', 'font-tiktok', 'font-whatsapp'];
+  const blogArticleRoutes = [
+    'apa-itu-unicode',
+    'cara-membuat-nama-keren',
+    'font-instagram',
+    'font-tiktok',
+    'font-whatsapp',
+  ];
 
-  const mainHubRoutes = ['platform', 'font-media-sosial', 'game', 'nama-game-keren', 'free-fire', 'pubg-mobile', 'mobile-legends', 'roblox', 'cod-mobile', 'blog', 'bold', 'privacy', 'terms', 'disclaimer', 'contact'];
+  const mainHubRoutes = [
+    'platform',
+    'game',
+    'blog',
+    'privacy',
+    'terms',
+    'disclaimer',
+    'contact',
+  ];
 
   const fontEntries: MetadataRoute.Sitemap = fontRoutes.map((route) => ({
     url: `${baseUrl}/font/${route}`,
@@ -51,6 +88,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const gameEntries: MetadataRoute.Sitemap = gameRoutes.map((route) => ({
     url: `${baseUrl}/game/${route}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  }));
+
+  const standaloneGameEntries: MetadataRoute.Sitemap = standaloneGameRoutes.map((route) => ({
+    url: `${baseUrl}/${route}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.9,
@@ -87,6 +131,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...fontEntries,
     ...platformEntries,
     ...gameEntries,
+    ...standaloneGameEntries,
     ...symbolEntries,
     ...blogArticleEntries,
     ...mainHubEntries,

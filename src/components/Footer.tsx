@@ -112,7 +112,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/font" className="hover:text-pink-400 transition">
+                <Link href="/#font-generator" className="hover:text-pink-400 transition">
                   {t.nav.fontStyles}
                 </Link>
               </li>
