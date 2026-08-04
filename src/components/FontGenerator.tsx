@@ -22,6 +22,7 @@ interface FontGeneratorProps {
   defaultText?: string;
   onCopy?: (msg: string) => void;
   presetCategory?: string;
+  isH1?: boolean;
 }
 
 export function FontGenerator({
@@ -30,6 +31,7 @@ export function FontGenerator({
   defaultText = 'Tulisan Aesthetic',
   onCopy,
   presetCategory = 'All',
+  isH1 = false,
 }: FontGeneratorProps) {
   const [inputText, setInputText] = useState(defaultText);
   const [activeCategory, setActiveCategory] = useState<string>(presetCategory);
@@ -168,14 +170,25 @@ export function FontGenerator({
             <span>EXACTLY 50 UNIQUE STYLES</span>
           </motion.div>
 
-          <motion.h2
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.05 }}
-            className="mt-4 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white font-poppins leading-tight"
-          >
-            {title}
-          </motion.h2>
+          {isH1 ? (
+            <motion.h1
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.05 }}
+              className="mt-4 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white font-poppins leading-tight"
+            >
+              {title}
+            </motion.h1>
+          ) : (
+            <motion.h2
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.05 }}
+              className="mt-4 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white font-poppins leading-tight"
+            >
+              {title}
+            </motion.h2>
+          )}
 
           <motion.p
             initial={{ opacity: 0, y: 15 }}

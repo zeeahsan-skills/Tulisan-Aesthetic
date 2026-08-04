@@ -11,7 +11,8 @@ export function HeroSection({ onCopy }: HeroSectionProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="AI-Powered Unicode Generator 2026"
+        isH1={true}
+        title="Tulisan Aesthetic: Unicode Font Generator"
         subtitle="Ubah teks biasa menjadi 50 variasi gaya font Unicode aesthetic, tebal, miring, gothic, bubble, dan simbol gaming 100% gratis secara instan."
         onCopy={onCopy}
       />
