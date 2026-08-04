@@ -4,11 +4,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/font',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/font-media-sosial',
         destination: '/platform',
         permanent: true,
