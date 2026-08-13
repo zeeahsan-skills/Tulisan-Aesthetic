@@ -15,6 +15,8 @@ import {
   Layers,
 } from 'lucide-react';
 import { FIFTY_FONT_STYLES, FontStyle } from '@/lib/unicode-engine';
+import { useZoom } from '@/hooks/useZoom';
+import { ZoomSlider } from '@/components/ZoomSlider';
 
 interface FontGeneratorProps {
   title?: string;
@@ -39,6 +41,7 @@ export function FontGenerator({
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [isMounted, setIsMounted] = useState(false);
+  const { zoom, setZoom, resetZoom } = useZoom();
 
   // Load favorites from localStorage on mount (hydration safe)
   useEffect(() => {
@@ -305,6 +308,11 @@ export function FontGenerator({
           </div>
         </div>
 
+        {/* Zoom Slider Control */}
+        <div className="mt-5 max-w-5xl mx-auto">
+          <ZoomSlider zoom={zoom} onChange={setZoom} onReset={resetZoom} />
+        </div>
+
         {/* 50 Font Cards Grid */}
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           <AnimatePresence>
@@ -360,8 +368,10 @@ export function FontGenerator({
                     </div>
 
                     {/* Transformed Result Box */}
-                    <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200/60 dark:border-slate-800/80 font-mono text-base sm:text-lg text-purple-700 dark:text-pink-300 break-all select-all leading-normal min-h-[56px] flex items-center">
-                      {style.result || 'Teks Kosong'}
+                    <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200/60 dark:border-slate-800/80 font-mono text-base sm:text-lg text-purple-700 dark:text-pink-300 break-all select-all leading-normal min-h-[56px] flex items-center overflow-x-auto">
+                      <span style={{ fontSize: `${zoom}%` }} className="transition-[font-size] duration-75 ease-out">
+                        {style.result || 'Teks Kosong'}
+                      </span>
                     </div>
                   </div>
 
