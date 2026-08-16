@@ -243,26 +243,21 @@ const terhubungPrimary: FontStyle[] = [
   CONNECTED_FONT_STYLES[9], // connected-royal
 ];
 
-// 14. Huruf Keren Configuration (Balanced Aesthetic Showcase)
+// 14. Huruf Keren Configuration (Aesthetic Small Caps, Cursive, Vaporwave & Sparkles)
 const hurufKerenPrimary: FontStyle[] = [
+  TINY_FONT_STYLES[7],   // small-caps-wings ꧁༺ ༻꧂
+  SPARKLY_FONT_STYLES[0], // sparkle-sparkle ✨
   FIFTY_FONT_STYLES[16], // small-caps
-  FIFTY_FONT_STYLES[0],  // bold-sans
   FIFTY_FONT_STYLES[6],  // cursive-script
-  FIFTY_FONT_STYLES[10], // gothic-bold
-  FIFTY_FONT_STYLES[8],  // double-struck
+  FIFTY_FONT_STYLES[19], // vaporwave
   FIFTY_FONT_STYLES[12], // bubble-light
+  FIFTY_FONT_STYLES[38], // japanese-style 『 』
+  FIFTY_FONT_STYLES[17], // superscript
+  SPARKLY_FONT_STYLES[8], // galaxy-stars ★彡 彡★
+  SPARKLY_FONT_STYLES[6], // sparkle-hearts ♡ ♡
+  FIFTY_FONT_STYLES[8],  // double-struck
   FIFTY_FONT_STYLES[13], // dark-bubble
   FIFTY_FONT_STYLES[14], // square-box
-  FIFTY_FONT_STYLES[19], // vaporwave
-  FIFTY_FONT_STYLES[17], // superscript
-  FIFTY_FONT_STYLES[22], // glitch-zalgo
-  FIFTY_FONT_STYLES[37], // border-wings
-  FIFTY_FONT_STYLES[35], // star-borders
-  FIFTY_FONT_STYLES[36], // heart-sides
-  FIFTY_FONT_STYLES[34], // sparkle-sparkle
-  FIFTY_FONT_STYLES[24], // upside-down
-  FIFTY_FONT_STYLES[38], // japanese-style
-  FIFTY_FONT_STYLES[39], // bracket-style
 ];
 
 // 15. Font Glitch Configuration (Cyber Distorted Noise & Code Brackets)
@@ -275,8 +270,21 @@ const vintagePrimary: FontStyle[] = [
   ...VINTAGE_FONT_STYLES,
 ];
 
-// 17. Font Random Configuration (Mix & Match)
+// 17. Font Random Configuration (Dynamic Decor Mix & Emblems)
 const randomPrimary: FontStyle[] = [
+  FIFTY_FONT_STYLES[37], // border-wings ꧁༺ ༻꧂
+  FIFTY_FONT_STYLES[35], // star-borders ★彡 彡★
+  FIFTY_FONT_STYLES[42], // royal-crown 👑
+  FIFTY_FONT_STYLES[44], // fire-flame 🔥
+  FIFTY_FONT_STYLES[45], // lightning-bolt ⚡
+  FIFTY_FONT_STYLES[39], // bracket-style ⚔️
+  FIFTY_FONT_STYLES[40], // flower-blossom ❈
+  FIFTY_FONT_STYLES[41], // diamond-sparkle ♦
+  FIFTY_FONT_STYLES[43], // demon-skull 💀
+  FIFTY_FONT_STYLES[48], // king-emperor ♔
+  FIFTY_FONT_STYLES[49], // music-notes 🎵
+  FIFTY_FONT_STYLES[46], // rose-blossom 🌹
+  FIFTY_FONT_STYLES[47], // target-scope 🎯
   ...FIFTY_FONT_STYLES,
 ];
 
