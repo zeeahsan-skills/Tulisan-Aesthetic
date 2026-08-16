@@ -11,11 +11,12 @@ export function GlitchHero({ onCopy }: GlitchHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Glitch & Zalgo Text Generator 2026"
-        subtitle="Ubah teks biasa menjadi font Glitch, Zalgo cyber, distorsi horor, dan 50 gaya font Unicode aesthetic lainnya secara instan."
-        defaultText="Glitch Cyberpunk"
+        title="Font Glitch & Zalgo Generator"
+        subtitle="Ubah teks biasa menjadi tulisan distorted, Zalgo cyber, horror creepy, dan 50 gaya font Unicode aesthetic lainnya secara instan."
+        defaultText="Zalgo Cyber"
         presetCategory="Gaming"
         onCopy={onCopy}
+        isH1={true}
       />
     </div>
   );
