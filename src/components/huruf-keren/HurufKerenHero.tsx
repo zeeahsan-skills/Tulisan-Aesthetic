@@ -16,6 +16,7 @@ export function HurufKerenHero({ onCopy }: HurufKerenHeroProps) {
         defaultText="Huruf Keren"
         presetCategory="Popular"
         isH1={true}
+        pageSlug="huruf-keren"
         onCopy={onCopy}
       />
     </div>

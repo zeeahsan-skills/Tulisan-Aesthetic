@@ -16,6 +16,7 @@ export function TinyTextHero({ onCopy }: TinyTextHeroProps) {
         defaultText="Tiny Text Small Caps"
         presetCategory="Popular"
         isH1={true}
+        pageSlug="tiny"
         onCopy={onCopy}
       />
     </div>

@@ -15,6 +15,7 @@ export function GothicHero({ onCopy }: GothicHeroProps) {
         subtitle="Ubah teks biasa menjadi tulisan Gothic, Fraktur, Blackletter, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Gothic Blackletter"
         presetCategory="Gothic"
+        pageSlug="gothic-fraktur"
         onCopy={onCopy}
       />
     </div>

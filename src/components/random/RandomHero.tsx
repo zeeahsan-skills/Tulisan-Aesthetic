@@ -15,6 +15,7 @@ export function RandomHero({ onCopy }: RandomHeroProps) {
         subtitle="Acak gaya font dan ornamen teks Unicode secara otomatis (Mix & Match Styles) untuk menemukan kombinasi paling unik dan aesthetic."
         defaultText="Random Mix"
         presetCategory="All"
+        pageSlug="random"
         onCopy={onCopy}
         isH1={true}
       />

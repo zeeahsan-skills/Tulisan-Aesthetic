@@ -15,6 +15,7 @@ export function BubbleHero({ onCopy }: BubbleHeroProps) {
         subtitle="Ubah teks biasa menjadi font gelembung melingkar (bubble outline, solid, dan 50 gaya font Unicode aesthetic lainnya) secara instan."
         defaultText="Ahsan Stylish"
         presetCategory="Cute"
+        pageSlug="gelembung"
         onCopy={onCopy}
       />
     </div>

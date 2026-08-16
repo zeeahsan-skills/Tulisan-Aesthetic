@@ -15,6 +15,7 @@ export function NamaKerenHero({ onCopy }: NamaKerenHeroProps) {
         subtitle="Buat nama keren aesthetic untuk akun game dan media sosial dengan 50 gaya font Unicode unik, mahkota, dan simbol gaming."
         defaultText="Pro Gamer"
         presetCategory="Gaming"
+        pageSlug="nama-keren"
         onCopy={onCopy}
       />
     </div>

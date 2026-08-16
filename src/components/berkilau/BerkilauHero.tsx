@@ -16,6 +16,7 @@ export function BerkilauHero({ onCopy }: BerkilauHeroProps) {
         defaultText="Font Berkilau Sparkly"
         presetCategory="Sparkly"
         isH1={true}
+        pageSlug="berkilau"
         onCopy={onCopy}
       />
     </div>

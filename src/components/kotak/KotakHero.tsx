@@ -15,6 +15,7 @@ export function KotakHero({ onCopy }: KotakHeroProps) {
         subtitle="Ubah teks biasa menjadi huruf kotak (Square Outline & Solid Box) serta 50 gaya font Unicode aesthetic siap salin."
         defaultText="Tulisan Kotak"
         presetCategory="Gaming"
+        pageSlug="kotak"
         onCopy={onCopy}
       />
     </div>

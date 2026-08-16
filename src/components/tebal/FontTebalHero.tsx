@@ -16,6 +16,7 @@ export function FontTebalHero({ onCopy }: FontTebalHeroProps) {
         defaultText="Font Tebal Bold"
         presetCategory="Popular"
         isH1={true}
+        pageSlug="tebal"
         onCopy={onCopy}
       />
     </div>

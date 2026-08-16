@@ -16,6 +16,7 @@ export function FontMiringKursifHero({ onCopy }: FontMiringKursifHeroProps) {
         defaultText="Tulisan Miring Kursif"
         presetCategory="Fancy"
         isH1={true}
+        pageSlug="miring-kursif"
         onCopy={onCopy}
       />
     </div>

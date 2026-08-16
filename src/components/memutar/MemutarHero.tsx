@@ -15,6 +15,7 @@ export function MemutarHero({ onCopy }: MemutarHeroProps) {
         subtitle="Putar dan balikkan tulisan Anda (Upside Down & Mirror Text) dan dapatkan 50 variasi font Unicode unik."
         defaultText="Tulisan Terbalik"
         presetCategory="Simple"
+        pageSlug="memutar"
         onCopy={onCopy}
       />
     </div>

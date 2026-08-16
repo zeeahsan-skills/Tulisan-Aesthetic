@@ -15,6 +15,7 @@ export function GlitchHero({ onCopy }: GlitchHeroProps) {
         subtitle="Ubah teks biasa menjadi tulisan distorted, Zalgo cyber, horror creepy, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Zalgo Cyber"
         presetCategory="Gaming"
+        pageSlug="glitch"
         onCopy={onCopy}
         isH1={true}
       />

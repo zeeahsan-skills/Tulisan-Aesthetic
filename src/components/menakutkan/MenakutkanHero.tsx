@@ -15,6 +15,7 @@ export function MenakutkanHero({ onCopy }: MenakutkanHeroProps) {
         subtitle="Ubah teks biasa menjadi gaya font seram, Zalgo heavy, horror gothic, dan 50 gaya font Unicode aesthetic siap pakai."
         defaultText="Demon Horror"
         presetCategory="Gothic"
+        pageSlug="menakutkan"
         onCopy={onCopy}
       />
     </div>

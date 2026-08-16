@@ -15,6 +15,7 @@ export function TerhubungHero({ onCopy }: TerhubungHeroProps) {
         subtitle="Konversi teks menjadi tulisan sambung indah, kaligrafi Cursive, Script, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Tulisan Sambung"
         presetCategory="Fancy"
+        pageSlug="terhubung"
         onCopy={onCopy}
       />
     </div>

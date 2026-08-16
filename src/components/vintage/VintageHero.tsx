@@ -15,6 +15,7 @@ export function VintageHero({ onCopy }: VintageHeroProps) {
         subtitle="Ubah teks biasa menjadi tulisan Vintage klasik, Old English, Fraktur Blackletter, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Vintage Classic"
         presetCategory="Gothic"
+        pageSlug="vintage"
         onCopy={onCopy}
         isH1={true}
       />

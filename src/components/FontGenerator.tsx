@@ -15,6 +15,7 @@ import {
   Layers,
 } from 'lucide-react';
 import { FIFTY_FONT_STYLES, FontStyle } from '@/lib/unicode-engine';
+import { getFontPageConfig } from '@/lib/font-page-configs';
 import { useZoom } from '@/hooks/useZoom';
 import { ZoomSlider } from '@/components/ZoomSlider';
 
@@ -25,23 +26,41 @@ interface FontGeneratorProps {
   onCopy?: (msg: string) => void;
   presetCategory?: string;
   isH1?: boolean;
+  pageSlug?: string;
+  customStyles?: FontStyle[];
 }
 
 export function FontGenerator({
-  title = 'Generator 50 Font Unicode Aesthetic 2026',
-  subtitle = 'Ketik teks Anda di bawah ini dan dapatkan 50 variasi gaya font Unicode unik, aesthetic, dan siap salin.',
-  defaultText = 'Tulisan Aesthetic',
+  title,
+  subtitle,
+  defaultText,
   onCopy,
   presetCategory = 'All',
   isH1 = false,
+  pageSlug,
+  customStyles,
 }: FontGeneratorProps) {
-  const [inputText, setInputText] = useState(defaultText);
+  // Load configuration if pageSlug is provided
+  const config = pageSlug ? getFontPageConfig(pageSlug) : undefined;
+
+  const displayTitle = title || config?.title || 'Generator 50 Font Unicode Aesthetic 2026';
+  const displaySubtitle = subtitle || config?.subtitle || 'Ketik teks Anda di bawah ini dan dapatkan 50 variasi gaya font Unicode unik, aesthetic, dan siap salin.';
+  const initialText = defaultText || config?.defaultText || 'Tulisan Aesthetic';
+
+  const [inputText, setInputText] = useState(initialText);
   const [activeCategory, setActiveCategory] = useState<string>(presetCategory);
   const [searchQuery, setSearchQuery] = useState('');
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [isMounted, setIsMounted] = useState(false);
   const { zoom, setZoom, resetZoom } = useZoom();
+
+  // Determine base 50 styles to use
+  const targetStyles = useMemo(() => {
+    if (customStyles && customStyles.length > 0) return customStyles;
+    if (config) return config.getStyles();
+    return FIFTY_FONT_STYLES;
+  }, [customStyles, config]);
 
   // Load favorites from localStorage on mount (hydration safe)
   useEffect(() => {
@@ -74,11 +93,11 @@ export function FontGenerator({
   // Calculate transformed 50 styles efficiently
   const fontCards = useMemo(() => {
     const rawText = inputText || 'Tulisan Aesthetic';
-    return FIFTY_FONT_STYLES.map((style) => ({
+    return targetStyles.map((style) => ({
       ...style,
       result: style.transform(rawText),
     }));
-  }, [inputText]);
+  }, [inputText, targetStyles]);
 
   // Filter styles based on category, search query & favorites
   const filteredStyles = useMemo(() => {
@@ -180,7 +199,7 @@ export function FontGenerator({
               transition={{ delay: 0.05 }}
               className="mt-4 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white font-poppins leading-tight"
             >
-              {title}
+              {displayTitle}
             </motion.h1>
           ) : (
             <motion.h2
@@ -189,7 +208,7 @@ export function FontGenerator({
               transition={{ delay: 0.05 }}
               className="mt-4 text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white font-poppins leading-tight"
             >
-              {title}
+              {displayTitle}
             </motion.h2>
           )}
 
@@ -199,7 +218,7 @@ export function FontGenerator({
             transition={{ delay: 0.1 }}
             className="mt-3 text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed"
           >
-            {subtitle}
+            {displaySubtitle}
           </motion.p>
         </div>
 

@@ -15,6 +15,7 @@ export function GarisHero({ onCopy }: GarisHeroProps) {
         subtitle="Buat teks dengan garis coret tengah (strikethrough), garis bawah (underline), tilde, dan 50 gaya font Unicode aesthetic lainnya."
         defaultText="Garis Coret"
         presetCategory="Simple"
+        pageSlug="garis"
         onCopy={onCopy}
       />
     </div>
