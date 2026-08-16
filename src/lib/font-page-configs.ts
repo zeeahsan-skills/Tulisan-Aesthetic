@@ -7,11 +7,13 @@ import {
   BUBBLE_FONT_STYLES,
   STRIKETHROUGH_FONT_STYLES,
   FLIPPED_FONT_STYLES,
-  SCARY_FONT_STYLES,
   SPARKLY_FONT_STYLES,
   CONNECTED_FONT_STYLES,
   SQUARE_FONT_STYLES,
   NUMBER_FONT_STYLES,
+  CYBER_GLITCH_FONT_STYLES,
+  HORROR_SCARY_FONT_STYLES,
+  VINTAGE_FONT_STYLES,
 } from './unicode-engine';
 
 export interface FontPageConfig {
@@ -105,7 +107,7 @@ const tebalPrimary: FontStyle[] = [
   },
 ];
 
-// 2. Font Miring Kursif Configuration
+// 2. Font Miring Kursif Configuration (Pure Mathematical Italic & Slanted Sans)
 const miringKursifPrimary: FontStyle[] = [
   FIFTY_FONT_STYLES[2], // italic-serif
   FIFTY_FONT_STYLES[3], // bold-italic-serif
@@ -113,7 +115,30 @@ const miringKursifPrimary: FontStyle[] = [
   FIFTY_FONT_STYLES[5], // sans-bold-italic
   FIFTY_FONT_STYLES[6], // cursive-script
   FIFTY_FONT_STYLES[7], // bold-cursive
-  ...CONNECTED_FONT_STYLES,
+  {
+    id: 'italic-classic-brackets',
+    name: 'Italic Brackets ( )',
+    category: 'Fancy',
+    transform: (t) => `( ${FIFTY_FONT_STYLES[2].transform(t)} )`,
+  },
+  {
+    id: 'italic-sparkle-border',
+    name: 'Italic Sparkle ✧ ✧',
+    category: 'Fancy',
+    transform: (t) => `✧ ${FIFTY_FONT_STYLES[2].transform(t)} ✧`,
+  },
+  {
+    id: 'italic-star-border',
+    name: 'Italic Star ★ ★',
+    category: 'Popular',
+    transform: (t) => `★ ${FIFTY_FONT_STYLES[4].transform(t)} ★`,
+  },
+  {
+    id: 'italic-bold-border',
+    name: 'Bold Italic Wings ꧁༺ ༻꧂',
+    category: 'Popular',
+    transform: (t) => `꧁༺ ${FIFTY_FONT_STYLES[3].transform(t)} ༻꧂`,
+  },
 ];
 
 // 3. Font Tiny Configuration
@@ -186,11 +211,9 @@ const memutarPrimary: FontStyle[] = [
   ...FLIPPED_FONT_STYLES,
 ];
 
-// 11. Font Menakutkan Configuration
+// 11. Font Menakutkan Configuration (Horror Skull & Demon Heavy Zalgo)
 const menakutkanPrimary: FontStyle[] = [
-  FIFTY_FONT_STYLES[22], // glitch-zalgo
-  FIFTY_FONT_STYLES[23], // zalgo-heavy
-  ...SCARY_FONT_STYLES,
+  ...HORROR_SCARY_FONT_STYLES,
 ];
 
 // 12. Font Nama Keren Configuration
@@ -206,11 +229,18 @@ const namaKerenPrimary: FontStyle[] = [
   FIFTY_FONT_STYLES[48], // king-emperor
 ];
 
-// 13. Font Terhubung Configuration
+// 13. Font Terhubung Configuration (Continuous Ligatures & Signature Swashes)
 const terhubungPrimary: FontStyle[] = [
-  ...CONNECTED_FONT_STYLES,
-  FIFTY_FONT_STYLES[6], // cursive-script
-  FIFTY_FONT_STYLES[7], // bold-cursive
+  CONNECTED_FONT_STYLES[0], // script-regular
+  CONNECTED_FONT_STYLES[1], // connected-bold-script
+  CONNECTED_FONT_STYLES[2], // elegant-handwriting
+  CONNECTED_FONT_STYLES[3], // signature-style
+  CONNECTED_FONT_STYLES[4], // flowing-script
+  CONNECTED_FONT_STYLES[5], // signature-wings
+  CONNECTED_FONT_STYLES[6], // connected-hearts
+  CONNECTED_FONT_STYLES[7], // connected-sparkles
+  CONNECTED_FONT_STYLES[8], // connected-stars
+  CONNECTED_FONT_STYLES[9], // connected-royal
 ];
 
 // 14. Huruf Keren Configuration (Balanced Aesthetic Showcase)
@@ -235,23 +265,14 @@ const hurufKerenPrimary: FontStyle[] = [
   FIFTY_FONT_STYLES[39], // bracket-style
 ];
 
-// 15. Font Glitch Configuration
+// 15. Font Glitch Configuration (Cyber Distorted Noise & Code Brackets)
 const glitchPrimary: FontStyle[] = [
-  FIFTY_FONT_STYLES[22], // glitch-zalgo
-  FIFTY_FONT_STYLES[23], // zalgo-heavy
-  ...SCARY_FONT_STYLES,
+  ...CYBER_GLITCH_FONT_STYLES,
 ];
 
-// 16. Font Vintage Configuration
+// 16. Font Vintage Configuration (Victorian Classic, Retro Serif, Typewriter)
 const vintagePrimary: FontStyle[] = [
-  FIFTY_FONT_STYLES[11], // fraktur-regular
-  FIFTY_FONT_STYLES[10], // gothic-bold
-  FIFTY_FONT_STYLES[1],  // bold-serif
-  FIFTY_FONT_STYLES[2],  // italic-serif
-  FIFTY_FONT_STYLES[3],  // bold-italic-serif
-  FIFTY_FONT_STYLES[7],  // bold-cursive
-  FIFTY_FONT_STYLES[8],  // double-struck
-  ...GOTHIC_FONT_STYLES,
+  ...VINTAGE_FONT_STYLES,
 ];
 
 // 17. Font Random Configuration (Mix & Match)

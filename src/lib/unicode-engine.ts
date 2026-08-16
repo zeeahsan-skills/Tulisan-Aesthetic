@@ -910,6 +910,195 @@ export const TINY_FONT_STYLES: FontStyle[] = [
   },
 ];
 
+export const CYBER_GLITCH_FONT_STYLES: FontStyle[] = [
+  {
+    id: 'glitch-cyber-zalgo',
+    name: 'Glitch Zalgo (Cyber)',
+    category: 'Gaming',
+    transform: (t) => glitchText(t),
+  },
+  {
+    id: 'glitch-matrix-code',
+    name: 'Matrix Cyber Code 『 💻 』',
+    category: 'Gaming',
+    transform: (t) => `『 💻 ${mapChars(t, FULLWIDTH_MAP)} 💻 』`,
+  },
+  {
+    id: 'glitch-corrupted-tech',
+    name: 'Corrupted Tech ⚡ ⚡',
+    category: 'Gaming',
+    transform: (t) => `⚡ ${mapChars(t, MONOSPACE_MAP)} ⚡`,
+  },
+  {
+    id: 'glitch-terminal-mono',
+    name: 'Terminal Cyber Mono >_',
+    category: 'Simple',
+    transform: (t) => `>_ ${mapChars(t, MONOSPACE_MAP)} _<`,
+  },
+  {
+    id: 'glitch-signal-noise',
+    name: 'Signal Noise ░▒▓ ▓▒░',
+    category: 'Gaming',
+    transform: (t) => `░▒▓ ${mapChars(t, SMALL_CAPS_MAP)} ▓▒░`,
+  },
+  {
+    id: 'glitch-cyber-wings',
+    name: 'Cyber Wings ꧁༺ ⚡ ༻꧂',
+    category: 'Gaming',
+    transform: (t) => `꧁༺ ⚡ ${mapChars(t, SMALL_CAPS_MAP)} ⚡ ༻꧂`,
+  },
+  {
+    id: 'glitch-binary-brackets',
+    name: 'Binary Code [ 0101 ]',
+    category: 'Simple',
+    transform: (t) => `[ 0101 ${mapChars(t, SMALL_CAPS_MAP)} 1010 ]`,
+  },
+  {
+    id: 'glitch-cyber-brackets',
+    name: 'Cyber Brackets ⦇ ⚡ ⦈',
+    category: 'Gaming',
+    transform: (t) => `⦇ ⚡ ${mapChars(t, SQUARE_MAP)} ⚡ ⦈`,
+  },
+  {
+    id: 'glitch-distorted-box',
+    name: 'Distorted Square ░ ░',
+    category: 'Gaming',
+    transform: (t) => `░ ${mapChars(t, SQUARE_MAP)} ░`,
+  },
+  {
+    id: 'glitch-zalgo-light',
+    name: 'Zalgo Cyber Noise',
+    category: 'Gaming',
+    transform: (t) => glitchText(mapChars(t, SMALL_CAPS_MAP)),
+  },
+];
+
+export const HORROR_SCARY_FONT_STYLES: FontStyle[] = [
+  {
+    id: 'menakutkan-zalgo-heavy',
+    name: 'Zalgo Heavy (Horror Distorted)',
+    category: 'Gothic',
+    transform: (t) => zalgoHeavyText(t),
+  },
+  {
+    id: 'horror-skull-gothic',
+    name: 'Gothic Skull 💀 💀',
+    category: 'Gothic',
+    transform: (t) => `💀 ${mapChars(t, GOTHIC_BOLD_MAP)} 💀`,
+  },
+  {
+    id: 'demon-crosses',
+    name: 'Demon Crosses ✝️ ✝️',
+    category: 'Gothic',
+    transform: (t) => `✝️ ${mapChars(t, FRAKTUR_REGULAR_MAP)} ✝️`,
+  },
+  {
+    id: 'creepy-wings',
+    name: 'Creepy Wings ꧁༺ 💀 ༻꧂',
+    category: 'Gothic',
+    transform: (t) => `꧁༺ 💀 ${mapChars(t, FRAKTUR_REGULAR_MAP)} 💀 ༻꧂`,
+  },
+  {
+    id: 'dark-demon-clan',
+    name: 'Demon Clan Tag 帝 💀',
+    category: 'Gothic',
+    transform: (t) => `帝• 💀 ${mapChars(t, GOTHIC_BOLD_MAP)} 💀 •帝`,
+  },
+  {
+    id: 'horror-devil-horns',
+    name: 'Devil Horns 😈 😈',
+    category: 'Gothic',
+    transform: (t) => `😈 ${mapChars(t, GOTHIC_BOLD_MAP)} 😈`,
+  },
+  {
+    id: 'scary-blood-brackets',
+    name: 'Blood Brackets ⦇ 💀 ⦈',
+    category: 'Gothic',
+    transform: (t) => `⦇ 💀 ${mapChars(t, FRAKTUR_REGULAR_MAP)} 💀 ⦈`,
+  },
+  {
+    id: 'haunted-tombstone',
+    name: 'Haunted Tombstone 🪦 🪦',
+    category: 'Gothic',
+    transform: (t) => `🪦 ${mapChars(t, GOTHIC_BOLD_MAP)} 🪦`,
+  },
+  {
+    id: 'dark-nightmare-fraktur',
+    name: 'Nightmare Heavy Fraktur',
+    category: 'Gothic',
+    transform: (t) => zalgoHeavyText(mapChars(t, GOTHIC_BOLD_MAP)),
+  },
+  {
+    id: 'scary-vampire-fangs',
+    name: 'Vampire Fangs 🧛 🧛',
+    category: 'Gothic',
+    transform: (t) => `🧛 ${mapChars(t, FRAKTUR_REGULAR_MAP)} 🧛`,
+  },
+];
+
+export const VINTAGE_FONT_STYLES: FontStyle[] = [
+  {
+    id: 'vintage-bold-serif',
+    name: 'Bold Serif Klasik',
+    category: 'Popular',
+    transform: (t) => mapChars(t, BOLD_SERIF_MAP),
+  },
+  {
+    id: 'vintage-italic-serif',
+    name: 'Italic Serif Retro',
+    category: 'Fancy',
+    transform: (t) => mapChars(t, ITALIC_SERIF_MAP),
+  },
+  {
+    id: 'vintage-double-struck',
+    name: 'Double Struck Victorian',
+    category: 'Fancy',
+    transform: (t) => mapChars(t, DOUBLE_STRUCK_MAP),
+  },
+  {
+    id: 'vintage-monospace',
+    name: 'Old Typewriter Monospace',
+    category: 'Simple',
+    transform: (t) => mapChars(t, MONOSPACE_MAP),
+  },
+  {
+    id: 'vintage-victorian-border',
+    name: 'Victorian Border 🏛️ 🏛️',
+    category: 'Fancy',
+    transform: (t) => `🏛️ ${mapChars(t, BOLD_SERIF_MAP)} 🏛️`,
+  },
+  {
+    id: 'vintage-retro-star',
+    name: 'Retro Star ★ ★',
+    category: 'Popular',
+    transform: (t) => `★ ${mapChars(t, BOLD_SERIF_MAP)} ★`,
+  },
+  {
+    id: 'vintage-classic-feather',
+    name: 'Classic Feather 🪶 🪶',
+    category: 'Fancy',
+    transform: (t) => `🪶 ${mapChars(t, ITALIC_SERIF_MAP)} 🪶`,
+  },
+  {
+    id: 'vintage-old-brackets',
+    name: 'Vintage Brackets [ ]',
+    category: 'Simple',
+    transform: (t) => `[ ${mapChars(t, BOLD_SERIF_MAP)} ]`,
+  },
+  {
+    id: 'vintage-royal-stamp',
+    name: 'Royal Stamp 📜 📜',
+    category: 'Fancy',
+    transform: (t) => `📜 ${mapChars(t, DOUBLE_STRUCK_MAP)} 📜`,
+  },
+  {
+    id: 'vintage-western-serif',
+    name: 'Western Serif ⚜️ ⚜️',
+    category: 'Fancy',
+    transform: (t) => `⚜️ ${mapChars(t, BOLD_SERIF_MAP)} ⚜️`,
+  },
+];
+
 const CORE_ALL_FONT_STYLES: FontStyle[] = [
   {
     id: 'huruf-keren',
