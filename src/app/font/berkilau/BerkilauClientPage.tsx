@@ -5,12 +5,12 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Toast } from '@/components/Toast';
 import { BerkilauHero } from '@/components/berkilau/BerkilauHero';
-import { PopularBerkilauStyles } from '@/components/berkilau/PopularBerkilauStyles';
-import { BerkilauBestUses } from '@/components/berkilau/BerkilauBestUses';
 import { BerkilauExamples } from '@/components/berkilau/BerkilauExamples';
-import { BerkilauHowItWorks } from '@/components/berkilau/BerkilauHowItWorks';
-import { BerkilauUnicodeExplanation } from '@/components/berkilau/BerkilauUnicodeExplanation';
-import { RelatedFonts } from '@/components/berkilau/RelatedFonts';
+import { BerkilauAbout } from '@/components/berkilau/BerkilauAbout';
+import { BerkilauTutorial } from '@/components/berkilau/BerkilauTutorial';
+import { BerkilauPlatforms } from '@/components/berkilau/BerkilauPlatforms';
+import { BerkilauGaming } from '@/components/berkilau/BerkilauGaming';
+import { BerkilauRelated } from '@/components/berkilau/BerkilauRelated';
 import { BerkilauFAQ } from '@/components/berkilau/BerkilauFAQ';
 import { BerkilauCTA } from '@/components/berkilau/BerkilauCTA';
 
@@ -30,39 +30,39 @@ export default function BerkilauClientPage() {
       {/* Toast Notification Alert */}
       <Toast message={toastMessage} />
 
-      {/* Reused Navbar */}
+      {/* Navbar */}
       <Navbar />
 
       <main className="flex-1">
-        {/* Section 1: Hero & Live Berkilau Sparkly Generator */}
+        {/* Section: Hero & Live Sparkly Generator */}
         <BerkilauHero onCopy={showToast} />
 
-        {/* Section 2: Popular Berkilau Styles */}
-        <PopularBerkilauStyles onCopy={showToast} />
-
-        {/* Section 3: Best Uses */}
-        <BerkilauBestUses />
-
-        {/* Section 4: Copyable Presets & Examples */}
+        {/* Section: Contoh Tulisan Sparkly */}
         <BerkilauExamples onCopy={showToast} />
 
-        {/* Section 5: Timeline - How It Works */}
-        <BerkilauHowItWorks />
+        {/* Section: Apa Itu Font Berkilau?, 3 Elemen, Kode Simbol, & Unicode vs Emoji */}
+        <BerkilauAbout />
 
-        {/* Section 6: Unicode Explanation (Decorative Symbols) */}
-        <BerkilauUnicodeExplanation />
+        {/* Section: Cara Membuat Tulisan Berkilau & Cara Copy-Paste */}
+        <BerkilauTutorial />
 
-        {/* Section 7: Related Font Categories */}
-        <RelatedFonts />
+        {/* Section: Font Berkilau untuk IG, TikTok, WA, Discord */}
+        <BerkilauPlatforms />
 
-        {/* Section 8: Berkilau Specific FAQs */}
+        {/* Section: Font Berkilau untuk Nickname Game */}
+        <BerkilauGaming />
+
+        {/* Section: Kategori Font Terkait */}
+        <BerkilauRelated />
+
+        {/* Section: FAQ Font Berkilau */}
         <BerkilauFAQ />
 
-        {/* Section 9: Call to Action */}
+        {/* Section: Call to Action */}
         <BerkilauCTA />
       </main>
 
-      {/* Reused Footer */}
+      {/* Footer */}
       <Footer />
 
     </div>

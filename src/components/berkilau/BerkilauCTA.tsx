@@ -1,46 +1,47 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Sparkles, ArrowUp } from 'lucide-react';
 
 export function BerkilauCTA() {
+  const scrollToGenerator = () => {
+    const el = document.getElementById('hero');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <section className="py-20 bg-white dark:bg-slate-900 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="relative rounded-3xl p-8 sm:p-16 bg-gradient-to-r from-amber-500 via-pink-500 to-purple-600 text-white text-center shadow-2xl shadow-amber-500/30 overflow-hidden">
-          
-          <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-yellow-300/20 rounded-full blur-3xl pointer-events-none" />
+    <section className="py-16 sm:py-20 bg-gradient-to-r from-purple-900 via-indigo-900 to-slate-900 text-white relative overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-pink-500/20 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative z-10 max-w-3xl mx-auto">
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-xs font-bold uppercase tracking-wider text-white">
-              <Sparkles className="w-4 h-4 text-amber-200" />
-              Font Berkilau Generator #1 Indonesia
-            </span>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+        >
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm font-semibold backdrop-blur-md mb-6">
+            <Sparkles className="w-4 h-4 text-pink-400" />
+            <span>Hiasi Teks Anda Sekarang</span>
+          </span>
 
-            <h2 className="mt-6 text-3xl sm:text-5xl font-extrabold font-poppins leading-tight">
-              Mulai Membuat Font Berkilau Sekarang!
-            </h2>
+          <h2 className="text-3xl sm:text-5xl font-extrabold font-poppins leading-tight">
+            Buat Tulisan Berkilau Secara Instan
+          </h2>
+          <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto">
+            Gunakan Font Berkilau / Sparkly Generator gratis ini untuk menghasilkan kombinasi kata berhias bintang estetik yang siap disalin ke Instagram, WhatsApp, TikTok, Discord, dan Game.
+          </p>
 
-            <p className="mt-4 text-base sm:text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">
-              Konversi teks Anda menjadi tulisan berkilau bintang, glitter, dan dekoratif estetik dalam hitungan detik.
-            </p>
-
-            <div className="mt-8 flex justify-center">
-              <a
-                href="#hero"
-                className="px-8 py-4 rounded-2xl bg-white hover:bg-slate-100 text-amber-700 font-extrabold text-base sm:text-lg shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-200 inline-flex items-center gap-3"
-              >
-                <Sparkles className="w-5 h-5 text-amber-500 animate-pulse" />
-                <span>Generate Sparkly Font</span>
-                <ArrowRight className="w-5 h-5 text-amber-600" />
-              </a>
-            </div>
-          </div>
-
-        </div>
-
+          <button
+            onClick={scrollToGenerator}
+            className="mt-8 px-8 py-4 rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold text-base shadow-xl shadow-pink-500/25 hover:shadow-pink-500/40 transition-all inline-flex items-center gap-2"
+          >
+            <span>Kembali ke Generator</span>
+            <ArrowUp className="w-5 h-5" />
+          </button>
+        </motion.div>
       </div>
     </section>
   );

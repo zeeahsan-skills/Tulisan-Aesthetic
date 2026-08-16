@@ -9,48 +9,56 @@ export function BerkilauFAQ() {
 
   const berkilauFaqs = [
     {
-      q: 'Apa itu Font Berkilau (Sparkly Text Generator)?',
-      a: 'Font Berkilau Generator adalah alat pembuat teks online gratis yang mengombinasikan teks biasa dengan simbol kilau bintang (✨), kristal (✧), dan hiasan aesthetic Unicode secara instan.',
+      q: 'Apa itu Font Berkilau / Sparkly Generator?',
+      a: 'Font Berkilau Generator adalah alat pengubah teks online gratis yang memetakan alfabet biasa menjadi kombinasi font Unicode estetik dihiasi ornamen bintang ✨, gliter, dan simbol kilauan.',
     },
     {
-      q: 'Bagaimana cara menyalin teks berkilau bintang ke Bio Instagram?',
-      a: 'Ketik nama atau kalimat di kolom generator di atas, pilih gaya "Sparkle Sparkle" atau "Luxury Style", lalu klik tombol "Salin Teks". Buka aplikasi Instagram > Edit Profil > Bio, lalu tempelkan (paste).',
+      q: 'Bagaimana cara menambahkan efek bintang pada tulisan?',
+      a: 'Ketik kata Anda pada kotak generator di bagian atas halaman ini, pilih variasi teks berkilau bintang yang Anda sukai, lalu klik tombol "Salin" untuk menempelkannya di aplikasi tujuan.',
     },
     {
-      q: 'Apakah teks berkilau bisa digunakan di username TikTok dan WhatsApp Status?',
-      a: 'Sangat bisa! Simbol berkilau didukung secara resmi di nama profil TikTok, bio TikTok, pesan chat WhatsApp, dan pembaruan Status WA.',
+      q: 'Apakah semua platform mendukung teks berkilau?',
+      a: 'Kompatibilitas bervariasi tergantung platform dan bidang input yang digunakan. Sebagian besar media sosial modern (Instagram, TikTok, WA) mendukung simbol Unicode berkilau dengan sempurna.',
     },
     {
-      q: 'Mengapa simbol bintang berkilau Unicode tidak berubah menjadi serba kotak?',
-      a: 'Karena generator kami hanya menggunakan simbol Unicode standar resmi yang tersimpan di memori bawaan semua sistem operasi Android, iOS, Windows, dan macOS.',
+      q: 'Apakah tulisan berkilau bisa dipakai untuk nickname game?',
+      a: 'Banyak game mendukung ornamen bintang Unicode, namun tingkat kompatibilitas tergantung pada kebijakan penyaringan nama (name filtering rules) di masing-masing game.',
     },
     {
-      q: 'Apa perbedaan antara simbol dekoratif Unicode dan emoji gambar?',
-      a: 'Simbol dekoratif Unicode diproses sebagai teks murni yang diterima 100% di kolom nama game dan sosmed tanpa diblokir, sedangkan emoji gambar kadang dilarang di sistem nama akun.',
+      q: 'Apa perbedaan antara simbol bintang Unicode dan emoji bintang?',
+      a: 'Simbol Unicode (seperti ✧ atau ✦) berbentuk monokrom yang mengikuti warna font, sedangkan Emoji (seperti ✨) dirender berwarna penuh oleh sistem operasi HP Anda.',
     },
     {
-      q: 'Apakah penggunaan font berkilau ini 100% gratis?',
-      a: 'Ya, 100% gratis selamanya tanpa batasan jumlah teks dan tanpa registrasi akun.',
+      q: 'Apakah generator Font Berkilau ini 100% gratis?',
+      a: 'Ya, 100% gratis digunakan tanpa perlu mendaftar akun atau mengunduh aplikasi.',
     },
     {
-      q: 'Bisakah teks berkilau digunakan untuk nickname game Free Fire & Roblox?',
-      a: 'Sangat bisa. Simbol bintang empat sudut dan kilauan kristal sangat populer untuk nama clan dan nickname akun player Free Fire, PUBG, dan Roblox.',
+      q: 'Apakah tulisan berkilau bisa disalin ke Bio Instagram?',
+      a: 'Sangat bisa. Bio Instagram mendukung berbagai ornamen bintang Unicode untuk mempercantik profil Anda.',
     },
     {
-      q: 'Apakah teks berkilau aman untuk dipakai di nama halaman bisnis Facebook?',
-      a: 'Aman. Teks berkilau menambahkan kesan mewah dan menonjolkan nama brand Halaman Facebook jualan Anda.',
+      q: 'Mengapa sebagian emoji berkilau terlihat berbeda di Android dan iPhone?',
+      a: 'Setiap sistem operasi memiliki paket desain emoji (emoji font) tersendiri. Namun makna dan titik kode Unicode dari simbol berkilau tersebut tetap sama.',
     },
     {
-      q: 'Apakah alat ini dapat diakses langsung dari HP Android & iPhone tanpa aplikasi?',
-      a: 'Tentu saja. Situs ini responsif dan dapat diakses dari browser Safari iPhone maupun Chrome Android secara instan.',
+      q: 'Apakah aman memakai simbol berkilau di media sosial?',
+      a: 'Sangat aman karena karakter yang dihasilkan mematuhi standar internasional konsorsium Unicode.',
     },
     {
-      q: 'Bagaimana cara membuat nama aesthetic berkilau dengan hiasan sayap (꧁༺ ✨ Ahsan ✨ ༻꧂)?',
-      a: 'Pilih preset "Sparkle Wings ꧁༺ ✨ ༻꧂" pada generator kami untuk mendapatkan teks berkilau bertema sayap malaikat dalam satu klik.',
+      q: 'Bagaimana cara copy paste tulisan berkilau di HP?',
+      a: 'Tekan dan tahan pada kolom teks tujuan di HP Anda, lalu pilih menu "Tempel" atau "Paste".',
+    },
+    {
+      q: 'Apakah ada batasan panjang teks yang bisa diubah?',
+      a: 'Tidak ada batasan dari generator kami, namun platform tujuan (seperti Bio IG yang membatasi 150 karakter) memiliki kuota karakter tersendiri.',
+    },
+    {
+      q: 'Bisakah saya mengombinasikan font miring dengan bintang berkilau?',
+      a: 'Tentu saja! Generator kami secara otomatis menyediakan pilihan Cursive Script yang dipadukan dengan bintang kilauan.',
     },
   ];
 
-  const berkilauFaqSchema = {
+  const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: berkilauFaqs.map((faq) => ({
@@ -64,24 +72,25 @@ export function BerkilauFAQ() {
   };
 
   return (
-    <section id="faq" className="py-20 bg-slate-50/50 dark:bg-slate-950/50 relative">
+    <section id="faq-font-berkilau" className="py-16 sm:py-24 bg-white dark:bg-slate-900 relative">
       
+      {/* FAQ Schema Script */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(berkilauFaqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center">
-          <span className="px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400">
-            Sparkly FAQ
+          <span className="px-3.5 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-pink-400">
+            Pertanyaan Umum
           </span>
-          <h2 className="mt-4 text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins">
-            Pertanyaan Sering Diajukan
+          <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white font-poppins">
+            FAQ Font Berkilau
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-400">
-            Segala hal yang perlu Anda ketahui tentang penggunaan font Berkilau & Bintang Unicode.
+          <p className="mt-3 text-base sm:text-lg text-slate-600 dark:text-slate-300">
+            Jawaban lengkap atas pertanyaan seputar penggunaan teks dan simbol berkilau.
           </p>
         </div>
 
@@ -96,19 +105,19 @@ export function BerkilauFAQ() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.03 }}
-                className="rounded-2xl border border-slate-200/80 dark:border-purple-900/30 overflow-hidden bg-white dark:bg-slate-900 transition-all duration-200"
+                className="rounded-2xl border border-slate-200/80 dark:border-purple-900/30 overflow-hidden bg-slate-50 dark:bg-slate-800/60 transition-all duration-200"
               >
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : idx)}
-                  className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 dark:text-white hover:text-amber-600 dark:hover:text-pink-400 transition-colors"
+                  className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 dark:text-white hover:text-purple-600 dark:hover:text-pink-400 transition-colors"
                 >
                   <span className="text-base sm:text-lg font-poppins flex items-center gap-3">
-                    <HelpCircle className="w-5 h-5 text-amber-500 dark:text-amber-400 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-purple-600 dark:text-pink-400 shrink-0" />
                     {item.q}
                   </span>
                   <ChevronDown
                     className={`w-5 h-5 shrink-0 text-slate-400 transition-transform duration-300 ${
-                      isOpen ? 'rotate-180 text-amber-500 dark:text-amber-400' : ''
+                      isOpen ? 'rotate-180 text-purple-600 dark:text-pink-400' : ''
                     }`}
                   />
                 </button>
@@ -120,7 +129,7 @@ export function BerkilauFAQ() {
                       animate={{ opacity: 1, height: 'auto' }}
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.2 }}
-                      className="px-5 pb-6 sm:px-6 sm:pb-6 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-200/40 dark:border-slate-800/40 pt-4"
+                      className="px-5 pb-6 sm:px-6 sm:pb-6 text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-200/40 dark:border-slate-700/40 pt-4"
                     >
                       {item.a}
                     </motion.div>

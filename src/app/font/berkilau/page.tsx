@@ -2,24 +2,26 @@ import type { Metadata } from 'next';
 import BerkilauClientPage from './BerkilauClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Berkilau Generator - Converter Tulisan Sparkly & Bintang 2026',
+  title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang 2026',
   description:
-    'Generator tulisan Berkilau (Sparkly / Decorative / Star Text) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font berkilau bintang & glitter untuk IG Bio, TikTok, WA & Game Nickname 100% gratis.',
+    'Generator Font Berkilau & Tulisan Sparkly Unicode gratis terbaik di Indonesia. Hiasi teks biasa dengan bintang ✨, glitter, & ornamen aesthetic untuk Bio Instagram, TikTok, WA, Discord & Nickname Game.',
   keywords: [
-    'font berkilau generator',
-    'tulisan sparkly unicode',
-    'star text generator',
-    'font bintang bio instagram',
-    'decorative font tiktok',
-    'glitter text generator',
-    'fancy font nickname',
+    'font berkilau',
+    'sparkly font',
+    'sparkling text',
+    'glitter text',
+    'tulisan berkilau',
+    'tulisan glitter',
+    'star text',
+    'decorative sparkle text',
+    'aesthetic sparkle text',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisanaesthetic.id/font/berkilau',
   },
   openGraph: {
-    title: 'Font Berkilau Generator - Converter Tulisan Sparkly & Bintang Unicode',
+    title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang',
     description:
       'Konversi teks biasa menjadi font Berkilau (Sparkly / Star / Decorative) estetik secara instan tanpa aplikasi.',
     url: 'https://tulisanaesthetic.id/font/berkilau',
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Berkilau Generator - Converter Tulisan Sparkly & Bintang',
+    title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter',
     description: 'Generator font Berkilau Bintang Unicode terlengkap di Indonesia.',
   },
   robots: 'index, follow',
@@ -55,7 +57,7 @@ export default function BerkilauPage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Font Berkilau Generator',
+        name: 'Font Berkilau / Sparkly Generator',
         item: 'https://tulisanaesthetic.id/font/berkilau',
       },
     ],
