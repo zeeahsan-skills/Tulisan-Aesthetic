@@ -13,6 +13,7 @@ import { HurufKerenGaming } from '@/components/huruf-keren/HurufKerenGaming';
 import { HurufKerenRelated } from '@/components/huruf-keren/HurufKerenRelated';
 import { HurufKerenFAQ } from '@/components/huruf-keren/HurufKerenFAQ';
 import { HurufKerenCTA } from '@/components/huruf-keren/HurufKerenCTA';
+import { HurufKerenArticleSection } from '@/components/huruf-keren/HurufKerenArticleSection';
 
 export default function HurufKerenClientPage() {
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -39,6 +40,9 @@ export default function HurufKerenClientPage() {
 
         {/* Section: Contoh Huruf Keren (Category Highlights) */}
         <HurufKerenExamples onCopy={showToast} />
+
+        {/* Section: Complete Article & Guide for Huruf Keren Online */}
+        <HurufKerenArticleSection onCopy={showToast} />
 
         {/* Section: Apa Itu Huruf Keren? & Unicode Explanation */}
         <HurufKerenAbout />
