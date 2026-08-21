@@ -99,8 +99,10 @@ export function FontGenerator({
     }));
   }, [inputText, targetStyles]);
 
-  // Filter styles based on category, search query & favorites
+  // Filter styles based on category, search query & favorites with automated output deduplication
   const filteredStyles = useMemo(() => {
+    const seenResults = new Set<string>();
+
     return fontCards.filter((style) => {
       // Search query filter
       if (searchQuery.trim()) {
@@ -113,11 +115,19 @@ export function FontGenerator({
 
       // Category filter
       if (activeCategory === 'Favorites') {
-        return favorites.includes(style.id);
+        if (!favorites.includes(style.id)) return false;
+      } else if (activeCategory !== 'All') {
+        if (style.category !== activeCategory) return false;
       }
-      if (activeCategory !== 'All') {
-        return style.category === activeCategory;
+
+      // Deduplication: prevent duplicate output cards for identical transformed strings
+      if (style.result && seenResults.has(style.result)) {
+        return false;
       }
+      if (style.result) {
+        seenResults.add(style.result);
+      }
+
       return true;
     });
   }, [fontCards, activeCategory, searchQuery, favorites]);
