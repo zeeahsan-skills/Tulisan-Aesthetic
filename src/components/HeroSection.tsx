@@ -12,7 +12,7 @@ export function HeroSection({ onCopy }: HeroSectionProps) {
     <div id="hero">
       <FontGenerator
         isH1={true}
-        title="Tulisan Aesthetic: Unicode Font Generator"
+        title="Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic"
         subtitle="Ubah teks biasa menjadi 50 variasi gaya font Unicode aesthetic, tebal, miring, gothic, bubble, dan simbol gaming 100% gratis secara instan."
         onCopy={onCopy}
       />

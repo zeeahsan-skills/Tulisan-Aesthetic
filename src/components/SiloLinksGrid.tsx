@@ -31,7 +31,7 @@ export function SiloLinksGrid() {
   ];
 
   return (
-    <section id="silo-navigation" className="py-20 bg-white dark:bg-slate-900 relative">
+    <section id="silo-navigation" className="py-12 sm:py-16 bg-white dark:bg-slate-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

@@ -102,7 +102,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
   };
 
   return (
-    <section id="popular-fonts" className="py-20 bg-slate-50/50 dark:bg-slate-950/50 relative">
+    <section id="popular-fonts" className="py-12 sm:py-16 bg-slate-50/50 dark:bg-slate-950/50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -119,7 +119,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
         </div>
 
         {/* Popular Cards Grid */}
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-10 sm:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {popularCards.map((card, index) => {
             const Icon = card.icon;
 
@@ -141,6 +141,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
                     <a
                       href={card.href}
                       className="p-2 rounded-xl text-slate-400 hover:text-purple-600 dark:hover:text-pink-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
+                      title={`Buka Halaman ${card.title}`}
                     >
                       <ArrowUpRight className="w-5 h-5" />
                     </a>
@@ -167,7 +168,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
                     className="w-full py-2.5 px-4 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-slate-800 dark:text-slate-200 text-xs font-bold transition-all duration-200 flex items-center justify-center gap-2 group-hover:bg-purple-600 group-hover:text-white"
                   >
                     <Copy className="w-4 h-4" />
-                    {t.popular.tryBtn}
+                    <span>Salin Style</span>
                   </button>
                 </div>
               </motion.div>

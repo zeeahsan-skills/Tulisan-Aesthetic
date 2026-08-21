@@ -18,9 +18,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Tulisan Aesthetic Generator - Convert Teks Keren Font Unicode 2026',
+  title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
   description:
-    'Generator tulisan aesthetic terbaik di Indonesia. Ubah teks biasa menjadi font Unicode keren untuk Bio Instagram, TikTok, Info WhatsApp & Gaming Nickname (Free Fire, MLBB, PUBG) secara instan & 100% gratis.',
+    'Generator tulisan aesthetic & font keren Unicode di Indonesia. Ubah teks biasa menjadi gaya font aesthetic instan untuk Bio Instagram, TikTok, WhatsApp & Gaming Nickname.',
   keywords: [
     'tulisan aesthetic',
     'font aesthetic generator',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisanaesthetic.id',
   },
   openGraph: {
-    title: 'Tulisan Aesthetic Generator - AI Unicode Stylish Text',
+    title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
     description:
       'Konversi teks biasa menjadi font Unicode aesthetic keren untuk Instagram, TikTok, WhatsApp & Game Nickname secara instan.',
     url: 'https://tulisanaesthetic.id',
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tulisan Aesthetic Generator - Teks Keren Bio & Game',
-    description: 'Generator font aesthetic Unicode terlengkap di Indonesia.',
+    title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
+    description: 'Generator font aesthetic Unicode praktis untuk Bio, Caption & Game Nickname.',
   },
   robots: 'index, follow',
 };

@@ -12,7 +12,7 @@ export function FAQSection() {
   const faqData = [
     {
       q: 'Apa itu Tulisan Aesthetic Generator?',
-      a: 'Tulisan Aesthetic Generator adalah alat pembuat font online berbasis AI yang mengubah teks biasa menjadi karakter font Unicode estetik (seperti Small Caps, Gothic, Bubble, Cursive) secara otomatis untuk Bio Instagram, TikTok, WhatsApp, dan Nickname Game.',
+      a: 'Tulisan Aesthetic Generator adalah alat konversi teks online gratis yang mengubah teks biasa menjadi karakter font Unicode estetik (seperti Small Caps, Gothic, Bubble, Cursive) secara otomatis untuk Bio Instagram, TikTok, WhatsApp, dan Nickname Game.',
     },
     {
       q: 'Bagaimana cara menyalin font aesthetic ke Bio Instagram atau TikTok?',
@@ -32,7 +32,7 @@ export function FAQSection() {
     },
     {
       q: 'Berapa banyak gaya font dan simbol yang tersedia?',
-      a: 'Kami menyediakan lebih dari 120+ variasi gaya font Unicode (Small Caps, Gothic, Bubble, Bold, Glitch Zalgo, Monospace) serta ribuan simbol estetik, kaomoji, dan emoticon teks.',
+      a: 'Kami menyediakan 50 variasi gaya font Unicode (Small Caps, Gothic, Bubble, Bold, Glitch Zalgo, Monospace) serta ribuan simbol estetik, kaomoji, dan emoticon teks.',
     },
     {
       q: 'Bagaimana cara membuat nickname dengan simbol mahkota & sayap (꧁༺ ༻꧂)?',
@@ -59,7 +59,7 @@ export function FAQSection() {
   };
 
   return (
-    <section id="faq" className="py-20 bg-white dark:bg-slate-900 relative">
+    <section id="faq" className="py-12 sm:py-16 bg-white dark:bg-slate-900 relative">
       
       {/* FAQ Schema Script */}
       <script

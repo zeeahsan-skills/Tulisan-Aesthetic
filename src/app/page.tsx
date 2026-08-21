@@ -42,11 +42,6 @@ export default function Home() {
       price: '0',
       priceCurrency: 'IDR',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      ratingCount: '12480',
-    },
     description:
       'Generator tulisan aesthetic gratis di Indonesia. Mengubah teks biasa menjadi 50+ gaya font Unicode estetik (Small Caps, Bubble, Bold, Gothic, Glitch) untuk Bio Instagram, TikTok, WhatsApp & Nickname Game.',
   };
@@ -70,17 +65,17 @@ export default function Home() {
         {/* Section 2: Hero Section & Interactive Text Converter (50 Styles) */}
         <HeroSection onCopy={showToast} />
 
-        {/* Section 3: Popular Font Styles Showcase */}
+        {/* Section 3: Comprehensive Indonesian Guide & People-First Resource */}
+        <SeoGuideSection onCopy={showToast} />
+
+        {/* Section 4: Popular Font Styles Showcase */}
         <PopularFonts onCopy={showToast} />
 
-        {/* Section 4: Social Media Platform Live Preview */}
+        {/* Section 5: Social Media Platform Live Preview */}
         <PlatformSection />
 
-        {/* Section 5: Gaming Nickname Section & Preset Generator */}
+        {/* Section 6: Gaming Nickname Section & Preset Generator */}
         <GamingNicknames onCopy={showToast} />
-
-        {/* Section 5.5: SEO Guide & Comprehensive Indonesian Copy Section */}
-        <SeoGuideSection onCopy={showToast} />
 
         {/* Section 6: Educational Section on Unicode Standard */}
         <UnicodeExplanation />

@@ -36,7 +36,7 @@ export function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 bg-slate-50/50 dark:bg-slate-950/50 relative overflow-hidden">
+    <section className="py-12 sm:py-16 bg-slate-50/50 dark:bg-slate-950/50 relative overflow-hidden">
       
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[350px] bg-gradient-to-r from-purple-500/10 via-pink-500/10 to-indigo-500/10 rounded-full blur-3xl -z-10 pointer-events-none" />

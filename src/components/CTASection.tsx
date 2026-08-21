@@ -8,7 +8,7 @@ export function CTASection() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-slate-50/50 dark:bg-slate-950/50 relative overflow-hidden">
+    <section className="py-12 sm:py-16 bg-slate-50/50 dark:bg-slate-950/50 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="relative rounded-3xl p-8 sm:p-16 bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 text-white text-center shadow-2xl shadow-purple-500/30 overflow-hidden">
@@ -20,7 +20,7 @@ export function CTASection() {
           <div className="relative z-10 max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-xs font-bold uppercase tracking-wider text-white">
               <Sparkles className="w-4 h-4 text-pink-200" />
-              Generator Teks #1 Indonesia
+              Generator Tulisan Keren & Font Aesthetic
             </span>
 
             <h2 className="mt-6 text-3xl sm:text-5xl font-extrabold font-poppins leading-tight">

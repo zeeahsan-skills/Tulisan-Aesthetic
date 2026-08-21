@@ -36,7 +36,7 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
   };
 
   return (
-    <section id="symbols" className="py-20 bg-white dark:bg-slate-900 relative">
+    <section id="symbols" className="py-12 sm:py-16 bg-white dark:bg-slate-900 relative">
       
       <SymbolModal
         isOpen={isModalOpen}

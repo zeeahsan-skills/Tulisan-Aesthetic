@@ -31,7 +31,7 @@ export function StatsSection() {
   ];
 
   return (
-    <section className="py-16 bg-white dark:bg-slate-900 relative">
+    <section className="py-10 sm:py-14 bg-white dark:bg-slate-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="relative rounded-3xl p-8 sm:p-12 bg-gradient-to-r from-purple-900/90 via-slate-900/90 to-pink-900/90 backdrop-blur-2xl border border-purple-500/30 shadow-2xl shadow-purple-500/20 overflow-hidden">

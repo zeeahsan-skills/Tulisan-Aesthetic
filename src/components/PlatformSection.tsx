@@ -98,12 +98,12 @@ export function PlatformSection() {
       badge: 'Display Name & Bio',
       desc: t.platforms.twDesc,
       tips: ['Display name unik tanpa terbentur sensor', 'Tweet aesthetic terlihat rapi di feed followers'],
-      href: '/#hero',
+      href: '/platform/twitter-x',
     },
   ];
 
   return (
-    <section id="platforms" className="py-20 bg-white dark:bg-slate-900 relative">
+    <section id="platforms" className="py-12 sm:py-16 bg-white dark:bg-slate-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
