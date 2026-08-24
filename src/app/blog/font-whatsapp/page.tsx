@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Editorial Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/blog/font-whatsapp',
+    canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
   },
   openGraph: {
     title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
-    url: 'https://tulisanaesthetic.id/blog/font-whatsapp',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
@@ -48,19 +48,19 @@ export default function WhatsAppArticlePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog Hub',
-        item: 'https://tulisanaesthetic.id/blog',
+        item: 'https://tulisan-aesthetic.vercel.app/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font WhatsApp Guide',
-        item: 'https://tulisanaesthetic.id/blog/font-whatsapp',
+        item: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
       },
     ],
   };
@@ -71,25 +71,25 @@ export default function WhatsAppArticlePage() {
     headline: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
-    url: 'https://tulisanaesthetic.id/blog/font-whatsapp',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
     datePublished: '2026-07-31T00:00:00.000Z',
     dateModified: '2026-07-31T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',
-      url: 'https://tulisanaesthetic.id',
+      url: 'https://tulisan-aesthetic.vercel.app',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://tulisanaesthetic.id/favicon.ico',
+        url: 'https://tulisan-aesthetic.vercel.app/favicon.ico',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://tulisanaesthetic.id/blog/font-whatsapp',
+      '@id': 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
     },
   };
 

@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Editorial Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/blog/apa-itu-unicode',
+    canonical: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
   },
   openGraph: {
     title: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
     description:
       'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
-    url: 'https://tulisanaesthetic.id/blog/apa-itu-unicode',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
@@ -47,19 +47,19 @@ export default function UnicodeArticlePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog Hub',
-        item: 'https://tulisanaesthetic.id/blog',
+        item: 'https://tulisan-aesthetic.vercel.app/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Apa Itu Unicode?',
-        item: 'https://tulisanaesthetic.id/blog/apa-itu-unicode',
+        item: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
       },
     ],
   };
@@ -70,25 +70,25 @@ export default function UnicodeArticlePage() {
     headline: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
     description:
       'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
-    url: 'https://tulisanaesthetic.id/blog/apa-itu-unicode',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
     datePublished: '2026-07-30T00:00:00.000Z',
     dateModified: '2026-07-30T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',
-      url: 'https://tulisanaesthetic.id',
+      url: 'https://tulisan-aesthetic.vercel.app',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://tulisanaesthetic.id/favicon.ico',
+        url: 'https://tulisan-aesthetic.vercel.app/favicon.ico',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://tulisanaesthetic.id/blog/apa-itu-unicode',
+      '@id': 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
     },
   };
 

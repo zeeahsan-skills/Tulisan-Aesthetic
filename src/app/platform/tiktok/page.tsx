@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/tiktok',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
   },
   openGraph: {
     title: 'TikTok Font Generator - Tulisan Aesthetic Bio, Nama & Caption',
     description:
       'Generate stylish TikTok fonts instantly for usernames, bios, captions, comments, and profile names using Unicode text.',
-    url: 'https://tulisanaesthetic.id/platform/tiktok',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function TikTokPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/#platforms',
+        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'TikTok Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/tiktok',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
       },
     ],
   };

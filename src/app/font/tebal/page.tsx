@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/tebal',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/tebal',
   },
   openGraph: {
     title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
     description:
       'Konversi teks biasa menjadi huruf tebal (Bold Sans, Serif, Script, Gothic) secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/tebal',
+    url: 'https://tulisan-aesthetic.vercel.app/font/tebal',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function FontTebalPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Tebal Generator',
-        item: 'https://tulisanaesthetic.id/font/tebal',
+        item: 'https://tulisan-aesthetic.vercel.app/font/tebal',
       },
     ],
   };

@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/panah',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/panah',
   },
   openGraph: {
     title: 'Arrow Symbols (Simbol Panah) Aesthetic ➜ ➤ ➔ ↔️ - Copy Paste 200+',
     description:
       'Browse and copy stylish Unicode arrow symbols instantly for social media, gaming, presentations, websites, and creative text.',
-    url: 'https://tulisanaesthetic.id/simbol/panah',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/panah',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function ArrowSymbolsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Arrow Symbols (Simbol Panah)',
-        item: 'https://tulisanaesthetic.id/simbol/panah',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/panah',
       },
     ],
   };

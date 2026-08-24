@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/roblox',
+    canonical: 'https://tulisan-aesthetic.vercel.app/roblox',
   },
   openGraph: {
     title: 'Roblox Username Generator - Nama Roblox Aesthetic 2026',
     description: 'Buat username Roblox estetik dan imut dengan simbol unik.',
-    url: 'https://tulisanaesthetic.id/roblox',
+    url: 'https://tulisan-aesthetic.vercel.app/roblox',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -40,19 +40,19 @@ export default function RobloxPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Roblox Username Generator',
-        item: 'https://tulisanaesthetic.id/roblox',
+        item: 'https://tulisan-aesthetic.vercel.app/roblox',
       },
     ],
   };

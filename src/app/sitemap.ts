@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://tulisanaesthetic.id';
+  const baseUrl = 'https://tulisan-aesthetic.vercel.app';
 
   const fontRoutes = [
     'huruf-keren',

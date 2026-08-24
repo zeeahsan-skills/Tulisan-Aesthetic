@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/miring-kursif',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/miring-kursif',
   },
   openGraph: {
     title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung & Italic',
     description:
       'Konversi teks biasa menjadi tulisan sambung (Cursive Script) & font miring (Italic) secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/miring-kursif',
+    url: 'https://tulisan-aesthetic.vercel.app/font/miring-kursif',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -47,19 +47,19 @@ export default function FontMiringKursifPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Miring & Kursif Generator',
-        item: 'https://tulisanaesthetic.id/font/miring-kursif',
+        item: 'https://tulisan-aesthetic.vercel.app/font/miring-kursif',
       },
     ],
   };

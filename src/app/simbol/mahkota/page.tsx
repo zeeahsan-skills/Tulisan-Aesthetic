@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/mahkota',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/mahkota',
   },
   openGraph: {
     title: 'Crown Symbols (Simbol Mahkota) Aesthetic ♛ ♔ 👑 - Copy Paste 150+',
     description:
       'Browse and copy stylish Unicode crown symbols instantly for social media, gaming, usernames, and creative text.',
-    url: 'https://tulisanaesthetic.id/simbol/mahkota',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/mahkota',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function CrownSymbolsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Crown Symbols (Simbol Mahkota)',
-        item: 'https://tulisanaesthetic.id/simbol/mahkota',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/mahkota',
       },
     ],
   };

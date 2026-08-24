@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'Penafian resmi situs Tulisan Aesthetic. Klarifikasi independensi platform dari Meta, ByteDance, WhatsApp, dan pengembang game.',
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/disclaimer',
+    canonical: 'https://tulisan-aesthetic.vercel.app/disclaimer',
   },
 };
 

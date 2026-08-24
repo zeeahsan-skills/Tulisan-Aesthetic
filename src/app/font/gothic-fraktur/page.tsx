@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/gothic-fraktur',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/gothic-fraktur',
   },
   openGraph: {
     title: 'Font Gothic / Fraktur Generator - Tulisan Aesthetic Unicode',
     description:
       'Konversi teks biasa menjadi font Gothic, Fraktur, dan Old English estetik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/gothic-fraktur',
+    url: 'https://tulisan-aesthetic.vercel.app/font/gothic-fraktur',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function GothicPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Gothic / Fraktur',
-        item: 'https://tulisanaesthetic.id/font/gothic-fraktur',
+        item: 'https://tulisan-aesthetic.vercel.app/font/gothic-fraktur',
       },
     ],
   };

@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/whatsapp',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
   },
   openGraph: {
     title: 'WhatsApp Font Generator - Tulisan Aesthetic Nama, Info & Status',
     description:
       'Generate stylish WhatsApp fonts instantly for profile names, status updates, chats, and group names using Unicode text.',
-    url: 'https://tulisanaesthetic.id/platform/whatsapp',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function WhatsAppPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/#platforms',
+        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'WhatsApp Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/whatsapp',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
       },
     ],
   };

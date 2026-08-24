@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/discord',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/discord',
   },
   openGraph: {
     title: 'Discord Font Generator - Convert Teks Server, Role & Profil Aesthetic 2026',
     description:
       'Konversi teks biasa menjadi font Discord estetik Unicode secara instan tanpa perlu instalasi bot.',
-    url: 'https://tulisanaesthetic.id/platform/discord',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/discord',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function DiscordPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/#platforms',
+        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Discord Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/discord',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/discord',
       },
     ],
   };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'Syarat dan ketentuan penggunaan platform Tulisan Aesthetic. Ketahui ketentuan penggunaan font Unicode gratis untuk sosial media dan game.',
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/terms',
+    canonical: 'https://tulisan-aesthetic.vercel.app/terms',
   },
 };
 

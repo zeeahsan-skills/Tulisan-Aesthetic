@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/free-fire',
+    canonical: 'https://tulisan-aesthetic.vercel.app/free-fire',
   },
   openGraph: {
     title: 'Free Fire Stylish Name Generator - Nama FF Keren Aesthetic 2026',
     description:
       'Konversi teks biasa menjadi nickname Free Fire keren bergaya pro player esports secara instan.',
-    url: 'https://tulisanaesthetic.id/free-fire',
+    url: 'https://tulisan-aesthetic.vercel.app/free-fire',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function FreeFirePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Free Fire Name Generator',
-        item: 'https://tulisanaesthetic.id/free-fire',
+        item: 'https://tulisan-aesthetic.vercel.app/free-fire',
       },
     ],
   };

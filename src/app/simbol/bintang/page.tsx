@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/bintang',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/bintang',
   },
   openGraph: {
     title: 'Star Symbols (Simbol Bintang) Aesthetic ★ ✦ ✨ - Copy Paste 150+',
     description:
       'Copy beautiful Unicode star symbols instantly for social media, gaming, and creative designs.',
-    url: 'https://tulisanaesthetic.id/simbol/bintang',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/bintang',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function StarSymbolsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Star Symbols (Simbol Bintang)',
-        item: 'https://tulisanaesthetic.id/simbol/bintang',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/bintang',
       },
     ],
   };

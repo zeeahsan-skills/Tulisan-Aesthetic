@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/terhubung',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/terhubung',
   },
   openGraph: {
     title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive Unicode',
     description:
       'Konversi teks biasa menjadi font Terhubung Sambung (Connected Script / Handwriting) estetik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/terhubung',
+    url: 'https://tulisan-aesthetic.vercel.app/font/terhubung',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function TerhubungPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Terhubung Generator',
-        item: 'https://tulisanaesthetic.id/font/terhubung',
+        item: 'https://tulisan-aesthetic.vercel.app/font/terhubung',
       },
     ],
   };

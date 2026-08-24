@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/glitch',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/glitch',
   },
   openGraph: {
     title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted Unicode',
     description:
       'Konversi teks biasa menjadi font Glitch & Zalgo Text terdistorsi bergaya Cyberpunk & Horror secara instan.',
-    url: 'https://tulisanaesthetic.id/font/glitch',
+    url: 'https://tulisan-aesthetic.vercel.app/font/glitch',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function GlitchPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Glitch & Zalgo Generator',
-        item: 'https://tulisanaesthetic.id/font/glitch',
+        item: 'https://tulisan-aesthetic.vercel.app/font/glitch',
       },
     ],
   };

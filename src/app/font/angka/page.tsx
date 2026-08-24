@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/angka',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/angka',
   },
   openGraph: {
     title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic',
     description:
       'Konversi digit angka biasa menjadi nomor lingkaran & angka tebal estetik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/angka',
+    url: 'https://tulisan-aesthetic.vercel.app/font/angka',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function AngkaPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Generator Angka Keren',
-        item: 'https://tulisanaesthetic.id/font/angka',
+        item: 'https://tulisan-aesthetic.vercel.app/font/angka',
       },
     ],
   };

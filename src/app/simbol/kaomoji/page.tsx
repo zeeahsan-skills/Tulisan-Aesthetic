@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/kaomoji',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/kaomoji',
   },
   openGraph: {
     title: 'Kaomoji Collection (◕‿◕) ¯\\_(ツ)_/¯ - Copy Paste 500+ Japanese Text Faces',
     description:
       'Browse and copy hundreds of Japanese Kaomoji instantly for Instagram, TikTok, WhatsApp, Discord, Facebook, gaming, blogs, and messages.',
-    url: 'https://tulisanaesthetic.id/simbol/kaomoji',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/kaomoji',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function KaomojiCollectionPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Kaomoji Collection',
-        item: 'https://tulisanaesthetic.id/simbol/kaomoji',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/kaomoji',
       },
     ],
   };

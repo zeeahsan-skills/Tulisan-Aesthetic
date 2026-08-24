@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/bunga',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/bunga',
   },
   openGraph: {
     title: 'Flower Symbols (Simbol Bunga) Aesthetic ✿ ❀ 🌸 🌹 - Copy Paste 150+',
     description:
       'Browse and copy beautiful Unicode flower symbols instantly for social media, creative text, and decorative designs.',
-    url: 'https://tulisanaesthetic.id/simbol/bunga',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/bunga',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function FlowerSymbolsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Flower Symbols (Simbol Bunga)',
-        item: 'https://tulisanaesthetic.id/simbol/bunga',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/bunga',
       },
     ],
   };

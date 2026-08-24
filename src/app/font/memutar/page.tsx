@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/memutar',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/memutar',
   },
   openGraph: {
     title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down Unicode',
     description:
       'Konversi teks biasa menjadi font Terbalik Memutar (Upside Down / Flipped Text) estetik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/memutar',
+    url: 'https://tulisan-aesthetic.vercel.app/font/memutar',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function MemutarPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Memutar Generator',
-        item: 'https://tulisanaesthetic.id/font/memutar',
+        item: 'https://tulisan-aesthetic.vercel.app/font/memutar',
       },
     ],
   };

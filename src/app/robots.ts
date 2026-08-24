@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://tulisanaesthetic.id/sitemap.xml',
+    sitemap: 'https://tulisan-aesthetic.vercel.app/sitemap.xml',
   };
 }

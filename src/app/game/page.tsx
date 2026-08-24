@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game',
   },
   openGraph: {
     title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB & Roblox',
     description:
       'Generator nama akun game pro player esports terlengkap dengan simbol payung, mahkota, sayap, dan font Unicode gratis.',
-    url: 'https://tulisanaesthetic.id/game',
+    url: 'https://tulisan-aesthetic.vercel.app/game',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -48,13 +48,13 @@ export default function GamePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Gaming Nickname Generator',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
     ],
   };
@@ -77,32 +77,32 @@ export default function GamePage() {
     '@type': 'CollectionPage',
     name: 'Esports Gaming Nickname Generators Hub',
     description: 'Central hub for Free Fire, PUBG Mobile, Mobile Legends, Roblox, and COD Mobile nickname generators.',
-    url: 'https://tulisanaesthetic.id/game',
+    url: 'https://tulisan-aesthetic.vercel.app/game',
     mainEntity: [
       {
         '@type': 'ItemPage',
         name: 'Free Fire Name Generator',
-        url: 'https://tulisanaesthetic.id/free-fire',
+        url: 'https://tulisan-aesthetic.vercel.app/free-fire',
       },
       {
         '@type': 'ItemPage',
         name: 'PUBG Mobile Name Generator',
-        url: 'https://tulisanaesthetic.id/pubg-mobile',
+        url: 'https://tulisan-aesthetic.vercel.app/pubg-mobile',
       },
       {
         '@type': 'ItemPage',
         name: 'Mobile Legends Name Generator',
-        url: 'https://tulisanaesthetic.id/mobile-legends',
+        url: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
       },
       {
         '@type': 'ItemPage',
         name: 'Roblox Username Generator',
-        url: 'https://tulisanaesthetic.id/roblox',
+        url: 'https://tulisan-aesthetic.vercel.app/roblox',
       },
       {
         '@type': 'ItemPage',
         name: 'COD Mobile Name Generator',
-        url: 'https://tulisanaesthetic.id/cod-mobile',
+        url: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
       },
     ],
   };

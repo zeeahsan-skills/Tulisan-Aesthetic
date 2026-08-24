@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'Kebijakan privasi platform Tulisan Aesthetic. Kami berkomitmen melindungi kerahasiaan dan keamanan pengguna saat menggunakan generator font Unicode.',
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/privacy',
+    canonical: 'https://tulisan-aesthetic.vercel.app/privacy',
   },
 };
 
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
               1. Pengantar
             </h2>
             <p>
-              Selamat datang di <strong>Tulisan Aesthetic</strong> (tulisanaesthetic.id). Kami menghargai privasi Anda dan berkomitmen penuh untuk melindungi data pribadi pengguna. Kebijakan Privasi ini menjelaskan bagaimana kami mengelola informasi saat Anda menggunakan generator font Unicode gratis kami.
+              Selamat datang di <strong>Tulisan Aesthetic</strong> (tulisan-aesthetic.vercel.app). Kami menghargai privasi Anda dan berkomitmen penuh untuk melindungi data pribadi pengguna. Kebijakan Privasi ini menjelaskan bagaimana kami mengelola informasi saat Anda menggunakan generator font Unicode gratis kami.
             </p>
 
             <h2 className="text-xl font-bold text-slate-900 dark:text-white font-poppins pt-4">

@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/instagram',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
   },
   openGraph: {
     title: 'Instagram Font Generator - Tulisan Aesthetic Bio & Caption',
     description:
       'Generate stylish Instagram fonts instantly for bios, usernames, captions, comments, and Stories using Unicode text.',
-    url: 'https://tulisanaesthetic.id/platform/instagram',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function InstagramPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/#platforms',
+        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Instagram Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/instagram',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
       },
     ],
   };

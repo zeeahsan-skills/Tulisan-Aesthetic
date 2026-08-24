@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/cod-mobile',
+    canonical: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
   },
   openGraph: {
     title: 'COD Mobile Name Generator - Generator Nickname CODM Keren',
     description: 'Buat nickname CODM keren bergaya militer & pro player.',
-    url: 'https://tulisanaesthetic.id/cod-mobile',
+    url: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -40,19 +40,19 @@ export default function CodMobilePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'COD Mobile Name Generator',
-        item: 'https://tulisanaesthetic.id/cod-mobile',
+        item: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
       },
     ],
   };

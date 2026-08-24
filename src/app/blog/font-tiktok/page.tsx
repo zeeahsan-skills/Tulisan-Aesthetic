@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Editorial Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/blog/font-tiktok',
+    canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
   },
   openGraph: {
     title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
-    url: 'https://tulisanaesthetic.id/blog/font-tiktok',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
@@ -47,19 +47,19 @@ export default function TikTokArticlePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog Hub',
-        item: 'https://tulisanaesthetic.id/blog',
+        item: 'https://tulisan-aesthetic.vercel.app/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font TikTok Guide',
-        item: 'https://tulisanaesthetic.id/blog/font-tiktok',
+        item: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
       },
     ],
   };
@@ -70,25 +70,25 @@ export default function TikTokArticlePage() {
     headline: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
-    url: 'https://tulisanaesthetic.id/blog/font-tiktok',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
     datePublished: '2026-07-31T00:00:00.000Z',
     dateModified: '2026-07-31T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',
-      url: 'https://tulisanaesthetic.id',
+      url: 'https://tulisan-aesthetic.vercel.app',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://tulisanaesthetic.id/favicon.ico',
+        url: 'https://tulisan-aesthetic.vercel.app/favicon.ico',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://tulisanaesthetic.id/blog/font-tiktok',
+      '@id': 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
     },
   };
 

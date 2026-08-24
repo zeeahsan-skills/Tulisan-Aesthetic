@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'Hubungi tim pengembang Tulisan Aesthetic untuk kritik, saran, pertanyaan, atau permohonan fitur gaya font Unicode terbaru.',
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/contact',
+    canonical: 'https://tulisan-aesthetic.vercel.app/contact',
   },
 };
 
@@ -55,7 +55,7 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5 text-purple-600 dark:text-pink-400 shrink-0" />
                   <div>
                     <p className="text-xs font-semibold text-slate-400">Email Resmi</p>
-                    <p className="text-sm font-medium text-slate-800 dark:text-slate-200">support@tulisanaesthetic.id</p>
+                    <p className="text-sm font-medium text-slate-800 dark:text-slate-200">support@tulisan-aesthetic.vercel.app</p>
                   </div>
                 </div>
 

@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/facebook',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
   },
   openGraph: {
     title: 'Facebook Font Generator - Convert Teks Nama, Status & Bio FB Aesthetic 2026',
     description:
       'Konversi teks biasa menjadi font Facebook estetik Unicode secara instan tanpa perlu aplikasi tambahan.',
-    url: 'https://tulisanaesthetic.id/platform/facebook',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function FacebookPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/#platforms',
+        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Facebook Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/facebook',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
       },
     ],
   };

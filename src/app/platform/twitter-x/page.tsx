@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform/twitter-x',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
   },
   openGraph: {
     title: 'Twitter X Font Generator - Teks Bio & Tweet Aesthetic',
     description:
       'Konversi teks biasa menjadi font Unicode estetik untuk Bio Twitter / X, Tweet, dan Display Name 100% gratis.',
-    url: 'https://tulisanaesthetic.id/platform/twitter-x',
+    url: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -43,19 +43,19 @@ export default function TwitterXPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platforms',
-        item: 'https://tulisanaesthetic.id/platform',
+        item: 'https://tulisan-aesthetic.vercel.app/platform',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Twitter X Font Generator',
-        item: 'https://tulisanaesthetic.id/platform/twitter-x',
+        item: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
       },
     ],
   };

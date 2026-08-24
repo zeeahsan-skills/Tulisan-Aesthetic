@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol/emoji',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
   },
   openGraph: {
     title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji 2026',
     description:
       'Browse, search, and copy thousands of emoji instantly for Instagram, TikTok, WhatsApp, Facebook, Discord, gaming, blogs, and creative content.',
-    url: 'https://tulisanaesthetic.id/simbol/emoji',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function EmojiCollectionPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Emoji Collection',
-        item: 'https://tulisanaesthetic.id/simbol/emoji',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
       },
     ],
   };

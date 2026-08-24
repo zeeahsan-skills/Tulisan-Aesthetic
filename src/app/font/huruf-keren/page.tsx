@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/huruf-keren',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
   },
   openGraph: {
     title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic',
     description:
       'Konversi teks biasa menjadi karakter Unicode stylish & huruf keren aesthetic secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/huruf-keren',
+    url: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function HurufKerenPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Huruf Keren Generator',
-        item: 'https://tulisanaesthetic.id/font/huruf-keren',
+        item: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
       },
     ],
   };

@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/platform',
+    canonical: 'https://tulisan-aesthetic.vercel.app/platform',
   },
   openGraph: {
     title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord',
     description:
       'Pusat converter font aesthetic terlengkap untuk Instagram, TikTok, WhatsApp, Facebook, dan Discord secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/platform',
+    url: 'https://tulisan-aesthetic.vercel.app/platform',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,13 +46,13 @@ export default function PlatformPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Platform Font Generators',
-        item: 'https://tulisanaesthetic.id/platform',
+        item: 'https://tulisan-aesthetic.vercel.app/platform',
       },
     ],
   };
@@ -75,32 +75,32 @@ export default function PlatformPage() {
     '@type': 'CollectionPage',
     name: 'Social Media Platform Font Generators Hub',
     description: 'Central hub for Instagram, TikTok, WhatsApp, Facebook, and Discord font generators.',
-    url: 'https://tulisanaesthetic.id/platform',
+    url: 'https://tulisan-aesthetic.vercel.app/platform',
     mainEntity: [
       {
         '@type': 'ItemPage',
         name: 'Instagram Font Generator',
-        url: 'https://tulisanaesthetic.id/platform/instagram',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
       },
       {
         '@type': 'ItemPage',
         name: 'TikTok Font Generator',
-        url: 'https://tulisanaesthetic.id/platform/tiktok',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
       },
       {
         '@type': 'ItemPage',
         name: 'WhatsApp Font Generator',
-        url: 'https://tulisanaesthetic.id/platform/whatsapp',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
       },
       {
         '@type': 'ItemPage',
         name: 'Facebook Font Generator',
-        url: 'https://tulisanaesthetic.id/platform/facebook',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
       },
       {
         '@type': 'ItemPage',
         name: 'Discord Font Generator',
-        url: 'https://tulisanaesthetic.id/platform/discord',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/discord',
       },
     ],
   };

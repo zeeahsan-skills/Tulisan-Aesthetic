@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/mobile-legends',
+    canonical: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
   },
   openGraph: {
     title: 'Mobile Legends Name Generator - Generator Nickname MLBB Aesthetic',
     description: 'Buat nickname MLBB pro player dengan font dan simbol unik.',
-    url: 'https://tulisanaesthetic.id/mobile-legends',
+    url: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -41,19 +41,19 @@ export default function MobileLegendsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Mobile Legends Name Generator',
-        item: 'https://tulisanaesthetic.id/mobile-legends',
+        item: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
       },
     ],
   };

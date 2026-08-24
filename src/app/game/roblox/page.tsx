@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game/roblox',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game/roblox',
   },
   openGraph: {
     title: 'Roblox Stylish Name Generator - Generator Nama Roblox Keren 2026',
     description:
       'Generate stylish Roblox usernames and display names instantly using Unicode fonts, symbols, and decorative characters.',
-    url: 'https://tulisanaesthetic.id/game/roblox',
+    url: 'https://tulisan-aesthetic.vercel.app/game/roblox',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function RobloxPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/#gaming-nicknames',
+        item: 'https://tulisan-aesthetic.vercel.app/#gaming-nicknames',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Roblox Stylish Name Generator',
-        item: 'https://tulisanaesthetic.id/game/roblox',
+        item: 'https://tulisan-aesthetic.vercel.app/game/roblox',
       },
     ],
   };

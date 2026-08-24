@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/random',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/random',
   },
   openGraph: {
     title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer Unicode',
     description:
       'Acak dan kombinasikan 50+ gaya font Unicode & simbol aesthetic secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/random',
+    url: 'https://tulisan-aesthetic.vercel.app/font/random',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function RandomPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Random & Acak Generator',
-        item: 'https://tulisanaesthetic.id/font/random',
+        item: 'https://tulisan-aesthetic.vercel.app/font/random',
       },
     ],
   };

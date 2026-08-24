@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Generator Nickname Valorant pro player dan Riot ID aesthetic. Ubah nama akun Valorant menjadi 50 gaya font Unicode unik dan simbol gaming.',
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game/valorant',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game/valorant',
   },
   robots: 'index, follow',
 };

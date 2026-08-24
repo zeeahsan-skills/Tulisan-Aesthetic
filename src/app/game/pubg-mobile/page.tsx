@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game/pubg-mobile',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game/pubg-mobile',
   },
   openGraph: {
     title: 'PUBG Mobile Stylish Name Generator - Nama PUBG Keren Aesthetic 2026',
     description:
       'Konversi teks biasa menjadi nickname PUBG Mobile keren bergaya Conqueror & Clan Esports secara instan.',
-    url: 'https://tulisanaesthetic.id/game/pubg-mobile',
+    url: 'https://tulisan-aesthetic.vercel.app/game/pubg-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function PubgPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/#gaming-nicknames',
+        item: 'https://tulisan-aesthetic.vercel.app/#gaming-nicknames',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'PUBG Mobile Stylish Name Generator',
-        item: 'https://tulisanaesthetic.id/game/pubg-mobile',
+        item: 'https://tulisan-aesthetic.vercel.app/game/pubg-mobile',
       },
     ],
   };

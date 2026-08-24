@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Editorial Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/blog',
+    canonical: 'https://tulisan-aesthetic.vercel.app/blog',
   },
   openGraph: {
     title: 'Tulisan Aesthetic Blog - Educational Articles & Font Guides',
     description:
       'Learn everything about stylish fonts, Unicode, symbols, gaming names, and social media text.',
-    url: 'https://tulisanaesthetic.id/blog',
+    url: 'https://tulisan-aesthetic.vercel.app/blog',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,13 +44,13 @@ export default function BlogHubPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog Hub',
-        item: 'https://tulisanaesthetic.id/blog',
+        item: 'https://tulisan-aesthetic.vercel.app/blog',
       },
     ],
   };
@@ -61,7 +61,7 @@ export default function BlogHubPage() {
     name: 'Tulisan Aesthetic Blog',
     description:
       'Learn everything about stylish fonts, Unicode, symbols, gaming names, and social media text.',
-    url: 'https://tulisanaesthetic.id/blog',
+    url: 'https://tulisan-aesthetic.vercel.app/blog',
   };
 
   return (

@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/gelembung',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/gelembung',
   },
   openGraph: {
     title: 'Bubble Font Generator - Tulisan Gelembung Aesthetic Unicode',
     description:
       'Konversi teks biasa menjadi font Bubble gelembung melingkar imut dan cantik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/gelembung',
+    url: 'https://tulisan-aesthetic.vercel.app/font/gelembung',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function BubblePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Bubble Font Generator',
-        item: 'https://tulisanaesthetic.id/font/gelembung',
+        item: 'https://tulisan-aesthetic.vercel.app/font/gelembung',
       },
     ],
   };

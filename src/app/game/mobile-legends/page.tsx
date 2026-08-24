@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game/mobile-legends',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game/mobile-legends',
   },
   openGraph: {
     title: 'Mobile Legends Stylish Name Generator - Generator Nama MLBB Keren 2026',
     description:
       'Generate stylish Mobile Legends names instantly using Unicode fonts, symbols, and decorative characters.',
-    url: 'https://tulisanaesthetic.id/game/mobile-legends',
+    url: 'https://tulisan-aesthetic.vercel.app/game/mobile-legends',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -46,19 +46,19 @@ export default function MobileLegendsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/#gaming-nicknames',
+        item: 'https://tulisan-aesthetic.vercel.app/#gaming-nicknames',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Mobile Legends Stylish Name Generator',
-        item: 'https://tulisanaesthetic.id/game/mobile-legends',
+        item: 'https://tulisan-aesthetic.vercel.app/game/mobile-legends',
       },
     ],
   };

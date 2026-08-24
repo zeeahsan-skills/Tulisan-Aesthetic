@@ -53,7 +53,7 @@ export function AngkaHero({ onCopy }: AngkaHeroProps) {
         })
         .catch(() => {});
     } else {
-      navigator.clipboard.writeText(`${title}: ${text}\nGenerated via https://tulisanaesthetic.id/font/angka`);
+      navigator.clipboard.writeText(`${title}: ${text}\nGenerated via https://tulisan-aesthetic.vercel.app/font/angka`);
       onCopy('Teks & Link berhasil disalin untuk dibagikan!');
     }
   };

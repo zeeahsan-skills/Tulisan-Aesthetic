@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Editorial Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/blog/cara-membuat-nama-keren',
+    canonical: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
   },
   openGraph: {
     title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed 2026',
     description:
       'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
-    url: 'https://tulisanaesthetic.id/blog/cara-membuat-nama-keren',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
@@ -47,19 +47,19 @@ export default function CoolNamesArticlePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog Hub',
-        item: 'https://tulisanaesthetic.id/blog',
+        item: 'https://tulisan-aesthetic.vercel.app/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Cara Membuat Nama Keren',
-        item: 'https://tulisanaesthetic.id/blog/cara-membuat-nama-keren',
+        item: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
       },
     ],
   };
@@ -70,25 +70,25 @@ export default function CoolNamesArticlePage() {
     headline: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed 2026',
     description:
       'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
-    url: 'https://tulisanaesthetic.id/blog/cara-membuat-nama-keren',
+    url: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
     datePublished: '2026-07-30T00:00:00.000Z',
     dateModified: '2026-07-30T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',
-      url: 'https://tulisanaesthetic.id',
+      url: 'https://tulisan-aesthetic.vercel.app',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://tulisanaesthetic.id/favicon.ico',
+        url: 'https://tulisan-aesthetic.vercel.app/favicon.ico',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://tulisanaesthetic.id/blog/cara-membuat-nama-keren',
+      '@id': 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
     },
   };
 

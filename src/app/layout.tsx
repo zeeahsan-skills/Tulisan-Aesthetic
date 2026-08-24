@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id',
+    canonical: 'https://tulisan-aesthetic.vercel.app',
   },
   openGraph: {
     title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
     description:
       'Konversi teks biasa menjadi font Unicode aesthetic keren untuk Instagram, TikTok, WhatsApp & Game Nickname secara instan.',
-    url: 'https://tulisanaesthetic.id',
+    url: 'https://tulisan-aesthetic.vercel.app',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -62,10 +62,10 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Tulisan Aesthetic',
-    url: 'https://tulisanaesthetic.id',
+    url: 'https://tulisan-aesthetic.vercel.app',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://tulisanaesthetic.id/?q={search_term_string}',
+      target: 'https://tulisan-aesthetic.vercel.app/?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -75,8 +75,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Tulisan Aesthetic',
-    url: 'https://tulisanaesthetic.id',
-    logo: 'https://tulisanaesthetic.id/favicon.ico',
+    url: 'https://tulisan-aesthetic.vercel.app',
+    logo: 'https://tulisan-aesthetic.vercel.app/favicon.ico',
     sameAs: [
       'https://facebook.com/tulisanaesthetic',
       'https://instagram.com/tulisanaesthetic',

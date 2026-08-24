@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/game/cod-mobile',
+    canonical: 'https://tulisan-aesthetic.vercel.app/game/cod-mobile',
   },
   openGraph: {
     title: 'COD Mobile Stylish Name Generator - Generator Nama CODM Keren 2026',
     description:
       'Generate stylish Call of Duty: Mobile names, clan tags, and nicknames instantly using Unicode fonts and decorative symbols.',
-    url: 'https://tulisanaesthetic.id/game/cod-mobile',
+    url: 'https://tulisan-aesthetic.vercel.app/game/cod-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function CodMobilePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/#gaming-nicknames',
+        item: 'https://tulisan-aesthetic.vercel.app/#gaming-nicknames',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'COD Mobile Stylish Name Generator',
-        item: 'https://tulisanaesthetic.id/game/cod-mobile',
+        item: 'https://tulisan-aesthetic.vercel.app/game/cod-mobile',
       },
     ],
   };

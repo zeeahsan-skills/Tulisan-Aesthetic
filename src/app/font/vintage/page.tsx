@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/vintage',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/vintage',
   },
   openGraph: {
     title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro Unicode',
     description:
       'Konversi teks biasa menjadi font Vintage, Fraktur Blackletter, dan Retro Klasik estetik secara instan.',
-    url: 'https://tulisanaesthetic.id/font/vintage',
+    url: 'https://tulisan-aesthetic.vercel.app/font/vintage',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -45,19 +45,19 @@ export default function VintagePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Vintage & Klasik Generator',
-        item: 'https://tulisanaesthetic.id/font/vintage',
+        item: 'https://tulisan-aesthetic.vercel.app/font/vintage',
       },
     ],
   };

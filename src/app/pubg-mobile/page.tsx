@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/pubg-mobile',
+    canonical: 'https://tulisan-aesthetic.vercel.app/pubg-mobile',
   },
   openGraph: {
     title: 'PUBG Mobile Name Generator - Generator Nama PUBG Keren',
     description: 'Buat nickname PUBG Mobile keren ala pro player esports.',
-    url: 'https://tulisanaesthetic.id/pubg-mobile',
+    url: 'https://tulisan-aesthetic.vercel.app/pubg-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -41,19 +41,19 @@ export default function PubgMobilePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Game Nicknames',
-        item: 'https://tulisanaesthetic.id/game',
+        item: 'https://tulisan-aesthetic.vercel.app/game',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'PUBG Mobile Name Generator',
-        item: 'https://tulisanaesthetic.id/pubg-mobile',
+        item: 'https://tulisan-aesthetic.vercel.app/pubg-mobile',
       },
     ],
   };

@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/nama-keren',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
   },
   openGraph: {
     title: 'Generator Nama Keren - Converter Stylish Name IG, FF & TikTok',
     description:
       'Buat nama keren & aesthetic untuk Free Fire, MLBB, PUBG, Bio IG, dan TikTok secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/nama-keren',
+    url: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function NamaKerenPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Generator Nama Keren',
-        item: 'https://tulisanaesthetic.id/font/nama-keren',
+        item: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
       },
     ],
   };

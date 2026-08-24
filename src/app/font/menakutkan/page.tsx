@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/font/menakutkan',
+    canonical: 'https://tulisan-aesthetic.vercel.app/font/menakutkan',
   },
   openGraph: {
     title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo Creepy',
     description:
       'Konversi teks biasa menjadi font Menakutkan (Glitch / Zalgo / Horror) estetik secara instan tanpa aplikasi.',
-    url: 'https://tulisanaesthetic.id/font/menakutkan',
+    url: 'https://tulisan-aesthetic.vercel.app/font/menakutkan',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -44,19 +44,19 @@ export default function MenakutkanPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Font Styles',
-        item: 'https://tulisanaesthetic.id/#popular-fonts',
+        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Font Menakutkan Generator',
-        item: 'https://tulisanaesthetic.id/font/menakutkan',
+        item: 'https://tulisan-aesthetic.vercel.app/font/menakutkan',
       },
     ],
   };

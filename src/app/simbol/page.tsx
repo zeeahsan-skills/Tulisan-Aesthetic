@@ -19,13 +19,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
-    canonical: 'https://tulisanaesthetic.id/simbol',
+    canonical: 'https://tulisan-aesthetic.vercel.app/simbol',
   },
   openGraph: {
     title: 'Simbol Keren & Aesthetic Unicode - Copy Paste Symbols Hub 2026',
     description:
       'Browse thousands of Unicode symbols for Instagram, TikTok, WhatsApp, Discord, Facebook, gaming names, and creative text.',
-    url: 'https://tulisanaesthetic.id/simbol',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -47,13 +47,13 @@ export default function SimbolPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://tulisanaesthetic.id',
+        item: 'https://tulisan-aesthetic.vercel.app',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Simbol Keren Hub',
-        item: 'https://tulisanaesthetic.id/simbol',
+        item: 'https://tulisan-aesthetic.vercel.app/simbol',
       },
     ],
   };
