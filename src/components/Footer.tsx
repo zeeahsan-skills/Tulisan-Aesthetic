@@ -175,17 +175,30 @@ export function Footer() {
 
           {/* Contact */}
           <div className="space-y-3">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-white font-poppins">
-              {t.footer.contact}
-            </h4>
-            <p className="text-sm leading-relaxed">
-              Punya pertanyaan atau saran fitur baru? Hubungi tim pengembang kami.
-            </p>
             <Link
               href="/contact"
-              className="inline-block text-sm font-bold text-purple-400 hover:text-pink-400 transition"
+              className="block group focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 rounded-xl"
             >
-              Hubungi Form Support →
+              <h4 className="text-sm font-bold uppercase tracking-wider text-white font-poppins group-hover:text-purple-400 transition">
+                {t.footer.contact}
+              </h4>
+              <p className="text-sm leading-relaxed mt-2 text-slate-400 group-hover:text-slate-300 transition">
+                Punya pertanyaan atau saran fitur baru? Hubungi tim pengembang kami.
+              </p>
+            </Link>
+            <div className="pt-1">
+              <a
+                href="mailto:infoahsan665@gmail.com"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-400 hover:text-pink-400 transition-colors underline decoration-purple-400/30 hover:decoration-pink-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 rounded"
+              >
+                infoahsan665@gmail.com
+              </a>
+            </div>
+            <Link
+              href="/contact"
+              className="inline-block text-xs font-bold text-slate-300 hover:text-white transition focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 rounded"
+            >
+              Halaman Kontak →
             </Link>
           </div>
 
