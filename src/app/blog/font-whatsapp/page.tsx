@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-07-31T00:00:00.000Z',
+    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
@@ -72,8 +72,8 @@ export default function WhatsAppArticlePage() {
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
-    datePublished: '2026-07-31T00:00:00.000Z',
-    dateModified: '2026-07-31T00:00:00.000Z',
+    datePublished: '2026-08-25T00:00:00.000Z',
+    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

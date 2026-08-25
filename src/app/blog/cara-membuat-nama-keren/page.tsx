@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-07-30T00:00:00.000Z',
+    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed 2026',
+    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
     description: 'Panduan lengkap membuat nama keren aesthetic untuk seluruh game & media sosial.',
   },
   robots: 'index, follow',
@@ -67,12 +67,12 @@ export default function CoolNamesArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed 2026',
+    headline: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
     description:
       'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
-    datePublished: '2026-07-30T00:00:00.000Z',
-    dateModified: '2026-07-30T00:00:00.000Z',
+    datePublished: '2026-08-25T00:00:00.000Z',
+    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

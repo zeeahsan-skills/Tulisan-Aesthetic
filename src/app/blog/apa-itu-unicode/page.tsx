@@ -27,13 +27,14 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-07-30T00:00:00.000Z',
+    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
-    description: 'Panduan lengkap cara kerja Unicode dan generator font aesthetic terlengkap.',
+    title: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
+    description:
+      'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
   },
   robots: 'index, follow',
 };
@@ -58,7 +59,7 @@ export default function UnicodeArticlePage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Apa Itu Unicode?',
+        name: 'Unicode Guide',
         item: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
       },
     ],
@@ -67,12 +68,12 @@ export default function UnicodeArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
+    headline: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
     description:
       'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
-    datePublished: '2026-07-30T00:00:00.000Z',
-    dateModified: '2026-07-30T00:00:00.000Z',
+    datePublished: '2026-08-25T00:00:00.000Z',
+    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

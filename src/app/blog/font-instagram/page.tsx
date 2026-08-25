@@ -26,18 +26,19 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-07-30T00:00:00.000Z',
+    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic 2026',
-    description: 'Panduan lengkap tulisan aesthetic untuk bio, caption, dan Story Instagram.',
+    title: 'Font Instagram: Cara Membuat Tulisan Aesthetic Bio, Status & Caption',
+    description:
+      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
   },
   robots: 'index, follow',
 };
 
-export default function IGArticlePage() {
+export default function InstagramArticlePage() {
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -66,12 +67,12 @@ export default function IGArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic 2026',
+    headline: 'Font Instagram: Cara Membuat Tulisan Aesthetic Bio, Status & Caption',
     description:
       'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
-    datePublished: '2026-07-30T00:00:00.000Z',
-    dateModified: '2026-07-30T00:00:00.000Z',
+    datePublished: '2026-08-25T00:00:00.000Z',
+    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',
