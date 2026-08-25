@@ -131,7 +131,7 @@ export const KAOMOJI_SYMBOLS_DATA: KaomojiSymbolItem[] = [
   { symbol: "(っ˘ω˘ς )", name: "Cozy Content Smile", category: "Happy" },
   { symbol: "(*¯︶¯*)", name: "Serene Peace", category: "Happy" },
   { symbol: "(〃＾▽＾〃)", name: "Bashful Delight", category: "Happy" },
-  { symbol: "＼(≧▽December 2026)／", name: "Victory Cheer Jump", category: "Excited" },
+  { symbol: "＼(≧▽≦)／", name: "Victory Cheer Jump", category: "Excited" },
   { symbol: "(╯✧∇✧)╯", name: "Hyped Magic Hands", category: "Excited" },
   { symbol: "(★ω★)/", name: "Starry Wave Hello", category: "Happy" },
   { symbol: "(✧ω✧)", name: "Gleaming Eyes", category: "Excited" },

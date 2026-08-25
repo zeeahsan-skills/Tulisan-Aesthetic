@@ -18,27 +18,27 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
+  title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
   description:
-    'Generator tulisan aesthetic & font keren Unicode di Indonesia. Ubah teks biasa menjadi gaya font aesthetic instan untuk Bio Instagram, TikTok, WhatsApp & Gaming Nickname.',
+    'Generator teks estetik & font keren Unicode di Indonesia. Ubah teks biasa menjadi gaya tulisan unik secara instan untuk Bio Instagram, TikTok, WhatsApp & Game Nickname.',
   keywords: [
     'tulisan aesthetic',
-    'font aesthetic generator',
-    'font keren bio ig',
-    'tulisan keren tiktok',
+    'teks estetik',
+    'font unik',
+    'gaya tulisan unicode',
+    'karakter estetik',
+    'tulisan keren',
+    'font generator instagram',
     'nickname ff aesthetic',
-    'unicode text generator',
-    'font whatsapp tebal',
-    'simbol aesthetic kaomoji',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app',
   },
   openGraph: {
-    title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
+    title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
     description:
-      'Konversi teks biasa menjadi font Unicode aesthetic keren untuk Instagram, TikTok, WhatsApp & Game Nickname secara instan.',
+      'Konversi teks biasa menjadi gaya tulisan Unicode estetik untuk Instagram, TikTok, WhatsApp & Game Nickname secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic',
-    description: 'Generator font aesthetic Unicode praktis untuk Bio, Caption & Game Nickname.',
+    title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
+    description: 'Generator font Unicode praktis untuk Bio, Caption & Game Nickname.',
   },
   robots: 'index, follow',
 };

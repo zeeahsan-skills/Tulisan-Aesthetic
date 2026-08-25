@@ -15,6 +15,7 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
   const { t } = useLanguage();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [copiedItem, setCopiedItem] = useState<string | null>(null);
+  const [showAllCategories, setShowAllCategories] = useState(false);
 
   const getCategoryIcon = (iconName: string) => {
     switch (iconName) {
@@ -34,6 +35,10 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
     onCopy(`Simbol "${sym}" disalin ke clipboard!`);
     setTimeout(() => setCopiedItem(null), 2000);
   };
+
+  const displayedCategories = showAllCategories
+    ? SYMBOL_CATEGORIES
+    : SYMBOL_CATEGORIES.slice(0, 3);
 
   return (
     <section id="symbols" className="py-12 sm:py-16 bg-white dark:bg-slate-900 relative">
@@ -61,7 +66,7 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
 
         {/* Category Preview Cards Grid */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {SYMBOL_CATEGORIES.map((cat, idx) => {
+          {displayedCategories.map((cat, idx) => {
             const Icon = getCategoryIcon(cat.icon);
 
             return (
@@ -69,7 +74,7 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
                 key={cat.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "50px" }}
                 transition={{ delay: idx * 0.05 }}
                 className="group relative rounded-3xl p-6 bg-slate-50/70 dark:bg-slate-950/70 border border-slate-200/80 dark:border-purple-900/30 hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300 flex flex-col justify-between"
               >
@@ -127,8 +132,18 @@ export function SymbolsSection({ onCopy }: SymbolsSectionProps) {
           })}
         </div>
 
-        {/* Global Catalog Button */}
-        <div className="mt-12 text-center">
+        {/* Load More Categories / Open Modal Buttons */}
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+          {!showAllCategories && (
+            <button
+              onClick={() => setShowAllCategories(true)}
+              className="px-6 py-3.5 rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-slate-800 dark:text-slate-200 font-bold text-sm transition-all duration-200 inline-flex items-center gap-2 border border-slate-200/80 dark:border-slate-700"
+            >
+              <span>Muat Kategori Simbol Lainnya</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
+
           <button
             onClick={() => setIsModalOpen(true)}
             className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 hover:from-purple-500 hover:to-pink-400 text-white font-bold text-base shadow-xl shadow-purple-500/25 hover:shadow-purple-500/40 hover:-translate-y-0.5 transition-all duration-200 inline-flex items-center gap-3"

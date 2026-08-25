@@ -8,27 +8,28 @@ import { useLanguage } from '@/context/LanguageContext';
 export function FAQSection() {
   const { t } = useLanguage();
   const [openIndex, setOpenIndex] = useState<number | null>(0); // First open by default
+  const [showAllFaqs, setShowAllFaqs] = useState(false);
 
   const faqData = [
     {
-      q: 'Apa itu Tulisan Aesthetic Generator?',
-      a: 'Tulisan Aesthetic Generator adalah alat konversi teks online gratis yang mengubah teks biasa menjadi karakter font Unicode estetik (seperti Small Caps, Gothic, Bubble, Cursive) secara otomatis untuk Bio Instagram, TikTok, WhatsApp, dan Nickname Game.',
+      q: 'Apa itu Generator Teks Estetik?',
+      a: 'Generator Teks Estetik adalah alat konversi online gratis yang mengubah teks biasa menjadi karakter font Unicode estetik (seperti Small Caps, Gothic, Bubble, Cursive) secara otomatis untuk Bio Instagram, TikTok, WhatsApp, dan Nickname Game.',
     },
     {
-      q: 'Bagaimana cara menyalin font aesthetic ke Bio Instagram atau TikTok?',
-      a: 'Cukup ketik teks Anda pada kolom generator di bagian atas halaman, pilih gaya font yang Anda suka, lalu klik tombol "Salin Teks". Buka aplikasi Instagram atau TikTok, masuk ke Edit Profil > Bio, lalu tempel (Paste) teks tersebut.',
+      q: 'Bagaimana cara menyalin tulisan ke Bio Instagram atau TikTok?',
+      a: 'Cukup ketik teks Anda pada kolom generator di bagian atas halaman, pilih gaya yang Anda suka, lalu klik tombol "Salin Teks". Buka aplikasi Instagram atau TikTok, masuk ke Edit Profil > Bio, lalu tempel (Paste) teks tersebut.',
     },
     {
-      q: 'Apakah font aesthetic aman untuk Nickname Free Fire, PUBG & Mobile Legends?',
-      a: 'Sangat aman. Semua font yang kami sediakan menggunakan standar karakter Unicode internasional yang didukung secara resmi oleh mesin game modern tanpa melanggar ketentuan layanan (Terms of Service).',
+      q: 'Apakah font estetik aman untuk Nickname Free Fire, PUBG & Mobile Legends?',
+      a: 'Sangat aman. Semua gaya font yang kami sediakan menggunakan standar karakter Unicode internasional yang didukung secara resmi oleh mesin game modern tanpa melanggar ketentuan layanan (Terms of Service).',
     },
     {
-      q: 'Mengapa font aesthetic kadang berubah menjadi kotak-kotak (☒)?',
+      q: 'Mengapa karakter kadang berubah menjadi kotak-kotak (☒)?',
       a: 'Karakter berubah menjadi kotak atau tanda tanya jika sistem operasi perangkat penerima (biasanya HP Android versi lama di bawah Android 8.0) belum mendukung standar simbol Unicode versi terbaru.',
     },
     {
       q: 'Apakah penggunaan generator font ini 100% gratis?',
-      a: 'Ya, Tulisan Aesthetic dapat digunakan 100% gratis selamanya tanpa perlu mendaftar akun, tanpa batasan jumlah teks, dan tanpa perlu mengunduh aplikasi tambahan.',
+      a: 'Ya, generator kami dapat digunakan 100% gratis selamanya tanpa perlu mendaftar akun, tanpa batasan jumlah teks, dan tanpa perlu mengunduh aplikasi tambahan.',
     },
     {
       q: 'Berapa banyak gaya font dan simbol yang tersedia?',
@@ -40,9 +41,11 @@ export function FAQSection() {
     },
     {
       q: 'Apakah situs ini dapat diakses melalui HP (Mobile)?',
-      a: 'Tentu saja! Situs Tulisan Aesthetic dirancang dengan prinsip Mobile-First yang sangat cepat, responsif, dan mudah digunakan di semua smartphone iOS dan Android.',
+      a: 'Tentu saja! Situs kami dirancang dengan prinsip Mobile-First yang sangat cepat, responsif, dan mudah digunakan di semua smartphone iOS dan Android.',
     },
   ];
+
+  const displayedFaqs = showAllFaqs ? faqData : faqData.slice(0, 4);
 
   // FAQ Schema JSON-LD for Search Engines
   const faqSchema = {
@@ -84,7 +87,7 @@ export function FAQSection() {
 
         {/* Accordion Container */}
         <div className="mt-12 space-y-4">
-          {faqData.map((item, idx) => {
+          {displayedFaqs.map((item, idx) => {
             const isOpen = openIndex === idx;
 
             return (
@@ -128,6 +131,18 @@ export function FAQSection() {
             );
           })}
         </div>
+
+        {/* Toggle Show All FAQs */}
+        {!showAllFaqs && (
+          <div className="mt-8 text-center">
+            <button
+              onClick={() => setShowAllFaqs(true)}
+              className="px-6 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 text-slate-700 dark:text-slate-300 font-bold text-xs transition"
+            >
+              Lihat Semua FAQ (8 Pertanyaan)
+            </button>
+          </div>
+        )}
 
       </div>
     </section>

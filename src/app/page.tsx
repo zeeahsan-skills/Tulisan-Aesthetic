@@ -43,7 +43,7 @@ export default function Home() {
       priceCurrency: 'IDR',
     },
     description:
-      'Generator tulisan aesthetic gratis di Indonesia. Mengubah teks biasa menjadi 50+ gaya font Unicode estetik (Small Caps, Bubble, Bold, Gothic, Glitch) untuk Bio Instagram, TikTok, WhatsApp & Nickname Game.',
+      'Generator teks estetik & font Unicode gratis di Indonesia. Mengubah teks biasa menjadi 50+ gaya tulisan unik (Small Caps, Bubble, Bold, Gothic, Glitch) untuk Bio Instagram, TikTok, WhatsApp & Nickname Game.',
   };
 
   return (
