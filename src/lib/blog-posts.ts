@@ -68,7 +68,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     isPopular: true,
   },
   {
-    slug: 'cara-membuat-font-aesthetic-instagram-bio-2026',
+    slug: 'font-instagram',
     title: 'Cara Membuat Font Aesthetic Bio Instagram yang Menarik & Viral',
     description:
       'Panduan lengkap mengubah teks bio Instagram dengan font aesthetic Unicode, simbol bintang, dan kaomoji unik agar profil terlihat aesthetic.',
@@ -80,7 +80,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     isPopular: true,
   },
   {
-    slug: 'nickname-free-fire-keren-simbol-bintang-2026',
+    slug: 'cara-membuat-nama-keren',
     title: '100+ Nickname Free Fire Keren Pakai Simbol Bintang & Mahkota',
     description:
       'Kumpulan rekomendasi nickname FF keren pro player dengan hiasan simbol bintang, mahkota, dan huruf gothic yang langsung bisa dicopy.',
@@ -128,7 +128,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     isPopular: true,
   },
   {
-    slug: 'panduan-unicode-font-generator-lengkap',
+    slug: 'apa-itu-unicode',
     title: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
     description:
       'Penjelasan teknis standar Unicode, variasi huruf Mathematical Alphanumeric Symbols, dan alasan mengapa font aesthetic bukan font file biasa.',

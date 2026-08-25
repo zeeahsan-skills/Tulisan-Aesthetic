@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { BLOG_POSTS_DATA } from '@/lib/blog-posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tulisan-aesthetic.vercel.app';
@@ -54,13 +55,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/kaomoji',
   ];
 
-  const blogArticleRoutes = [
+  const staticArticleRoutes = [
     'apa-itu-unicode',
     'cara-membuat-nama-keren',
     'font-instagram',
     'font-tiktok',
     'font-whatsapp',
   ];
+
+  // Combine static article routes and all BLOG_POSTS_DATA slugs without duplicates
+  const allBlogArticleSlugs = Array.from(
+    new Set([...staticArticleRoutes, ...BLOG_POSTS_DATA.map((p) => p.slug)])
+  );
 
   const mainHubRoutes = [
     'platform',
@@ -107,7 +113,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const blogArticleEntries: MetadataRoute.Sitemap = blogArticleRoutes.map((route) => ({
+  const blogArticleEntries: MetadataRoute.Sitemap = allBlogArticleSlugs.map((route) => ({
     url: `${baseUrl}/blog/${route}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
