@@ -8,7 +8,7 @@ export function CompatibilityMatrix() {
   const compatibilityData = [
     {
       platform: 'Instagram Bio & Story',
-      status: 'Sangat Didukung (100%)',
+      status: 'Sangat Didukung',
       badge: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20',
       icon: Check,
       recommended: 'Small Caps, Bubble, Cursive, Bold, Sparkles',
@@ -16,7 +16,7 @@ export function CompatibilityMatrix() {
     },
     {
       platform: 'TikTok Caption & Profil',
-      status: 'Sangat Didukung (100%)',
+      status: 'Sangat Didukung',
       badge: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20',
       icon: Check,
       recommended: 'Bold Sans, Glitch Zalgo, Kaomoji, Tiny Upper',
@@ -24,7 +24,7 @@ export function CompatibilityMatrix() {
     },
     {
       platform: 'WhatsApp Chat & Status',
-      status: 'Sangat Didukung (100%)',
+      status: 'Sangat Didukung',
       badge: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20',
       icon: Check,
       recommended: 'Tebal, Miring, Monospace, Bubble Circled',
@@ -32,7 +32,7 @@ export function CompatibilityMatrix() {
     },
     {
       platform: 'Free Fire (FF) Nickname',
-      status: 'Didukung dengan Simbol (98%)',
+      status: 'Didukung dengan Simbol',
       badge: 'bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20',
       icon: Check,
       recommended: 'Gothic Fraktur, Mahkota ꧁༺ ༻꧂, Small Caps',
@@ -40,7 +40,7 @@ export function CompatibilityMatrix() {
     },
     {
       platform: 'Mobile Legends (MLBB)',
-      status: 'Didukung (95%)',
+      status: 'Didukung',
       badge: 'bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20',
       icon: Check,
       recommended: 'Bold Script, Simbol Bintang, Tiny Caps',
@@ -48,7 +48,7 @@ export function CompatibilityMatrix() {
     },
     {
       platform: 'Android Lama (< Android 8.0)',
-      status: 'Parsial (Kotak ☒ Mungkinkah)',
+      status: 'Dukungan Terbatas',
       badge: 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/20',
       icon: AlertTriangle,
       recommended: 'Gunakan style Simple / Bold standar',
