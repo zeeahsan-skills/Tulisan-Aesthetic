@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import RobloxClientPage from './RobloxClientPage';
 
 export const metadata: Metadata = {
-  title: 'Roblox Stylish Name Generator - Generator Nama Roblox Keren 2026',
+  title: 'Roblox Stylish Name Generator - Generator Nama Roblox Keren',
   description:
     'Generator nama Roblox keren & estetik terbaik di Indonesia. Ubah nama biasa menjadi username & display name bergaya pro gamer, anime, VIP, cute boba & font Unicode 100% gratis.',
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/game/roblox',
   },
   openGraph: {
-    title: 'Roblox Stylish Name Generator - Generator Nama Roblox Keren 2026',
+    title: 'Roblox Stylish Name Generator - Generator Nama Roblox Keren',
     description:
       'Generate stylish Roblox usernames and display names instantly using Unicode fonts, symbols, and decorative characters.',
     url: 'https://tulisan-aesthetic.vercel.app/game/roblox',

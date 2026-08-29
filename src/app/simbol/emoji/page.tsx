@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import EmojiClientPage from './EmojiClientPage';
 
 export const metadata: Metadata = {
-  title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji 2026',
+  title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji',
   description:
     'Direktori Emoji Collection Unicode terlengkap di Indonesia. Copy paste ribuan emoji smileys (😀), cinta (❤️), api (🔥), bintang (✨), game (🎮), makanan (🍕), dan bendera gratis untuk IG, TikTok, WA & Discord.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
   },
   openGraph: {
-    title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji 2026',
+    title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji',
     description:
       'Browse, search, and copy thousands of emoji instantly for Instagram, TikTok, WhatsApp, Facebook, Discord, gaming, blogs, and creative content.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',

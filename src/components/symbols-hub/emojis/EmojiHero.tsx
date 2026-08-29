@@ -13,7 +13,7 @@ export function EmojiHero({ onCopy }: EmojiHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Emoji & Font Generator 2026"
+        title="Simbol Emoji & Font Generator"
         subtitle="Koleksi emoji aesthetic, emotikon lucu, dan 50 gaya font Unicode unik siap salin."
         defaultText="Emoji Aesthetic"
         presetCategory="Cute"

@@ -45,7 +45,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'Tulisan Aesthetic',
       locale: 'id_ID',
       type: 'article',
-      publishedTime: '2026-08-25T00:00:00.000Z',
       authors: [post.author],
     },
     twitter: {
@@ -96,7 +95,6 @@ export default async function DynamicBlogArticlePage({ params }: PageProps) {
     headline: post.title,
     description: post.description,
     url: `https://tulisan-aesthetic.vercel.app/blog/${post.slug}`,
-    datePublished: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: post.author,

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import TwitterXClientPage from './TwitterXClientPage';
 
 export const metadata: Metadata = {
-  title: 'Twitter X Font Generator - Convert Teks Bio & Tweet Aesthetic 2026',
+  title: 'Twitter X Font Generator - Convert Teks Bio & Tweet Aesthetic',
   description:
     'Generator Font Twitter (X) di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk Bio X, Tweet, Username & Display Name 100% gratis secara instan.',
   keywords: [

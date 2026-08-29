@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import RobloxClientPage from '../game/roblox/RobloxClientPage';
 
 export const metadata: Metadata = {
-  title: 'Roblox Username Generator - Nama Roblox Aesthetic 2026',
+  title: 'Roblox Username Generator - Nama Roblox Aesthetic',
   description:
     'Buat username Roblox aesthetic dengan simbol hati, bunga, kaomoji, dan karakter imut secara instan dan 100% gratis.',
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/roblox',
   },
   openGraph: {
-    title: 'Roblox Username Generator - Nama Roblox Aesthetic 2026',
+    title: 'Roblox Username Generator - Nama Roblox Aesthetic',
     description: 'Buat username Roblox estetik dan imut dengan simbol unik.',
     url: 'https://tulisan-aesthetic.vercel.app/roblox',
     siteName: 'Tulisan Aesthetic',

@@ -11,7 +11,7 @@ export function MemutarHero({ onCopy }: MemutarHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Font Terbalik & Upside Down Generator 2026"
+        title="Font Terbalik & Upside Down Generator"
         subtitle="Putar dan balikkan tulisan Anda (Upside Down & Mirror Text) dan dapatkan 50 variasi font Unicode unik."
         defaultText="Tulisan Terbalik"
         presetCategory="Simple"

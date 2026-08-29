@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
@@ -72,8 +71,6 @@ export default function UnicodeArticlePage() {
     description:
       'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
-    datePublished: '2026-08-25T00:00:00.000Z',
-    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

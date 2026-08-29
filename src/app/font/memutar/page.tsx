@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MemutarClientPage from './MemutarClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down 2026',
+  title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down',
   description:
     'Generator tulisan Terbalik (Memutar / Upside Down / Flipped Text) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font terbalik untuk Bio IG, TikTok, WhatsApp & Gaming Nickname 100% gratis.',
   keywords: [

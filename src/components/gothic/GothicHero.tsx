@@ -11,7 +11,7 @@ export function GothicHero({ onCopy }: GothicHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Gothic & Fraktur Font Generator 2026"
+        title="Gothic & Fraktur Font Generator"
         subtitle="Ubah teks biasa menjadi tulisan Gothic, Fraktur, Blackletter, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Gothic Blackletter"
         presetCategory="Gothic"

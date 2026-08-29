@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import FacebookClientPage from './FacebookClientPage';
 
 export const metadata: Metadata = {
-  title: 'Facebook Font Generator - Converter Tulisan Keren FB 2026',
+  title: 'Facebook Font Generator - Converter Tulisan Keren FB',
   description:
     'Generator tulisan estetik Facebook (FB) Unicode terbaik di Indonesia. Buat teks tebal, miring, bubble & gothic untuk nama profil, bio, status beranda, komentar & Messenger 100% gratis.',
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
   },
   openGraph: {
-    title: 'Facebook Font Generator - Convert Teks Nama, Status & Bio FB Aesthetic 2026',
+    title: 'Facebook Font Generator - Convert Teks Nama, Status & Bio FB Aesthetic',
     description:
       'Konversi teks biasa menjadi font Facebook estetik Unicode secara instan tanpa perlu aplikasi tambahan.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/facebook',

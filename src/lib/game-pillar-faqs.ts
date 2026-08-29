@@ -57,6 +57,6 @@ export const GAME_PILLAR_FAQS: FAQItem[] = [
   {
     question: 'Apakah generator nickname ini diperbarui secara berkala?',
     answer:
-      'Ya, kami terus memperbarui koleksi simbol dan font aesthetic secara rutin mengikuti tren gaming esports terbaru tahun 2026.',
+      'Ya, kami terus memperbarui koleksi simbol dan font aesthetic secara rutin mengikuti tren gaming esports terbaru saat ini.',
   },
 ];

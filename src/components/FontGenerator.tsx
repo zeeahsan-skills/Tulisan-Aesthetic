@@ -43,7 +43,7 @@ export function FontGenerator({
   // Load configuration if pageSlug is provided
   const config = pageSlug ? getFontPageConfig(pageSlug) : undefined;
 
-  const displayTitle = title || config?.title || 'Generator 50 Font Unicode Aesthetic 2026';
+  const displayTitle = title || config?.title || 'Generator 50 Font Unicode Aesthetic';
   const displaySubtitle = subtitle || config?.subtitle || 'Ketik teks Anda di bawah ini dan dapatkan 50 variasi gaya font Unicode unik, aesthetic, dan siap salin.';
   const initialText = defaultText || config?.defaultText || 'Tulisan Aesthetic';
 
@@ -175,7 +175,7 @@ export function FontGenerator({
       'Aesthetic Vibes',
       'Pro Gamer FF',
       'Soft Girl Aesthetic',
-      'Cyberpunk 2026',
+      'Cyberpunk',
       'Ninja Assassin',
       'Sweet Angel ♡',
       'King Slayer ⚔️',

@@ -28,7 +28,7 @@ export const TIKTOK_FAQS = [
     a: '100% gratis selamanya! Tanpa perlu daftar akun, bayar langganan, ataupun mengunduh aplikasi pihak ketiga.',
   },
   {
-    q: 'Apa saja gaya font TikTok yang sedang viral dan tren di tahun 2026?',
+    q: 'Apa saja gaya font TikTok yang sedang viral dan tren di saat ini?',
     a: 'Gaya font TikTok paling populer saat ini meliputi Small Caps (kapital mini estetik), Cursive Script (tulisan sambung halus), Bold Gothic, Circled Bubble, dan Double Struck (papan tulis).',
   },
   {

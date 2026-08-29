@@ -28,7 +28,7 @@ export const BlogHero: React.FC<BlogHeroProps> = ({
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-500/10 via-pink-500/15 to-purple-500/10 border border-purple-500/30 text-purple-300 text-xs sm:text-sm font-medium mb-6 backdrop-blur-sm"
         >
           <BookOpen className="w-4 h-4 text-purple-400 animate-pulse" />
-          <span>Knowledge & Education Hub 2026</span>
+          <span>Knowledge & Education Hub</span>
         </motion.div>
 
         {/* Title & Subtitle */}

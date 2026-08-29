@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import HurufKerenClientPage from './HurufKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic 2026',
+  title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic',
   description:
     'Generator Huruf Keren & Tulisan Aesthetic Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi font keren stylish untuk Bio Instagram, WA, TikTok & Nickname Game 100% instan.',
   keywords: [

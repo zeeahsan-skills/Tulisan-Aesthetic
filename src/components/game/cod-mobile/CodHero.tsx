@@ -11,7 +11,7 @@ export function CodHero({ onCopy }: CodHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="COD Mobile Font Generator - Call of Duty Nickname 2026"
+        title="COD Mobile Font Generator - Call of Duty Nickname"
         subtitle="Buat Nickname COD Mobile Legendary, Tag Clan, dan Bio profile dengan 50 gaya font Unicode gaming gahar."
         defaultText="CODM Legendary"
         presetCategory="Gaming"

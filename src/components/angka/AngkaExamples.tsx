@@ -14,7 +14,7 @@ export function AngkaExamples({ onCopy }: AngkaExamplesProps) {
 
   const rawExamples = [
     { plain: '12345', styleId: 'circled-numbers' },
-    { plain: '2026', styleId: 'math-bold-numbers' },
+    { plain: '12345', styleId: 'math-bold-numbers' },
     { plain: '999', styleId: 'dark-circled-numbers' },
     { plain: '777', styleId: 'double-circled-numbers' },
     { plain: '100', styleId: 'math-double-struck-numbers' },

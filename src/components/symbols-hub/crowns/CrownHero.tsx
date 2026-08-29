@@ -13,7 +13,7 @@ export function CrownHero({ onCopy }: CrownHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Mahkota & King Font Generator 2026"
+        title="Simbol Mahkota & King Font Generator"
         subtitle="Simbol mahkota raja & ratu (👑, ♛, ♔) dipadu dengan 50 gaya font Unicode gaming dan aesthetic."
         defaultText="King Crown 👑"
         presetCategory="Gaming"

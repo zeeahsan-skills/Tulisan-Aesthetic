@@ -206,7 +206,7 @@ export function Footer() {
 
         {/* Bottom Copyright */}
         <div className="mt-12 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© 2026 Tulisan Aesthetic. {t.footer.rights}</p>
+          <p>© Tulisan Aesthetic. {t.footer.rights}</p>
           <p className="flex items-center gap-1">
             Dibuat dengan <Heart className="w-3.5 h-3.5 text-pink-500 fill-pink-500" /> untuk Creator & Gamer Indonesia
           </p>

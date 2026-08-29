@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import GlitchClientPage from './GlitchClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted 2026',
+  title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted',
   description:
     'Generator Font Glitch & Zalgo Text Unicode terbaik di Indonesia. Ubah teks biasa menjadi font terdistorsi, cyber, & horror creepy untuk Nickname FF, Discord, Bio IG & TikTok 100% gratis.',
   keywords: [

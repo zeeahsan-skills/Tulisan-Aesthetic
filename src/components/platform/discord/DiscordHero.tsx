@@ -11,7 +11,7 @@ export function DiscordHero({ onCopy }: DiscordHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Discord Font Generator - Username & Role Tag 2026"
+        title="Discord Font Generator - Username & Role Tag"
         subtitle="Ubah tulisan untuk Username Discord, Nama Server, Channel, About Me, dan Role Tag dengan 50 gaya font Unicode unik."
         defaultText="Discord Role Pro"
         presetCategory="Gaming"

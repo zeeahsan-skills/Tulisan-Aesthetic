@@ -11,7 +11,7 @@ export function MenakutkanHero({ onCopy }: MenakutkanHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Scary & Horror Font Generator 2026"
+        title="Scary & Horror Font Generator"
         subtitle="Ubah teks biasa menjadi gaya font seram, Zalgo heavy, horror gothic, dan 50 gaya font Unicode aesthetic siap pakai."
         defaultText="Demon Horror"
         presetCategory="Gothic"

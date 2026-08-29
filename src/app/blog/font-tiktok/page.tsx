@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
@@ -71,8 +70,6 @@ export default function TikTokArticlePage() {
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
-    datePublished: '2026-08-25T00:00:00.000Z',
-    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

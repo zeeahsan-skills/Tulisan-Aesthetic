@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import NamaKerenClientPage from './NamaKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Generator Nama Keren - Converter Stylish Name IG, FF & TikTok 2026',
+  title: 'Generator Nama Keren - Converter Stylish Name IG, FF & TikTok',
   description:
     'Generator Nama Keren (Stylish Name Generator) Unicode terbaik di Indonesia. Buat nama aesthetic untuk Nickname Free Fire, MLBB, PUBG, Bio IG, TikTok & Discord 100% gratis.',
   keywords: [

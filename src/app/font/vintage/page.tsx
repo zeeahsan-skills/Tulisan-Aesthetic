@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import VintageClientPage from './VintageClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro 2026',
+  title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro',
   description:
     'Generator Font Vintage & Blackletter Unicode terbaik di Indonesia. Ubah teks biasa menjadi font klasik, Fraktur, Old English, & Serif Retro untuk Bio IG, Undangan, WA & Gaming 100% gratis.',
   keywords: [

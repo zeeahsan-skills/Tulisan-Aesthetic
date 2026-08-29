@@ -3,7 +3,7 @@ import GameClientPage from './GameClientPage';
 import { GAME_PILLAR_FAQS } from '@/lib/game-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB, Roblox & CODM 2026',
+  title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB, Roblox & CODM',
   description:
     'Pusat generator nama game keren ala pro player esports. Buat nickname aesthetic untuk Free Fire (FF), PUBG Mobile, Mobile Legends, Roblox & CODM dengan simbol payung, mahkota, sayap, & spasi kosong transparan.',
   keywords: [

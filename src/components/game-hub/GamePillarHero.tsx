@@ -11,9 +11,9 @@ export function GamePillarHero({ onCopy }: GamePillarHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Generator Font Game & Nickname Keren 2026"
+        title="Generator Font Game & Nickname Keren"
         subtitle="Dapatkan 50 gaya font Unicode gaming aesthetic untuk Free Fire, Mobile Legends, PUBG Mobile, Roblox, COD Mobile, dan Valorant."
-        defaultText="Gamer Pro 2026"
+        defaultText="Gamer Pro"
         presetCategory="Gaming"
         onCopy={onCopy}
       />

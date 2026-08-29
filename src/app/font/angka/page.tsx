@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import AngkaClientPage from './AngkaClientPage';
 
 export const metadata: Metadata = {
-  title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic 2026',
+  title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic',
   description:
     'Generator Angka Keren (Circled Numbers / Mathematical Bold / Monospace) Unicode terbaik di Indonesia. Ubah angka biasa menjadi nomor cantik estetik untuk Game ID, IG Bio, WA & Discord 100% gratis.',
   keywords: [

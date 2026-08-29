@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import RandomClientPage from './RandomClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer 2026',
+  title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer',
   description:
     'Generator Font Random & Acak Unicode terbaik di Indonesia. Acak & kombinasikan 50+ gaya font aesthetic (Small Caps, Script, Bubble, Gothic) untuk Nickname Game, Bio IG, TikTok & WA 100% gratis.',
   keywords: [

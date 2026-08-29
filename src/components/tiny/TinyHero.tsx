@@ -11,7 +11,7 @@ export function TinyHero({ onCopy }: TinyHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Tiny Font Generator - Tulisan Kecil Aesthetic 2026"
+        title="Tiny Font Generator - Tulisan Kecil Aesthetic"
         subtitle="Ubah teks biasa menjadi huruf kecil Superscript, Subscript, Small Caps, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Tulisan Kecil"
         presetCategory="Cute"

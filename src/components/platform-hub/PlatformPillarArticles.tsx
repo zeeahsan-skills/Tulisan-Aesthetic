@@ -7,7 +7,7 @@ import { ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 export function PlatformPillarArticles() {
   const articles = [
     {
-      title: 'Panduan Bikin Bio Instagram Aesthetic & Unik 2026',
+      title: 'Panduan Bikin Bio Instagram Aesthetic & Unik',
       desc: 'Trik lengkap mengubah font bio IG tanpa aplikasi agar tampilan profil terlihat menarik dan profesional.',
       href: '/blog/font-instagram',
       readTime: '3 Menit Baca',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PubgClientPage from './PubgClientPage';
 
 export const metadata: Metadata = {
-  title: 'PUBG Mobile Stylish Name Generator - Generator Nama PUBG Keren 2026',
+  title: 'PUBG Mobile Stylish Name Generator - Generator Nama PUBG Keren',
   description:
     'Generator nama PUBG Mobile keren & estetik terbaik di Indonesia. Buat nickname Conqueror dengan simbol Jepang (乂, 帝, 乡), mahkota & font Unicode 100% gratis.',
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/game/pubg-mobile',
   },
   openGraph: {
-    title: 'PUBG Mobile Stylish Name Generator - Nama PUBG Keren Aesthetic 2026',
+    title: 'PUBG Mobile Stylish Name Generator - Nama PUBG Keren Aesthetic',
     description:
       'Konversi teks biasa menjadi nickname PUBG Mobile keren bergaya Conqueror & Clan Esports secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app/game/pubg-mobile',

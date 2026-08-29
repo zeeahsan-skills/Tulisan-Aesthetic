@@ -28,7 +28,7 @@ export const INSTAGRAM_FAQS = [
     a: '100% gratis tanpa perlu mendaftar akun, mengunduh aplikasi, atau berlangganan. Anda dapat menggunakannya sepuasnya kapan saja.',
   },
   {
-    q: 'Apa saja gaya font Instagram paling populer tahun 2026?',
+    q: 'Apa saja gaya font Instagram paling populer saat ini?',
     a: 'Gaya font paling populer saat ini meliputi Small Caps ( huruf kapital mini ), Cursive Script (tulisan sambung estetik), Bold Sans (teks tebal), dan Circled Bubble.',
   },
   {

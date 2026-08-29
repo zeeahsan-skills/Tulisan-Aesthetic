@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import KotakClientPage from './KotakClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Kotak Generator - Converter Tulisan Square & Box Unicode 2026',
+  title: 'Font Kotak Generator - Converter Tulisan Square & Box Unicode',
   description:
     'Generator tulisan Kotak (Square / Boxed Letters / Enclosed Squared) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font kotak persegi aesthetic untuk Game Nickname, IG Bio, WA & Discord 100% gratis.',
   keywords: [

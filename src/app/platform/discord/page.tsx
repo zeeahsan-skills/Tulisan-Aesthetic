@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import DiscordClientPage from './DiscordClientPage';
 
 export const metadata: Metadata = {
-  title: 'Discord Font Generator - Converter Tulisan Keren Server & Profil 2026',
+  title: 'Discord Font Generator - Converter Tulisan Keren Server & Profil',
   description:
     'Generator tulisan estetik Discord Unicode terbaik di Indonesia. Ubah nama akun, Display Name, nickname server, role VIP, channel & About Me dengan font Gothic, Small Caps & Zalgo 100% gratis.',
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/discord',
   },
   openGraph: {
-    title: 'Discord Font Generator - Convert Teks Server, Role & Profil Aesthetic 2026',
+    title: 'Discord Font Generator - Convert Teks Server, Role & Profil Aesthetic',
     description:
       'Konversi teks biasa menjadi font Discord estetik Unicode secara instan tanpa perlu instalasi bot.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/discord',

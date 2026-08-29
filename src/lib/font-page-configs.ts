@@ -291,7 +291,7 @@ const randomPrimary: FontStyle[] = [
 export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   'huruf-keren': {
     slug: 'huruf-keren',
-    title: 'Huruf Keren Generator 2026',
+    title: 'Huruf Keren Generator',
     subtitle: 'Konversi teks biasa menjadi 50 gaya huruf keren, aesthetic, dan stylish yang siap di-copy paste.',
     defaultText: 'Huruf Keren',
     presetCategory: 'Popular',
@@ -300,7 +300,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   tebal: {
     slug: 'tebal',
-    title: 'Font Tebal / Bold Generator 2026',
+    title: 'Font Tebal / Bold Generator',
     subtitle: 'Buat tulisan tebal hitam Unicode Sans, Serif, Bold Script, dan Dark Bubble secara instan.',
     defaultText: 'Tulisan Tebal',
     presetCategory: 'Popular',
@@ -309,7 +309,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   'miring-kursif': {
     slug: 'miring-kursif',
-    title: 'Font Miring & Kursif Generator 2026',
+    title: 'Font Miring & Kursif Generator',
     subtitle: 'Konversi teks menjadi tulisan miring Italic, Cursive Script, dan handwriting aesthetic.',
     defaultText: 'Tulisan Miring',
     presetCategory: 'Fancy',
@@ -318,7 +318,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   tiny: {
     slug: 'tiny',
-    title: 'Tiny Text & Small Caps Generator 2026',
+    title: 'Tiny Text & Small Caps Generator',
     subtitle: 'Ubah teks biasa menjadi huruf kecil mini di atas (superscript), di bawah (subscript), dan kapital mini.',
     defaultText: 'Tiny Text',
     presetCategory: 'Cute',
@@ -327,7 +327,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   berkilau: {
     slug: 'berkilau',
-    title: 'Font Berkilau / Sparkly Generator 2026',
+    title: 'Font Berkilau / Sparkly Generator',
     subtitle: 'Hiasi teks Anda dengan bintang ✨, glitter, dan ornamen berkilau aesthetic.',
     defaultText: 'Font Berkilau',
     presetCategory: 'Cute',
@@ -336,16 +336,16 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   angka: {
     slug: 'angka',
-    title: 'Generator Angka Keren 2026',
+    title: 'Generator Angka Keren',
     subtitle: 'Ubah angka biasa menjadi nomor melingkar, angka tebal math, dan digit monospace aesthetic.',
-    defaultText: '2026',
+    defaultText: '12345',
     presetCategory: 'Popular',
     mainCategoryName: 'Circled & Math Digits',
     getStyles: () => buildCurated50(angkaPrimary),
   },
   garis: {
     slug: 'garis',
-    title: 'Font Strikethrough & Garis Coret Generator 2026',
+    title: 'Font Strikethrough & Garis Coret Generator',
     subtitle: 'Buat teks dengan garis coret tengah (strikethrough), garis bawah (underline), tilde, dan slash.',
     defaultText: 'Garis Coret',
     presetCategory: 'Simple',
@@ -354,7 +354,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   gelembung: {
     slug: 'gelembung',
-    title: 'Bubble Font Generator - Tulisan Gelembung 2026',
+    title: 'Bubble Font Generator - Tulisan Gelembung',
     subtitle: 'Ubah teks biasa menjadi font gelembung melingkar (bubble outline dan solid black circle).',
     defaultText: 'Bubble Text',
     presetCategory: 'Cute',
@@ -363,7 +363,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   'gothic-fraktur': {
     slug: 'gothic-fraktur',
-    title: 'Gothic & Fraktur Font Generator 2026',
+    title: 'Gothic & Fraktur Font Generator',
     subtitle: 'Ubah teks biasa menjadi tulisan Gothic, Fraktur, Blackletter, dan Old English abad pertengahan.',
     defaultText: 'Gothic Blackletter',
     presetCategory: 'Gothic',
@@ -372,7 +372,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   kotak: {
     slug: 'kotak',
-    title: 'Square Box Font Generator - Tulisan Kotak 2026',
+    title: 'Square Box Font Generator - Tulisan Kotak',
     subtitle: 'Ubah teks biasa menjadi huruf kotak outline dan solid square box aesthetic.',
     defaultText: 'Tulisan Kotak',
     presetCategory: 'Gaming',
@@ -381,7 +381,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   memutar: {
     slug: 'memutar',
-    title: 'Font Terbalik & Upside Down Generator 2026',
+    title: 'Font Terbalik & Upside Down Generator',
     subtitle: 'Putar dan balikkan tulisan Anda (Upside Down & Mirror Text) secara otomatis.',
     defaultText: 'Tulisan Terbalik',
     presetCategory: 'Simple',
@@ -390,7 +390,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   menakutkan: {
     slug: 'menakutkan',
-    title: 'Scary & Horror Font Generator 2026',
+    title: 'Scary & Horror Font Generator',
     subtitle: 'Ubah teks biasa menjadi gaya font seram, Zalgo heavy, horror gothic, dan demon skull.',
     defaultText: 'Demon Horror',
     presetCategory: 'Gothic',
@@ -399,7 +399,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   'nama-keren': {
     slug: 'nama-keren',
-    title: 'Generator Nama Keren & Bio Aesthetic 2026',
+    title: 'Generator Nama Keren & Bio Aesthetic',
     subtitle: 'Buat nama keren aesthetic untuk akun game dan media sosial dengan bingkai wings, mahkota, dan pedang.',
     defaultText: 'Pro Gamer',
     presetCategory: 'Gaming',
@@ -408,7 +408,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   terhubung: {
     slug: 'terhubung',
-    title: 'Font Sambung & Cursive Generator 2026',
+    title: 'Font Sambung & Cursive Generator',
     subtitle: 'Konversi teks menjadi tulisan sambung indah, kaligrafi Cursive, Script, dan signature style.',
     defaultText: 'Tulisan Sambung',
     presetCategory: 'Fancy',
@@ -417,7 +417,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   glitch: {
     slug: 'glitch',
-    title: 'Font Glitch & Zalgo Generator 2026',
+    title: 'Font Glitch & Zalgo Generator',
     subtitle: 'Ubah teks biasa menjadi tulisan distorted, Zalgo cyber, horror creepy, dan cyber wings.',
     defaultText: 'Zalgo Cyber',
     presetCategory: 'Gaming',
@@ -426,7 +426,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   vintage: {
     slug: 'vintage',
-    title: 'Font Vintage & Klasik Generator 2026',
+    title: 'Font Vintage & Klasik Generator',
     subtitle: 'Ubah teks biasa menjadi tulisan Vintage klasik, Old English, Fraktur Blackletter, dan Serif Retro.',
     defaultText: 'Vintage Classic',
     presetCategory: 'Gothic',
@@ -435,7 +435,7 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
   },
   random: {
     slug: 'random',
-    title: 'Font Random & Acak Generator 2026',
+    title: 'Font Random & Acak Generator',
     subtitle: 'Acak gaya font dan ornamen teks Unicode secara otomatis (Mix & Match Styles).',
     defaultText: 'Random Mix',
     presetCategory: 'All',

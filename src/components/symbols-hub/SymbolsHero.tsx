@@ -13,7 +13,7 @@ export function SymbolsHero({ onCopy }: SymbolsHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Aesthetic & Unicode Font Generator 2026"
+        title="Simbol Aesthetic & Unicode Font Generator"
         subtitle="Salin ribuan simbol aesthetic (Bintang, Hati, Mahkota, Bunga, Panah, Emoji, Kaomoji) serta 50 gaya font Unicode unik."
         defaultText="Simbol Aesthetic"
         presetCategory="Cute"

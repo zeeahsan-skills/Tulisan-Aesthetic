@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import TinyTextClientPage from './TinyTextClientPage';
 
 export const metadata: Metadata = {
-  title: 'Tiny Text Generator - Converter Tulisan Kecil & Small Caps 2026',
+  title: 'Tiny Text Generator - Converter Tulisan Kecil & Small Caps',
   description:
     'Generator Tiny Text & Tulisan Kecil Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi Small Caps, Superscript mini & huruf kecil aesthetic untuk Bio Instagram, WA, TikTok & Game 100% instan.',
   keywords: [

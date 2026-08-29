@@ -25,13 +25,13 @@ export const COOL_NAMES_ARTICLE_TOC: TOCItem[] = [
 ];
 
 export const COOL_NAMES_ARTICLE_META = {
-  title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed 2026',
+  title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
   subtitle:
     'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
   category: 'Gaming & Social Media Guide',
   author: 'Tulisan Aesthetic Editorial Team',
-  publishDate: '25 Agustus 2026',
-  lastUpdated: '25 Agustus 2026',
+  publishDate: '25 Agustus',
+  lastUpdated: '25 Agustus',
   readingTime: '9 min read',
   coverGradient: 'from-pink-600 via-purple-600 to-indigo-700',
   slug: 'cara-membuat-nama-keren',

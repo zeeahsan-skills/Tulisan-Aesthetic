@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PubgClientPage from '../game/pubg-mobile/PubgClientPage';
 
 export const metadata: Metadata = {
-  title: 'PUBG Mobile Name Generator - Generator Nama PUBG Keren 2026',
+  title: 'PUBG Mobile Name Generator - Generator Nama PUBG Keren',
   description:
     'Buat nickname PUBG Mobile keren, gaya militer, clan tag, dan simbol Jepang aesthetic secara instan dan gratis.',
   keywords: [

@@ -11,7 +11,7 @@ export function PubgHero({ onCopy }: PubgHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="PUBG Mobile Font Generator - IGN & Clan Tag 2026"
+        title="PUBG Mobile Font Generator - IGN & Clan Tag"
         subtitle="Buat Nickname PUBG Mobile Conqueror, Nama Clan, dan Bio game dengan 50 gaya font Unicode gaming dan simbol taktis."
         defaultText="PUBG Conqueror"
         presetCategory="Gaming"

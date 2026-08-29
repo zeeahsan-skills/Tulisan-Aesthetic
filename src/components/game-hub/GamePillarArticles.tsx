@@ -7,7 +7,7 @@ import { ArrowRight, BookOpen } from 'lucide-react';
 export function GamePillarArticles() {
   const gamingArticles = [
     {
-      title: 'Panduan Bikin Nama Game Keren Ala Pro Player Esports 2026',
+      title: 'Panduan Bikin Nama Game Keren Ala Pro Player Esports',
       desc: 'Trik lengkap membuat nickname intimidatif dengan simbol mahkota, payung, dan spasi kosong transparan.',
       href: '/blog/cara-membuat-nama-keren',
       readTime: '4 Menit Baca',

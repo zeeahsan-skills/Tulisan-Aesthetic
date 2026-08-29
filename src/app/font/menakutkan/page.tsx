@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MenakutkanClientPage from './MenakutkanClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo Creepy 2026',
+  title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo Creepy',
   description:
     'Generator tulisan Menakutkan (Glitch / Zalgo / Creepy / Horror) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font seram & distorted untuk Game Nickname, Discord, TikTok & Halloween 100% gratis.',
   keywords: [

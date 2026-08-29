@@ -3,7 +3,7 @@ import GameClientPage from '../game/GameClientPage';
 import { GAME_PILLAR_FAQS } from '@/lib/game-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Nama Game Keren & Aesthetic Generator 2026 - FF, PUBG, MLBB & Roblox',
+  title: 'Nama Game Keren & Aesthetic Generator - FF, PUBG, MLBB & Roblox',
   description:
     'Generator nama game keren aesthetic terbaik di Indonesia. Buat nickname pro player untuk Free Fire, PUBG Mobile, Mobile Legends, Roblox & CODM dengan simbol payung, mahkota, sayap, & spasi kosong 100% gratis.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/nama-game-keren',
   },
   openGraph: {
-    title: 'Nama Game Keren & Aesthetic Generator 2026 - FF, PUBG & MLBB',
+    title: 'Nama Game Keren & Aesthetic Generator - FF, PUBG & MLBB',
     description:
       'Konversi nama biasa menjadi nama game keren bergaya pro player esports secara instan tanpa aplikasi.',
     url: 'https://tulisan-aesthetic.vercel.app/nama-game-keren',

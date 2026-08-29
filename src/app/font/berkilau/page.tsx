@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import BerkilauClientPage from './BerkilauClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang 2026',
+  title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang',
   description:
     'Generator Font Berkilau & Tulisan Sparkly Unicode gratis terbaik di Indonesia. Hiasi teks biasa dengan bintang ✨, glitter, & ornamen aesthetic untuk Bio Instagram, TikTok, WA, Discord & Nickname Game.',
   keywords: [

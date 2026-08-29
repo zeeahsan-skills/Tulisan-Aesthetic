@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import TerhubungClientPage from './TerhubungClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive 2026',
+  title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive',
   description:
     'Generator tulisan Terhubung (Sambung / Connected Script / Handwriting) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font tulisan tangan indah untuk IG Bio, Undangan, WA & Caption 100% gratis.',
   keywords: [

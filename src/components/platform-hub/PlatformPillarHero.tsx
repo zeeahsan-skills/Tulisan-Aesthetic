@@ -11,7 +11,7 @@ export function PlatformPillarHero({ onCopy }: PlatformPillarHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Font Generator Media Sosial & Platform 2026"
+        title="Font Generator Media Sosial & Platform"
         subtitle="Generator font Unicode lengkap untuk Instagram, TikTok, WhatsApp, Facebook, Discord, dan Twitter X. Salin 50 gaya font aesthetic secara gratis."
         defaultText="Media Sosial Aesthetic"
         presetCategory="Popular"

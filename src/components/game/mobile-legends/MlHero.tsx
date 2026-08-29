@@ -11,7 +11,7 @@ export function MlHero({ onCopy }: MlHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Mobile Legends (MLBB) Font Generator 2026"
+        title="Mobile Legends (MLBB) Font Generator"
         subtitle="Buat Nickname MLBB Mythic Glory, Nama Squad, dan Bio ML dengan 50 gaya font Unicode unik dan simbol gaming."
         defaultText="MLBB Mythic"
         presetCategory="Gaming"

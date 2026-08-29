@@ -103,7 +103,7 @@ export function WhatsAppExamples({ onCopy }: WhatsAppExamplesProps) {
           <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins">
             Contoh Teks WhatsApp{' '}
             <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-green-500 bg-clip-text text-transparent">
-              Populer 2026
+              Populer
             </span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-400">

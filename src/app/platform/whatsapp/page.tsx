@@ -3,7 +3,7 @@ import WhatsAppClientPage from './WhatsAppClientPage';
 import { WHATSAPP_FAQS } from '@/lib/whatsapp-faqs';
 
 export const metadata: Metadata = {
-  title: 'WhatsApp Font Generator - Convert Teks Nama, Info & Status Aesthetic 2026',
+  title: 'WhatsApp Font Generator - Convert Teks Nama, Info & Status Aesthetic',
   description:
     'Generator WhatsApp Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk nama profil WA, Info/bio, status, chat & grup 100% gratis & tanpa aplikasi.',
   keywords: [

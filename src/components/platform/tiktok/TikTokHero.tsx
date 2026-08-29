@@ -11,7 +11,7 @@ export function TikTokHero({ onCopy }: TikTokHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="TikTok Font Generator - Tulisan Bio & Username 2026"
+        title="TikTok Font Generator - Tulisan Bio & Username"
         subtitle="Buat tulisan keren untuk Bio TikTok, Username, komentar, dan video dengan 50 variasi gaya font Unicode aesthetic."
         defaultText="TikTok Bio Aesthetic"
         presetCategory="Popular"

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import BubbleClientPage from './BubbleClientPage';
 
 export const metadata: Metadata = {
-  title: 'Bubble Font Generator - Converter Tulisan Gelembung Aesthetic 2026',
+  title: 'Bubble Font Generator - Converter Tulisan Gelembung Aesthetic',
   description:
     'Generator tulisan Bubble (gelembung melingkar) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font gelembung imut untuk Bio IG, TikTok, WhatsApp & Gaming Nickname 100% gratis.',
   keywords: [

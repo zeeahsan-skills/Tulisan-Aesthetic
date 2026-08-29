@@ -10,7 +10,7 @@ interface AngkaHeroProps {
 }
 
 export function AngkaHero({ onCopy }: AngkaHeroProps) {
-  const [inputText, setInputText] = useState('2026');
+  const [inputText, setInputText] = useState('12345');
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
 
@@ -23,14 +23,14 @@ export function AngkaHero({ onCopy }: AngkaHeroProps) {
 
   const handleCopyAll = () => {
     const allFormatted = NUMBER_FONT_STYLES
-      .map((s) => `${s.name}:\n${s.transform(inputText || '2026')}`)
+      .map((s) => `${s.name}:\n${s.transform(inputText || '12345')}`)
       .join('\n\n');
     navigator.clipboard.writeText(allFormatted);
     onCopy('Semua gaya Angka Keren berhasil disalin!');
   };
 
   const handleRandomize = () => {
-    const randomNumbers = ['12345', '2026', '999', '777', '100', '786', '007', '911', '2025', '0001'];
+    const randomNumbers = ['12345', '999', '777', '100', '786', '007', '911', '0001'];
     const randomNum = randomNumbers[Math.floor(Math.random() * randomNumbers.length)];
     setInputText(randomNum);
   };
@@ -76,7 +76,7 @@ export function AngkaHero({ onCopy }: AngkaHeroProps) {
         >
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-blue-500/10 border border-emerald-500/20 text-xs sm:text-sm font-semibold text-emerald-700 dark:text-emerald-300 backdrop-blur-md shadow-sm">
             <Binary className="w-4 h-4 text-emerald-500 animate-pulse" />
-            <span>Stylish Unicode Number Generator 2026</span>
+            <span>Stylish Unicode Number Generator</span>
           </span>
         </motion.div>
 
@@ -128,7 +128,7 @@ export function AngkaHero({ onCopy }: AngkaHeroProps) {
                 type="text"
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
-                placeholder="Masukkan angka (contoh: 2026)..."
+                placeholder="Masukkan angka (contoh: 12345)..."
                 className="w-full px-5 py-4 text-xl sm:text-3xl font-medium rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-purple-900/50 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 transition-all shadow-inner font-mono"
               />
             </div>
@@ -165,7 +165,7 @@ export function AngkaHero({ onCopy }: AngkaHeroProps) {
         {/* Live Font Previews Grid */}
         <div className="mt-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
           {NUMBER_FONT_STYLES.map((style, idx) => {
-            const transformed = style.transform(inputText || '2026');
+            const transformed = style.transform(inputText || '12345');
             const isCopied = copiedId === style.id;
             const isFav = !!favorites[style.id];
 

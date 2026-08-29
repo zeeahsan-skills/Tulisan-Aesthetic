@@ -32,7 +32,7 @@ export const WHATSAPP_FAQS = [
     a: '100% gratis selamanya tanpa pendaftaran akun, langganan berbayar, ataupun aplikasi tambahan.',
   },
   {
-    q: 'Apa saja gaya font WhatsApp yang paling populer tahun 2026?',
+    q: 'Apa saja gaya font WhatsApp yang paling populer saat ini?',
     a: 'Gaya font WA paling populer saat ini meliputi Small Caps (kapital mini), Cursive Script (tulisan miring sambung), Bold Sans (teks tebal), dan Circled Bubble (huruf dilingkari).',
   },
   {

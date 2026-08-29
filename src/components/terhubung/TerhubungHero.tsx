@@ -11,7 +11,7 @@ export function TerhubungHero({ onCopy }: TerhubungHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Font Sambung & Cursive Generator 2026"
+        title="Font Sambung & Cursive Generator"
         subtitle="Konversi teks menjadi tulisan sambung indah, kaligrafi Cursive, Script, dan 50 gaya font Unicode aesthetic lainnya secara instan."
         defaultText="Tulisan Sambung"
         presetCategory="Fancy"

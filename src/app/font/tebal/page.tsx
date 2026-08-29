@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import FontTebalClientPage from './FontTebalClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode 2026',
+  title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
   description:
     'Generator Font Tebal & Tulisan Bold Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi huruf tebal hitam aesthetic untuk Bio Instagram, WA, TikTok, FB, Discord & Game 100% instan.',
   keywords: [

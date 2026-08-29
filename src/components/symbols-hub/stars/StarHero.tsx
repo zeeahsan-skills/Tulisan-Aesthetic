@@ -13,7 +13,7 @@ export function StarHero({ onCopy }: StarHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Bintang & Font Generator 2026"
+        title="Simbol Bintang & Font Generator"
         subtitle="Koleksi lengkap simbol bintang (★, ✧, ✨, ✦) dan 50 gaya font Unicode aesthetic siap salin."
         defaultText="Bintang Aesthetic"
         presetCategory="Cute"

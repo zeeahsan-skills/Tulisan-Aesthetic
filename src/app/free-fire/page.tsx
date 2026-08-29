@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import FreeFireClientPage from '../game/free-fire/FreeFireClientPage';
 
 export const metadata: Metadata = {
-  title: 'Free Fire Stylish Name Generator - Generator Nama FF Keren 2026',
+  title: 'Free Fire Stylish Name Generator - Generator Nama FF Keren',
   description:
     'Generator nama Free Fire (FF) keren & estetik terbaik di Indonesia. Buat nickname pro player dengan simbol sayap, mahkota & font Unicode 100% gratis.',
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/free-fire',
   },
   openGraph: {
-    title: 'Free Fire Stylish Name Generator - Nama FF Keren Aesthetic 2026',
+    title: 'Free Fire Stylish Name Generator - Nama FF Keren Aesthetic',
     description:
       'Konversi teks biasa menjadi nickname Free Fire keren bergaya pro player esports secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app/free-fire',

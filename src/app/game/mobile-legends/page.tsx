@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MlClientPage from './MlClientPage';
 
 export const metadata: Metadata = {
-  title: 'Mobile Legends Stylish Name Generator - Generator Nama MLBB Keren 2026',
+  title: 'Mobile Legends Stylish Name Generator - Generator Nama MLBB Keren',
   description:
     'Generator nama Mobile Legends (MLBB) keren & estetik terbaik di Indonesia. Ubah nama biasa menjadi nickname gaya pro player, squad VIP, mahkota, kanji Jepang & font Unicode 100% gratis.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/game/mobile-legends',
   },
   openGraph: {
-    title: 'Mobile Legends Stylish Name Generator - Generator Nama MLBB Keren 2026',
+    title: 'Mobile Legends Stylish Name Generator - Generator Nama MLBB Keren',
     description:
       'Generate stylish Mobile Legends names instantly using Unicode fonts, symbols, and decorative characters.',
     url: 'https://tulisan-aesthetic.vercel.app/game/mobile-legends',

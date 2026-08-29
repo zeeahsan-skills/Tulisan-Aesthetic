@@ -13,7 +13,7 @@ export function ArrowHero({ onCopy }: ArrowHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Panah & Border Font Generator 2026"
+        title="Simbol Panah & Border Font Generator"
         subtitle="Ragam simbol panah (➼, ➸, ➔, ➲) dan 50 gaya font Unicode aesthetic untuk hiasan pesan."
         defaultText="Panah Border"
         presetCategory="Simple"

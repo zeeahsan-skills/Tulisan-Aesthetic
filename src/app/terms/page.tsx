@@ -36,7 +36,7 @@ export default function TermsPage() {
                 Syarat & Ketentuan
               </h1>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-                Terakhir diperbarui: 30 Juli 2026
+                Terakhir diperbarui: 30 Juli
               </p>
             </div>
           </div>

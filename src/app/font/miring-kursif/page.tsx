@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import FontMiringKursifClientPage from './FontMiringKursifClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung & Italic 2026',
+  title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung & Italic',
   description:
     'Generator Font Miring & Tulisan Kursif Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi tulisan tangan sambung & italic aesthetic untuk Bio Instagram, WA, TikTok & Nickname 100% instan.',
   keywords: [

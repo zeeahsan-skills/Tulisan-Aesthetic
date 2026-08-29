@@ -11,7 +11,7 @@ export function NamaKerenHero({ onCopy }: NamaKerenHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Generator Nama Keren & Bio Aesthetic 2026"
+        title="Generator Nama Keren & Bio Aesthetic"
         subtitle="Buat nama keren aesthetic untuk akun game dan media sosial dengan 50 gaya font Unicode unik, mahkota, dan simbol gaming."
         defaultText="Pro Gamer"
         presetCategory="Gaming"

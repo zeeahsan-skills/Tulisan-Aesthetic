@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import IGArticleClientPage from './IGArticleClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic 2026',
+  title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic',
   description:
     'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode font generator 100% gratis.',
   keywords: [
@@ -19,14 +19,13 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
   },
   openGraph: {
-    title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic 2026',
+    title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic',
     description:
       'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'article',
-    publishedTime: '2026-08-25T00:00:00.000Z',
     authors: ['Tulisan Aesthetic Editorial Team'],
   },
   twitter: {
@@ -71,8 +70,6 @@ export default function InstagramArticlePage() {
     description:
       'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
-    datePublished: '2026-08-25T00:00:00.000Z',
-    dateModified: '2026-08-25T00:00:00.000Z',
     author: {
       '@type': 'Organization',
       name: 'Tulisan Aesthetic Editorial Team',

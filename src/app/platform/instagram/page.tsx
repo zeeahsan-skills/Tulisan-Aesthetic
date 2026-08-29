@@ -3,7 +3,7 @@ import InstagramClientPage from './InstagramClientPage';
 import { INSTAGRAM_FAQS } from '@/lib/instagram-faqs';
 
 export const metadata: Metadata = {
-  title: 'Instagram Font Generator - Convert Teks Bio & Caption Aesthetic 2026',
+  title: 'Instagram Font Generator - Convert Teks Bio & Caption Aesthetic',
   description:
     'Generator Instagram Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk bio Instagram, username, caption, komentar & Story 100% gratis & tanpa aplikasi.',
   keywords: [

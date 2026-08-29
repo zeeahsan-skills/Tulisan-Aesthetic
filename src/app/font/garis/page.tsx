@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import GarisClientPage from './GarisClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough 2026',
+  title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough',
   description:
     'Generator tulisan Garis Coret (Strikethrough / Crossed Out) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font garis coret untuk WhatsApp, Instagram Bio, Discord & TikTok 100% gratis.',
   keywords: [

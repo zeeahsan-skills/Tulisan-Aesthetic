@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CodClientPage from '../game/cod-mobile/CodClientPage';
 
 export const metadata: Metadata = {
-  title: 'COD Mobile Name Generator - Generator Nickname CODM Keren 2026',
+  title: 'COD Mobile Name Generator - Generator Nickname CODM Keren',
   description:
     'Buat nickname Call of Duty Mobile (CODM) keren dengan tag clan, operator, tengkorak, dan font military 100% gratis.',
   keywords: [

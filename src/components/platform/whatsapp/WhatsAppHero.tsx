@@ -11,7 +11,7 @@ export function WhatsAppHero({ onCopy }: WhatsAppHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="WhatsApp Font Generator - Tulisan Unik WA 2026"
+        title="WhatsApp Font Generator - Tulisan Unik WA"
         subtitle="Ubah tulisan pesan WA, Nama Kontak, Status, dan Info Bio WhatsApp dengan 50 gaya font Unicode unik 100% terbaca."
         defaultText="Status WhatsApp Keren"
         presetCategory="Popular"

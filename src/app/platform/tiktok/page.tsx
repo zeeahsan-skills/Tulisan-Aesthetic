@@ -3,7 +3,7 @@ import TikTokClientPage from './TikTokClientPage';
 import { TIKTOK_FAQS } from '@/lib/tiktok-faqs';
 
 export const metadata: Metadata = {
-  title: 'TikTok Font Generator - Convert Teks Bio, Nama & Caption Aesthetic 2026',
+  title: 'TikTok Font Generator - Convert Teks Bio, Nama & Caption Aesthetic',
   description:
     'Generator TikTok Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk bio TikTok, display name, caption, komentar & profil 100% gratis & tanpa aplikasi.',
   keywords: [

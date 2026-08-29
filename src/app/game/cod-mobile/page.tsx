@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CodClientPage from './CodClientPage';
 
 export const metadata: Metadata = {
-  title: 'COD Mobile Stylish Name Generator - Generator Nama CODM Keren 2026',
+  title: 'COD Mobile Stylish Name Generator - Generator Nama CODM Keren',
   description:
     'Generator nama COD Mobile (CODM) keren & estetik terbaik di Indonesia. Ubah nama biasa menjadi nickname tactical, tag clan esports, tengkorak, & font Unicode 100% gratis.',
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/game/cod-mobile',
   },
   openGraph: {
-    title: 'COD Mobile Stylish Name Generator - Generator Nama CODM Keren 2026',
+    title: 'COD Mobile Stylish Name Generator - Generator Nama CODM Keren',
     description:
       'Generate stylish Call of Duty: Mobile names, clan tags, and nicknames instantly using Unicode fonts and decorative symbols.',
     url: 'https://tulisan-aesthetic.vercel.app/game/cod-mobile',

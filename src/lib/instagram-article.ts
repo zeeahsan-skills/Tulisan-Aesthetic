@@ -24,13 +24,13 @@ export const INSTAGRAM_ARTICLE_TOC: TOCItem[] = [
 ];
 
 export const INSTAGRAM_ARTICLE_META = {
-  title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic 2026',
+  title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic',
   subtitle:
     'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
   category: 'Instagram Guide',
   author: 'Tulisan Aesthetic Editorial Team',
-  publishDate: '25 Agustus 2026',
-  lastUpdated: '25 Agustus 2026',
+  publishDate: '25 Agustus',
+  lastUpdated: '25 Agustus',
   readingTime: '8 min read',
   coverGradient: 'from-pink-600 via-rose-600 to-purple-700',
   slug: 'font-instagram',

@@ -13,7 +13,7 @@ export function FlowerHero({ onCopy }: FlowerHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Simbol Bunga & Aesthetic Font Generator 2026"
+        title="Simbol Bunga & Aesthetic Font Generator"
         subtitle="Koleksi simbol bunga (✿, ❈, 🌸, 🌹) dan 50 variasi gaya font Unicode imut untuk Bio IG & TikTok."
         defaultText="Bunga Aesthetic"
         presetCategory="Cute"

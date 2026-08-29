@@ -3,7 +3,7 @@ import PlatformClientPage from './PlatformClientPage';
 import { PLATFORM_PILLAR_FAQS } from '@/lib/platform-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord 2026',
+  title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord',
   description:
     'Pusat alat generator font media sosial gratis. Ubah tulisan biasa menjadi font aesthetic untuk bio Instagram, caption TikTok, status WhatsApp, postingan Facebook & role Discord.',
   keywords: [

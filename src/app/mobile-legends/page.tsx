@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MlClientPage from '../game/mobile-legends/MlClientPage';
 
 export const metadata: Metadata = {
-  title: 'Mobile Legends Name Generator - Generator Nickname MLBB Aesthetic 2026',
+  title: 'Mobile Legends Name Generator - Generator Nickname MLBB Aesthetic',
   description:
     'Buat nama squad & akun Mobile Legends (MLBB) keren aesthetic dengan simbol mahkota, petir, bintang, dan font pro player.',
   keywords: [

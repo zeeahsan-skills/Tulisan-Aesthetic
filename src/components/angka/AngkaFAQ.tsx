@@ -46,7 +46,7 @@ export function AngkaFAQ() {
     },
     {
       q: 'Bagaimana cara membuat nomor tahun estetik (contoh: 𝟮𝟬𝟮𝟲 / ❷⓪❷❻)?',
-      a: 'Ketik "2026" di kolom input di atas, lalu pilih gaya "Mathematical Bold" atau "Dark Circled" untuk mendapatkan format tahun estetik secara instan.',
+      a: 'Ketik angka pada kolom input di atas, lalu pilih gaya "Mathematical Bold" atau "Dark Circled" untuk mendapatkan format angka estetik secara instan.',
     },
   ];
 

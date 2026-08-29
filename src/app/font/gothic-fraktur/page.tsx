@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import GothicClientPage from './GothicClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Gothic / Fraktur Generator - Converter Tulisan Blackletter & Old English 2026',
+  title: 'Font Gothic / Fraktur Generator - Converter Tulisan Blackletter & Old English',
   description:
     'Generator tulisan Gothic, Fraktur, Medieval, dan Old English Unicode terbaik di Indonesia. Ubah teks biasa menjadi font Gothic keren untuk Nickname FF, MLBB, Discord & Bio Instagram 100% gratis.',
   keywords: [
