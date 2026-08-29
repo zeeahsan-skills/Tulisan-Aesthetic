@@ -10,25 +10,21 @@ export function PlatformPillarArticles() {
       title: 'Panduan Bikin Bio Instagram Aesthetic & Unik',
       desc: 'Trik lengkap mengubah font bio IG tanpa aplikasi agar tampilan profil terlihat menarik dan profesional.',
       href: '/blog/font-instagram',
-      readTime: '3 Menit Baca',
     },
     {
       title: 'Cara Membuat Caption TikTok FYP Bertekstur Unique',
       desc: 'Strategi pemanfaatan font cetak tebal dan simbol aesthetic untuk meningkatkan engagemet penonton TikTok.',
       href: '/blog/font-tiktok',
-      readTime: '4 Menit Baca',
     },
     {
       title: 'Trik Format Teks WhatsApp: Tebal, Miring & Font Unik',
       desc: 'Kombinasi format bawaan WA dan generator Unicode untuk membuat info profil dan status terlihat menonjol.',
       href: '/blog/font-whatsapp',
-      readTime: '3 Menit Baca',
     },
     {
       title: 'Rahasia Karakter Unicode: Mengapa Font Berjalan di Semua Medsos',
       desc: 'Edukasi teknis mengenai standar Unicode internasional dan dukungan lintas platform operating system.',
       href: '/blog/apa-itu-unicode',
-      readTime: '5 Menit Baca',
     },
   ];
 
@@ -60,7 +56,6 @@ export function PlatformPillarArticles() {
                   <span className="flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5" /> Artikel Pilihan
                   </span>
-                  <span>{art.readTime}</span>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white font-poppins group-hover:text-purple-600 dark:group-hover:text-purple-400 transition">
                   {art.title}

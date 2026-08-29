@@ -85,14 +85,6 @@ export const CoolNamesHeroHeader: React.FC<CoolNamesHeroHeaderProps> = ({ onCopy
               <User className="w-4 h-4 text-purple-400" />
               {COOL_NAMES_ARTICLE_META.author}
             </span>
-            <span className="flex items-center gap-1">
-              <Calendar className="w-3.5 h-3.5 text-slate-500" />
-              {COOL_NAMES_ARTICLE_META.publishDate}
-            </span>
-            <span className="flex items-center gap-1">
-              <Clock className="w-3.5 h-3.5 text-slate-500" />
-              {COOL_NAMES_ARTICLE_META.readingTime}
-            </span>
           </div>
 
           <button

@@ -28,9 +28,6 @@ export const WHATSAPP_ARTICLE_META = {
     'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
   category: 'WhatsApp Guide',
   author: 'Tulisan Aesthetic Editorial Team',
-  publishDate: '25 Agustus',
-  lastUpdated: '25 Agustus',
-  readingTime: '8 min read',
   coverGradient: 'from-emerald-500 via-teal-500 to-cyan-600',
   slug: 'font-whatsapp',
 };

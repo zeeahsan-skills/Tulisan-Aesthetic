@@ -10,13 +10,11 @@ export function GamePillarArticles() {
       title: 'Panduan Bikin Nama Game Keren Ala Pro Player Esports',
       desc: 'Trik lengkap membuat nickname intimidatif dengan simbol mahkota, payung, dan spasi kosong transparan.',
       href: '/blog/cara-membuat-nama-keren',
-      readTime: '4 Menit Baca',
     },
     {
       title: 'Rahasia Kode Simbol Unicode Untuk Game Nickname',
       desc: 'Penjelasan ilmiah mengapa karakter Unicode dapat berjalan di server game Free Fire, PUBG, dan Mobile Legends.',
       href: '/blog/apa-itu-unicode',
-      readTime: '5 Menit Baca',
     },
   ];
 
@@ -48,7 +46,6 @@ export function GamePillarArticles() {
                   <span className="flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5" /> Artikel Gaming
                   </span>
-                  <span>{art.readTime}</span>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white font-poppins group-hover:text-amber-500 transition">
                   {art.title}

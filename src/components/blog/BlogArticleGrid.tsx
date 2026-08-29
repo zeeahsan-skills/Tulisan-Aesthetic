@@ -83,15 +83,11 @@ export const BlogArticleGrid: React.FC<BlogArticleGridProps> = ({
                         <span className="text-[11px] font-bold text-white bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
                           {post.category}
                         </span>
-                        <span className="text-[11px] font-semibold text-white/90 bg-black/30 backdrop-blur-md px-2.5 py-0.5 rounded-md flex items-center gap-1">
-                          <Clock className="w-3 h-3" />
-                          {post.readingTime}
-                        </span>
                       </div>
 
                       <div className="text-white text-xs font-semibold z-10 opacity-90 flex items-center gap-1.5">
                         <User className="w-3.5 h-3.5" />
-                        <span>{post.author}</span> • <span>{post.publishDate}</span>
+                        <span>{post.author}</span>
                       </div>
                     </div>
 

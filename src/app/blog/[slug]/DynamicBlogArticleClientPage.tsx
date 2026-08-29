@@ -9,9 +9,7 @@ import { Toast } from '@/components/Toast';
 import { ReadingProgressBar } from '@/components/blog/article/ReadingProgressBar';
 import { BlogPost } from '@/lib/blog-posts';
 import {
-  Clock,
   User,
-  Calendar,
   ChevronRight,
   ArrowLeft,
   Share2,
@@ -124,14 +122,6 @@ export default function DynamicBlogArticleClientPage({ post }: Props) {
                 <span className="flex items-center gap-1.5 font-semibold text-slate-200">
                   <User className="w-4 h-4 text-purple-400" />
                   {post.author}
-                </span>
-                <span className="flex items-center gap-1">
-                  <Calendar className="w-3.5 h-3.5 text-slate-500" />
-                  {post.publishDate}
-                </span>
-                <span className="flex items-center gap-1">
-                  <Clock className="w-3.5 h-3.5 text-slate-500" />
-                  {post.readingTime}
                 </span>
               </div>
 

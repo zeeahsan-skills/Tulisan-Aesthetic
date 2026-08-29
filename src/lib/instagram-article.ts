@@ -29,9 +29,6 @@ export const INSTAGRAM_ARTICLE_META = {
     'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
   category: 'Instagram Guide',
   author: 'Tulisan Aesthetic Editorial Team',
-  publishDate: '25 Agustus',
-  lastUpdated: '25 Agustus',
-  readingTime: '8 min read',
   coverGradient: 'from-pink-600 via-rose-600 to-purple-700',
   slug: 'font-instagram',
 };

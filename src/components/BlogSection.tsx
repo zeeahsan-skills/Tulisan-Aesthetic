@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Clock, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export function BlogSection() {
@@ -15,8 +15,6 @@ export function BlogSection() {
       slug: 'font-instagram',
       title: 'Panduan Lengkap Font Unicode: Rahasia Bio Instagram Aesthetic',
       category: 'Tutorial IG',
-      readTime: '4 min baca',
-      date: '25 Agustus',
       snippet: 'Pelajari cara kerja standar Unicode dan bagaimana Anda bisa mengubah teks biasa menjadi font aesthetic di Bio Instagram tanpa terpotong.',
       image: '✨',
     },
@@ -25,8 +23,6 @@ export function BlogSection() {
       slug: 'cara-membuat-nama-keren',
       title: 'Cara Membuat Gaming Nickname FF & MLBB Keren Anti Mainstream',
       category: 'Gaming Tips',
-      readTime: '5 min baca',
-      date: '25 Agustus',
       snippet: 'Daftar rahasia kombinasi mahkota, sayap ꧁༺ ༻꧂, dan font tebal yang biasa dipakai oleh pro player esports dunia.',
       image: '⚔️',
     },
@@ -35,8 +31,6 @@ export function BlogSection() {
       slug: 'apa-itu-unicode',
       title: 'Kenapa Tulisan Aesthetic Kadang Jadi Kotak-Kotak? (Penjelasan Unicode)',
       category: 'Edukasi Tech',
-      readTime: '6 min baca',
-      date: '25 Agustus',
       snippet: 'Sering melihat simbol ☒ atau ⍰ saat kirim pesan? Ketahui alasan kompatibilitas font Unicode di HP lama vs baru.',
       image: '📱',
     },
@@ -45,8 +39,6 @@ export function BlogSection() {
       slug: 'font-tiktok',
       title: 'Tips Memilih Font Aesthetic Terbaik untuk Caption TikTok FYP',
       category: 'TikTok Tips',
-      readTime: '3 min baca',
-      date: '25 Agustus',
       snippet: 'Meningkatkan retention dan impresi video TikTok dengan kombinasi font Bubble, Small Caps, dan emoticon kaomoji.',
       image: '🎵',
     },
@@ -55,8 +47,6 @@ export function BlogSection() {
       slug: 'font-whatsapp',
       title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
       category: 'WhatsApp Tips',
-      readTime: '8 min baca',
-      date: '25 Agustus',
       snippet: 'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
       image: '💬',
     },
@@ -94,15 +84,10 @@ export function BlogSection() {
                 className="group relative rounded-3xl p-6 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-purple-900/30 hover:border-purple-500/50 dark:hover:border-purple-500/50 shadow-lg hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 flex flex-col justify-between h-full block"
               >
                 <div>
-                  {/* Badge & Time */}
                   <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 mb-4">
                     <span className="px-3 py-1 rounded-full bg-purple-500/10 text-purple-600 dark:text-pink-400 font-semibold">
                       {article.category}
                     </span>
-                    <div className="flex items-center gap-1 font-medium">
-                      <Clock className="w-3.5 h-3.5" />
-                      <span>{article.readTime}</span>
-                    </div>
                   </div>
 
                   {/* Title */}
@@ -115,11 +100,7 @@ export function BlogSection() {
                   </p>
                 </div>
 
-                {/* Read More Link */}
-                <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
-                  <span className="text-xs text-slate-400 font-medium">
-                    {article.date}
-                  </span>
+                <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-end">
                   <span className="text-xs font-bold text-purple-600 dark:text-pink-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                     {t.blog.readMore}
                     <ArrowRight className="w-3.5 h-3.5" />

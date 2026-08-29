@@ -28,9 +28,6 @@ export const TIKTOK_ARTICLE_META = {
     'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
   category: 'TikTok Guide',
   author: 'Tulisan Aesthetic Editorial Team',
-  publishDate: '25 Agustus',
-  lastUpdated: '25 Agustus',
-  readingTime: '8 min read',
   coverGradient: 'from-cyan-500 via-pink-500 to-purple-600',
   slug: 'font-tiktok',
 };

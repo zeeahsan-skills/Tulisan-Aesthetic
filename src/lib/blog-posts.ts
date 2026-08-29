@@ -17,9 +17,9 @@ export interface BlogPost {
     | 'Symbols'
     | 'Emoji'
     | 'Kaomoji';
-  readingTime: string;
+  readingTime?: string;
   author: string;
-  publishDate: string;
+  publishDate?: string;
   coverGradient: string;
   isPopular?: boolean;
 }
@@ -49,9 +49,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
     category: 'WhatsApp',
-    readingTime: '8 min read',
     author: 'Tulisan Aesthetic Editorial Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-emerald-500 via-teal-500 to-cyan-600',
     isPopular: true,
   },
@@ -61,9 +59,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
     category: 'TikTok',
-    readingTime: '8 min read',
     author: 'Tulisan Aesthetic Editorial Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-cyan-500 via-pink-500 to-purple-600',
     isPopular: true,
   },
@@ -73,9 +69,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Panduan lengkap mengubah teks bio Instagram dengan font aesthetic Unicode, simbol bintang, dan kaomoji unik agar profil terlihat aesthetic.',
     category: 'Instagram',
-    readingTime: '5 min read',
     author: 'Aesthetic Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-pink-600 to-purple-600',
     isPopular: true,
   },
@@ -85,9 +79,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Kumpulan rekomendasi nickname FF keren pro player dengan hiasan simbol bintang, mahkota, dan huruf gothic yang langsung bisa dicopy.',
     category: 'Free Fire',
-    readingTime: '4 min read',
     author: 'Gaming Strategist',
-    publishDate: '25 Agt',
     coverGradient: 'from-orange-600 to-amber-600',
     isPopular: true,
   },
@@ -97,9 +89,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Trik mudah memformat tulisan WhatsApp menjadi cetak tebal, miring, tercoret, dan font gelembung lingkaran hanya menggunakan generator online.',
     category: 'WhatsApp',
-    readingTime: '6 min read',
     author: 'Tech Writer',
-    publishDate: '25 Agt',
     coverGradient: 'from-emerald-600 to-teal-600',
     isPopular: true,
   },
@@ -109,9 +99,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Mengenal emotikon teks Jepang (Kaomoji) (◕‿◕) dan cara menggunakannya di postingan TikTok, pesan WhatsApp, dan bio Discord.',
     category: 'Kaomoji',
-    readingTime: '5 min read',
     author: 'Aesthetic Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-teal-600 to-cyan-600',
     isPopular: true,
   },
@@ -121,9 +109,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Tutorial step-by-step mengubah nama tampilan di Roblox agar keren dan beda dari pemain lain menggunakan Unicode generator.',
     category: 'Roblox',
-    readingTime: '4 min read',
     author: 'Gaming Strategist',
-    publishDate: '25 Agt',
     coverGradient: 'from-cyan-600 to-blue-600',
     isPopular: true,
   },
@@ -133,9 +119,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Penjelasan teknis standar Unicode, variasi huruf Mathematical Alphanumeric Symbols, dan alasan mengapa font aesthetic bukan font file biasa.',
     category: 'Unicode',
-    readingTime: '7 min read',
     author: 'SEO Architect',
-    publishDate: '25 Agt',
     coverGradient: 'from-purple-600 to-indigo-600',
     isPopular: true,
   },
@@ -145,9 +129,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Ide nama squad MLBB bahasa Inggris & Latin dengan lambang panah, mahkota, dan huruf gothic fraktur untuk turnamen esport.',
     category: 'Mobile Legends',
-    readingTime: '5 min read',
     author: 'Gaming Strategist',
-    publishDate: '25 Agt',
     coverGradient: 'from-blue-600 to-sky-600',
   },
   {
@@ -156,9 +138,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Tips mengoptimalkan teks caption TikTok dengan kombinasi font miring, emoji berwarna, dan hashtag estetik untuk menaikkan engagement.',
     category: 'TikTok',
-    readingTime: '4 min read',
     author: 'Content Marketer',
-    publishDate: '25 Agt',
     coverGradient: 'from-pink-600 to-rose-600',
   },
   {
@@ -167,9 +147,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Trik mempercantik tampilan chat server Discord dan deskripsi profil menggunakan sintaks Markdown serta karakter generator font.',
     category: 'Discord',
-    readingTime: '5 min read',
     author: 'Tech Writer',
-    publishDate: '25 Agt',
     coverGradient: 'from-indigo-600 to-violet-600',
   },
   {
@@ -178,9 +156,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Jelajahi variasi simbol Unicode bintang (★, ✦, ✨) dan bunga (🌸, 🌹, 🌺) untuk dekorasi bio Instagram dan postingan blog.',
     category: 'Symbols',
-    readingTime: '4 min read',
     author: 'Aesthetic Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-amber-600 to-yellow-600',
   },
   {
@@ -189,9 +165,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Daftar nama klan PUBGM elegan dengan ornamen panah ➜, petir ⚡, dan huruf kecil subscript superscript yang siap digunakan.',
     category: 'PUBG',
-    readingTime: '5 min read',
     author: 'Gaming Strategist',
-    publishDate: '25 Agt',
     coverGradient: 'from-orange-600 to-yellow-600',
   },
   {
@@ -200,9 +174,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     description:
       'Ulasan perbandingan antara emoji grafis gambar berwarna dan emotikon teks kaomoji klasik dalam komunikasi pesan singkat.',
     category: 'Emoji',
-    readingTime: '4 min read',
     author: 'Aesthetic Team',
-    publishDate: '25 Agt',
     coverGradient: 'from-emerald-600 to-green-600',
   },
 ];
