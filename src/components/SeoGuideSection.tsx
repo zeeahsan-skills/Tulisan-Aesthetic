@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Sparkles,
@@ -78,7 +79,7 @@ export function SeoGuideSection({ onCopy }: SeoGuideSectionProps) {
   // Detailed Font Categories Breakdown
   const fontCategoriesDetail = [
     { title: 'Tulisan Tebal (Bold)', tag: 'Tebal & Tegas', desc: 'Memberikan efek tebal sans-serif atau serif Unicode. Sangat cocok untuk judul bio, penekanan teks penting, dan nama akun.', sample: '𝗧𝘂𝗹𝗶𝘀𝗮𝗻 𝗧𝗲𝗯𝗮𝗹', link: '/font/tebal' },
-    { title: 'Tulisan Miring (Italic / Cursive)', tag: 'Anggun & Halus', desc: 'Huruf sambung bergaya kaligrafi tangan yang memberikan kesan feminin, estetik, dan elegan.', sample: '𝒯𝓊𝓁𝒾𝓈𝒶𝓃 ℳ𝒾𝓇𝒾𝓃ℊ', link: '/font/terhubung' },
+    { title: 'Tulisan Miring (Italic / Cursive)', tag: 'Anggun & Halus', desc: 'Huruf sambung bergaya kaligrafi tangan yang memberikan kesan feminin, estetik, dan elegan.', sample: '𝒯𝓊𝓁𝒾𝓈𝒶𝓃 ℳ𝒾𝓇𝒾𝓃ℊ', link: '/font/miring-kursif' },
     { title: 'Tulisan Gothic (Fraktur)', tag: 'Dark & Klasik', desc: 'Gaya huruf Abad Pertengahan bergaya gothic klasik. Sangat disukai gamer untuk nickname clan dan profil edgier.', sample: '𝔗𝔲𝔩𝔦𝔰𝔞𝔫 𝔊𝔬𝔱𝔥𝔦𝔠', link: '/font/gothic-fraktur' },
     { title: 'Monospace (Mesin Tik)', tag: 'Retro & Komputer', desc: 'Font dengan lebar karakter seragam bergaya mesin ketik klasik atau konsol koding.', sample: '𝚃𝚞𝚕𝚒𝚜𝚊𝚗 𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎', link: '/font/garis' },
     { title: 'Double-Struck', tag: 'Simbol Matematika', desc: 'Gaya garis ganda (blackboard bold) yang unik dan sering dipakai untuk username profesional.', sample: '𝕋𝕦𝕝𝕚𝕤𝕒𝕟 𝔻𝕠𝕦𝕓𝕝𝕖', link: '/font/huruf-keren' },
@@ -240,10 +241,10 @@ export function SeoGuideSection({ onCopy }: SeoGuideSectionProps) {
                         <div>
                           <div className="flex items-center justify-between mb-2">
                             <span className="text-xs font-bold text-purple-600 dark:text-pink-400 uppercase tracking-wider">{cat.tag}</span>
-                            <a href={cat.link} className="text-xs text-slate-400 hover:text-purple-600 flex items-center gap-1">
+                            <Link href={cat.link} className="text-xs text-slate-400 hover:text-purple-600 flex items-center gap-1">
                               <span>Detail</span>
                               <ArrowRight className="w-3 h-3" />
-                            </a>
+                            </Link>
                           </div>
                           <h4 className="text-base font-bold text-slate-900 dark:text-white font-poppins">{cat.title}</h4>
                           <p className="mt-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">{cat.desc}</p>

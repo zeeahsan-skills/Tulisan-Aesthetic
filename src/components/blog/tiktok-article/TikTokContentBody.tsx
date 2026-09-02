@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Copy, Check, Info, AlertTriangle, Lightbulb, Sparkles, Video, CheckCircle2, Terminal, UserCheck, MessageSquare, Flame } from 'lucide-react';
 
 interface TikTokContentBodyProps {
@@ -129,7 +130,7 @@ export const TikTokContentBody: React.FC<TikTokContentBodyProps> = ({ onCopy }) 
 
         <ol className="list-decimal list-inside space-y-3 text-slate-300 my-4 pl-2">
           <li className="leading-relaxed">
-            <strong className="text-cyan-300">Akses Generator Font:</strong> Buka halaman <a href="/platform/tiktok" className="text-cyan-400 underline hover:text-cyan-300">Generator Font TikTok</a> di browser smartphone Anda.
+            <strong className="text-cyan-300">Akses Generator Font:</strong> Buka halaman <Link href="/platform/tiktok" className="text-cyan-400 underline hover:text-cyan-300">Generator Font TikTok</Link> di browser smartphone Anda.
           </li>
           <li className="leading-relaxed">
             <strong className="text-cyan-300">Ketikkan Teks Anda:</strong> Masukkan nama, kalimat bio, atau caption video yang ingin Anda ubah pada kolom input utama.

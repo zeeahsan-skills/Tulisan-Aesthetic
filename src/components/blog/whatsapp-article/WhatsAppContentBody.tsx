@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Copy, Check, Info, AlertTriangle, Lightbulb, Sparkles, MessageCircle, CheckCircle2, Terminal, UserCheck, Smartphone } from 'lucide-react';
 
 interface WhatsAppContentBodyProps {
@@ -134,7 +135,7 @@ export const WhatsAppContentBody: React.FC<WhatsAppContentBodyProps> = ({ onCopy
 
         <h3 className="text-lg font-bold text-emerald-300 mt-4 mb-2">A. Menggunakan Generator Online (Tulisan Aesthetic)</h3>
         <ol className="list-decimal list-inside space-y-2 text-slate-300 mb-6 pl-2">
-          <li>Buka generator <a href="/platform/whatsapp" className="text-emerald-400 underline hover:text-emerald-300">Generator Font WhatsApp</a> di browser Anda.</li>
+          <li>Buka generator <Link href="/platform/whatsapp" className="text-emerald-400 underline hover:text-emerald-300">Generator Font WhatsApp</Link> di browser Anda.</li>
           <li>Ketikkan nama profil, info bio, atau pesan chat pada kolom input.</li>
           <li>Pilih salah satu gaya tulisan estetik yang paling Anda sukai.</li>
           <li>Tekan tombol <span className="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-mono text-xs">Copy</span> untuk menyalin teks.</li>
