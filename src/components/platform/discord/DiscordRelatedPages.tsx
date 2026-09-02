@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Sparkles, Type, PenTool, Gamepad2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Type, PenTool, Hash, Smile, Gamepad2, Wand2 } from 'lucide-react';
 
 const InstagramIcon = () => (
   <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
@@ -10,87 +10,82 @@ const InstagramIcon = () => (
   </svg>
 );
 
-const TikTokIcon = () => (
-  <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
-    <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.82.57-1.3 1.54-1.28 2.55.01.89.47 1.76 1.2 2.27.81.57 1.87.69 2.8.34 1.02-.37 1.74-1.32 1.83-2.41.04-2.82.01-5.64.02-8.46 0-1.48.01-2.96 0-4.44z"/>
-  </svg>
-);
-
-const FacebookIcon = () => (
-  <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
-    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-  </svg>
-);
-
 export function DiscordRelatedPages() {
   const relatedLinks = [
     {
-      title: 'Huruf Keren Aesthetic',
-      path: '/font/berkilau',
-      desc: 'Konversi teks huruf kecil superscript paling estetik.',
-      icon: Sparkles,
-      color: 'from-purple-500 to-indigo-600',
+      title: 'Instagram Fonts',
+      path: '/platform/instagram',
+      desc: 'Optimasi format teks estetik khusus Bio, Caption & Story Instagram.',
+      icon: InstagramIcon,
+      color: 'from-amber-500 via-pink-500 to-purple-600',
     },
     {
-      title: 'Font Tebal / Bold',
-      path: '/font/kotak',
-      desc: 'Teks tebal sans-serif penarik perhatian penonton.',
-      icon: Type,
-      color: 'from-blue-500 to-cyan-600',
-    },
-    {
-      title: 'Font Miring Cursive',
-      path: '/font/terhubung',
-      desc: 'Tulisan tangan halus dan anggun berkelas.',
+      title: 'Cursive Text',
+      path: '/font/miring-kursif',
+      desc: 'Font miring dan tulisan tangan miring kursif bergaya halus & anggun.',
       icon: PenTool,
       color: 'from-fuchsia-500 to-purple-600',
     },
     {
-      title: 'Nama Game Keren',
-      path: '/font/nama-keren',
-      desc: 'Simbol mahkota & sayap untuk FF, PUBG, dan MLBB.',
-      icon: Gamepad2,
+      title: 'Bold Font',
+      path: '/font/tebal',
+      desc: 'Teks tebal sans-serif & serif Unicode penarik perhatian penonton.',
+      icon: Type,
+      color: 'from-blue-500 to-cyan-600',
+    },
+    {
+      title: 'Fancy Text',
+      path: '/font/huruf-keren',
+      desc: 'Huruf keren aesthetic & font superscript unik untuk gaya pesan.',
+      icon: Sparkles,
+      color: 'from-purple-500 to-indigo-600',
+    },
+    {
+      title: 'Aesthetic Fonts',
+      path: '/font/berkilau',
+      desc: 'Koleksi font estetik berkilau dengan hiasan simbol bintang.',
+      icon: Wand2,
       color: 'from-pink-500 to-rose-600',
     },
     {
-      title: 'Instagram Font Generator',
-      path: '/platform/instagram',
-      desc: 'Optimasi teks khusus Bio & Story Instagram.',
-      icon: InstagramIcon,
-      color: 'from-amber-500 to-purple-600',
+      title: 'Small Text',
+      path: '/font/tiny',
+      desc: 'Format huruf kapital mini Small Caps yang rapi & compact.',
+      icon: Hash,
+      color: 'from-emerald-500 to-teal-600',
     },
     {
-      title: 'TikTok Font Generator',
-      path: '/platform/tiktok',
-      desc: 'Caption FYP-ready & nama akun TikTok aesthetic.',
-      icon: TikTokIcon,
-      color: 'from-teal-400 to-pink-500',
+      title: 'Symbols',
+      path: '/simbol',
+      desc: 'Katalog ribuan simbol Unicode, kaomoji imut, bintang & mahkota.',
+      icon: Smile,
+      color: 'from-orange-500 to-amber-600',
     },
     {
-      title: 'Facebook Font Generator',
-      path: '/platform/facebook',
-      desc: 'Generator teks estetik untuk Bio & Status FB.',
-      icon: FacebookIcon,
-      color: 'from-blue-600 to-indigo-700',
+      title: 'Nama Game Keren',
+      path: '/nama-game-keren',
+      desc: 'Preset kombinasi font & simbol mahkota/sayap untuk nickname game.',
+      icon: Gamepad2,
+      color: 'from-indigo-500 to-purple-700',
     },
   ];
 
   return (
-    <section className="py-20 bg-slate-50/50 dark:bg-slate-950/50 relative">
+    <section id="related-font-tools" className="py-16 sm:py-20 bg-slate-50/50 dark:bg-slate-950/50 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <span className="px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
-            Jelajahi Alat Lainnya
+            Related Font Tools
           </span>
           <h2 className="mt-4 text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins">
-            Halaman & Generator Terkait
+            Halaman & Alat Font Terkait
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-400">
             Temukan generator gaya font Unicode dan platform sosial media populer lainnya.
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-10 sm:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
           {relatedLinks.map((item) => {
             const Icon = item.icon;
 

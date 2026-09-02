@@ -9,7 +9,7 @@ export const ArticleRelatedLinks: React.FC = () => {
   const relatedLinks = [
     {
       title: 'Cara Membuat Nama Keren & Aesthetic',
-      path: '/blog',
+      path: '/blog/cara-membuat-nama-keren',
       desc: 'Panduan merancang nickname estetik untuk game dan akun sosial media.',
       icon: <Sparkles className="w-5 h-5 text-purple-400" />,
     },

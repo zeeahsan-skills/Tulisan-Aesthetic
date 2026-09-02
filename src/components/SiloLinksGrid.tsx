@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Link2, ArrowRight, Sparkles, Gamepad2, Share2, Compass } from 'lucide-react';
+import { Link2, ArrowRight, Sparkles, Gamepad2, Compass } from 'lucide-react';
 
 export function SiloLinksGrid() {
   const fontStyleLinks = [
@@ -10,7 +11,7 @@ export function SiloLinksGrid() {
     { title: 'Font Tebal (Bold Sans/Serif)', href: '/font/tebal', sample: '𝗧𝘂𝗹𝗶𝘀𝗮𝗻' },
     { title: 'Font Gothic & Fraktur', href: '/font/gothic-fraktur', sample: '𝕿𝖚𝖑𝖎𝖘𝖆𝖓' },
     { title: 'Font Tiny & Small Caps', href: '/font/tiny', sample: 'ᵀᵁᴸᴵˢᴬᴺ' },
-    { title: 'Font Terhubung / Cursive', href: '/font/terhubung', sample: '𝒯𝓊𝓁𝒾𝓈𝒶𝓃' },
+    { title: 'Font Miring / Cursive', href: '/font/miring-kursif', sample: '𝒯𝓊𝓁ⓘ𝓈𝒶ⓝ' },
     { title: 'Font Menakutkan (Glitch Zalgo)', href: '/font/menakutkan', sample: 'T̷u̷l̷i̷s̷a̷n̷' },
     { title: 'Font Garis (Typewriter)', href: '/font/garis', sample: '𝚃𝚞𝚕𝚒𝚜𝚊𝚗' },
     { title: 'Nama Keren & Decor Mix', href: '/font/nama-keren', sample: '꧁༺ ᵀᵁᴸᴵˢᴬᴺ ༻꧂' },
@@ -26,7 +27,7 @@ export function SiloLinksGrid() {
   ];
 
   const platformLinks = [
-    { title: 'Font Media Sosial Hub', href: '/font-media-sosial', desc: 'Panduan format bio IG, WA & TikTok' },
+    { title: 'Font Media Sosial Hub', href: '/platform', desc: 'Panduan format bio IG, WA, TikTok & Discord' },
     { title: 'Katalog Simbol & Kaomoji', href: '/simbol', desc: 'Kaomoji imut (⁠っ⁠.⁠❛⁠ ⁠.⁠❛⁠)⁠っ & simbol bintang' },
   ];
 
@@ -53,13 +54,13 @@ export function SiloLinksGrid() {
           <div className="flex items-center gap-2 mb-6">
             <Sparkles className="w-5 h-5 text-purple-600 dark:text-pink-400" />
             <h3 className="text-xl font-bold text-slate-900 dark:text-white font-poppins">
-              Katalog Gaya Font Specific
+              Katalog Gaya Font Spesifik
             </h3>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {fontStyleLinks.map((item, idx) => (
-              <a
+              <Link
                 key={idx}
                 href={item.href}
                 className="group p-4 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200/70 dark:border-purple-900/30 hover:border-purple-500/50 hover:shadow-md transition-all flex flex-col justify-between"
@@ -75,7 +76,7 @@ export function SiloLinksGrid() {
                 <div className="mt-3 flex items-center justify-end">
                   <ArrowRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 group-hover:text-purple-600 transition-all" />
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -91,7 +92,7 @@ export function SiloLinksGrid() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {gamingLinks.map((item, idx) => (
-              <a
+              <Link
                 key={idx}
                 href={item.href}
                 className="group p-5 rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200/70 dark:border-purple-900/30 hover:border-pink-500/50 hover:shadow-md transition-all flex items-center justify-between gap-4"
@@ -105,7 +106,7 @@ export function SiloLinksGrid() {
                   </p>
                 </div>
                 <ArrowRight className="w-5 h-5 text-slate-400 shrink-0 group-hover:translate-x-1 group-hover:text-pink-500 transition-all" />
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -113,7 +114,7 @@ export function SiloLinksGrid() {
         {/* Silo Category 3: Platforms & Symbols */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {platformLinks.map((item, idx) => (
-            <a
+            <Link
               key={idx}
               href={item.href}
               className="group p-6 rounded-3xl bg-gradient-to-r from-purple-900/10 to-pink-900/10 border border-purple-500/20 hover:border-purple-500/50 transition-all flex items-center justify-between"
@@ -127,7 +128,7 @@ export function SiloLinksGrid() {
                 </p>
               </div>
               <ArrowRight className="w-5 h-5 text-purple-600 dark:text-pink-400 shrink-0 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
           ))}
         </div>
 

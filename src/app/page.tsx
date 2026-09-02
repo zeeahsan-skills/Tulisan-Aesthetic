@@ -10,6 +10,7 @@ import { SymbolsSection } from '@/components/SymbolsSection';
 import { UnicodeExplanation } from '@/components/UnicodeExplanation';
 import { CompatibilityMatrix } from '@/components/CompatibilityMatrix';
 import { SiloLinksGrid } from '@/components/SiloLinksGrid';
+import { PopularTools } from '@/components/PopularTools';
 import { EEATAuthorSection } from '@/components/EEATAuthorSection';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { StatsSection } from '@/components/StatsSection';
@@ -88,6 +89,9 @@ export default function Home() {
 
         {/* Section 9: Topic Silo & Internal Links Matrix */}
         <SiloLinksGrid />
+
+        {/* Section 10: Popular Tools Section */}
+        <PopularTools />
 
         {/* Section 10: Features & Benefits */}
         <WhyChooseUs />

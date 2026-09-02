@@ -21,7 +21,7 @@ export const WhatsAppRelatedLinks: React.FC = () => {
     },
     {
       title: 'Font Discord Guide',
-      path: '/blog/font-discord',
+      path: '/blog/cara-format-teks-discord-markdown-font',
       desc: 'Format teks Discord markdown & generator font nama server.',
       icon: <MessageSquare className="w-5 h-5 text-indigo-400" />,
     },

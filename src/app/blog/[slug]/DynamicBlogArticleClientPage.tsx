@@ -182,19 +182,67 @@ export default function DynamicBlogArticleClientPage({ post }: Props) {
               <Sparkles className="w-5 h-5 text-purple-400" />
               Alat Generator Terkait & Navigasi
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-semibold">
-              <Link href="/font/huruf-keren" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">
-                Huruf Keren
-              </Link>
-              <Link href="/font/tebal" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">
-                Font Tebal
-              </Link>
-              <Link href="/simbol" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">
-                Katalog Simbol
-              </Link>
-              <Link href="/platform/whatsapp" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">
-                Platform WA
-              </Link>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 text-xs font-semibold">
+              {post.category === 'Instagram' && (
+                <>
+                  <Link href="/platform/instagram" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Instagram Fonts</Link>
+                  <Link href="/font/huruf-keren" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Huruf Keren</Link>
+                  <Link href="/font/tiny" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Small Text</Link>
+                  <Link href="/simbol" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Simbol Bio</Link>
+                </>
+              )}
+              {post.category === 'TikTok' && (
+                <>
+                  <Link href="/platform/tiktok" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-cyan-300 border border-slate-800 text-center">TikTok Fonts</Link>
+                  <Link href="/font/huruf-keren" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Huruf Keren</Link>
+                  <Link href="/font/miring-kursif" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Cursive Text</Link>
+                  <Link href="/font/berkilau" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-pink-300 border border-slate-800 text-center">Aesthetic Fonts</Link>
+                </>
+              )}
+              {post.category === 'WhatsApp' && (
+                <>
+                  <Link href="/platform/whatsapp" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-emerald-300 border border-slate-800 text-center">WhatsApp Fonts</Link>
+                  <Link href="/font/tebal" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Bold Font</Link>
+                  <Link href="/font/miring-kursif" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Cursive Text</Link>
+                  <Link href="/font/gelembung" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Bubble Text</Link>
+                </>
+              )}
+              {post.category === 'Discord' && (
+                <>
+                  <Link href="/platform/discord" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-indigo-300 border border-slate-800 text-center">Discord Font Generator</Link>
+                  <Link href="/font/gothic-fraktur" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-amber-300 border border-slate-800 text-center">Gothic Fraktur</Link>
+                  <Link href="/font/tiny" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Small Text</Link>
+                  <Link href="/font/menakutkan" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Glitch Text</Link>
+                </>
+              )}
+              {['Free Fire', 'PUBG', 'Mobile Legends', 'Roblox', 'Gaming Names'].includes(post.category) && (
+                <>
+                  <Link href="/free-fire" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-orange-300 border border-slate-800 text-center">Free Fire Nick</Link>
+                  <Link href="/mobile-legends" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-blue-300 border border-slate-800 text-center">Mobile Legends</Link>
+                  <Link href="/pubg-mobile" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-amber-300 border border-slate-800 text-center">PUBG Mobile</Link>
+                  <Link href="/nama-game-keren" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-pink-300 border border-slate-800 text-center">Katalog Game</Link>
+                </>
+              )}
+              {['Symbols', 'Emoji', 'Kaomoji'].includes(post.category) && (
+                <>
+                  <Link href="/simbol" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-amber-300 border border-slate-800 text-center">Katalog Simbol</Link>
+                  <Link href="/simbol/kaomoji" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-teal-300 border border-slate-800 text-center">Kaomoji Aesthetic</Link>
+                  <Link href="/simbol/bintang" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Simbol Bintang</Link>
+                  <Link href="/simbol/mahkota" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-pink-300 border border-slate-800 text-center">Simbol Mahkota</Link>
+                </>
+              )}
+              {!['Instagram', 'TikTok', 'WhatsApp', 'Discord', 'Free Fire', 'PUBG', 'Mobile Legends', 'Roblox', 'Gaming Names', 'Symbols', 'Emoji', 'Kaomoji'].includes(post.category) && (
+                <>
+                  <Link href="/platform/instagram" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Instagram Fonts</Link>
+                  <Link href="/platform/discord" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-indigo-300 border border-slate-800 text-center">Discord Font Generator</Link>
+                  <Link href="/font/huruf-keren" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Huruf Keren</Link>
+                  <Link href="/font/tebal" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-blue-300 border border-slate-800 text-center">Bold Font</Link>
+                  <Link href="/font/miring-kursif" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-pink-300 border border-slate-800 text-center">Cursive Text</Link>
+                  <Link href="/font/tiny" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-emerald-300 border border-slate-800 text-center">Small Text</Link>
+                  <Link href="/font/berkilau" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-purple-300 border border-slate-800 text-center">Aesthetic Fonts</Link>
+                  <Link href="/simbol" className="p-3 rounded-xl bg-slate-950 hover:bg-purple-900/30 text-amber-300 border border-slate-800 text-center">Simbol</Link>
+                </>
+              )}
             </div>
           </div>
 

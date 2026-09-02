@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Sparkles, Type, Circle, Shield, Skull, PenTool, Hash, Zap, Compass, ArrowUpRight, Copy } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -20,13 +21,13 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
       preview: 'ᵀᵁᴸᴵˢᴬᴺ ᴬᴱˢᵀᴴᴱᵀᴵᶜ',
       desc: 'Style font aesthetic paling populer di TikTok & IG. Mengubah huruf menjadi huruf kecil superscript bergaya minimalis.',
       color: 'from-purple-500 to-indigo-600',
-      href: '/font/berkilau',
+      href: '/font/huruf-keren',
     },
     {
       id: 'bubble',
       title: 'Bubble Text',
       icon: Circle,
-      preview: 'Ⓣⓤⓛⓘⓢⓐⓝ Ⓐⓔⓢⓣⓗⓔⓣⓘⓒ',
+      preview: 'Ⓣⓤⓛⓘⓢⓐⓝ Ⓐⓢⓣⓗⓔⓣⓘⓒ',
       desc: 'Setiap huruf dilingkari dengan batas bulat (circled). Cocok untuk highlight caption dan nama grup chat.',
       color: 'from-pink-500 to-rose-600',
       href: '/font/gelembung',
@@ -56,7 +57,7 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
       preview: '𝒯𝓊𝓁𝒾𝓈𝒶𝓃 𝒜ℯ𝓈𝓉𝒽ℯ𝓉𝒾𝒸',
       desc: 'Font tulisan tangan halus dan anggun. Memberikan kesan feminin, estetik, dan berkelas.',
       color: 'from-fuchsia-500 to-purple-600',
-      href: '/font/terhubung',
+      href: '/font/miring-kursif',
     },
     {
       id: 'small-caps',
@@ -138,13 +139,13 @@ export function PopularFonts({ onCopy }: PopularFontsProps) {
                     <div className={`p-3 rounded-2xl bg-gradient-to-tr ${card.color} text-white shadow-md`}>
                       <Icon className="w-6 h-6" />
                     </div>
-                    <a
+                    <Link
                       href={card.href}
                       className="p-2 rounded-xl text-slate-400 hover:text-purple-600 dark:hover:text-pink-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
                       title={`Buka Halaman ${card.title}`}
                     >
                       <ArrowUpRight className="w-5 h-5" />
-                    </a>
+                    </Link>
                   </div>
 
                   {/* Title & Preview */}
