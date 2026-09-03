@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'tiny',
     'angka',
     'berkilau',
+    'sparkly',
     'garis',
     'glitch',
     'kotak',

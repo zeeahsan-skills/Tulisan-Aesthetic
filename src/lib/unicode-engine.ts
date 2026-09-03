@@ -448,6 +448,105 @@ export const SPARKLY_FONT_STYLES: FontStyle[] = [
   },
 ];
 
+export const DEDICATED_SPARKLY_FONT_STYLES: FontStyle[] = [
+  {
+    id: 'stardust-shimmer',
+    name: 'Stardust Shimmer ✧･ﾟ: *',
+    category: 'Cute',
+    transform: (t) => `✧･ﾟ: *✧･ﾟ:* ${mapChars(t, SMALL_CAPS_MAP)} *:･ﾟ✧*:･ﾟ✧`,
+  },
+  {
+    id: 'sparkle-starlight-halo',
+    name: 'Starlight Halo ੈ✩‧₊˚',
+    category: 'Cute',
+    transform: (t) => `ੈ✩‧₊˚ ${mapChars(t, CURSIVE_MAP)} ˚₊‧✩ੈ`,
+  },
+  {
+    id: 'magic-wand-sparkle',
+    name: 'Magic Wand Twinkle 🪄₊˚⊹♡',
+    category: 'Cute',
+    transform: (t) => `🪄₊˚⊹♡ ${mapChars(t, BOLD_CURSIVE_MAP)} ♡⊹˚₊🪄`,
+  },
+  {
+    id: 'crystal-diamond-glitter',
+    name: 'Crystal Diamond Glitter 💎✨',
+    category: 'Fancy',
+    transform: (t) => `💎✨ ${mapChars(t, BOLD_SANS_MAP)} ✨💎`,
+  },
+  {
+    id: 'celestial-sparkle-moon',
+    name: 'Celestial Moon Sparkle ⋆⁺₊⋆ ☾',
+    category: 'Cute',
+    transform: (t) => `⋆⁺₊⋆ ☾ ${mapChars(t, CURSIVE_MAP)} ⋆⁺₊⋆ ☁️`,
+  },
+  {
+    id: 'twinkling-stars-glow',
+    name: 'Twinkling Glow ⋆｡°✩',
+    category: 'Cute',
+    transform: (t) => `⋆｡°✩ ${mapChars(t, SMALL_CAPS_MAP)} ✩°｡⋆`,
+  },
+  {
+    id: 'coquette-sparkle-bow',
+    name: 'Coquette Sparkle Bow ୨୧ ₊˚.',
+    category: 'Cute',
+    transform: (t) => `୨୧ ₊˚. ${mapChars(t, CURSIVE_MAP)} .˚₊ ୨୧`,
+  },
+  {
+    id: 'golden-aura-starlight',
+    name: 'Golden Aura Starlight *ੈ✩‧₊˚',
+    category: 'Fancy',
+    transform: (t) => `*ੈ✩‧₊˚ ${mapChars(t, BOLD_CURSIVE_MAP)} ˚₊‧✩*`,
+  },
+  {
+    id: 'shimmering-brackets',
+    name: 'Shimmering Brackets 【 ✧ ✧ 】',
+    category: 'Fancy',
+    transform: (t) => `【 ✧ ${mapChars(t, BOLD_SANS_MAP)} ✧ 】`,
+  },
+  {
+    id: 'glittering-glimmer-dots',
+    name: 'Glittering Dots ✦ . ⁺ . ✦',
+    category: 'Popular',
+    transform: (t) => `✦ . ⁺ . ✦ ${mapChars(t, SMALL_CAPS_MAP)} ✦ . ⁺ . ✦`,
+  },
+  {
+    id: 'shooting-star-burst',
+    name: 'Shooting Star Burst 彡☆',
+    category: 'Gaming',
+    transform: (t) => `彡☆ ${mapChars(t, SMALL_CAPS_MAP)} ☆彡`,
+  },
+  {
+    id: 'celestial-starlight-crescent',
+    name: 'Celestial Crescent ☽︎✧ ✧☾︎',
+    category: 'Cute',
+    transform: (t) => `☽︎✧ ${mapChars(t, SMALL_CAPS_MAP)} ✧☾︎`,
+  },
+  {
+    id: 'angel-sparkle-wings',
+    name: 'Angel Wings Sparkle ˚ʚ♡ɞ˚',
+    category: 'Cute',
+    transform: (t) => `˚ʚ♡ɞ˚ ✨ ${mapChars(t, CURSIVE_MAP)} ✨ ˚ʚ♡ɞ˚`,
+  },
+  {
+    id: 'diamond-stardust-box',
+    name: 'Diamond Stardust Box [ ✦ ✦ ]',
+    category: 'Popular',
+    transform: (t) => `[ ✦ ${mapChars(t, DOUBLE_STRUCK_MAP)} ✦ ]`,
+  },
+  {
+    id: 'fairy-dust-sparkles',
+    name: 'Fairy Dust Sparkles 🧚‍♀️✨',
+    category: 'Cute',
+    transform: (t) => `🧚‍♀️✨ ${mapChars(t, CURSIVE_MAP)} ✨🧚‍♀️`,
+  },
+  {
+    id: 'starry-night-glitz',
+    name: 'Starry Glitz ★·.·´¯`·.·★',
+    category: 'Popular',
+    transform: (t) => `★·.·´¯\`·.·★ ${mapChars(t, CURSIVE_MAP)} ★·.·´¯\`·.·★`,
+  },
+];
+
 export const CONNECTED_FONT_STYLES: FontStyle[] = [
   {
     id: 'script-regular',
@@ -1302,6 +1401,7 @@ export const ALL_FONT_STYLES: FontStyle[] = combineFontStyles(
   FLIPPED_FONT_STYLES,
   SCARY_FONT_STYLES,
   SPARKLY_FONT_STYLES,
+  DEDICATED_SPARKLY_FONT_STYLES,
   CONNECTED_FONT_STYLES,
   SQUARE_FONT_STYLES,
   NUMBER_FONT_STYLES

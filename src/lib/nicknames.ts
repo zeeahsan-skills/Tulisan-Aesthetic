@@ -82,6 +82,7 @@ export const GAMING_NICKNAMES: GameNicknameCategory[] = [
     color: 'from-rose-500 to-red-600',
     icon: 'Crosshair',
     description: 'Name tag Valorant modern minimalis dengan simbol cakar, angka romawi, dan gaya cyber.',
+    href: '/game/valorant',
     samples: [
       'J E T T // 01',
       '⚡R E A P E R⚡',

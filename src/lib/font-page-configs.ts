@@ -8,6 +8,7 @@ import {
   STRIKETHROUGH_FONT_STYLES,
   FLIPPED_FONT_STYLES,
   SPARKLY_FONT_STYLES,
+  DEDICATED_SPARKLY_FONT_STYLES,
   CONNECTED_FONT_STYLES,
   SQUARE_FONT_STYLES,
   NUMBER_FONT_STYLES,
@@ -160,6 +161,19 @@ const berkilauPrimary: FontStyle[] = [
   FIFTY_FONT_STYLES[41], // diamond-sparkle
   FIFTY_FONT_STYLES[46], // rose-blossom
   FIFTY_FONT_STYLES[49], // music-notes
+];
+
+// 4b. Dedicated Sparkly Font Configuration
+const sparklyPrimary: FontStyle[] = [
+  ...DEDICATED_SPARKLY_FONT_STYLES,
+  FIFTY_FONT_STYLES[35], // star-borders ★彡 彡★
+  FIFTY_FONT_STYLES[37], // border-wings ꧁༺ ༻꧂
+  FIFTY_FONT_STYLES[6],  // cursive-script
+  FIFTY_FONT_STYLES[7],  // bold-cursive
+  FIFTY_FONT_STYLES[16], // small-caps
+  FIFTY_FONT_STYLES[12], // bubble-light
+  FIFTY_FONT_STYLES[19], // vaporwave
+  FIFTY_FONT_STYLES[8],  // double-struck
 ];
 
 // 5. Font Gothic Fraktur Configuration
@@ -333,6 +347,15 @@ export const FONT_PAGE_CONFIGS: Record<string, FontPageConfig> = {
     presetCategory: 'Cute',
     mainCategoryName: 'Sparkling & Star Deco',
     getStyles: () => buildCurated50(berkilauPrimary),
+  },
+  sparkly: {
+    slug: 'sparkly',
+    title: 'Sparkly Font Generator - Tulisan Berkilau & Glitter Aesthetic',
+    subtitle: 'Hiasi teks Anda dengan stardust ✧･ﾟ:*, kilau kristal ੈ✩‧₊˚, dan 50 gaya font sparkly aesthetic siap salin.',
+    defaultText: 'Sparkly Aesthetic',
+    presetCategory: 'Cute',
+    mainCategoryName: 'Sparkly & Glitter Fonts',
+    getStyles: () => buildCurated50(sparklyPrimary),
   },
   angka: {
     slug: 'angka',
