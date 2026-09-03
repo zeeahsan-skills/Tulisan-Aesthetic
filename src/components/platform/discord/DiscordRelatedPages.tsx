@@ -63,7 +63,7 @@ export function DiscordRelatedPages() {
     },
     {
       title: 'Nama Game Keren',
-      path: '/nama-game-keren',
+      path: '/game',
       desc: 'Preset kombinasi font & simbol mahkota/sayap untuk nickname game.',
       icon: Gamepad2,
       color: 'from-indigo-500 to-purple-700',

@@ -9,22 +9,22 @@ export function FontTebalGaming() {
   const games = [
     {
       name: 'Free Fire (FF)',
-      link: '/game/free-fire',
+      link: '/free-fire',
       desc: 'Nickname FF bergaris tebal hitam (Bold Sans) memberikan impresi pro player yang tangguh di papan skor.',
     },
     {
       name: 'Mobile Legends (MLBB)',
-      link: '/game/mobile-legends',
+      link: '/mobile-legends',
       desc: 'Sangat cocok untuk nama Squad MLBB dan Nickname pemain agar mudah terbaca saat drafting & loading screen.',
     },
     {
       name: 'PUBG Mobile',
-      link: '/game/pubg-mobile',
+      link: '/pubg-mobile',
       desc: 'Gunakan Font Tebal Serif atau Monospace Bold untuk nama klan PUBG Mobile bergaya militer.',
     },
     {
       name: 'Roblox & Valorant',
-      link: '/game/roblox',
+      link: '/roblox',
       desc: 'Teks bold Unicode didukung secara penuh untuk Display Name Roblox serta akun ID Valorant.',
     },
   ];

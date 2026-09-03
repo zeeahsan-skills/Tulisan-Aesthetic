@@ -9,25 +9,25 @@ export function HurufKerenGaming() {
   const games = [
     {
       name: 'Free Fire (FF)',
-      link: '/game/free-fire',
+      link: '/free-fire',
       desc: 'Sangat cocok untuk nickname FF berornamen pedang, mahkota, dan gaya Gothic Fraktur.',
       badge: 'Nick FF',
     },
     {
       name: 'Mobile Legends (MLBB)',
-      link: '/game/mobile-legends',
+      link: '/mobile-legends',
       desc: 'Buat nama squad & nickname MLBB aesthetic bergaris tebal atau Small Caps berkesan pro player.',
       badge: 'Squad ML',
     },
     {
       name: 'PUBG Mobile',
-      link: '/game/pubg-mobile',
+      link: '/pubg-mobile',
       desc: 'Gunakan font Monospace dan Japanese brackets 『 』 untuk nama klan PUBG Mobile bergaya cyber.',
       badge: 'Clan PUBG',
     },
     {
       name: 'Roblox',
-      link: '/game/roblox',
+      link: '/roblox',
       desc: 'Variasi tulisan keren imut & bubble box yang didukung penuh untuk Display Name Roblox.',
       badge: 'Display Name',
     },

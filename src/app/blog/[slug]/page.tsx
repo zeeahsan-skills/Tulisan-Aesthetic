@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS_DATA } from '@/lib/blog-posts';
+import { RICH_BLOG_ARTICLES } from '@/lib/blog-articles-data';
 import DynamicBlogArticleClientPage from './DynamicBlogArticleClientPage';
 
 interface PageProps {
@@ -64,6 +65,8 @@ export default async function DynamicBlogArticlePage({ params }: PageProps) {
     notFound();
   }
 
+  const richData = RICH_BLOG_ARTICLES[post.slug];
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -114,6 +117,22 @@ export default async function DynamicBlogArticlePage({ params }: PageProps) {
     },
   };
 
+  const faqSchema =
+    richData && richData.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: richData.faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: f.a,
+            },
+          })),
+        }
+      : null;
+
   return (
     <>
       <script
@@ -124,6 +143,12 @@ export default async function DynamicBlogArticlePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <DynamicBlogArticleClientPage post={post} />
     </>
   );

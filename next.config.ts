@@ -78,6 +78,16 @@ const nextConfig: NextConfig = {
         destination: '/cod-mobile',
         permanent: true,
       },
+      {
+        source: '/game/valorant',
+        destination: '/valorant',
+        permanent: true,
+      },
+      {
+        source: '/nama-game-keren',
+        destination: '/game',
+        permanent: true,
+      },
     ];
   },
 };

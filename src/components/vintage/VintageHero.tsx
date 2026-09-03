@@ -12,7 +12,7 @@ export function VintageHero({ onCopy }: VintageHeroProps) {
     <div id="hero">
       <FontGenerator
         title="Font Vintage & Klasik Generator"
-        subtitle="Ubah teks biasa menjadi tulisan Vintage klasik, Old English, Fraktur Blackletter, dan 50 gaya font Unicode aesthetic lainnya secara instan."
+        subtitle="Ubah teks biasa menjadi tulisan Vintage retro era 70-an/80-an, mesin tik klasik, serif nostalgia, dan gaya font retro aesthetic lainnya secara instan."
         defaultText="Vintage Classic"
         presetCategory="Gothic"
         pageSlug="vintage"

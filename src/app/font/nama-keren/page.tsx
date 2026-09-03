@@ -2,26 +2,27 @@ import type { Metadata } from 'next';
 import NamaKerenClientPage from './NamaKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Generator Nama Keren - Converter Stylish Name IG, FF & TikTok',
+  title: 'Generator Nama Keren & Stylish Name — Nama Profil Aesthetic IG, TikTok & WA',
   description:
-    'Generator Nama Keren (Stylish Name Generator) Unicode terbaik di Indonesia. Buat nama aesthetic untuk Nickname Free Fire, MLBB, PUBG, Bio IG, TikTok & Discord 100% gratis.',
+    'Generator Nama Keren & Stylish Display Name online terbaik di Indonesia. Ubah nama biasa menjadi kombinasi font aesthetic, simbol sayap ꧁༺ ༻꧂, dan ornamen elegan untuk profil Instagram, akun TikTok, dan WhatsApp.',
   keywords: [
     'generator nama keren',
     'stylish name generator',
-    'nama ff aesthetic',
-    'nickname game keren',
-    'nama bio instagram aesthetic',
-    'tiktok username generator',
-    'gaya nama gothic wings',
+    'nama aesthetic ig',
+    'nama profil tiktok keren',
+    'username aesthetic',
+    'display name keren',
+    'stylish username',
+    'nama bio aesthetic',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
   },
   openGraph: {
-    title: 'Generator Nama Keren - Converter Stylish Name IG, FF & TikTok',
+    title: 'Generator Nama Keren & Stylish Name — Nama Profil Aesthetic IG, TikTok & WA',
     description:
-      'Buat nama keren & aesthetic untuk Free Fire, MLBB, PUBG, Bio IG, dan TikTok secara instan tanpa aplikasi.',
+      'Buat nama display & profil keren aesthetic untuk bio Instagram, akun TikTok, WhatsApp, dan media sosial secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Generator Nama Keren - Converter Stylish Name',
-    description: 'Generator Nama Keren Unicode terlengkap di Indonesia.',
+    title: 'Generator Nama Keren & Stylish Name — Profil Aesthetic',
+    description: 'Generator Nama Keren dan Stylish Display Name Unicode terlengkap di Indonesia.',
   },
   robots: 'index, follow',
 };
@@ -55,7 +56,7 @@ export default function NamaKerenPage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Generator Nama Keren',
+        name: 'Generator Nama Keren & Stylish Name',
         item: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
       },
     ],

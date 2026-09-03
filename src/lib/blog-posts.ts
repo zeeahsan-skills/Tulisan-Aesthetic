@@ -75,11 +75,11 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'cara-membuat-nama-keren',
-    title: '100+ Nickname Free Fire Keren Pakai Simbol Bintang & Mahkota',
+    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
     description:
-      'Kumpulan rekomendasi nickname FF keren pro player dengan hiasan simbol bintang, mahkota, dan huruf gothic yang langsung bisa dicopy.',
-    category: 'Free Fire',
-    author: 'Gaming Strategist',
+      'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya dengan font Unicode & simbol.',
+    category: 'Gaming Names',
+    author: 'Tulisan Aesthetic Editorial Team',
     coverGradient: 'from-orange-600 to-amber-600',
     isPopular: true,
   },

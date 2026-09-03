@@ -51,7 +51,7 @@ export const HeartRelatedPages: React.FC = () => {
     },
     {
       title: 'Roblox Username Generator',
-      path: '/game/roblox',
+      path: '/roblox',
       desc: 'Buat nama Roblox aesthetic dengan simbol hati & kaomoji imut.',
       icon: <Sparkles className="w-5 h-5 text-pink-400" />,
     },

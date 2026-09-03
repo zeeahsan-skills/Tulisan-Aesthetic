@@ -45,13 +45,13 @@ export function SparklyRelated() {
     },
     {
       title: 'Roblox Username Generator',
-      path: '/game/roblox',
+      path: '/roblox',
       desc: 'Buat nama Roblox imut dengan kaomoji dan simbol hati.',
       icon: <Sparkles className="w-5 h-5 text-cyan-400" />,
     },
     {
       title: 'Valorant Nickname Generator',
-      path: '/game/valorant',
+      path: '/valorant',
       desc: 'Buat nama akun Valorant dan Riot ID keren & aesthetic.',
       icon: <Flame className="w-5 h-5 text-red-400" />,
     },

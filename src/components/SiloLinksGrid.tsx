@@ -23,7 +23,7 @@ export function SiloLinksGrid() {
     { title: 'Nickname PUBG Mobile', href: '/pubg-mobile', desc: 'Teks gothic & karakter Jepang PUBG' },
     { title: 'Nickname Call of Duty (COD)', href: '/cod-mobile', desc: 'Simbol senjata & font militer CODM' },
     { title: 'Nickname Roblox Aesthetic', href: '/roblox', desc: 'Font imut & simbol cute Roblox' },
-    { title: 'Katalog Nama Game Keren', href: '/nama-game-keren', desc: 'Kumpulan 1000+ preset nama game' },
+    { title: 'Katalog Nama Game Keren', href: '/game', desc: 'Kumpulan 1000+ preset nama game' },
   ];
 
   const platformLinks = [

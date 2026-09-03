@@ -26,13 +26,13 @@ export function RandomPlatforms() {
             </p>
 
             <div className="mt-6 pt-4 border-t border-slate-800 flex flex-wrap gap-2">
-              <Link href="/game/free-fire" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
+              <Link href="/free-fire" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
                 Free Fire
               </Link>
-              <Link href="/game/mobile-legends" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
+              <Link href="/mobile-legends" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
                 Mobile Legends
               </Link>
-              <Link href="/game/pubg-mobile" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
+              <Link href="/pubg-mobile" className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-medium text-slate-200 transition">
                 PUBG Mobile
               </Link>
             </div>

@@ -11,10 +11,10 @@ export function NamaKerenHero({ onCopy }: NamaKerenHeroProps) {
   return (
     <div id="hero">
       <FontGenerator
-        title="Generator Nama Keren & Bio Aesthetic"
-        subtitle="Buat nama keren aesthetic untuk akun game dan media sosial dengan 50 gaya font Unicode unik, mahkota, dan simbol gaming."
-        defaultText="Pro Gamer"
-        presetCategory="Gaming"
+        title="Generator Nama Keren & Stylish Name"
+        subtitle="Buat nama display keren aesthetic untuk profil Instagram, akun TikTok, dan WhatsApp dengan 50 gaya font Unicode unik, sayap, dan ornamen elegan."
+        defaultText="Aesthetic Name"
+        presetCategory="Cute"
         pageSlug="nama-keren"
         onCopy={onCopy}
       />

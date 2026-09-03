@@ -2,27 +2,27 @@ import type { Metadata } from 'next';
 import VintageClientPage from './VintageClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro',
+  title: 'Font Vintage & Klasik Generator — Tulisan Retro, Typewriter & Serif Aesthetic',
   description:
-    'Generator Font Vintage & Blackletter Unicode terbaik di Indonesia. Ubah teks biasa menjadi font klasik, Fraktur, Old English, & Serif Retro untuk Bio IG, Undangan, WA & Gaming 100% gratis.',
+    'Generator Font Vintage & Retro Klasik Unicode gratis. Ubah teks biasa menjadi font mesin tik antik, serif vintage elegan, dan estetika retro 70-an/80-an untuk bio media sosial, caption estetik & quotes.',
   keywords: [
     'font vintage',
     'tulisan vintage',
-    'font klasik',
-    'old english text',
-    'blackletter font',
-    'font kuno aesthetic',
-    'vintage text generator',
+    'font klasik retro',
+    'font mesin tik aesthetic',
+    'typewriter text',
+    'serif vintage',
     'retro font copy paste',
+    'font nostalgia aesthetic',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/vintage',
   },
   openGraph: {
-    title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro Unicode',
+    title: 'Font Vintage & Klasik Generator — Tulisan Retro & Serif Aesthetic Unicode',
     description:
-      'Konversi teks biasa menjadi font Vintage, Fraktur Blackletter, dan Retro Klasik estetik secara instan.',
+      'Konversi teks biasa menjadi font Vintage retro era 70-an/80-an, mesin tik klasik, dan serif nostalgia estetik secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app/font/vintage',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Vintage & Klasik Generator - Converter Blackletter & Retro',
-    description: 'Generator font Vintage Unicode terlengkap di Indonesia.',
+    title: 'Font Vintage & Klasik Generator — Tulisan Retro & Serif Aesthetic',
+    description: 'Generator font Vintage dan Retro Klasik Unicode terlengkap di Indonesia.',
   },
   robots: 'index, follow',
 };
@@ -56,7 +56,7 @@ export default function VintagePage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Font Vintage & Klasik Generator',
+        name: 'Font Vintage & Retro Klasik',
         item: 'https://tulisan-aesthetic.vercel.app/font/vintage',
       },
     ],

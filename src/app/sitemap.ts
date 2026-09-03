@@ -21,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'menakutkan',
     'nama-keren',
     'terhubung',
+    'random',
+    'vintage',
   ];
 
   const platformRoutes = [
@@ -32,17 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'twitter-x',
   ];
 
-  const gameRoutes = [
-    'valorant',
-  ];
-
   const standaloneGameRoutes = [
     'free-fire',
     'pubg-mobile',
     'mobile-legends',
     'roblox',
     'cod-mobile',
-    'nama-game-keren',
+    'valorant',
   ];
 
   const symbolRoutes = [
@@ -70,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const mainHubRoutes = [
+    'font',
     'platform',
     'game',
     'blog',
@@ -91,13 +90,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
-  }));
-
-  const gameEntries: MetadataRoute.Sitemap = gameRoutes.map((route) => ({
-    url: `${baseUrl}/game/${route}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
   }));
 
   const standaloneGameEntries: MetadataRoute.Sitemap = standaloneGameRoutes.map((route) => ({
@@ -124,8 +116,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const mainHubEntries: MetadataRoute.Sitemap = mainHubRoutes.map((route) => ({
     url: `${baseUrl}/${route}`,
     lastModified: new Date(),
-    changeFrequency: route === 'blog' ? 'daily' : 'monthly',
-    priority: route === 'blog' ? 0.9 : 0.5,
+    changeFrequency: route === 'blog' || route === 'font' ? 'daily' : 'monthly',
+    priority: route === 'blog' || route === 'font' ? 0.9 : 0.5,
   }));
 
   return [
@@ -137,7 +129,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...fontEntries,
     ...platformEntries,
-    ...gameEntries,
     ...standaloneGameEntries,
     ...symbolEntries,
     ...blogArticleEntries,

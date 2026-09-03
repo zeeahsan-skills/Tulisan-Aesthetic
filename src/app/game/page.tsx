@@ -104,6 +104,11 @@ export default function GamePage() {
         name: 'COD Mobile Name Generator',
         url: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
       },
+      {
+        '@type': 'ItemPage',
+        name: 'Valorant Nickname Generator',
+        url: 'https://tulisan-aesthetic.vercel.app/valorant',
+      },
     ],
   };
 

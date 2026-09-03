@@ -27,19 +27,19 @@ export const RobloxRelatedPages: React.FC = () => {
     },
     {
       title: 'Free Fire Name Generator',
-      path: '/game/free-fire',
+      path: '/free-fire',
       desc: 'Nickname FF keren berornamen payung & mahkota.',
       icon: <Flame className="w-5 h-5 text-amber-400" />,
     },
     {
       title: 'PUBG Mobile Name Generator',
-      path: '/game/pubg-mobile',
+      path: '/pubg-mobile',
       desc: 'Nickname PUBG Conqueror & Tag Clan Esports.',
       icon: <Crosshair className="w-5 h-5 text-rose-400" />,
     },
     {
       title: 'Mobile Legends Name Generator',
-      path: '/game/mobile-legends',
+      path: '/mobile-legends',
       desc: 'Nickname MLBB Mythic Immortal & Squad VIP.',
       icon: <Swords className="w-5 h-5 text-indigo-400" />,
     },

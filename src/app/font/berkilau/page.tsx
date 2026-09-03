@@ -2,28 +2,27 @@ import type { Metadata } from 'next';
 import BerkilauClientPage from './BerkilauClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang',
+  title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust Unicode',
   description:
-    'Generator Font Berkilau & Tulisan Sparkly Unicode gratis terbaik di Indonesia. Hiasi teks biasa dengan bintang ✨, glitter, & ornamen aesthetic untuk Bio Instagram, TikTok, WA, Discord & Nickname Game.',
+    'Generator Font Berkilau Bintang gratis terbaik di Indonesia. Hiasi teks biasa dengan kilau bintang ✨, stardust ✧･ﾟ:*, dan ornamen cahaya Unicode estetik untuk Bio Instagram, TikTok, WA, dan nama profil.',
   keywords: [
     'font berkilau',
-    'sparkly font',
-    'sparkling text',
-    'glitter text',
+    'font bintang aesthetic',
     'tulisan berkilau',
-    'tulisan glitter',
-    'star text',
-    'decorative sparkle text',
-    'aesthetic sparkle text',
+    'simbol bintang berkilau',
+    'stardust text',
+    'font cahaya unicode',
+    'hiasan teks bintang',
+    'tulisan bintang copy paste',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/berkilau',
   },
   openGraph: {
-    title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter Bintang',
+    title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust Unicode',
     description:
-      'Konversi teks biasa menjadi font Berkilau (Sparkly / Star / Decorative) estetik secara instan tanpa aplikasi.',
+      'Konversi teks biasa menjadi font Berkilau Bintang dan ornamen stardust cahaya estetik secara instan tanpa aplikasi.',
     url: 'https://tulisan-aesthetic.vercel.app/font/berkilau',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Berkilau / Sparkly Generator - Converter Tulisan Glitter',
+    title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust',
     description: 'Generator font Berkilau Bintang Unicode terlengkap di Indonesia.',
   },
   robots: 'index, follow',
@@ -57,7 +56,7 @@ export default function BerkilauPage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Font Berkilau / Sparkly Generator',
+        name: 'Font Berkilau Bintang Generator',
         item: 'https://tulisan-aesthetic.vercel.app/font/berkilau',
       },
     ],

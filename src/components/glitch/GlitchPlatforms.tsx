@@ -6,11 +6,11 @@ import { Gamepad2, MessageSquare, ShieldAlert } from 'lucide-react';
 
 export function GlitchPlatforms() {
   const gameLinks = [
-    { name: 'Free Fire (FF)', url: '/game/free-fire' },
-    { name: 'Mobile Legends (MLBB)', url: '/game/mobile-legends' },
-    { name: 'PUBG Mobile', url: '/game/pubg-mobile' },
-    { name: 'Roblox', url: '/game/roblox' },
-    { name: 'Valorant', url: '/game/valorant' },
+    { name: 'Free Fire (FF)', url: '/free-fire' },
+    { name: 'Mobile Legends (MLBB)', url: '/mobile-legends' },
+    { name: 'PUBG Mobile', url: '/pubg-mobile' },
+    { name: 'Roblox', url: '/roblox' },
+    { name: 'Valorant', url: '/valorant' },
   ];
 
   return (

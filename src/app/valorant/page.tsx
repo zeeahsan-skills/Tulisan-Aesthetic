@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import ValorantClientPage from './ValorantClientPage';
+import ValorantClientPage from '../game/valorant/ValorantClientPage';
 
 export const metadata: Metadata = {
   title: 'Valorant Nickname Generator - Riot ID & Nama Valorant Keren',
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tulisan Aesthetic Gaming Team' }],
   alternates: {
-    canonical: 'https://tulisan-aesthetic.vercel.app/game/valorant',
+    canonical: 'https://tulisan-aesthetic.vercel.app/valorant',
   },
   openGraph: {
     title: 'Valorant Nickname Generator - Riot ID & Nama Valorant Keren',
     description:
       'Generator nama in-game Valorant pro player dan Riot ID aesthetic. Ubah nama akun Valorant menjadi puluhan gaya font Unicode unik dan simbol gaming.',
-    url: 'https://tulisan-aesthetic.vercel.app/game/valorant',
+    url: 'https://tulisan-aesthetic.vercel.app/valorant',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
     type: 'website',
@@ -61,7 +61,7 @@ export default function ValorantPage() {
         '@type': 'ListItem',
         position: 3,
         name: 'Valorant Nickname Generator',
-        item: 'https://tulisan-aesthetic.vercel.app/game/valorant',
+        item: 'https://tulisan-aesthetic.vercel.app/valorant',
       },
     ],
   };

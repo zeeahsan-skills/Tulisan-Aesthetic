@@ -147,7 +147,7 @@ export function HurufKerenArticleSection({ onCopy }: HurufKerenArticleSectionPro
     {
       title: 'Game',
       desc: 'Buat nickname dan username yang lebih menarik untuk berbagai kebutuhan game.',
-      href: '/game/free-fire',
+      href: '/free-fire',
       icon: Gamepad2,
     },
     {
