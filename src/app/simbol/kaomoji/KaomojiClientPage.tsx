@@ -10,6 +10,7 @@ import { KaomojiGrid } from '@/components/symbols-hub/kaomojis/KaomojiGrid';
 import { KaomojiHowItWorks } from '@/components/symbols-hub/kaomojis/KaomojiHowItWorks';
 import { KaomojiUnicodeExplanation } from '@/components/symbols-hub/kaomojis/KaomojiUnicodeExplanation';
 import { KaomojiRelatedPages } from '@/components/symbols-hub/kaomojis/KaomojiRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { KaomojiFAQ } from '@/components/symbols-hub/kaomojis/KaomojiFAQ';
 import { KaomojiCTA } from '@/components/symbols-hub/kaomojis/KaomojiCTA';
 
@@ -64,6 +65,28 @@ export default function KaomojiClientPage() {
 
         {/* Section 6: Related Pages */}
         <KaomojiRelatedPages />
+
+        {/* Section 6b: Contextual Related Blog Guides */}
+        <RelatedBlogCallout
+          title="Panduan Kaomoji Jepang & Emotikon Teks"
+          subtitle="Pelajari sejarah kaomoji emotikon wajah Jepang, perbedaannya dengan emoji bergambar, serta cara penggunaannya di sosial media."
+          articles={[
+            {
+              slug: 'kumpulan-kaomoji-jepang-lucu-terpopuler',
+              title: 'Kumpulan 500+ Kaomoji Jepang Lucu & Ekspresif untuk Bio Social Media',
+              desc: 'Mengenal emotikon teks Jepang (Kaomoji) (◕‿◕) dan cara menggunakannya di postingan TikTok, pesan WhatsApp, dan bio Discord.',
+              category: 'Kaomoji',
+              badge: '500+ Koleksi',
+            },
+            {
+              slug: 'emoji-vs-kaomoji-perbedaan-dan-cara-pakai',
+              title: 'Perbedaan Emoji Berwarna vs Kaomoji Teks: Mana yang Lebih Cocok untuk Anda?',
+              desc: 'Ulasan perbandingan antara emoji grafis gambar berwarna dan emotikon teks kaomoji klasik dalam komunikasi pesan singkat.',
+              category: 'Emoji',
+              badge: 'Perbandingan',
+            },
+          ]}
+        />
 
         {/* Section 7: 10 FAQs with JSON-LD Schema */}
         <KaomojiFAQ />

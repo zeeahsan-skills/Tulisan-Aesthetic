@@ -12,6 +12,7 @@ import { InstagramTips } from '@/components/platform/instagram/InstagramTips';
 import { InstagramHowItWorks } from '@/components/platform/instagram/InstagramHowItWorks';
 import { InstagramUnicodeExplanation } from '@/components/platform/instagram/InstagramUnicodeExplanation';
 import { InstagramRelatedPages } from '@/components/platform/instagram/InstagramRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { InstagramFAQ } from '@/components/platform/instagram/InstagramFAQ';
 import { InstagramCTA } from '@/components/platform/instagram/InstagramCTA';
 
@@ -58,6 +59,21 @@ export default function InstagramClientPage() {
 
         {/* Section 8: Related Font & Platform Pages */}
         <InstagramRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Font Bio & Caption Instagram"
+          subtitle="Pelajari teknik optimasi teks estetik, pemilihan font Unicode, dan tips mempercantik profil Instagram Anda."
+          articles={[
+            {
+              slug: 'font-instagram',
+              title: 'Cara Membuat Font Aesthetic Bio Instagram yang Menarik & Viral',
+              desc: 'Panduan lengkap mengubah teks bio Instagram dengan font aesthetic Unicode, simbol bintang, dan kaomoji unik agar profil terlihat aesthetic.',
+              category: 'Instagram',
+              badge: 'Panduan Lengkap',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Accordion FAQs */}
         <InstagramFAQ />

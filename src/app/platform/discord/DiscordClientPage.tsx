@@ -12,6 +12,7 @@ import { DiscordTips } from '@/components/platform/discord/DiscordTips';
 import { DiscordHowItWorks } from '@/components/platform/discord/DiscordHowItWorks';
 import { DiscordUnicodeExplanation } from '@/components/platform/discord/DiscordUnicodeExplanation';
 import { DiscordRelatedPages } from '@/components/platform/discord/DiscordRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { DiscordFAQ } from '@/components/platform/discord/DiscordFAQ';
 import { DiscordCTA } from '@/components/platform/discord/DiscordCTA';
 
@@ -57,6 +58,21 @@ export default function DiscordClientPage() {
 
         {/* Section 8: Related Font & Platform Pages */}
         <DiscordRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Format Teks Markdown & Font Discord"
+          subtitle="Pelajari cara mempercantik tampilan chat server, channel topic, nama role, dan profil Discord dengan Markdown & Unicode."
+          articles={[
+            {
+              slug: 'cara-format-teks-discord-markdown-font',
+              title: 'Panduan Format Teks Discord: Bold, Italic, Codeblock & Font Unicode',
+              desc: 'Trik mempercantik tampilan chat server Discord dan deskripsi profil menggunakan sintaks Markdown serta karakter generator font.',
+              category: 'Discord',
+              badge: 'Panduan Discord',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Discord FAQs with Schema */}
         <DiscordFAQ />

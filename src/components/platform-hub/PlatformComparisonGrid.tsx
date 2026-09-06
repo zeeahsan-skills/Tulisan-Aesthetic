@@ -35,6 +35,12 @@ const DiscordIcon = () => (
   </svg>
 );
 
+const TwitterXIcon = () => (
+  <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+  </svg>
+);
+
 export function PlatformComparisonGrid() {
   const platformCards = [
     {
@@ -70,7 +76,7 @@ export function PlatformComparisonGrid() {
       limit: '139 Karakter Info',
       formatting: 'Markdown & Unicode Fonts',
       bestUses: ['Info Profil WA', 'Status Teks Aesthetic', 'Pesan Obrolan Highlight'],
-      recommendedFont: 'Ⓣⓤⓛⓘⓢⓐⓝ / 🅣🅤🅟🅘🅢🅐🅝',
+      recommendedFont: 'Ⓣⓤⓛⓘ𝓈ⓐⓝ / 🅣🅤🅟🅘🅢🅐🅝',
       ctaText: 'Generator Font WhatsApp',
     },
     {
@@ -96,6 +102,18 @@ export function PlatformComparisonGrid() {
       bestUses: ['Nama Role Server', 'Channel Category Text', 'Nickname Profil Member'],
       recommendedFont: '⚔️ ᴛᴜʟɪsᴀɴ ⚔️ / 𝕿𝖚𝖑𝖎𝖘𝖆𝖓',
       ctaText: 'Generator Font Discord',
+    },
+    {
+      id: 'twitter-x',
+      name: 'Twitter / X',
+      icon: TwitterXIcon,
+      gradient: 'from-slate-700 via-slate-800 to-black',
+      href: '/platform/twitter-x',
+      limit: '160 Karakter Bio',
+      formatting: 'Monospace, Cursive, Small Caps',
+      bestUses: ['Bio Akun Twitter / X', 'Tweet / Thread Hook', 'Display Name Estetik'],
+      recommendedFont: 'ᴛᴡɪᴛᴛᴇʀ ˣ / 𝒯𝓌𝒾𝓉𝓉ℯ𝓇',
+      ctaText: 'Generator Font Twitter / X',
     },
   ];
 

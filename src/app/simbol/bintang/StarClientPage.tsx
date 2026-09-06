@@ -10,6 +10,7 @@ import { StarGrid } from '@/components/symbols-hub/stars/StarGrid';
 import { StarPopularUses } from '@/components/symbols-hub/stars/StarPopularUses';
 import { StarUnicodeExplanation } from '@/components/symbols-hub/stars/StarUnicodeExplanation';
 import { StarRelatedPages } from '@/components/symbols-hub/stars/StarRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { StarFAQ } from '@/components/symbols-hub/stars/StarFAQ';
 import { StarCTA } from '@/components/symbols-hub/stars/StarCTA';
 
@@ -64,6 +65,21 @@ export default function StarClientPage() {
 
         {/* Section 6: Related Pages */}
         <StarRelatedPages />
+
+        {/* Section 6b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Simbol Bintang & Dekorasi Bio"
+          subtitle="Pelajari makna filosofis, kombinasi estetika, dan cara menata simbol bintang Unicode untuk dekorasi bio Instagram dan medsos."
+          articles={[
+            {
+              slug: 'simbol-bintang-dan-bunga-untuk-desain-bio',
+              title: 'Makna & Cara Pakai Simbol Bintang & Bunga Estetik untuk Bio Medsos',
+              desc: 'Jelajahi variasi simbol Unicode bintang (★, ✦, ✨) dan bunga (🌸, 🌹, 🌺) untuk dekorasi bio Instagram dan postingan blog.',
+              category: 'Symbols',
+              badge: 'Panduan Simbol',
+            },
+          ]}
+        />
 
         {/* Section 7: 10 FAQs with JSON-LD Schema */}
         <StarFAQ />

@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Flame, Target, Swords, Gamepad2, Zap, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Flame, Target, Swords, Gamepad2, Zap, ArrowRight, ShieldCheck, Crosshair } from 'lucide-react';
 
 export function GameFeaturedGrid() {
   const gamesList = [
@@ -61,6 +61,17 @@ export function GameFeaturedGrid() {
       limit: 'Max 14 Karakter',
       popularSymbols: ['Operator Skull 💀', 'Fire Team 🔥', 'Military Monospace', 'Crosshair Target 🎯'],
       ctaText: 'Generator Nick COD Mobile',
+    },
+    {
+      id: 'valorant',
+      name: 'Valorant',
+      icon: Crosshair,
+      badge: 'Tactical Shooter',
+      color: 'from-rose-500 to-red-700',
+      href: '/valorant',
+      limit: 'Max 16 Karakter + #TAG',
+      popularSymbols: ['Crosshair 🎯 / ✛', 'Katana ⚔️', 'Vandal Skull 💀', 'Aesthetic Kanji 龍'],
+      ctaText: 'Generator Nick Valorant',
     },
   ];
 

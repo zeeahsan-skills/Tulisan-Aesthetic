@@ -12,6 +12,7 @@ import { RobloxTips } from '@/components/game/roblox/RobloxTips';
 import { RobloxHowItWorks } from '@/components/game/roblox/RobloxHowItWorks';
 import { RobloxUnicodeExplanation } from '@/components/game/roblox/RobloxUnicodeExplanation';
 import { RobloxRelatedPages } from '@/components/game/roblox/RobloxRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { RobloxFAQ } from '@/components/game/roblox/RobloxFAQ';
 import { RobloxCTA } from '@/components/game/roblox/RobloxCTA';
 
@@ -57,6 +58,21 @@ export default function RobloxClientPage() {
 
         {/* Section 8: Related Font & Game Pages */}
         <RobloxRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Display Name & Font Roblox"
+          subtitle="Pelajari cara mengganti Display Name di Roblox dengan font keren, simbol imut, dan trik agar nama tampil aesthetic."
+          articles={[
+            {
+              slug: 'cara-ganti-display-name-roblox-font-keren',
+              title: 'Cara Mengganti Display Name Roblox dengan Font Aesthetic & Simbol',
+              desc: 'Tutorial step-by-step mengubah nama tampilan di Roblox agar keren dan beda dari pemain lain menggunakan Unicode generator.',
+              category: 'Roblox',
+              badge: 'Tutorial Roblox',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Roblox FAQs with Schema */}
         <RobloxFAQ />

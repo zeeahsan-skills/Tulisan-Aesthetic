@@ -12,6 +12,7 @@ import { PubgTips } from '@/components/game/pubg-mobile/PubgTips';
 import { PubgHowItWorks } from '@/components/game/pubg-mobile/PubgHowItWorks';
 import { PubgUnicodeExplanation } from '@/components/game/pubg-mobile/PubgUnicodeExplanation';
 import { PubgRelatedPages } from '@/components/game/pubg-mobile/PubgRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { PubgFAQ } from '@/components/game/pubg-mobile/PubgFAQ';
 import { PubgCTA } from '@/components/game/pubg-mobile/PubgCTA';
 
@@ -57,6 +58,21 @@ export default function PubgClientPage() {
 
         {/* Section 8: Related Font & Game Pages */}
         <PubgRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Nama Clan & Nickname PUBG Mobile"
+          subtitle="Pelajari cara membuat nama klan PUBGM elegan dengan simbol sayap, panah, kanji Jepang, dan font Unicode."
+          articles={[
+            {
+              slug: 'pubg-mobile-nickname-clan-name-aesthetic',
+              title: 'Ide Nama Clan PUBG Mobile Aesthetic Pakai Simbol Panah & Sayap',
+              desc: 'Daftar nama klan PUBGM elegan dengan ornamen panah ➜, petir ⚡, dan huruf kecil subscript superscript yang siap digunakan.',
+              category: 'PUBG',
+              badge: 'Ide Nama Clan',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 PUBG Mobile FAQs with Schema */}
         <PubgFAQ />

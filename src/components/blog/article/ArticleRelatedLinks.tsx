@@ -32,10 +32,16 @@ export const ArticleRelatedLinks: React.FC = () => {
       icon: <MessageCircle className="w-5 h-5 text-emerald-400" />,
     },
     {
+      title: 'Direktori Font Generator',
+      path: '/font',
+      desc: 'Pusat 18+ gaya font aesthetic Unicode terlengkap di Indonesia.',
+      icon: <Type className="w-5 h-5 text-purple-400" />,
+    },
+    {
       title: 'Generator Huruf Keren',
       path: '/font/huruf-keren',
       desc: 'Ubah abjad latin biasa menjadi font estetik 100+ gaya.',
-      icon: <Type className="w-5 h-5 text-indigo-400" />,
+      icon: <Sparkles className="w-5 h-5 text-indigo-400" />,
     },
   ];
 

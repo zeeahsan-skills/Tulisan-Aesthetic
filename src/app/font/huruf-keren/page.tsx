@@ -51,8 +51,8 @@ export default function HurufKerenPage() {
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Font Styles',
-        item: 'https://tulisan-aesthetic.vercel.app/#popular-fonts',
+        name: 'Direktori Font',
+        item: 'https://tulisan-aesthetic.vercel.app/font',
       },
       {
         '@type': 'ListItem',

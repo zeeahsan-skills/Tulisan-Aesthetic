@@ -12,6 +12,7 @@ import { WhatsAppTips } from '@/components/platform/whatsapp/WhatsAppTips';
 import { WhatsAppHowItWorks } from '@/components/platform/whatsapp/WhatsAppHowItWorks';
 import { WhatsAppUnicodeExplanation } from '@/components/platform/whatsapp/WhatsAppUnicodeExplanation';
 import { WhatsAppRelatedPages } from '@/components/platform/whatsapp/WhatsAppRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { WhatsAppFAQ } from '@/components/platform/whatsapp/WhatsAppFAQ';
 import { WhatsAppCTA } from '@/components/platform/whatsapp/WhatsAppCTA';
 
@@ -58,6 +59,28 @@ export default function WhatsAppClientPage() {
 
         {/* Section 8: Related Font & Platform Pages */}
         <WhatsAppRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guides */}
+        <RelatedBlogCallout
+          title="Panduan Font WhatsApp & Trik Format Teks"
+          subtitle="Pelajari cara membuat teks tebal, miring, monospace, serta trik menggunakan font Unicode di bio profil dan status WhatsApp."
+          articles={[
+            {
+              slug: 'font-whatsapp',
+              title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+              desc: 'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
+              category: 'WhatsApp',
+              badge: 'Panduan Dasar',
+            },
+            {
+              slug: 'rahasia-font-miring-tebal-whatsapp-tanpa-aplikasi',
+              title: 'Panduan Rahasia Teks Tebal, Miring & Font Unik WhatsApp Tanpa Aplikasi',
+              desc: 'Trik mudah memformat tulisan WhatsApp menjadi cetak tebal, miring, tercoret, dan font gelembung lingkaran hanya menggunakan generator online.',
+              category: 'WhatsApp',
+              badge: 'Trik Rahasia',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Accordion FAQs */}
         <WhatsAppFAQ />

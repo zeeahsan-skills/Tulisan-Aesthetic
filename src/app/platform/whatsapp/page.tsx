@@ -51,8 +51,8 @@ export default function WhatsAppPage() {
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Platforms',
-        item: 'https://tulisan-aesthetic.vercel.app/#platforms',
+        name: 'Platform Media Sosial',
+        item: 'https://tulisan-aesthetic.vercel.app/platform',
       },
       {
         '@type': 'ListItem',

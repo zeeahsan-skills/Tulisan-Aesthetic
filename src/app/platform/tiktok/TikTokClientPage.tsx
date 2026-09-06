@@ -12,6 +12,7 @@ import { TikTokTips } from '@/components/platform/tiktok/TikTokTips';
 import { TikTokHowItWorks } from '@/components/platform/tiktok/TikTokHowItWorks';
 import { TikTokUnicodeExplanation } from '@/components/platform/tiktok/TikTokUnicodeExplanation';
 import { TikTokRelatedPages } from '@/components/platform/tiktok/TikTokRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { TikTokFAQ } from '@/components/platform/tiktok/TikTokFAQ';
 import { TikTokCTA } from '@/components/platform/tiktok/TikTokCTA';
 
@@ -58,6 +59,28 @@ export default function TikTokClientPage() {
 
         {/* Section 8: Related Font & Platform Pages */}
         <TikTokRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guides */}
+        <RelatedBlogCallout
+          title="Panduan Font TikTok & Tips Masuk FYP"
+          subtitle="Pelajari cara mengoptimalkan font estetik untuk profil, username, dan teknik penulisan caption agar video masuk FYP."
+          articles={[
+            {
+              slug: 'font-tiktok',
+              title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+              desc: 'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
+              category: 'TikTok',
+              badge: 'Panduan Dasar',
+            },
+            {
+              slug: 'tulisan-aesthetic-tiktok-caption-fyp',
+              title: 'Cara Membuat Tulisan Aesthetic di Caption TikTok Agar Masuk FYP',
+              desc: 'Tips mengoptimalkan teks caption TikTok dengan kombinasi font miring, emoji berwarna, dan hashtag estetik untuk menaikkan engagement.',
+              category: 'TikTok',
+              badge: 'Tips FYP',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Accordion FAQs */}
         <TikTokFAQ />

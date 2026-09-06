@@ -102,6 +102,11 @@ export default function PlatformPage() {
         name: 'Discord Font Generator',
         url: 'https://tulisan-aesthetic.vercel.app/platform/discord',
       },
+      {
+        '@type': 'ItemPage',
+        name: 'Twitter / X Font Generator',
+        url: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
+      },
     ],
   };
 

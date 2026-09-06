@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 import { Toast } from '@/components/Toast';
 import { SymbolsHero } from '@/components/symbols-hub/SymbolsHero';
 import { SymbolsCategoriesGrid } from '@/components/symbols-hub/SymbolsCategoriesGrid';
+import { SymbolsSubPagesGrid } from '@/components/symbols-hub/SymbolsSubPagesGrid';
 import { PopularSymbolsSection } from '@/components/symbols-hub/PopularSymbolsSection';
 import { SymbolsSearchSection } from '@/components/symbols-hub/SymbolsSearchSection';
 import { SymbolsHowItWorks } from '@/components/symbols-hub/SymbolsHowItWorks';
@@ -47,6 +48,9 @@ export default function SymbolsClientPage() {
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
         />
+
+        {/* Section 2b: Dedicated Sub-Pages Linking Grid */}
+        <SymbolsSubPagesGrid />
 
         {/* Section 3: Popular Copyable Symbols */}
         <PopularSymbolsSection onCopy={showToast} />

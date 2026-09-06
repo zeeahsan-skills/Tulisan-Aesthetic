@@ -12,6 +12,7 @@ import { MlTips } from '@/components/game/mobile-legends/MlTips';
 import { MlHowItWorks } from '@/components/game/mobile-legends/MlHowItWorks';
 import { MlUnicodeExplanation } from '@/components/game/mobile-legends/MlUnicodeExplanation';
 import { MlRelatedPages } from '@/components/game/mobile-legends/MlRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { MlFAQ } from '@/components/game/mobile-legends/MlFAQ';
 import { MlCTA } from '@/components/game/mobile-legends/MlCTA';
 
@@ -57,6 +58,21 @@ export default function MlClientPage() {
 
         {/* Section 8: Related Font & Game Pages */}
         <MlRelatedPages />
+
+        {/* Section 8b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Rekomendasi Nama Squad Mobile Legends"
+          subtitle="Temukan 50+ inspirasi nama squad MLBB bahasa Inggris & Latin dengan lambang panah, mahkota, dan huruf gothic untuk turnamen esport."
+          articles={[
+            {
+              slug: 'rekomen-squad-name-mobile-legends-aesthetic',
+              title: '50+ Rekomendasi Nama Squad Mobile Legends Aesthetic & Simbol Keren',
+              desc: 'Ide nama squad MLBB bahasa Inggris & Latin dengan lambang panah, mahkota, dan huruf gothic fraktur untuk turnamen esport.',
+              category: 'Mobile Legends',
+              badge: 'Nama Squad',
+            },
+          ]}
+        />
 
         {/* Section 9: 10 Mobile Legends FAQs with Schema */}
         <MlFAQ />

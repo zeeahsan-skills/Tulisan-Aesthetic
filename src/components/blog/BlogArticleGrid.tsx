@@ -16,7 +16,7 @@ export const BlogArticleGrid: React.FC<BlogArticleGridProps> = ({
   activeCategory,
 }) => {
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 24;
 
   // Filter posts
   const filteredPosts = BLOG_POSTS_DATA.filter((post) => {

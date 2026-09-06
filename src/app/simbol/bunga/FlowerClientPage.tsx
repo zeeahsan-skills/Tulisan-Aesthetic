@@ -10,6 +10,7 @@ import { FlowerGrid } from '@/components/symbols-hub/flowers/FlowerGrid';
 import { FlowerPopularUses } from '@/components/symbols-hub/flowers/FlowerPopularUses';
 import { FlowerUnicodeExplanation } from '@/components/symbols-hub/flowers/FlowerUnicodeExplanation';
 import { FlowerRelatedPages } from '@/components/symbols-hub/flowers/FlowerRelatedPages';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { FlowerFAQ } from '@/components/symbols-hub/flowers/FlowerFAQ';
 import { FlowerCTA } from '@/components/symbols-hub/flowers/FlowerCTA';
 
@@ -64,6 +65,21 @@ export default function FlowerClientPage() {
 
         {/* Section 6: Related Pages */}
         <FlowerRelatedPages />
+
+        {/* Section 6b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Simbol Bunga & Desain Bio Aesthetic"
+          subtitle="Pelajari makna simbol bunga mekar (sakura, mawar, blossom), inspirasi penataan bio media sosial, dan tips estetika."
+          articles={[
+            {
+              slug: 'simbol-bintang-dan-bunga-untuk-desain-bio',
+              title: 'Makna & Cara Pakai Simbol Bintang & Bunga Estetik untuk Bio Medsos',
+              desc: 'Jelajahi variasi simbol Unicode bintang (★, ✦, ✨) dan bunga (🌸, 🌹, 🌺) untuk dekorasi bio Instagram dan postingan blog.',
+              category: 'Symbols',
+              badge: 'Panduan Simbol',
+            },
+          ]}
+        />
 
         {/* Section 7: 10 FAQs with JSON-LD Schema */}
         <FlowerFAQ />

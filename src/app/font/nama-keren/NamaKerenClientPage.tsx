@@ -11,6 +11,7 @@ import { NamaKerenExamples } from '@/components/nama-keren/NamaKerenExamples';
 import { NamaKerenHowItWorks } from '@/components/nama-keren/NamaKerenHowItWorks';
 import { NamaKerenUnicodeExplanation } from '@/components/nama-keren/NamaKerenUnicodeExplanation';
 import { RelatedFonts } from '@/components/nama-keren/RelatedFonts';
+import { RelatedBlogCallout } from '@/components/RelatedBlogCallout';
 import { NamaKerenFAQ } from '@/components/nama-keren/NamaKerenFAQ';
 import { NamaKerenCTA } from '@/components/nama-keren/NamaKerenCTA';
 
@@ -54,6 +55,21 @@ export default function NamaKerenClientPage() {
 
         {/* Section 7: Related Font Categories */}
         <RelatedFonts />
+
+        {/* Section 7b: Contextual Related Blog Guide */}
+        <RelatedBlogCallout
+          title="Panduan Membuat Nama Keren & Aesthetic"
+          subtitle="Pelajari rumus merancang nama keren, kombinasi simbol sayap & mahkota, dan tips membuat nickname unik untuk game dan sosial media."
+          articles={[
+            {
+              slug: 'cara-membuat-nama-keren',
+              title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
+              desc: 'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya dengan font Unicode & simbol.',
+              category: 'Gaming Names',
+              badge: 'Panduan Nama',
+            },
+          ]}
+        />
 
         {/* Section 8: Nama Keren Specific FAQs */}
         <NamaKerenFAQ />
