@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import NamaKerenClientPage from './NamaKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Generator Nama Keren & Stylish Name — Nama Profil Aesthetic IG, TikTok & WA',
+  title: 'Nama Keren Generator - Stylish Name',
   description:
-    'Generator Nama Keren & Stylish Display Name online terbaik di Indonesia. Ubah nama biasa menjadi kombinasi font aesthetic, simbol sayap ꧁༺ ༻꧂, dan ornamen elegan untuk profil Instagram, akun TikTok, dan WhatsApp.',
+    'Generator nama keren & stylish untuk profil IG, TikTok & WA. Kombinasi font aesthetic + simbol unik.',
   keywords: [
     'generator nama keren',
     'stylish name generator',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
   },
   openGraph: {
-    title: 'Generator Nama Keren & Stylish Name — Nama Profil Aesthetic IG, TikTok & WA',
+    title: 'Nama Keren Generator - Stylish Name',
     description:
-      'Buat nama display & profil keren aesthetic untuk bio Instagram, akun TikTok, WhatsApp, dan media sosial secara instan.',
+      'Generator nama keren & stylish untuk profil IG, TikTok & WA. Kombinasi font aesthetic + simbol unik.',
     url: 'https://tulisan-aesthetic.vercel.app/font/nama-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Generator Nama Keren & Stylish Name — Profil Aesthetic',
-    description: 'Generator Nama Keren dan Stylish Display Name Unicode terlengkap di Indonesia.',
+    title: 'Nama Keren Generator - Stylish Name',
+    description:
+      'Generator nama keren & stylish untuk profil IG, TikTok & WA. Kombinasi font aesthetic + simbol unik.',
   },
   robots: 'index, follow',
 };

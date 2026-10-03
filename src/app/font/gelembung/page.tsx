@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import BubbleClientPage from './BubbleClientPage';
 
 export const metadata: Metadata = {
-  title: 'Bubble Font Generator - Converter Tulisan Gelembung Aesthetic',
+  title: 'Bubble Font Generator - Tulisan Gelembung Aesthetic',
   description:
-    'Generator tulisan Bubble (gelembung melingkar) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font gelembung imut untuk Bio IG, TikTok, WhatsApp & Gaming Nickname 100% gratis.',
+    'Bubble text generator: ubah huruf jadi teks gelembung aesthetic untuk bio & grup chat.',
   keywords: [
     'bubble font generator',
     'tulisan gelembung unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/gelembung',
   },
   openGraph: {
-    title: 'Bubble Font Generator - Tulisan Gelembung Aesthetic Unicode',
+    title: 'Bubble Font Generator - Tulisan Gelembung Aesthetic',
     description:
-      'Konversi teks biasa menjadi font Bubble gelembung melingkar imut dan cantik secara instan tanpa aplikasi.',
+      'Bubble text generator: ubah huruf jadi teks gelembung aesthetic untuk bio & grup chat.',
     url: 'https://tulisan-aesthetic.vercel.app/font/gelembung',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bubble Font Generator - Converter Tulisan Gelembung Melingkar',
-    description: 'Generator font Bubble Unicode terlengkap di Indonesia.',
+    title: 'Bubble Font Generator - Tulisan Gelembung Aesthetic',
+    description:
+      'Bubble text generator: ubah huruf jadi teks gelembung aesthetic untuk bio & grup chat.',
   },
   robots: 'index, follow',
 };

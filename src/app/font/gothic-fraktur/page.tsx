@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import GothicClientPage from './GothicClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Gothic / Fraktur Generator - Converter Tulisan Blackletter & Old English',
+  title: 'Font Gothic Fraktur - Blackletter Keren',
   description:
-    'Generator tulisan Gothic, Fraktur, Medieval, dan Old English Unicode terbaik di Indonesia. Ubah teks biasa menjadi font Gothic keren untuk Nickname FF, MLBB, Discord & Bio Instagram 100% gratis.',
+    'Font gothic fraktur blackletter misterius untuk nickname FF & PUBG. Gaya abad pertengahan yang elegan.',
   keywords: [
     'font gothic generator',
     'tulisan fraktur unicode',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/gothic-fraktur',
   },
   openGraph: {
-    title: 'Font Gothic / Fraktur Generator - Tulisan Aesthetic Unicode',
+    title: 'Font Gothic Fraktur - Blackletter Keren',
     description:
-      'Konversi teks biasa menjadi font Gothic, Fraktur, dan Old English estetik secara instan tanpa aplikasi.',
+      'Font gothic fraktur blackletter misterius untuk nickname FF & PUBG. Gaya abad pertengahan yang elegan.',
     url: 'https://tulisan-aesthetic.vercel.app/font/gothic-fraktur',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Gothic / Fraktur Generator - Teks Old English & Medieval',
-    description: 'Generator font Gothic Unicode terlengkap di Indonesia.',
+    title: 'Font Gothic Fraktur - Blackletter Keren',
+    description:
+      'Font gothic fraktur blackletter misterius untuk nickname FF & PUBG. Gaya abad pertengahan yang elegan.',
   },
   robots: 'index, follow',
 };

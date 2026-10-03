@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const articleUrl = `https://tulisan-aesthetic.vercel.app/blog/${post.slug}`;
 
   return {
-    title: `${post.title} — Tulisan Aesthetic Blog`,
+    title: post.title,
     description: post.description,
     keywords: [
       post.category.toLowerCase(),

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import KotakClientPage from './KotakClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Kotak Generator - Converter Tulisan Square & Box Unicode',
+  title: 'Font Kotak Generator - Converter Tulisan Square Unicode',
   description:
-    'Generator tulisan Kotak (Square / Boxed Letters / Enclosed Squared) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font kotak persegi aesthetic untuk Game Nickname, IG Bio, WA & Discord 100% gratis.',
+    'Square font generator: ubah teks jadi huruf kotak aesthetic untuk nickname game & bio.',
   keywords: [
     'font kotak generator',
     'tulisan square unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/kotak',
   },
   openGraph: {
-    title: 'Font Kotak Generator - Converter Tulisan Square & Box Unicode',
+    title: 'Font Kotak Generator - Converter Tulisan Square Unicode',
     description:
-      'Konversi teks biasa menjadi font Kotak (Square / Boxed Letters) estetik secara instan tanpa aplikasi.',
+      'Square font generator: ubah teks jadi huruf kotak aesthetic untuk nickname game & bio.',
     url: 'https://tulisan-aesthetic.vercel.app/font/kotak',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Kotak Generator - Converter Tulisan Square & Box',
-    description: 'Generator font Kotak Persegi Unicode terlengkap di Indonesia.',
+    title: 'Font Kotak Generator - Converter Tulisan Square Unicode',
+    description:
+      'Square font generator: ubah teks jadi huruf kotak aesthetic untuk nickname game & bio.',
   },
   robots: 'index, follow',
 };

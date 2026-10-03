@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import RandomClientPage from './RandomClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer',
+  title: 'Font Random - Mix Styles & Symbols',
   description:
-    'Generator Font Random & Acak Unicode terbaik di Indonesia. Acak & kombinasikan 50+ gaya font aesthetic (Small Caps, Script, Bubble, Gothic) untuk Nickname Game, Bio IG, TikTok & WA 100% gratis.',
+    'Random font mixer: campur gaya font & simbol acak untuk nama unik. Klik sampai dapat yang pas.',
   keywords: [
     'font random',
     'generator font acak',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/random',
   },
   openGraph: {
-    title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer Unicode',
+    title: 'Font Random - Mix Styles & Symbols',
     description:
-      'Acak dan kombinasikan 50+ gaya font Unicode & simbol aesthetic secara instan tanpa aplikasi.',
+      'Random font mixer: campur gaya font & simbol acak untuk nama unik. Klik sampai dapat yang pas.',
     url: 'https://tulisan-aesthetic.vercel.app/font/random',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Random & Acak Generator - Mix Styles & Symbol Randomizer',
-    description: 'Generator font Random Acak Unicode terlengkap di Indonesia.',
+    title: 'Font Random - Mix Styles & Symbols',
+    description:
+      'Random font mixer: campur gaya font & simbol acak untuk nama unik. Klik sampai dapat yang pas.',
   },
   robots: 'index, follow',
 };

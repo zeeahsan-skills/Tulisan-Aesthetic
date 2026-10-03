@@ -15,6 +15,7 @@ export function PubgHero({ onCopy }: PubgHeroProps) {
         subtitle="Buat Nickname PUBG Mobile Conqueror, Nama Clan, dan Bio game dengan 50 gaya font Unicode gaming dan simbol taktis."
         defaultText="PUBG Conqueror"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import SymbolsClientPage from './SymbolsClientPage';
 
 export const metadata: Metadata = {
-  title: 'Simbol Keren & Aesthetic Unicode - Copy Paste Symbols Hub',
+  title: 'Simbol Keren Aesthetic Unicode - Copy Paste Symbols Hub',
   description:
-    'Direktori Simbol Keren & Aesthetic Unicode terlengkap di Indonesia. Copy paste ribuan simbol bintang (★), hati (♡), mahkota (👑), bunga (✿), panah (➜), kaomoji & border gratis untuk IG, TikTok, WA, Discord & Game.',
+    'Koleksi ribuan simbol aesthetic Unicode: hati, bintang, mahkota, panah & kaomoji. Klik untuk copy paste instan.',
   keywords: [
     'simbol keren',
     'simbol aesthetic',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol',
   },
   openGraph: {
-    title: 'Simbol Keren & Aesthetic Unicode - Copy Paste Symbols Hub',
+    title: 'Simbol Keren Aesthetic Unicode - Copy Paste Symbols Hub',
     description:
-      'Browse thousands of Unicode symbols for Instagram, TikTok, WhatsApp, Discord, Facebook, gaming names, and creative text.',
+      'Koleksi ribuan simbol aesthetic Unicode: hati, bintang, mahkota, panah & kaomoji. Klik untuk copy paste instan.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -32,8 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Simbol Keren & Aesthetic Unicode - Copy Paste Symbols Hub',
-    description: 'Direktori simbol Unicode estetik & kaomoji 1-klik copy terlengkap dan tercepat di Indonesia.',
+    title: 'Simbol Keren Aesthetic Unicode - Copy Paste Symbols Hub',
+    description:
+      'Koleksi ribuan simbol aesthetic Unicode: hati, bintang, mahkota, panah & kaomoji. Klik untuk copy paste instan.',
   },
   robots: 'index, follow',
 };
@@ -58,11 +59,24 @@ export default function SimbolPage() {
     ],
   };
 
+  const collectionPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Direktori Simbol Keren & Aesthetic Unicode',
+    description:
+      'Koleksi ribuan simbol aesthetic Unicode: hati, bintang, mahkota, panah & kaomoji.',
+    url: 'https://tulisan-aesthetic.vercel.app/simbol',
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
       />
       <SymbolsClientPage />
     </>

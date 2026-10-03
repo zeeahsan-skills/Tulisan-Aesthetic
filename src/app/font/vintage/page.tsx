@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import VintageClientPage from './VintageClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Vintage & Klasik Generator — Tulisan Retro, Typewriter & Serif Aesthetic',
+  title: 'Font Vintage - Retro & Typewriter',
   description:
-    'Generator Font Vintage & Retro Klasik Unicode gratis. Ubah teks biasa menjadi font mesin tik antik, serif vintage elegan, dan estetika retro 70-an/80-an untuk bio media sosial, caption estetik & quotes.',
+    'Font vintage & retro: gaya mesin ketik typewriter klasik untuk kutipan puisi & bio aesthetic.',
   keywords: [
     'font vintage',
     'tulisan vintage',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/vintage',
   },
   openGraph: {
-    title: 'Font Vintage & Klasik Generator — Tulisan Retro & Serif Aesthetic Unicode',
+    title: 'Font Vintage - Retro & Typewriter',
     description:
-      'Konversi teks biasa menjadi font Vintage retro era 70-an/80-an, mesin tik klasik, dan serif nostalgia estetik secara instan.',
+      'Font vintage & retro: gaya mesin ketik typewriter klasik untuk kutipan puisi & bio aesthetic.',
     url: 'https://tulisan-aesthetic.vercel.app/font/vintage',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Vintage & Klasik Generator — Tulisan Retro & Serif Aesthetic',
-    description: 'Generator font Vintage dan Retro Klasik Unicode terlengkap di Indonesia.',
+    title: 'Font Vintage - Retro & Typewriter',
+    description:
+      'Font vintage & retro: gaya mesin ketik typewriter klasik untuk kutipan puisi & bio aesthetic.',
   },
   robots: 'index, follow',
 };

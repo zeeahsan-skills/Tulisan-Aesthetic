@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import MenakutkanClientPage from './MenakutkanClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo Creepy',
+  title: 'Font Horor - Tulisan Seram & Glitch',
   description:
-    'Generator tulisan Menakutkan (Glitch / Zalgo / Creepy / Horror) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font seram & distorted untuk Game Nickname, Discord, TikTok & Halloween 100% gratis.',
+    'Font horor menakutkan dengan efek glitch creepy untuk nickname game & bio Halloween.',
   keywords: [
     'font menakutkan generator',
     'tulisan glitch unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/menakutkan',
   },
   openGraph: {
-    title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo Creepy',
+    title: 'Font Horor - Tulisan Seram & Glitch',
     description:
-      'Konversi teks biasa menjadi font Menakutkan (Glitch / Zalgo / Horror) estetik secara instan tanpa aplikasi.',
+      'Font horor menakutkan dengan efek glitch creepy untuk nickname game & bio Halloween.',
     url: 'https://tulisan-aesthetic.vercel.app/font/menakutkan',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Menakutkan Generator - Converter Tulisan Glitch & Zalgo',
-    description: 'Generator font Menakutkan Zalgo Unicode terlengkap di Indonesia.',
+    title: 'Font Horor - Tulisan Seram & Glitch',
+    description:
+      'Font horor menakutkan dengan efek glitch creepy untuk nickname game & bio Halloween.',
   },
   robots: 'index, follow',
 };

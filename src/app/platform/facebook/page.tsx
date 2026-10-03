@@ -4,7 +4,7 @@ import FacebookClientPage from './FacebookClientPage';
 export const metadata: Metadata = {
   title: 'Facebook Font Generator - Converter Tulisan Keren FB',
   description:
-    'Generator tulisan estetik Facebook (FB) Unicode terbaik di Indonesia. Buat teks tebal, miring, bubble & gothic untuk nama profil, bio, status beranda, komentar & Messenger 100% gratis.',
+    'Generator font Facebook aesthetic: buat teks tebal, miring & gothic untuk nama profil, bio, status & postingan FB. 100% gratis copy paste.',
   keywords: [
     'facebook font generator',
     'tulisan keren facebook',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
   },
   openGraph: {
-    title: 'Facebook Font Generator - Convert Teks Nama, Status & Bio FB Aesthetic',
+    title: 'Facebook Font Generator - Converter Tulisan Keren FB',
     description:
-      'Konversi teks biasa menjadi font Facebook estetik Unicode secara instan tanpa perlu aplikasi tambahan.',
+      'Generator font Facebook aesthetic: buat teks tebal, miring & gothic untuk nama profil, bio, status & postingan FB. 100% gratis copy paste.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/facebook',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Facebook Font Generator - Ubah Huruf Bio & Status FB Aesthetic',
-    description: 'Generator font Facebook Unicode tercepat dan terlengkap di Indonesia.',
+    title: 'Facebook Font Generator - Converter Tulisan Keren FB',
+    description:
+      'Generator font Facebook aesthetic: buat teks tebal, miring & gothic untuk nama profil, bio, status & postingan FB. 100% gratis copy paste.',
   },
   robots: 'index, follow',
 };

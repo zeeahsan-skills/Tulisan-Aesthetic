@@ -5,17 +5,56 @@ import { Footer } from '@/components/Footer';
 import { Mail, MessageSquare, Send, ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Hubungi Kami (Contact Us) - Tulisan Aesthetic',
+  title: 'Hubungi Kami - Tulisan Aesthetic',
   description:
-    'Punya pertanyaan, masukan, atau saran fitur baru? Hubungi kami melalui email infoahsan665@gmail.com.',
+    'Hubungi tim Tulisan Aesthetic jika memiliki pertanyaan, kritik, atau saran pengembangan fitur generator teks aesthetic.',
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/contact',
   },
+  openGraph: {
+    title: 'Hubungi Kami - Tulisan Aesthetic',
+    description:
+      'Hubungi tim Tulisan Aesthetic jika memiliki pertanyaan, kritik, atau saran pengembangan fitur generator teks aesthetic.',
+    url: 'https://tulisan-aesthetic.vercel.app/contact',
+    siteName: 'Tulisan Aesthetic',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hubungi Kami - Tulisan Aesthetic',
+    description:
+      'Hubungi tim Tulisan Aesthetic jika memiliki pertanyaan, kritik, atau saran pengembangan fitur generator teks aesthetic.',
+  },
+  robots: 'index, follow',
 };
 
 export default function ContactPage() {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://tulisan-aesthetic.vercel.app',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Hubungi Kami',
+        item: 'https://tulisan-aesthetic.vercel.app/contact',
+      },
+    ],
+  };
+
   return (
     <div className="relative flex flex-col min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
@@ -33,7 +72,7 @@ export default function ContactPage() {
             </div>
             <div>
               <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white font-poppins">
-                Contact Us
+                Hubungi Kami
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
                 Punya pertanyaan, masukan, atau saran fitur baru? Hubungi kami melalui email.

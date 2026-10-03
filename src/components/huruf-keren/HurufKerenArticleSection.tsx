@@ -171,9 +171,9 @@ export function HurufKerenArticleSection({ onCopy }: HurufKerenArticleSectionPro
             <BookOpen className="w-3.5 h-3.5" />
             Panduan Huruf Keren Online
           </span>
-          <h1 className="mt-4 text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins tracking-tight leading-tight">
+          <h2 className="mt-4 text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins tracking-tight leading-tight">
             Huruf Keren — Generator Huruf Keren Online
-          </h1>
+          </h2>
           <p className="mt-6 text-base sm:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
             Buat huruf keren secara gratis dan langsung copy paste ke Instagram, TikTok, WhatsApp, Facebook, game, username, bio, atau caption. Cukup ketik teks yang kamu inginkan, pilih gaya yang paling cocok, lalu salin hasilnya.
           </p>

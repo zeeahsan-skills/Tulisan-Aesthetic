@@ -15,6 +15,7 @@ export function GamePillarHero({ onCopy }: GamePillarHeroProps) {
         subtitle="Dapatkan 50 gaya font Unicode gaming aesthetic untuk Free Fire, Mobile Legends, PUBG Mobile, Roblox, COD Mobile, dan Valorant."
         defaultText="Gamer Pro"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

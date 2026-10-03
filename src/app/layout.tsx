@@ -20,7 +20,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
   description:
-    'Generator teks estetik & font keren Unicode di Indonesia. Ubah teks biasa menjadi gaya tulisan unik secara instan untuk Bio Instagram, TikTok, WhatsApp & Game Nickname.',
+    'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
   keywords: [
     'tulisan aesthetic',
     'teks estetik',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
     description:
-      'Konversi teks biasa menjadi gaya tulisan Unicode estetik untuk Instagram, TikTok, WhatsApp & Game Nickname secara instan.',
+      'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
     url: 'https://tulisan-aesthetic.vercel.app',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -47,7 +47,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
-    description: 'Generator font Unicode praktis untuk Bio, Caption & Game Nickname.',
+    description:
+      'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
   },
   robots: 'index, follow',
 };

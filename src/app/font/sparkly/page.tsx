@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import SparklyClientPage from './SparklyClientPage';
 
 export const metadata: Metadata = {
-  title: 'Sparkly Font Generator - Tulisan Berkilau & Glitter Aesthetic',
+  title: 'Sparkly Font Generator - Tulisan Berkilau Aesthetic',
   description:
-    'Generator Sparkly Font & tulisan berkilau Unicode gratis terbaik. Hiasi teks biasa dengan stardust ✧･ﾟ:*, kilau kristal ੈ✩‧₊˚, dan 50 gaya font sparkly aesthetic untuk Bio Instagram, TikTok, WhatsApp & Game.',
+    'Sparkly font generator: tulisan berkilau glitter aesthetic untuk bio Instagram & TikTok. Copy paste gratis.',
   keywords: [
     'sparkly font',
     'font sparkly',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/sparkly',
   },
   openGraph: {
-    title: 'Sparkly Font Generator - Tulisan Berkilau & Glitter Aesthetic',
+    title: 'Sparkly Font Generator - Tulisan Berkilau Aesthetic',
     description:
-      'Konversi teks biasa menjadi font sparkly glitter dan starlight aesthetic Unicode secara instan tanpa aplikasi.',
+      'Sparkly font generator: tulisan berkilau glitter aesthetic untuk bio Instagram & TikTok. Copy paste gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/font/sparkly',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -32,8 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sparkly Font Generator - Tulisan Berkilau & Glitter Aesthetic',
-    description: 'Generator font sparkly dan tulisan glitter stardust Unicode terlengkap di Indonesia.',
+    title: 'Sparkly Font Generator - Tulisan Berkilau Aesthetic',
+    description:
+      'Sparkly font generator: tulisan berkilau glitter aesthetic untuk bio Instagram & TikTok. Copy paste gratis.',
   },
   robots: 'index, follow',
 };

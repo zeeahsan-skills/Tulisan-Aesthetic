@@ -17,6 +17,7 @@ export function FlowerHero({ onCopy }: FlowerHeroProps) {
         subtitle="Koleksi simbol bunga (✿, ❈, 🌸, 🌹) dan 50 variasi gaya font Unicode imut untuk Bio IG & TikTok."
         defaultText="Bunga Aesthetic"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

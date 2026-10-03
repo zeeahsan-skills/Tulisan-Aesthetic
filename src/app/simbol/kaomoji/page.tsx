@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import KaomojiClientPage from './KaomojiClientPage';
 
 export const metadata: Metadata = {
-  title: 'Kaomoji Collection (◕‿◕) ¯\\_(ツ)_/¯ - Copy Paste 500+ Japanese Text Faces',
+  title: 'Kaomoji Jepang - Copy Paste 500+ Text Faces',
   description:
-    'Salin 500+ Kaomoji (Emotikon Teks Jepang) Aesthetic (◕‿◕), (╯°□°）╯︵ ┻━┻, ¯\\_(ツ)_/¯, (｡♥‿♥｡), (•‿•) 1-klik copy gratis untuk WA, IG, TikTok, Discord & game.',
+    '500+ kaomoji Jepang aesthetic (◕‿◕) ¯\\_(ツ)_/¯ untuk WA, TikTok, IG & Discord. Salin emotikon teks lucu dan unik sekali klik gratis.',
   keywords: [
     'kaomoji collection',
     'kaomoji aesthetic',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/kaomoji',
   },
   openGraph: {
-    title: 'Kaomoji Collection (◕‿◕) ¯\\_(ツ)_/¯ - Copy Paste 500+ Japanese Text Faces',
+    title: 'Kaomoji Jepang - Copy Paste 500+ Text Faces',
     description:
-      'Browse and copy hundreds of Japanese Kaomoji instantly for Instagram, TikTok, WhatsApp, Discord, Facebook, gaming, blogs, and messages.',
+      '500+ kaomoji Jepang aesthetic (◕‿◕) ¯\\_(ツ)_/¯ untuk WA, TikTok, IG & Discord. Salin emotikon teks lucu dan unik sekali klik gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/kaomoji',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kaomoji Collection (◕‿◕) ¯\\_(ツ)_/¯ - Copy Paste 500+ Japanese Text Faces',
-    description: 'Direktori 500+ emotikon teks Jepang Kaomoji 1-klik copy gratis dan tercepat di Indonesia.',
+    title: 'Kaomoji Jepang - Copy Paste 500+ Text Faces',
+    description:
+      '500+ kaomoji Jepang aesthetic (◕‿◕) ¯\\_(ツ)_/¯ untuk WA, TikTok, IG & Discord. Salin emotikon teks lucu dan unik sekali klik gratis.',
   },
   robots: 'index, follow',
 };

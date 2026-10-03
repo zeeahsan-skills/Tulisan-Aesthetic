@@ -17,6 +17,7 @@ export function ArrowHero({ onCopy }: ArrowHeroProps) {
         subtitle="Ragam simbol panah (➼, ➸, ➔, ➲) dan 50 gaya font Unicode aesthetic untuk hiasan pesan."
         defaultText="Panah Border"
         presetCategory="Simple"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import StarClientPage from './StarClientPage';
 
 export const metadata: Metadata = {
-  title: 'Star Symbols (Simbol Bintang) Aesthetic ★ ✦ ✨ - Copy Paste 150+',
+  title: 'Simbol Bintang Aesthetic - Copy Paste 150+',
   description:
-    'Salin 150+ Simbol Bintang (Star Symbols) Aesthetic Unicode ★ ☆ ✦ ✧ ✨ 🌟 ✪ 👑 1-klik copy gratis untuk bio Instagram, TikTok, WhatsApp, Discord & nickname game.',
+    '150+ simbol bintang aesthetic ★ ☆ ✦ ✧ ✨ untuk bio Instagram, TikTok, WhatsApp, Discord & game. Klik sekali untuk copy paste instan.',
   keywords: [
     'star symbols',
     'simbol bintang',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/bintang',
   },
   openGraph: {
-    title: 'Star Symbols (Simbol Bintang) Aesthetic ★ ✦ ✨ - Copy Paste 150+',
+    title: 'Simbol Bintang Aesthetic - Copy Paste 150+',
     description:
-      'Copy beautiful Unicode star symbols instantly for social media, gaming, and creative designs.',
+      '150+ simbol bintang aesthetic ★ ☆ ✦ ✧ ✨ untuk bio Instagram, TikTok, WhatsApp, Discord & game. Klik sekali untuk copy paste instan.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/bintang',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Star Symbols (Simbol Bintang) Aesthetic ★ ✦ ✨ - Copy Paste 150+',
-    description: 'Koleksi 150+ simbol bintang Unicode estetik 1-klik copy gratis tercepat di Indonesia.',
+    title: 'Simbol Bintang Aesthetic - Copy Paste 150+',
+    description:
+      '150+ simbol bintang aesthetic ★ ☆ ✦ ✧ ✨ untuk bio Instagram, TikTok, WhatsApp, Discord & game. Klik sekali untuk copy paste instan.',
   },
   robots: 'index, follow',
 };

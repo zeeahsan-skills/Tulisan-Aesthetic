@@ -15,6 +15,7 @@ export function FacebookHero({ onCopy }: FacebookHeroProps) {
         subtitle="Ubah teks biasa menjadi font aesthetic untuk postingan FB, Bio Profil, dan Nama Grup dengan 50 gaya font Unicode unik."
         defaultText="Postingan FB Aesthetic"
         presetCategory="Popular"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

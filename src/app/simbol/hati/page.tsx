@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import HeartClientPage from './HeartClientPage';
 
 export const metadata: Metadata = {
-  title: 'Simbol Hati (Heart Symbols) Aesthetic ♡ ♥ ❥ ❣ - Copy Paste 150+',
+  title: 'Simbol Hati Aesthetic - Copy Paste 150+',
   description:
-    'Salin 150+ Simbol Hati (Heart Symbols) Aesthetic Unicode ♡ ♥ ❥ ❣ ❦ ᰔ ʚ♡ɞ 1-klik copy gratis untuk bio Instagram, TikTok, WhatsApp, Discord, couple nickname & pesan cinta.',
+    '150+ simbol hati aesthetic ♡ ♥ untuk bio & caption. Klik simbol untuk menyalin langsung ke clipboard.',
   keywords: [
     'simbol hati',
     'simbol hati aesthetic',
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/hati',
   },
   openGraph: {
-    title: 'Simbol Hati (Heart Symbols) Aesthetic ♡ ♥ ❥ ❣ - Copy Paste 150+',
+    title: 'Simbol Hati Aesthetic - Copy Paste 150+',
     description:
-      'Koleksi 150+ simbol hati Unicode, kaomoji cinta, dan ornamen border aesthetic 1-klik salin gratis untuk bio medsos dan nickname game.',
+      '150+ simbol hati aesthetic ♡ ♥ untuk bio & caption. Klik simbol untuk menyalin langsung ke clipboard.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/hati',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -34,8 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Simbol Hati (Heart Symbols) Aesthetic ♡ ♥ ❥ ❣ - Copy Paste 150+',
-    description: 'Salin 150+ simbol hati estetik Unicode gratis tercepat di Indonesia.',
+    title: 'Simbol Hati Aesthetic - Copy Paste 150+',
+    description:
+      '150+ simbol hati aesthetic ♡ ♥ untuk bio & caption. Klik simbol untuk menyalin langsung ke clipboard.',
   },
   robots: 'index, follow',
 };

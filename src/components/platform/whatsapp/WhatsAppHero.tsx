@@ -15,6 +15,7 @@ export function WhatsAppHero({ onCopy }: WhatsAppHeroProps) {
         subtitle="Ubah tulisan pesan WA, Nama Kontak, Status, dan Info Bio WhatsApp dengan 50 gaya font Unicode unik 100% terbaca."
         defaultText="Status WhatsApp Keren"
         presetCategory="Popular"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

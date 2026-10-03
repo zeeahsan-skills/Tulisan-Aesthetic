@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import IGArticleClientPage from './IGArticleClientPage';
+import { INSTAGRAM_ARTICLE_FAQS } from '@/lib/instagram-article';
 
 export const metadata: Metadata = {
-  title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic',
+  title: 'Font Instagram: Panduan Lengkap Tulisan Aesthetic',
   description:
     'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode font generator 100% gratis.',
   keywords: [
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
   },
   openGraph: {
-    title: 'Font Instagram: Panduan Lengkap Menggunakan Tulisan Aesthetic',
+    title: 'Font Instagram: Panduan Lengkap Tulisan Aesthetic',
     description:
-      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
+      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode font generator 100% gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Instagram: Cara Membuat Tulisan Aesthetic Bio, Status & Caption',
+    title: 'Font Instagram: Panduan Lengkap Tulisan Aesthetic',
     description:
-      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
+      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode font generator 100% gratis.',
   },
   robots: 'index, follow',
 };
@@ -66,9 +67,9 @@ export default function InstagramArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Font Instagram: Cara Membuat Tulisan Aesthetic Bio, Status & Caption',
+    headline: 'Font Instagram: Panduan Lengkap Tulisan Aesthetic',
     description:
-      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode.',
+      'Pelajari cara membuat tulisan Instagram yang keren untuk bio, username, caption, komentar, dan Story menggunakan Unicode font generator 100% gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-instagram',
     author: {
       '@type': 'Organization',
@@ -89,6 +90,19 @@ export default function InstagramArticlePage() {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: INSTAGRAM_ARTICLE_FAQS.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <>
       <script
@@ -98,6 +112,10 @@ export default function InstagramArticlePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <IGArticleClientPage />
     </>

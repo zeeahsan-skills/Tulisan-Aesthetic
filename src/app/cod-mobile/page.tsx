@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'COD Mobile Name Generator - Generator Nickname CODM Keren',
-    description: 'Buat nickname CODM keren bergaya militer & pro player.',
+    description:
+      'Buat nickname Call of Duty Mobile (CODM) keren dengan tag clan, operator, tengkorak, dan font military 100% gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/cod-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -25,8 +26,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'COD Mobile Name Generator',
-    description: 'Generator nickname COD Mobile Unicode terlengkap.',
+    title: 'COD Mobile Name Generator - Generator Nickname CODM Keren',
+    description:
+      'Buat nickname Call of Duty Mobile (CODM) keren dengan tag clan, operator, tengkorak, dan font military 100% gratis.',
   },
   robots: 'index, follow',
 };

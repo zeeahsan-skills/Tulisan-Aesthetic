@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import ArrowClientPage from './ArrowClientPage';
 
 export const metadata: Metadata = {
-  title: 'Arrow Symbols (Simbol Panah) Aesthetic ➜ ➤ ➔ ↔️ - Copy Paste 200+',
+  title: 'Simbol Panah Aesthetic - Copy Paste 200+',
   description:
-    'Salin 200+ Simbol Panah (Arrow Symbols) Aesthetic Unicode ➜ ➤ ➔ ➞ ↔️ ↩️ 🏹 1-klik copy gratis untuk bio Instagram, TikTok, WhatsApp, Discord, UI website, slide presentasi & dokumen.',
+    '200+ simbol panah aesthetic ➜ ➤ untuk nickname & bio. Klik untuk menyalin langsung.',
   keywords: [
     'arrow symbols',
     'simbol panah',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/panah',
   },
   openGraph: {
-    title: 'Arrow Symbols (Simbol Panah) Aesthetic ➜ ➤ ➔ ↔️ - Copy Paste 200+',
+    title: 'Simbol Panah Aesthetic - Copy Paste 200+',
     description:
-      'Browse and copy stylish Unicode arrow symbols instantly for social media, gaming, presentations, websites, and creative text.',
+      '200+ simbol panah aesthetic ➜ ➤ untuk nickname & bio. Klik untuk menyalin langsung.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/panah',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arrow Symbols (Simbol Panah) Aesthetic ➜ ➤ ➔ ↔️ - Copy Paste 200+',
-    description: 'Koleksi 200+ simbol panah Unicode estetik 1-klik copy gratis tercepat di Indonesia.',
+    title: 'Simbol Panah Aesthetic - Copy Paste 200+',
+    description:
+      '200+ simbol panah aesthetic ➜ ➤ untuk nickname & bio. Klik untuk menyalin langsung.',
   },
   robots: 'index, follow',
 };

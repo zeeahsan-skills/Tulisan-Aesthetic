@@ -5,17 +5,56 @@ import { Footer } from '@/components/Footer';
 import { ShieldCheck, ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Kebijakan Privasi (Privacy Policy) - Tulisan Aesthetic',
+  title: 'Kebijakan Privasi - Tulisan Aesthetic',
   description:
-    'Kebijakan privasi platform Tulisan Aesthetic. Kami berkomitmen melindungi kerahasiaan dan keamanan pengguna saat menggunakan generator font Unicode.',
+    'Kebijakan privasi platform Tulisan Aesthetic mengenai komitmen perlindungan data dan keamanan pengguna saat memakai generator font.',
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/privacy',
   },
+  openGraph: {
+    title: 'Kebijakan Privasi - Tulisan Aesthetic',
+    description:
+      'Kebijakan privasi platform Tulisan Aesthetic mengenai komitmen perlindungan data dan keamanan pengguna saat memakai generator font.',
+    url: 'https://tulisan-aesthetic.vercel.app/privacy',
+    siteName: 'Tulisan Aesthetic',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kebijakan Privasi - Tulisan Aesthetic',
+    description:
+      'Kebijakan privasi platform Tulisan Aesthetic mengenai komitmen perlindungan data dan keamanan pengguna saat memakai generator font.',
+  },
+  robots: 'noindex, follow',
 };
 
 export default function PrivacyPage() {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://tulisan-aesthetic.vercel.app',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Kebijakan Privasi',
+        item: 'https://tulisan-aesthetic.vercel.app/privacy',
+      },
+    ],
+  };
+
   return (
     <div className="relative flex flex-col min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">

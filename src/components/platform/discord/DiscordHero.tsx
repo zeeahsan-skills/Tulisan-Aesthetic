@@ -15,6 +15,7 @@ export function DiscordHero({ onCopy }: DiscordHeroProps) {
         subtitle="Ubah tulisan untuk Username Discord, Nama Server, Channel, About Me, dan Role Tag dengan 50 gaya font Unicode unik."
         defaultText="Discord Role Pro"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

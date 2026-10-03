@@ -4,7 +4,7 @@ import FontTebalClientPage from './FontTebalClientPage';
 export const metadata: Metadata = {
   title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
   description:
-    'Generator Font Tebal & Tulisan Bold Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi huruf tebal hitam aesthetic untuk Bio Instagram, WA, TikTok, FB, Discord & Game 100% instan.',
+    'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
   keywords: [
     'font tebal',
     'tulisan tebal',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
     description:
-      'Konversi teks biasa menjadi huruf tebal (Bold Sans, Serif, Script, Gothic) secara instan tanpa aplikasi.',
+      'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/font/tebal',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Tebal Generator - Converter Tulisan Tebal Bold',
-    description: 'Generator Font Tebal Bold Unicode terlengkap di Indonesia.',
+    title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
+    description:
+      'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
   },
   robots: 'index, follow',
 };

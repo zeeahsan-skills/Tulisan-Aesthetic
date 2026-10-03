@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MlClientPage from '../game/mobile-legends/MlClientPage';
 
 export const metadata: Metadata = {
-  title: 'Mobile Legends Name Generator - Generator Nickname MLBB Aesthetic',
+  title: 'Nickname ML Aesthetic - Nama Squad Keren',
   description:
     'Buat nama squad & akun Mobile Legends (MLBB) keren aesthetic dengan simbol mahkota, petir, bintang, dan font pro player.',
   keywords: [
@@ -17,8 +17,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
   },
   openGraph: {
-    title: 'Mobile Legends Name Generator - Generator Nickname MLBB Aesthetic',
-    description: 'Buat nickname MLBB pro player dengan font dan simbol unik.',
+    title: 'Nickname ML Aesthetic - Nama Squad Keren',
+    description:
+      'Buat nama squad & akun Mobile Legends (MLBB) keren aesthetic dengan simbol mahkota, petir, bintang, dan font pro player.',
     url: 'https://tulisan-aesthetic.vercel.app/mobile-legends',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mobile Legends Name Generator',
-    description: 'Generator nickname Mobile Legends Unicode terlengkap.',
+    title: 'Nickname ML Aesthetic - Nama Squad Keren',
+    description:
+      'Buat nama squad & akun Mobile Legends (MLBB) keren aesthetic dengan simbol mahkota, petir, bintang, dan font pro player.',
   },
   robots: 'index, follow',
 };

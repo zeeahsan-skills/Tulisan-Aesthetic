@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Roblox Username Generator - Nama Roblox Aesthetic',
-    description: 'Buat username Roblox estetik dan imut dengan simbol unik.',
+    description:
+      'Buat username Roblox aesthetic dengan simbol hati, bunga, kaomoji, dan karakter imut secara instan dan 100% gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/roblox',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -25,8 +26,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Roblox Username Generator',
-    description: 'Generator username Roblox aesthetic terlengkap.',
+    title: 'Roblox Username Generator - Nama Roblox Aesthetic',
+    description:
+      'Buat username Roblox aesthetic dengan simbol hati, bunga, kaomoji, dan karakter imut secara instan dan 100% gratis.',
   },
   robots: 'index, follow',
 };

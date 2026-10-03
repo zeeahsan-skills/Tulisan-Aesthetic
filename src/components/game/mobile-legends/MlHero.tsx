@@ -15,6 +15,7 @@ export function MlHero({ onCopy }: MlHeroProps) {
         subtitle="Buat Nickname MLBB Mythic Glory, Nama Squad, dan Bio ML dengan 50 gaya font Unicode unik dan simbol gaming."
         defaultText="MLBB Mythic"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

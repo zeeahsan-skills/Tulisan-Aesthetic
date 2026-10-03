@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import MemutarClientPage from './MemutarClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down',
+  title: 'Font Terbalik - Tulisan Upside Down',
   description:
-    'Generator tulisan Terbalik (Memutar / Upside Down / Flipped Text) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font terbalik untuk Bio IG, TikTok, WhatsApp & Gaming Nickname 100% gratis.',
+    'Balik tulisan jadi terbalik (upside down). Bikin teks unik untuk bio & komentar.',
   keywords: [
     'font memutar generator',
     'tulisan terbalik unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/memutar',
   },
   openGraph: {
-    title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down Unicode',
+    title: 'Font Terbalik - Tulisan Upside Down',
     description:
-      'Konversi teks biasa menjadi font Terbalik Memutar (Upside Down / Flipped Text) estetik secara instan tanpa aplikasi.',
+      'Balik tulisan jadi terbalik (upside down). Bikin teks unik untuk bio & komentar.',
     url: 'https://tulisan-aesthetic.vercel.app/font/memutar',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Memutar Generator - Converter Tulisan Terbalik Upside Down',
-    description: 'Generator font Terbalik Memutar Unicode terlengkap di Indonesia.',
+    title: 'Font Terbalik - Tulisan Upside Down',
+    description:
+      'Balik tulisan jadi terbalik (upside down). Bikin teks unik untuk bio & komentar.',
   },
   robots: 'index, follow',
 };

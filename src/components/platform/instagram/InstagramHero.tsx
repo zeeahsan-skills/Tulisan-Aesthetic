@@ -15,6 +15,7 @@ export function InstagramHero({ onCopy }: InstagramHeroProps) {
         subtitle="Ubah teks biasa menjadi font aesthetic untuk Bio Instagram, Username, Caption, dan Story dengan 50 gaya font Unicode unik."
         defaultText="Bio Instagram Aesthetic"
         presetCategory="Popular"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

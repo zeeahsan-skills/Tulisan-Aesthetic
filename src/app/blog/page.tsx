@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import BlogClientPage from './BlogClientPage';
 
 export const metadata: Metadata = {
-  title: 'Tulisan Aesthetic Blog - Educational Articles, Font Guides & Gaming Tips',
+  title: 'Blog Tulisan Aesthetic - Panduan Font & Tips Gaming',
   description:
-    'Pusat edukasi dan artikel blog Tulisan Aesthetic. Pelajari panduan font aesthetic Unicode, trik bio Instagram, caption TikTok, format teks WhatsApp & rekomendasi nama gaming keren.',
+    'Artikel edukasi seputar font aesthetic Unicode, panduan generator teks, dan tips gaming untuk Instagram, TikTok, WhatsApp & Discord.',
   keywords: [
     'tulisan aesthetic blog',
     'artikel font aesthetic',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog',
   },
   openGraph: {
-    title: 'Tulisan Aesthetic Blog - Educational Articles & Font Guides',
+    title: 'Blog Tulisan Aesthetic - Panduan Font & Tips Gaming',
     description:
-      'Learn everything about stylish fonts, Unicode, symbols, gaming names, and social media text.',
+      'Artikel edukasi seputar font aesthetic Unicode, panduan generator teks, dan tips gaming untuk Instagram, TikTok, WhatsApp & Discord.',
     url: 'https://tulisan-aesthetic.vercel.app/blog',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tulisan Aesthetic Blog - Educational Articles & Font Guides',
-    description: 'Pusat edukasi font Unicode, tips media sosial & panduan nama gaming terpercaya.',
+    title: 'Blog Tulisan Aesthetic - Panduan Font & Tips Gaming',
+    description:
+      'Artikel edukasi seputar font aesthetic Unicode, panduan generator teks, dan tips gaming untuk Instagram, TikTok, WhatsApp & Discord.',
   },
   robots: 'index, follow',
 };

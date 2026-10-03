@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import TinyTextClientPage from './TinyTextClientPage';
 
 export const metadata: Metadata = {
-  title: 'Tiny Text Generator - Converter Tulisan Kecil & Small Caps',
+  title: 'Tiny Text Generator - Font Huruf Kecil & Small Caps',
   description:
-    'Generator Tiny Text & Tulisan Kecil Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi Small Caps, Superscript mini & huruf kecil aesthetic untuk Bio Instagram, WA, TikTok & Game 100% instan.',
+    'Tiny text generator: ubah teks jadi huruf kecil & small caps aesthetic untuk bio Instagram yang rapi.',
   keywords: [
     'tiny text',
     'small text',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/tiny',
   },
   openGraph: {
-    title: 'Tiny Text Generator - Converter Tulisan Kecil & Small Caps',
+    title: 'Tiny Text Generator - Font Huruf Kecil & Small Caps',
     description:
-      'Konversi teks biasa menjadi tulisan kecil (Small Caps, Superscript, Subscript) secara instan tanpa aplikasi.',
+      'Tiny text generator: ubah teks jadi huruf kecil & small caps aesthetic untuk bio Instagram yang rapi.',
     url: 'https://tulisan-aesthetic.vercel.app/font/tiny',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tiny Text Generator - Converter Tulisan Kecil & Small Caps',
-    description: 'Generator Tiny Text & Small Caps Unicode terlengkap di Indonesia.',
+    title: 'Tiny Text Generator - Font Huruf Kecil & Small Caps',
+    description:
+      'Tiny text generator: ubah teks jadi huruf kecil & small caps aesthetic untuk bio Instagram yang rapi.',
   },
   robots: 'index, follow',
 };

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import ValorantClientPage from '../game/valorant/ValorantClientPage';
 
 export const metadata: Metadata = {
-  title: 'Valorant Nickname Generator - Riot ID & Nama Valorant Keren',
+  title: 'Valorant Nickname Generator - Riot ID & IGN Keren',
   description:
-    'Generator Nickname Valorant & Riot ID keren aesthetic ala pro player VCT dan rank Radiant. Buat nama game clean, spasi unik, simbol crosshair ╳, petir ⚡, dan huruf katakana gratis.',
+    'Generator nickname Valorant aesthetic: Riot ID & IGN keren dengan simbol unik. Copy paste instan tanpa aplikasi.',
   keywords: [
     'valorant nickname',
     'valorant nickname generator',
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/valorant',
   },
   openGraph: {
-    title: 'Valorant Nickname Generator - Riot ID & Nama Valorant Keren',
+    title: 'Valorant Nickname Generator - Riot ID & IGN Keren',
     description:
-      'Generator nama in-game Valorant pro player dan Riot ID aesthetic. Ubah nama akun Valorant menjadi puluhan gaya font Unicode unik dan simbol gaming.',
+      'Generator nickname Valorant aesthetic: Riot ID & IGN keren dengan simbol unik. Copy paste instan tanpa aplikasi.',
     url: 'https://tulisan-aesthetic.vercel.app/valorant',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -34,8 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Valorant Nickname Generator - Riot ID & Nama Valorant Keren',
-    description: 'Buat nama akun Valorant dan Riot ID aesthetic keren tercepat di Indonesia.',
+    title: 'Valorant Nickname Generator - Riot ID & IGN Keren',
+    description:
+      'Generator nickname Valorant aesthetic: Riot ID & IGN keren dengan simbol unik. Copy paste instan tanpa aplikasi.',
   },
   robots: 'index, follow',
 };

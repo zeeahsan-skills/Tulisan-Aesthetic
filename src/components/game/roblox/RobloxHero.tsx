@@ -15,6 +15,7 @@ export function RobloxHero({ onCopy }: RobloxHeroProps) {
         subtitle="Ubah Display Name Roblox, Nama Group, dan deskripsi profil dengan 50 gaya font Unicode aesthetic dan gaming."
         defaultText="Roblox Gamer"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

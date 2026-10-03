@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import DiscordClientPage from './DiscordClientPage';
 
 export const metadata: Metadata = {
-  title: 'Discord Font Generator - Converter Tulisan Keren Server & Profil',
+  title: 'Font Discord Aesthetic - Nickname & Chat Keren',
   description:
-    'Generator tulisan estetik Discord Unicode terbaik di Indonesia. Ubah nama akun, Display Name, nickname server, role VIP, channel & About Me dengan font Gothic, Small Caps & Zalgo 100% gratis.',
+    'Generator font Discord aesthetic: ubah teks bio, nickname & chat server dengan gaya Unicode unik dan format Markdown keren.',
   keywords: [
     'discord font generator',
     'tulisan keren discord',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/discord',
   },
   openGraph: {
-    title: 'Discord Font Generator - Convert Teks Server, Role & Profil Aesthetic',
+    title: 'Font Discord Aesthetic - Nickname & Chat Keren',
     description:
-      'Konversi teks biasa menjadi font Discord estetik Unicode secara instan tanpa perlu instalasi bot.',
+      'Generator font Discord aesthetic: ubah teks bio, nickname & chat server dengan gaya Unicode unik dan format Markdown keren.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/discord',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Discord Font Generator - Ubah Huruf Role & Server Discord',
-    description: 'Generator font Discord Unicode tercepat dan terlengkap di Indonesia.',
+    title: 'Font Discord Aesthetic - Nickname & Chat Keren',
+    description:
+      'Generator font Discord aesthetic: ubah teks bio, nickname & chat server dengan gaya Unicode unik dan format Markdown keren.',
   },
   robots: 'index, follow',
 };

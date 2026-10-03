@@ -17,6 +17,7 @@ export function KaomojiHero({ onCopy }: KaomojiHeroProps) {
         subtitle="Ragam emotikon Kaomoji Jepang (⁠✿⁠ ⁠♡⁠), emosi imut, dan 50 gaya font Unicode aesthetic."
         defaultText="Kaomoji Cute"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

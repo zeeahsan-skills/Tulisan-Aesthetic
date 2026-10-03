@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import GlitchClientPage from './GlitchClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted',
+  title: 'Font Glitch dan Zalgo - Converter Tulisan Distorted',
   description:
-    'Generator Font Glitch & Zalgo Text Unicode terbaik di Indonesia. Ubah teks biasa menjadi font terdistorsi, cyber, & horror creepy untuk Nickname FF, Discord, Bio IG & TikTok 100% gratis.',
+    'Glitch & Zalgo text generator: efek teks rusak cyber aesthetic untuk nickname gamer & bio edgy.',
   keywords: [
     'font glitch',
     'tulisan glitch',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/glitch',
   },
   openGraph: {
-    title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted Unicode',
+    title: 'Font Glitch dan Zalgo - Converter Tulisan Distorted',
     description:
-      'Konversi teks biasa menjadi font Glitch & Zalgo Text terdistorsi bergaya Cyberpunk & Horror secara instan.',
+      'Glitch & Zalgo text generator: efek teks rusak cyber aesthetic untuk nickname gamer & bio edgy.',
     url: 'https://tulisan-aesthetic.vercel.app/font/glitch',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Glitch & Zalgo Generator - Converter Tulisan Distorted',
-    description: 'Generator font Glitch Zalgo Unicode terlengkap di Indonesia.',
+    title: 'Font Glitch dan Zalgo - Converter Tulisan Distorted',
+    description:
+      'Glitch & Zalgo text generator: efek teks rusak cyber aesthetic untuk nickname gamer & bio edgy.',
   },
   robots: 'index, follow',
 };

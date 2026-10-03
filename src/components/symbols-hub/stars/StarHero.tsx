@@ -17,6 +17,7 @@ export function StarHero({ onCopy }: StarHeroProps) {
         subtitle="Koleksi lengkap simbol bintang (★, ✧, ✨, ✦) dan 50 gaya font Unicode aesthetic siap salin."
         defaultText="Bintang Aesthetic"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

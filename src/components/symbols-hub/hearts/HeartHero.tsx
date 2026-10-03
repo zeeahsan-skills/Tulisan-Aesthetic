@@ -17,6 +17,7 @@ export function HeartHero({ onCopy }: HeartHeroProps) {
         subtitle="Koleksi simbol hati estetik (♡, ♥, ❥, ʚ♡ɞ, ᰔ) dan 50 variasi gaya font Unicode manis siap salin untuk Bio Instagram, TikTok, WhatsApp & Game."
         defaultText="Simbol Hati Aesthetic"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

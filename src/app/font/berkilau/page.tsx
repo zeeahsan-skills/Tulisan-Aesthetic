@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import BerkilauClientPage from './BerkilauClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust Unicode',
+  title: 'Font Berkilau - Simbol Bintang & Cahaya',
   description:
-    'Generator Font Berkilau Bintang gratis terbaik di Indonesia. Hiasi teks biasa dengan kilau bintang ✨, stardust ✧･ﾟ:*, dan ornamen cahaya Unicode estetik untuk Bio Instagram, TikTok, WA, dan nama profil.',
+    'Font berkilau dengan simbol bintang & cahaya ✨. Buat tulisan aesthetic bercahaya untuk caption & bio.',
   keywords: [
     'font berkilau',
     'font bintang aesthetic',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/berkilau',
   },
   openGraph: {
-    title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust Unicode',
+    title: 'Font Berkilau - Simbol Bintang & Cahaya',
     description:
-      'Konversi teks biasa menjadi font Berkilau Bintang dan ornamen stardust cahaya estetik secara instan tanpa aplikasi.',
+      'Font berkilau dengan simbol bintang & cahaya ✨. Buat tulisan aesthetic bercahaya untuk caption & bio.',
     url: 'https://tulisan-aesthetic.vercel.app/font/berkilau',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Berkilau Bintang Generator — Tulisan Simbol Cahaya & Stardust',
-    description: 'Generator font Berkilau Bintang Unicode terlengkap di Indonesia.',
+    title: 'Font Berkilau - Simbol Bintang & Cahaya',
+    description:
+      'Font berkilau dengan simbol bintang & cahaya ✨. Buat tulisan aesthetic bercahaya untuk caption & bio.',
   },
   robots: 'index, follow',
 };

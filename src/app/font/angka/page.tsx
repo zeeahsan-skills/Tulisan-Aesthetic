@@ -4,7 +4,7 @@ import AngkaClientPage from './AngkaClientPage';
 export const metadata: Metadata = {
   title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic',
   description:
-    'Generator Angka Keren (Circled Numbers / Mathematical Bold / Monospace) Unicode terbaik di Indonesia. Ubah angka biasa menjadi nomor cantik estetik untuk Game ID, IG Bio, WA & Discord 100% gratis.',
+    'Generator angka keren Unicode untuk nickname & bio. Ubah angka biasa jadi gaya aesthetic instan.',
   keywords: [
     'generator angka keren',
     'tulisan angka lingkaran',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic',
     description:
-      'Konversi digit angka biasa menjadi nomor lingkaran & angka tebal estetik secara instan tanpa aplikasi.',
+      'Generator angka keren Unicode untuk nickname & bio. Ubah angka biasa jadi gaya aesthetic instan.',
     url: 'https://tulisan-aesthetic.vercel.app/font/angka',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -29,8 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Generator Angka Keren - Converter Numbers Unicode',
-    description: 'Generator Angka Keren Unicode terlengkap di Indonesia.',
+    title: 'Generator Angka Keren - Converter Numbers Unicode Aesthetic',
+    description:
+      'Generator angka keren Unicode untuk nickname & bio. Ubah angka biasa jadi gaya aesthetic instan.',
   },
   robots: 'index, follow',
 };

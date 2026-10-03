@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import EmojiClientPage from './EmojiClientPage';
 
 export const metadata: Metadata = {
-  title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji',
+  title: 'Koleksi Emoji Aesthetic - Copy Paste Ribuan Emoji',
   description:
-    'Direktori Emoji Collection Unicode terlengkap di Indonesia. Copy paste ribuan emoji smileys (😀), cinta (❤️), api (🔥), bintang (✨), game (🎮), makanan (🍕), dan bendera gratis untuk IG, TikTok, WA & Discord.',
+    'Koleksi ribuan emoji 😀 🔥 untuk copy paste ke bio, caption & chat. Cari dan salin dalam sekali klik.',
   keywords: [
     'emoji collection',
     'simbol emoji',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
   },
   openGraph: {
-    title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji',
+    title: 'Koleksi Emoji Aesthetic - Copy Paste Ribuan Emoji',
     description:
-      'Browse, search, and copy thousands of emoji instantly for Instagram, TikTok, WhatsApp, Facebook, Discord, gaming, blogs, and creative content.',
+      'Koleksi ribuan emoji 😀 🔥 untuk copy paste ke bio, caption & chat. Cari dan salin dalam sekali klik.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/emoji',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Emoji Collection 😀 ❤️ 🔥 ✨ 🎮 - Copy Paste Thousands of Emoji',
-    description: 'Direktori emoji Unicode berwarna 1-klik copy gratis dan tercepat di Indonesia.',
+    title: 'Koleksi Emoji Aesthetic - Copy Paste Ribuan Emoji',
+    description:
+      'Koleksi ribuan emoji 😀 🔥 untuk copy paste ke bio, caption & chat. Cari dan salin dalam sekali klik.',
   },
   robots: 'index, follow',
 };

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import UnicodeArticleClientPage from './UnicodeArticleClientPage';
+import { UNICODE_ARTICLE_FAQS } from '@/lib/unicode-guide-article';
 
 export const metadata: Metadata = {
-  title: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
+  title: 'Apa itu Unicode? Panduan Lengkap Font Aesthetic',
   description:
-    'Panduan lengkap mengenai Unicode, cara kerjanya, sejarahnya, perbedaan vs ASCII, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic di Instagram, TikTok, WhatsApp, Discord & Game.',
+    'Panduan lengkap Unicode: cara kerja, sejarah, perbedaan dengan ASCII, dan mengapa dipakai untuk membuat tulisan aesthetic.',
   keywords: [
     'apa itu unicode',
     'unicode font',
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
   },
   openGraph: {
-    title: 'Apa Itu Unicode? Panduan Lengkap Cara Kerja & Font Aesthetic',
+    title: 'Apa itu Unicode? Panduan Lengkap Font Aesthetic',
     description:
-      'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
+      'Panduan lengkap Unicode: cara kerja, sejarah, perbedaan dengan ASCII, dan mengapa dipakai untuk membuat tulisan aesthetic.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,9 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
+    title: 'Apa itu Unicode? Panduan Lengkap Font Aesthetic',
     description:
-      'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
+      'Panduan lengkap Unicode: cara kerja, sejarah, perbedaan dengan ASCII, dan mengapa dipakai untuk membuat tulisan aesthetic.',
   },
   robots: 'index, follow',
 };
@@ -67,9 +68,9 @@ export default function UnicodeArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
+    headline: 'Apa itu Unicode? Panduan Lengkap Font Aesthetic',
     description:
-      'Panduan lengkap mengenai Unicode, cara kerjanya, manfaatnya, dan mengapa Unicode digunakan untuk membuat tulisan aesthetic.',
+      'Panduan lengkap Unicode: cara kerja, sejarah, perbedaan dengan ASCII, dan mengapa dipakai untuk membuat tulisan aesthetic.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/apa-itu-unicode',
     author: {
       '@type': 'Organization',
@@ -90,6 +91,19 @@ export default function UnicodeArticlePage() {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: UNICODE_ARTICLE_FAQS.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <>
       <script
@@ -99,6 +113,10 @@ export default function UnicodeArticlePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <UnicodeArticleClientPage />
     </>

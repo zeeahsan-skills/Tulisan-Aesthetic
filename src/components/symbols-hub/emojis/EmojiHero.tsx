@@ -17,6 +17,7 @@ export function EmojiHero({ onCopy }: EmojiHeroProps) {
         subtitle="Koleksi emoji aesthetic, emotikon lucu, dan 50 gaya font Unicode unik siap salin."
         defaultText="Emoji Aesthetic"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

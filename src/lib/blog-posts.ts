@@ -45,7 +45,7 @@ export const BLOG_CATEGORIES_LIST = [
 export const BLOG_POSTS_DATA: BlogPost[] = [
   {
     slug: 'font-whatsapp',
-    title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+    title: 'Font WhatsApp Aesthetic - Teks Tebal & Miring',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
     category: 'WhatsApp',
@@ -55,7 +55,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'font-tiktok',
-    title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+    title: 'Font TikTok Aesthetic - Generator Tulisan FYP',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
     category: 'TikTok',
@@ -65,7 +65,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'font-instagram',
-    title: 'Cara Membuat Font Aesthetic Bio Instagram yang Menarik & Viral',
+    title: 'Font Instagram: Panduan Lengkap Tulisan Aesthetic',
     description:
       'Panduan lengkap mengubah teks bio Instagram dengan font aesthetic Unicode, simbol bintang, dan kaomoji unik agar profil terlihat aesthetic.',
     category: 'Instagram',
@@ -75,9 +75,9 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'cara-membuat-nama-keren',
-    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
+    title: 'Cara Membuat Nama Keren Aesthetic untuk Game & Sosmed',
     description:
-      'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya dengan font Unicode & simbol.',
+      'Cara membuat nama keren aesthetic untuk IG, TikTok, WA & game. Tips memilih font Unicode dan simbol yang cocok.',
     category: 'Gaming Names',
     author: 'Tulisan Aesthetic Editorial Team',
     coverGradient: 'from-orange-600 to-amber-600',
@@ -85,7 +85,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'rahasia-font-miring-tebal-whatsapp-tanpa-aplikasi',
-    title: 'Panduan Rahasia Teks Tebal, Miring & Font Unik WhatsApp Tanpa Aplikasi',
+    title: 'Rahasia Font Miring & Tebal WhatsApp Tanpa Aplikasi',
     description:
       'Trik mudah memformat tulisan WhatsApp menjadi cetak tebal, miring, tercoret, dan font gelembung lingkaran hanya menggunakan generator online.',
     category: 'WhatsApp',
@@ -95,7 +95,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'kumpulan-kaomoji-jepang-lucu-terpopuler',
-    title: 'Kumpulan 500+ Kaomoji Jepang Lucu & Ekspresif untuk Bio Social Media',
+    title: 'Kumpulan Kaomoji Jepang Lucu Terpopuler',
     description:
       'Mengenal emotikon teks Jepang (Kaomoji) (◕‿◕) dan cara menggunakannya di postingan TikTok, pesan WhatsApp, dan bio Discord.',
     category: 'Kaomoji',
@@ -105,7 +105,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'cara-ganti-display-name-roblox-font-keren',
-    title: 'Cara Mengganti Display Name Roblox dengan Font Aesthetic & Simbol',
+    title: 'Cara Ganti Display Name Roblox Font Keren',
     description:
       'Tutorial step-by-step mengubah nama tampilan di Roblox agar keren dan beda dari pemain lain menggunakan Unicode generator.',
     category: 'Roblox',
@@ -117,7 +117,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
     slug: 'apa-itu-unicode',
     title: 'Apa itu Unicode Font? Mengapa Teks Aesthetic Bisa Terbaca di Semua Perangkat?',
     description:
-      'Penjelasan teknis standar Unicode, variasi huruf Mathematical Alphanumeric Symbols, dan alasan mengapa font aesthetic bukan font file biasa.',
+      'Panduan lengkap Unicode: cara kerja, sejarah, perbedaan dengan ASCII, dan mengapa dipakai untuk membuat tulisan aesthetic.',
     category: 'Unicode',
     author: 'SEO Architect',
     coverGradient: 'from-purple-600 to-indigo-600',
@@ -125,7 +125,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'rekomen-squad-name-mobile-legends-aesthetic',
-    title: '50+ Rekomendasi Nama Squad Mobile Legends Aesthetic & Simbol Keren',
+    title: 'Nama Squad ML Aesthetic - 50+ Rekomendasi Keren',
     description:
       'Ide nama squad MLBB bahasa Inggris & Latin dengan lambang panah, mahkota, dan huruf gothic fraktur untuk turnamen esport.',
     category: 'Mobile Legends',
@@ -134,7 +134,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'tulisan-aesthetic-tiktok-caption-fyp',
-    title: 'Cara Membuat Tulisan Aesthetic di Caption TikTok Agar Masuk FYP',
+    title: 'Tulisan Aesthetic untuk Caption TikTok FYP',
     description:
       'Tips mengoptimalkan teks caption TikTok dengan kombinasi font miring, emoji berwarna, dan hashtag estetik untuk menaikkan engagement.',
     category: 'TikTok',
@@ -143,7 +143,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'cara-format-teks-discord-markdown-font',
-    title: 'Panduan Format Teks Discord: Bold, Italic, Codeblock & Font Unicode',
+    title: 'Format Teks Discord - Bold, Italic & Unicode',
     description:
       'Trik mempercantik tampilan chat server Discord dan deskripsi profil menggunakan sintaks Markdown serta karakter generator font.',
     category: 'Discord',
@@ -152,7 +152,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'simbol-bintang-dan-bunga-untuk-desain-bio',
-    title: 'Makna & Cara Pakai Simbol Bintang & Bunga Estetik untuk Bio Medsos',
+    title: 'Simbol Bintang & Bunga untuk Bio Aesthetic',
     description:
       'Jelajahi variasi simbol Unicode bintang (★, ✦, ✨) dan bunga (🌸, 🌹, 🌺) untuk dekorasi bio Instagram dan postingan blog.',
     category: 'Symbols',
@@ -161,7 +161,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'pubg-mobile-nickname-clan-name-aesthetic',
-    title: 'Ide Nama Clan PUBG Mobile Aesthetic Pakai Simbol Panah & Sayap',
+    title: 'Nickname PUBG Mobile Aesthetic & Clan Keren',
     description:
       'Daftar nama klan PUBGM elegan dengan ornamen panah ➜, petir ⚡, dan huruf kecil subscript superscript yang siap digunakan.',
     category: 'PUBG',
@@ -170,7 +170,7 @@ export const BLOG_POSTS_DATA: BlogPost[] = [
   },
   {
     slug: 'emoji-vs-kaomoji-perbedaan-dan-cara-pakai',
-    title: 'Perbedaan Emoji Berwarna vs Kaomoji Teks: Mana yang Lebih Cocok untuk Anda?',
+    title: 'Emoji vs Kaomoji - Perbedaan & Cara Pakai',
     description:
       'Ulasan perbandingan antara emoji grafis gambar berwarna dan emotikon teks kaomoji klasik dalam komunikasi pesan singkat.',
     category: 'Emoji',

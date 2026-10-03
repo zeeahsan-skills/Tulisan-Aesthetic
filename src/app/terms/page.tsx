@@ -5,17 +5,56 @@ import { Footer } from '@/components/Footer';
 import { FileText, ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Syarat & Ketentuan (Terms of Service) - Tulisan Aesthetic',
+  title: 'Syarat & Ketentuan - Tulisan Aesthetic',
   description:
-    'Syarat dan ketentuan penggunaan platform Tulisan Aesthetic. Ketahui ketentuan penggunaan font Unicode gratis untuk sosial media dan game.',
+    'Syarat dan ketentuan penggunaan layanan generator font online Tulisan Aesthetic. Ketahui hak dan kewajiban pengguna di sini.',
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/terms',
   },
+  openGraph: {
+    title: 'Syarat & Ketentuan - Tulisan Aesthetic',
+    description:
+      'Syarat dan ketentuan penggunaan layanan generator font online Tulisan Aesthetic. Ketahui hak dan kewajiban pengguna di sini.',
+    url: 'https://tulisan-aesthetic.vercel.app/terms',
+    siteName: 'Tulisan Aesthetic',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Syarat & Ketentuan - Tulisan Aesthetic',
+    description:
+      'Syarat dan ketentuan penggunaan layanan generator font online Tulisan Aesthetic. Ketahui hak dan kewajiban pengguna di sini.',
+  },
+  robots: 'noindex, follow',
 };
 
 export default function TermsPage() {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://tulisan-aesthetic.vercel.app',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Syarat & Ketentuan',
+        item: 'https://tulisan-aesthetic.vercel.app/terms',
+      },
+    ],
+  };
+
   return (
     <div className="relative flex flex-col min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">

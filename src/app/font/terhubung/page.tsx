@@ -4,7 +4,7 @@ import TerhubungClientPage from './TerhubungClientPage';
 export const metadata: Metadata = {
   title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive',
   description:
-    'Generator tulisan Terhubung (Sambung / Connected Script / Handwriting) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font tulisan tangan indah untuk IG Bio, Undangan, WA & Caption 100% gratis.',
+    'Font sambung cursive generator: tulisan tangan aesthetic elegan untuk bio & caption berkelas.',
   keywords: [
     'font terhubung generator',
     'tulisan sambung unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/terhubung',
   },
   openGraph: {
-    title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive Unicode',
+    title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive',
     description:
-      'Konversi teks biasa menjadi font Terhubung Sambung (Connected Script / Handwriting) estetik secara instan tanpa aplikasi.',
+      'Font sambung cursive generator: tulisan tangan aesthetic elegan untuk bio & caption berkelas.',
     url: 'https://tulisan-aesthetic.vercel.app/font/terhubung',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,7 +30,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Font Terhubung Generator - Converter Tulisan Sambung Cursive',
-    description: 'Generator font Terhubung Sambung Unicode terlengkap di Indonesia.',
+    description:
+      'Font sambung cursive generator: tulisan tangan aesthetic elegan untuk bio & caption berkelas.',
   },
   robots: 'index, follow',
 };

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import FontMiringKursifClientPage from './FontMiringKursifClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung & Italic',
+  title: 'Font Miring & Kursif - Tulisan Sambung',
   description:
-    'Generator Font Miring & Tulisan Kursif Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi tulisan tangan sambung & italic aesthetic untuk Bio Instagram, WA, TikTok & Nickname 100% instan.',
+    'Converter tulisan miring & kursif aesthetic. Buat teks sambung elegan untuk caption dan bio dalam sekali klik.',
   keywords: [
     'miring kursif',
     'font miring',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/miring-kursif',
   },
   openGraph: {
-    title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung & Italic',
+    title: 'Font Miring & Kursif - Tulisan Sambung',
     description:
-      'Konversi teks biasa menjadi tulisan sambung (Cursive Script) & font miring (Italic) secara instan tanpa aplikasi.',
+      'Converter tulisan miring & kursif aesthetic. Buat teks sambung elegan untuk caption dan bio dalam sekali klik.',
     url: 'https://tulisan-aesthetic.vercel.app/font/miring-kursif',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -32,8 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Miring & Kursif Generator - Converter Tulisan Sambung',
-    description: 'Generator Font Miring & Kursif Unicode terlengkap di Indonesia.',
+    title: 'Font Miring & Kursif - Tulisan Sambung',
+    description:
+      'Converter tulisan miring & kursif aesthetic. Buat teks sambung elegan untuk caption dan bio dalam sekali klik.',
   },
   robots: 'index, follow',
 };

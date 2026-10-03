@@ -4,7 +4,7 @@ import GarisClientPage from './GarisClientPage';
 export const metadata: Metadata = {
   title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough',
   description:
-    'Generator tulisan Garis Coret (Strikethrough / Crossed Out) Unicode terbaik di Indonesia. Ubah teks biasa menjadi font garis coret untuk WhatsApp, Instagram Bio, Discord & TikTok 100% gratis.',
+    'Strikethrough generator: tambah garis coret pada teks untuk gaya unik di bio & chat.',
   keywords: [
     'font garis generator',
     'tulisan coret unicode',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/garis',
   },
   openGraph: {
-    title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough Unicode',
+    title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough',
     description:
-      'Konversi teks biasa menjadi font Garis Coret (Strikethrough / Slash) estetik secara instan tanpa aplikasi.',
+      'Strikethrough generator: tambah garis coret pada teks untuk gaya unik di bio & chat.',
     url: 'https://tulisan-aesthetic.vercel.app/font/garis',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,7 +30,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Font Garis Generator - Converter Tulisan Coret Strikethrough',
-    description: 'Generator font Garis Coret Unicode terlengkap di Indonesia.',
+    description:
+      'Strikethrough generator: tambah garis coret pada teks untuk gaya unik di bio & chat.',
   },
   robots: 'index, follow',
 };

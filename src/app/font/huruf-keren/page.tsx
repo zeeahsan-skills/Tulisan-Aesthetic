@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import HurufKerenClientPage from './HurufKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic',
+  title: 'Huruf Keren Generator - Font Aesthetic',
   description:
-    'Generator Huruf Keren & Tulisan Aesthetic Unicode gratis terbaik di Indonesia. Ubah teks biasa menjadi font keren stylish untuk Bio Instagram, WA, TikTok & Nickname Game 100% instan.',
+    'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
   keywords: [
     'huruf keren generator',
     'tulisan keren',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
   },
   openGraph: {
-    title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic',
+    title: 'Huruf Keren Generator - Font Aesthetic',
     description:
-      'Konversi teks biasa menjadi karakter Unicode stylish & huruf keren aesthetic secara instan tanpa aplikasi.',
+      'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
     url: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Huruf Keren Generator - Converter Tulisan & Font Keren Aesthetic',
-    description: 'Generator Huruf Keren & Tulisan Aesthetic Unicode terlengkap di Indonesia.',
+    title: 'Huruf Keren Generator - Font Aesthetic',
+    description:
+      'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
   },
   robots: 'index, follow',
 };

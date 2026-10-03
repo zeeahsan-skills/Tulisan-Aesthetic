@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import FontHubClientPage from './FontHubClientPage';
 
 export const metadata: Metadata = {
-  title: 'Direktori Font Generator Aesthetic — 18+ Gaya Tulisan Keren Unicode',
+  title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
   description:
-    'Pusat direktori font generator aesthetic terlengkap di Indonesia. Temukan 18+ variasi gaya tulisan keren, font tebal, miring kursif, gelembung, gothic, tiny, dan berkilau 100% gratis.',
+    'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
   keywords: [
     'font generator aesthetic',
     'direktori font aesthetic',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/font',
   },
   openGraph: {
-    title: 'Direktori Font Generator Aesthetic — 18+ Gaya Tulisan Keren Unicode',
+    title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
     description:
-      'Pusat konversi font Unicode aesthetic terlengkap di Indonesia. 18+ koleksi gaya huruf siap copy-paste ke Instagram, TikTok, WhatsApp & Game.',
+      'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
     url: 'https://tulisan-aesthetic.vercel.app/font',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -32,8 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Direktori Font Generator Aesthetic — 18+ Gaya Tulisan Keren',
-    description: 'Pusat konversi font Unicode aesthetic terlengkap dan tercepat di Indonesia.',
+    title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
+    description:
+      'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
   },
   robots: 'index, follow',
 };

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import WhatsAppArticleClientPage from './WhatsAppArticleClientPage';
+import { WHATSAPP_ARTICLE_FAQS } from '@/lib/whatsapp-article';
 
 export const metadata: Metadata = {
-  title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+  title: 'Font WhatsApp Aesthetic - Teks Tebal & Miring',
   description:
     'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
   keywords: [
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
   },
   openGraph: {
-    title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+    title: 'Font WhatsApp Aesthetic - Teks Tebal & Miring',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+    title: 'Font WhatsApp Aesthetic - Teks Tebal & Miring',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
   },
@@ -67,7 +68,7 @@ export default function WhatsAppArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Font WhatsApp: Cara Membuat Tulisan Aesthetic untuk Nama, Bio & Status',
+    headline: 'Font WhatsApp Aesthetic - Teks Tebal & Miring',
     description:
       'Pelajari cara menggunakan Unicode untuk membuat tulisan keren di WhatsApp, mulai dari nama profil, bio, status, hingga pesan.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-whatsapp',
@@ -90,6 +91,19 @@ export default function WhatsAppArticlePage() {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: WHATSAPP_ARTICLE_FAQS.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <>
       <script
@@ -99,6 +113,10 @@ export default function WhatsAppArticlePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <WhatsAppArticleClientPage />
     </>

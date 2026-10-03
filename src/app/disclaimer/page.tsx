@@ -5,17 +5,56 @@ import { Footer } from '@/components/Footer';
 import { AlertTriangle, ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Penafian (Disclaimer) - Tulisan Aesthetic',
+  title: 'Disclaimer Layanan - Tulisan Aesthetic',
   description:
-    'Penafian resmi situs Tulisan Aesthetic. Klarifikasi independensi platform dari Meta, ByteDance, WhatsApp, dan pengembang game.',
+    'Pernyataan sangkalan (disclaimer) resmi Tulisan Aesthetic terkait keterbatasan tanggung jawab dan hak cipta merek dagang pihak ketiga.',
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/disclaimer',
   },
+  openGraph: {
+    title: 'Disclaimer Layanan - Tulisan Aesthetic',
+    description:
+      'Pernyataan sangkalan (disclaimer) resmi Tulisan Aesthetic terkait keterbatasan tanggung jawab dan hak cipta merek dagang pihak ketiga.',
+    url: 'https://tulisan-aesthetic.vercel.app/disclaimer',
+    siteName: 'Tulisan Aesthetic',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Disclaimer Layanan - Tulisan Aesthetic',
+    description:
+      'Pernyataan sangkalan (disclaimer) resmi Tulisan Aesthetic terkait keterbatasan tanggung jawab dan hak cipta merek dagang pihak ketiga.',
+  },
+  robots: 'noindex, follow',
 };
 
 export default function DisclaimerPage() {
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://tulisan-aesthetic.vercel.app',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Penafian',
+        item: 'https://tulisan-aesthetic.vercel.app/disclaimer',
+      },
+    ],
+  };
+
   return (
     <div className="relative flex flex-col min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">

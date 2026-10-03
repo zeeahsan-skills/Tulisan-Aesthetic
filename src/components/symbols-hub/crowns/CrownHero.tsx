@@ -17,6 +17,7 @@ export function CrownHero({ onCopy }: CrownHeroProps) {
         subtitle="Simbol mahkota raja & ratu (👑, ♛, ♔) dipadu dengan 50 gaya font Unicode gaming dan aesthetic."
         defaultText="King Crown 👑"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

@@ -3,9 +3,9 @@ import TikTokClientPage from './TikTokClientPage';
 import { TIKTOK_FAQS } from '@/lib/tiktok-faqs';
 
 export const metadata: Metadata = {
-  title: 'TikTok Font Generator - Convert Teks Bio, Nama & Caption Aesthetic',
+  title: 'Font TikTok Aesthetic - Caption & Bio FYP',
   description:
-    'Generator TikTok Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk bio TikTok, display name, caption, komentar & profil 100% gratis & tanpa aplikasi.',
+    'Buat caption & bio TikTok aesthetic dengan font Unicode keren. Tingkatkan tampilan profil agar FYP-ready.',
   keywords: [
     'tiktok font generator',
     'font bio tiktok aesthetic',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
   },
   openGraph: {
-    title: 'TikTok Font Generator - Tulisan Aesthetic Bio, Nama & Caption',
+    title: 'Font TikTok Aesthetic - Caption & Bio FYP',
     description:
-      'Generate stylish TikTok fonts instantly for usernames, bios, captions, comments, and profile names using Unicode text.',
+      'Buat caption & bio TikTok aesthetic dengan font Unicode keren. Tingkatkan tampilan profil agar FYP-ready.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/tiktok',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TikTok Font Generator - Teks Keren Bio & Caption TikTok',
-    description: 'Generator font TikTok Unicode terlengkap di Indonesia.',
+    title: 'Font TikTok Aesthetic - Caption & Bio FYP',
+    description:
+      'Buat caption & bio TikTok aesthetic dengan font Unicode keren. Tingkatkan tampilan profil agar FYP-ready.',
   },
   robots: 'index, follow',
 };

@@ -15,6 +15,7 @@ export function TikTokHero({ onCopy }: TikTokHeroProps) {
         subtitle="Buat tulisan keren untuk Bio TikTok, Username, komentar, dan video dengan 50 variasi gaya font Unicode aesthetic."
         defaultText="TikTok Bio Aesthetic"
         presetCategory="Popular"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

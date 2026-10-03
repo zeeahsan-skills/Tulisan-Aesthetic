@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import TikTokArticleClientPage from './TikTokArticleClientPage';
+import { TIKTOK_ARTICLE_FAQS } from '@/lib/tiktok-article';
 
 export const metadata: Metadata = {
-  title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+  title: 'Font TikTok Aesthetic - Generator Tulisan FYP',
   description:
     'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
   keywords: [
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
   },
   openGraph: {
-    title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+    title: 'Font TikTok Aesthetic - Generator Tulisan FYP',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+    title: 'Font TikTok Aesthetic - Generator Tulisan FYP',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
   },
@@ -66,7 +67,7 @@ export default function TikTokArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Font TikTok: Cara Membuat Tulisan Aesthetic untuk Profil & Caption',
+    headline: 'Font TikTok Aesthetic - Generator Tulisan FYP',
     description:
       'Pelajari cara menggunakan font TikTok dengan Unicode untuk membuat profil, username, bio, caption, dan komentar menjadi lebih menarik.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/font-tiktok',
@@ -89,6 +90,19 @@ export default function TikTokArticlePage() {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: TIKTOK_ARTICLE_FAQS.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <>
       <script
@@ -98,6 +112,10 @@ export default function TikTokArticlePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <TikTokArticleClientPage />
     </>

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import CoolNamesArticleClientPage from './CoolNamesArticleClientPage';
+import { COOL_NAMES_ARTICLE_FAQS } from '@/lib/cool-names-article';
 
 export const metadata: Metadata = {
-  title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
+  title: 'Cara Membuat Nama Keren Aesthetic untuk Game & Sosmed',
   description:
-    'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya dengan font Unicode & simbol.',
+    'Cara membuat nama keren aesthetic untuk IG, TikTok, WA & game. Tips memilih font Unicode dan simbol yang cocok.',
   keywords: [
     'cara membuat nama keren',
     'nama keren aesthetic',
@@ -20,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
   },
   openGraph: {
-    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
+    title: 'Cara Membuat Nama Keren Aesthetic untuk Game & Sosmed',
     description:
-      'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
+      'Cara membuat nama keren aesthetic untuk IG, TikTok, WA & game. Tips memilih font Unicode dan simbol yang cocok.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
-    description: 'Panduan lengkap membuat nama keren aesthetic untuk seluruh game & media sosial.',
+    title: 'Cara Membuat Nama Keren Aesthetic untuk Game & Sosmed',
+    description:
+      'Cara membuat nama keren aesthetic untuk IG, TikTok, WA & game. Tips memilih font Unicode dan simbol yang cocok.',
   },
   robots: 'index, follow',
 };
@@ -66,9 +68,9 @@ export default function CoolNamesArticlePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Cara Membuat Nama Keren & Aesthetic untuk Game & Sosmed',
+    headline: 'Cara Membuat Nama Keren Aesthetic untuk Game & Sosmed',
     description:
-      'Panduan lengkap membuat nama keren untuk Instagram, TikTok, WhatsApp, Discord, Free Fire, PUBG Mobile, Mobile Legends, Roblox, dan platform lainnya.',
+      'Cara membuat nama keren aesthetic untuk IG, TikTok, WA & game. Tips memilih font Unicode dan simbol yang cocok.',
     url: 'https://tulisan-aesthetic.vercel.app/blog/cara-membuat-nama-keren',
     author: {
       '@type': 'Organization',
@@ -89,6 +91,19 @@ export default function CoolNamesArticlePage() {
     },
   };
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: COOL_NAMES_ARTICLE_FAQS.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <>
       <script
@@ -98,6 +113,10 @@ export default function CoolNamesArticlePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <CoolNamesArticleClientPage />
     </>

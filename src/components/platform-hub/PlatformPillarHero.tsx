@@ -15,6 +15,7 @@ export function PlatformPillarHero({ onCopy }: PlatformPillarHeroProps) {
         subtitle="Generator font Unicode lengkap untuk Instagram, TikTok, WhatsApp, Facebook, Discord, dan Twitter X. Salin 50 gaya font aesthetic secara gratis."
         defaultText="Media Sosial Aesthetic"
         presetCategory="Popular"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

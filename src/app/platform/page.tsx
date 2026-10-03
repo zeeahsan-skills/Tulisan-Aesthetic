@@ -3,9 +3,9 @@ import PlatformClientPage from './PlatformClientPage';
 import { PLATFORM_PILLAR_FAQS } from '@/lib/platform-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord',
+  title: 'Generator Font per Platform - IG, TikTok, WA & Discord',
   description:
-    'Pusat alat generator font media sosial gratis. Ubah tulisan biasa menjadi font aesthetic untuk bio Instagram, caption TikTok, status WhatsApp, postingan Facebook & role Discord.',
+    'Pilih generator font sesuai platform: Instagram, TikTok, WhatsApp, Facebook, Discord & X. Teks aesthetic siap copy paste.',
   keywords: [
     'font platform media sosial',
     'font bio instagram',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform',
   },
   openGraph: {
-    title: 'Font Generator Platform Media Sosial - Bio IG, TikTok, WA & Discord',
+    title: 'Generator Font per Platform - IG, TikTok, WA & Discord',
     description:
-      'Pusat converter font aesthetic terlengkap untuk Instagram, TikTok, WhatsApp, Facebook, dan Discord secara instan tanpa aplikasi.',
+      'Pilih generator font sesuai platform: Instagram, TikTok, WhatsApp, Facebook, Discord & X. Teks aesthetic siap copy paste.',
     url: 'https://tulisan-aesthetic.vercel.app/platform',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Generator Platform Media Sosial',
-    description: 'Bikin bio & caption media sosial aesthetic dengan font Unicode unik.',
+    title: 'Generator Font per Platform - IG, TikTok, WA & Discord',
+    description:
+      'Pilih generator font sesuai platform: Instagram, TikTok, WhatsApp, Facebook, Discord & X. Teks aesthetic siap copy paste.',
   },
   robots: 'index, follow',
 };

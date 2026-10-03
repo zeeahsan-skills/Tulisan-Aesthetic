@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'PUBG Mobile Name Generator - Generator Nama PUBG Keren',
-    description: 'Buat nickname PUBG Mobile keren ala pro player esports.',
+    description:
+      'Buat nickname PUBG Mobile keren, gaya militer, clan tag, dan simbol Jepang aesthetic secara instan dan gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/pubg-mobile',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PUBG Mobile Name Generator',
-    description: 'Generator nickname PUBG Mobile Unicode terlengkap.',
+    title: 'PUBG Mobile Name Generator - Generator Nama PUBG Keren',
+    description:
+      'Buat nickname PUBG Mobile keren, gaya militer, clan tag, dan simbol Jepang aesthetic secara instan dan gratis.',
   },
   robots: 'index, follow',
 };

@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import CrownClientPage from './CrownClientPage';
 
 export const metadata: Metadata = {
-  title: 'Crown Symbols (Simbol Mahkota) Aesthetic ♛ ♔ 👑 - Copy Paste 150+',
+  title: 'Simbol Mahkota Aesthetic - Copy Paste 150+',
   description:
-    'Salin 150+ Simbol Mahkota (Crown Symbols) Aesthetic Unicode ♛ ♔ ♚ ♕ 👑 亗 ⚜️ 1-klik copy gratis untuk bio Instagram, TikTok, WhatsApp, Discord & nickname game FF, MLBB, PUBG.',
+    '150+ simbol mahkota aesthetic 👑 亗 ♛ untuk nickname FF, PUBG, MLBB & bio IG. Klik sekali untuk langsung copy paste gratis.',
   keywords: [
     'crown symbols',
     'simbol mahkota',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/mahkota',
   },
   openGraph: {
-    title: 'Crown Symbols (Simbol Mahkota) Aesthetic ♛ ♔ 👑 - Copy Paste 150+',
+    title: 'Simbol Mahkota Aesthetic - Copy Paste 150+',
     description:
-      'Browse and copy stylish Unicode crown symbols instantly for social media, gaming, usernames, and creative text.',
+      '150+ simbol mahkota aesthetic 👑 亗 ♛ untuk nickname FF, PUBG, MLBB & bio IG. Klik sekali untuk langsung copy paste gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/mahkota',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crown Symbols (Simbol Mahkota) Aesthetic ♛ ♔ 👑 - Copy Paste 150+',
-    description: 'Koleksi 150+ simbol mahkota Unicode estetik 1-klik copy gratis tercepat di Indonesia.',
+    title: 'Simbol Mahkota Aesthetic - Copy Paste 150+',
+    description:
+      '150+ simbol mahkota aesthetic 👑 亗 ♛ untuk nickname FF, PUBG, MLBB & bio IG. Klik sekali untuk langsung copy paste gratis.',
   },
   robots: 'index, follow',
 };

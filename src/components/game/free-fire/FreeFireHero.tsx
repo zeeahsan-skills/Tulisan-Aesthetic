@@ -15,6 +15,7 @@ export function FreeFireHero({ onCopy }: FreeFireHeroProps) {
         subtitle="Buat Nickname FF pro player, nama Guild Free Fire, dan bio game dengan 50 gaya font Unicode gaming dan simbol mahkota."
         defaultText="Nick FF Pro"
         presetCategory="Gaming"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

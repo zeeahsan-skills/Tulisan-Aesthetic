@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import FlowerClientPage from './FlowerClientPage';
 
 export const metadata: Metadata = {
-  title: 'Flower Symbols (Simbol Bunga) Aesthetic ✿ ❀ 🌸 🌹 - Copy Paste 150+',
+  title: 'Simbol Bunga Aesthetic - Copy Paste 150+',
   description:
-    'Salin 150+ Simbol Bunga (Flower Symbols) Aesthetic Unicode ✿ ❀ ❁ 🌸 🌹 🌿 🪷 1-klik copy gratis untuk bio Instagram, TikTok, WhatsApp, Discord, undangan pernikahan & kartu ucapan.',
+    '150+ simbol bunga aesthetic ✿ ❀ untuk bio Instagram & TikTok. Klik untuk copy paste instan.',
   keywords: [
     'flower symbols',
     'simbol bunga',
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/simbol/bunga',
   },
   openGraph: {
-    title: 'Flower Symbols (Simbol Bunga) Aesthetic ✿ ❀ 🌸 🌹 - Copy Paste 150+',
+    title: 'Simbol Bunga Aesthetic - Copy Paste 150+',
     description:
-      'Browse and copy beautiful Unicode flower symbols instantly for social media, creative text, and decorative designs.',
+      '150+ simbol bunga aesthetic ✿ ❀ untuk bio Instagram & TikTok. Klik untuk copy paste instan.',
     url: 'https://tulisan-aesthetic.vercel.app/simbol/bunga',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Flower Symbols (Simbol Bunga) Aesthetic ✿ ❀ 🌸 🌹 - Copy Paste 150+',
-    description: 'Koleksi 150+ simbol bunga Unicode estetik 1-klik copy gratis tercepat di Indonesia.',
+    title: 'Simbol Bunga Aesthetic - Copy Paste 150+',
+    description:
+      '150+ simbol bunga aesthetic ✿ ❀ untuk bio Instagram & TikTok. Klik untuk copy paste instan.',
   },
   robots: 'index, follow',
 };

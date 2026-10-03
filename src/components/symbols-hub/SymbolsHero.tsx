@@ -17,6 +17,7 @@ export function SymbolsHero({ onCopy }: SymbolsHeroProps) {
         subtitle="Salin ribuan simbol aesthetic (Bintang, Hati, Mahkota, Bunga, Panah, Emoji, Kaomoji) serta 50 gaya font Unicode unik."
         defaultText="Simbol Aesthetic"
         presetCategory="Cute"
+        isH1={true}
         onCopy={onCopy}
       />
     </div>

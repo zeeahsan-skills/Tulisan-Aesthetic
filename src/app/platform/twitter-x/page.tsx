@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import TwitterXClientPage from './TwitterXClientPage';
 
 export const metadata: Metadata = {
-  title: 'Twitter X Font Generator - Convert Teks Bio & Tweet Aesthetic',
+  title: 'Font Twitter / X Aesthetic - Display Name Keren',
   description:
-    'Generator Font Twitter (X) di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk Bio X, Tweet, Username & Display Name 100% gratis secara instan.',
+    'Generator font Twitter / X: ubah teks biasa jadi font Unicode estetik untuk Bio, Tweet, Username & Display Name 100% gratis secara instan.',
   keywords: [
     'twitter font generator',
     'x font generator',
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
   },
   openGraph: {
-    title: 'Twitter X Font Generator - Teks Bio & Tweet Aesthetic',
+    title: 'Font Twitter / X Aesthetic - Display Name Keren',
     description:
-      'Konversi teks biasa menjadi font Unicode estetik untuk Bio Twitter / X, Tweet, dan Display Name 100% gratis.',
+      'Generator font Twitter / X: ubah teks biasa jadi font Unicode estetik untuk Bio, Tweet, Username & Display Name 100% gratis secara instan.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/twitter-x',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -28,8 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Twitter X Font Generator - Bio & Post Aesthetic',
-    description: 'Generator font Twitter Unicode gratis.',
+    title: 'Font Twitter / X Aesthetic - Display Name Keren',
+    description:
+      'Generator font Twitter / X: ubah teks biasa jadi font Unicode estetik untuk Bio, Tweet, Username & Display Name 100% gratis secara instan.',
   },
   robots: 'index, follow',
 };

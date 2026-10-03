@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/free-fire',
   },
   openGraph: {
-    title: 'Free Fire Stylish Name Generator - Nama FF Keren Aesthetic',
+    title: 'Free Fire Stylish Name Generator - Generator Nama FF Keren',
     description:
-      'Konversi teks biasa menjadi nickname Free Fire keren bergaya pro player esports secara instan.',
+      'Generator nama Free Fire (FF) keren & estetik terbaik di Indonesia. Buat nickname pro player dengan simbol sayap, mahkota & font Unicode 100% gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/free-fire',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -30,8 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Fire Stylish Name Generator - Nama FF Keren & Estetik',
-    description: 'Generator nickname Free Fire Unicode terlengkap dan tercepat di Indonesia.',
+    title: 'Free Fire Stylish Name Generator - Generator Nama FF Keren',
+    description:
+      'Generator nama Free Fire (FF) keren & estetik terbaik di Indonesia. Buat nickname pro player dengan simbol sayap, mahkota & font Unicode 100% gratis.',
   },
   robots: 'index, follow',
 };

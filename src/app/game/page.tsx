@@ -3,9 +3,9 @@ import GameClientPage from './GameClientPage';
 import { GAME_PILLAR_FAQS } from '@/lib/game-pillar-faqs';
 
 export const metadata: Metadata = {
-  title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB, Roblox & CODM',
+  title: 'Nickname Game Aesthetic - FF, PUBG, ML & Valorant',
   description:
-    'Pusat generator nama game keren ala pro player esports. Buat nickname aesthetic untuk Free Fire (FF), PUBG Mobile, Mobile Legends, Roblox & CODM dengan simbol payung, mahkota, sayap, & spasi kosong transparan.',
+    'Buat nickname game aesthetic untuk Free Fire, PUBG Mobile, MLBB, Valorant, Roblox & CODM dengan simbol keren.',
   keywords: [
     'nickname game aesthetic',
     'font game generator',
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/game',
   },
   openGraph: {
-    title: 'Font & Nickname Game Aesthetic Generator - FF, PUBG, MLBB & Roblox',
+    title: 'Nickname Game Aesthetic - FF, PUBG, ML & Valorant',
     description:
-      'Generator nama akun game pro player esports terlengkap dengan simbol payung, mahkota, sayap, dan font Unicode gratis.',
+      'Buat nickname game aesthetic untuk Free Fire, PUBG Mobile, MLBB, Valorant, Roblox & CODM dengan simbol keren.',
     url: 'https://tulisan-aesthetic.vercel.app/game',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -33,8 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font & Nickname Game Aesthetic Generator',
-    description: 'Buat nama akun game keren ala pro player esports dalam hitungan detik.',
+    title: 'Nickname Game Aesthetic - FF, PUBG, ML & Valorant',
+    description:
+      'Buat nickname game aesthetic untuk Free Fire, PUBG Mobile, MLBB, Valorant, Roblox & CODM dengan simbol keren.',
   },
   robots: 'index, follow',
 };

@@ -3,9 +3,9 @@ import WhatsAppClientPage from './WhatsAppClientPage';
 import { WHATSAPP_FAQS } from '@/lib/whatsapp-faqs';
 
 export const metadata: Metadata = {
-  title: 'WhatsApp Font Generator - Convert Teks Nama, Info & Status Aesthetic',
+  title: 'Font WhatsApp - Teks Tebal, Miring & Monospace',
   description:
-    'Generator WhatsApp Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk nama profil WA, Info/bio, status, chat & grup 100% gratis & tanpa aplikasi.',
+    'Percantik chat & status WhatsApp dengan font tebal, miring & monospace. Tanpa aplikasi, langsung copy paste.',
   keywords: [
     'whatsapp font generator',
     'font nama whatsapp aesthetic',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
   },
   openGraph: {
-    title: 'WhatsApp Font Generator - Tulisan Aesthetic Nama, Info & Status',
+    title: 'Font WhatsApp - Teks Tebal, Miring & Monospace',
     description:
-      'Generate stylish WhatsApp fonts instantly for profile names, status updates, chats, and group names using Unicode text.',
+      'Percantik chat & status WhatsApp dengan font tebal, miring & monospace. Tanpa aplikasi, langsung copy paste.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/whatsapp',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WhatsApp Font Generator - Teks Keren Profil & Status WA',
-    description: 'Generator font WhatsApp Unicode terlengkap di Indonesia.',
+    title: 'Font WhatsApp - Teks Tebal, Miring & Monospace',
+    description:
+      'Percantik chat & status WhatsApp dengan font tebal, miring & monospace. Tanpa aplikasi, langsung copy paste.',
   },
   robots: 'index, follow',
 };

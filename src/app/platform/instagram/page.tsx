@@ -3,9 +3,9 @@ import InstagramClientPage from './InstagramClientPage';
 import { INSTAGRAM_FAQS } from '@/lib/instagram-faqs';
 
 export const metadata: Metadata = {
-  title: 'Instagram Font Generator - Convert Teks Bio & Caption Aesthetic',
+  title: 'Font Instagram Aesthetic - Bio & Caption Keren',
   description:
-    'Generator Instagram Font terbaik di Indonesia. Ubah teks biasa menjadi font Unicode estetik untuk bio Instagram, username, caption, komentar & Story 100% gratis & tanpa aplikasi.',
+    'Generator font aesthetic untuk Instagram: bio, caption & story highlight. Copy paste font Unicode yang 100% terbaca.',
   keywords: [
     'instagram font generator',
     'font bio instagram aesthetic',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
   },
   openGraph: {
-    title: 'Instagram Font Generator - Tulisan Aesthetic Bio & Caption',
+    title: 'Font Instagram Aesthetic - Bio & Caption Keren',
     description:
-      'Generate stylish Instagram fonts instantly for bios, usernames, captions, comments, and Stories using Unicode text.',
+      'Generator font aesthetic untuk Instagram: bio, caption & story highlight. Copy paste font Unicode yang 100% terbaca.',
     url: 'https://tulisan-aesthetic.vercel.app/platform/instagram',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,8 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Instagram Font Generator - Teks Keren Bio & Caption IG',
-    description: 'Generator font Instagram Unicode terlengkap di Indonesia.',
+    title: 'Font Instagram Aesthetic - Bio & Caption Keren',
+    description:
+      'Generator font aesthetic untuk Instagram: bio, caption & story highlight. Copy paste font Unicode yang 100% terbaca.',
   },
   robots: 'index, follow',
 };
