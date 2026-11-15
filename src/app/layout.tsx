@@ -95,6 +95,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8256437900661368"
+          crossOrigin="anonymous"
+        />
       </head>
       <body
         className={`${inter.variable} ${poppins.variable} antialiased bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen selection:bg-purple-500 selection:text-white`}
