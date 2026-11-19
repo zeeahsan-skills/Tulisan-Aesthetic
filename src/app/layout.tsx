@@ -59,16 +59,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   // WebSite Schema JSON-LD
+  // NOTE: No search action here on purpose. The site has no search-results
+  // endpoint (no /search page, nothing reads a query parameter — in-page
+  // search is React state only), so advertising one made Google crawl a
+  // template URL and report it in Search Console as an alternate page.
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Tulisan Aesthetic',
     url: 'https://tulisan-aesthetic.vercel.app',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: 'https://tulisan-aesthetic.vercel.app/?q={search_term_string}',
-      'query-input': 'required name=search_term_string',
-    },
   };
 
   // Organization Schema JSON-LD
