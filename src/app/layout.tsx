@@ -18,27 +18,28 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
+  title: 'Tulisan Aesthetic — Generator Teks & Edit Nama Keren',
   description:
-    'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
+    'Aesthetic text generator gratis Indonesia. Ubah ketikan biasa & edit nama aesthetic jadi tulisan keren Unicode untuk bio IG, TikTok, WA & nickname.',
   keywords: [
     'tulisan aesthetic',
-    'teks estetik',
-    'font unik',
-    'gaya tulisan unicode',
-    'karakter estetik',
+    'tulisan estetik',
+    'edit nama aesthetic',
+    'aesthetic text generator',
+    'teks aesthetic',
+    'ketikan aesthetic',
+    'buat nama estetik',
+    'font unik unicode',
     'tulisan keren',
-    'font generator instagram',
-    'nickname ff aesthetic',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app',
   },
   openGraph: {
-    title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
+    title: 'Tulisan Aesthetic — Generator Teks & Edit Nama Keren',
     description:
-      'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
+      'Aesthetic text generator gratis Indonesia. Ubah ketikan biasa & edit nama aesthetic jadi tulisan keren Unicode untuk bio IG, TikTok, WA & nickname.',
     url: 'https://tulisan-aesthetic.vercel.app',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -46,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tulisan Aesthetic — Generator Teks & Font Unik Unicode',
+    title: 'Tulisan Aesthetic — Generator Teks & Edit Nama Keren',
     description:
-      'Generator teks estetik & font keren Unicode Indonesia. Ubah teks jadi gaya unik instan untuk bio Instagram, TikTok, WhatsApp & nickname game.',
+      'Aesthetic text generator gratis Indonesia. Ubah ketikan biasa & edit nama aesthetic jadi tulisan keren Unicode untuk bio IG, TikTok, WA & nickname.',
   },
   robots: 'index, follow',
 };

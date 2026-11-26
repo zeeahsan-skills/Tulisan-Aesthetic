@@ -2,29 +2,27 @@ import type { Metadata } from 'next';
 import FontHubClientPage from './FontHubClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
+  title: 'Ubah Font Aesthetic - Direktori 18+ Gaya Tulisan Keren',
   description:
-    'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
+    'Web font aesthetic untuk ubah font biasa jadi 18+ gaya tulisan unik: tebal, kursif, gothic, bubble & glitch. Salin instan gratis tanpa aplikasi.',
   keywords: [
+    'ubah font aesthetic',
+    'web font aesthetic',
+    'ganti font aesthetic',
+    'gaya font aesthetic',
     'font generator aesthetic',
     'direktori font aesthetic',
-    'tulisan keren',
-    'generator tulisan estetik',
+    'pengubah font aesthetic',
     'font unicode indonesia',
-    'font tebal copy paste',
-    'font miring kursif',
-    'font gelembung',
-    'font gothic fraktur',
-    'font bio instagram',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font',
   },
   openGraph: {
-    title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
+    title: 'Ubah Font Aesthetic - Direktori 18+ Gaya Tulisan Keren',
     description:
-      'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
+      'Web font aesthetic untuk ubah font biasa jadi 18+ gaya tulisan unik: tebal, kursif, gothic, bubble & glitch. Salin instan gratis tanpa aplikasi.',
     url: 'https://tulisan-aesthetic.vercel.app/font',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -32,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Generator Aesthetic - 18+ Gaya Tulisan Keren',
+    title: 'Ubah Font Aesthetic - Direktori 18+ Gaya Tulisan Keren',
     description:
-      'Direktori 18+ gaya font aesthetic Unicode: tebal, miring, gothic, bubble & glitch. Ketik sekali, salin semua gaya instan.',
+      'Web font aesthetic untuk ubah font biasa jadi 18+ gaya tulisan unik: tebal, kursif, gothic, bubble & glitch. Salin instan gratis tanpa aplikasi.',
   },
   robots: 'index, follow',
 };

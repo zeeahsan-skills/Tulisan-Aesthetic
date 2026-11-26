@@ -2,28 +2,28 @@ import type { Metadata } from 'next';
 import HurufKerenClientPage from './HurufKerenClientPage';
 
 export const metadata: Metadata = {
-  title: 'Huruf Keren Generator - Font Aesthetic',
+  title: 'Huruf Keren & Huruf Cantik - Generator Tulisan Font Keren',
   description:
-    'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
+    'Generator huruf keren & huruf cantik online. Ubah teks jadi tulisan font keren aesthetic untuk bio IG, status WA, TikTok & nama profil gratis.',
   keywords: [
+    'huruf keren',
+    'huruf cantik',
+    'tulisan font keren',
+    'tulisan cantik online',
     'huruf keren generator',
-    'tulisan keren',
-    'font keren',
-    'tulisan aesthetic',
-    'stylish unicode text',
-    'cool text generator',
+    'font cantik',
+    'buat huruf keren',
     'font bio instagram',
     'font wa keren',
-    'nickname game keren',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
   },
   openGraph: {
-    title: 'Huruf Keren Generator - Font Aesthetic',
+    title: 'Huruf Keren & Huruf Cantik - Generator Tulisan Font Keren',
     description:
-      'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
+      'Generator huruf keren & huruf cantik online. Ubah teks jadi tulisan font keren aesthetic untuk bio IG, status WA, TikTok & nama profil gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/font/huruf-keren',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Huruf Keren Generator - Font Aesthetic',
+    title: 'Huruf Keren & Huruf Cantik - Generator Tulisan Font Keren',
     description:
-      'Generator huruf keren aesthetic: ubah teks biasa jadi font unik untuk bio IG, TikTok & nickname game. Gratis, instan.',
+      'Generator huruf keren & huruf cantik online. Ubah teks jadi tulisan font keren aesthetic untuk bio IG, status WA, TikTok & nama profil gratis.',
   },
   robots: 'index, follow',
 };

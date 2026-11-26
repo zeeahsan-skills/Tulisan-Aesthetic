@@ -12,8 +12,14 @@ export function HeroSection({ onCopy }: HeroSectionProps) {
     <div id="hero">
       <FontGenerator
         isH1={true}
-        title="Tulisan Aesthetic — Generator Tulisan Keren & Font Aesthetic"
-        subtitle="Ubah teks biasa menjadi 50 variasi gaya font Unicode aesthetic, tebal, miring, gothic, bubble, dan simbol gaming 100% gratis secara instan."
+        title="Tulisan Aesthetic — Generator Teks & Edit Nama Keren"
+        subtitle="Aesthetic text generator gratis Indonesia. Ubah ketikan biasa atau edit nama aesthetic jadi 50 gaya tulisan estetik Unicode untuk bio Instagram, TikTok, WhatsApp, dan nickname game."
+        quickPresets={[
+          { label: 'Edit Nama Aesthetic', value: 'Nayla Aesthetic ✧' },
+          { label: 'Buat Nama Estetik', value: 'Raka Pratama' },
+          { label: 'Bio IG Estetik', value: 'Slow living & coffee' },
+          { label: 'Nickname Game', value: 'ShadowX Pro' },
+        ]}
         onCopy={onCopy}
       />
     </div>

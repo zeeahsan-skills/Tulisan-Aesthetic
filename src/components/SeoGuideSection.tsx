@@ -64,14 +64,14 @@ export function SeoGuideSection({ onCopy }: SeoGuideSectionProps) {
     ]},
     { label: 'Nama Saya', normal: 'Nama Saya', styles: [
       { name: 'Script', result: '𝒩𝒶𝓂𝒶 𝒮𝒶𝓎𝒶', id: 'ex-ns-script' },
-      { name: 'Square', result: '🄰🄼🄰 🅂🄰🅈🄰', id: 'ex-ns-sq' },
+      { name: 'Square', result: '🄽🄰🄼🄰 🅂🄰🅈🄰', id: 'ex-ns-sq' },
     ]},
     { label: 'Jangan Lupa Follow', normal: 'Jangan Lupa Follow', styles: [
       { name: 'Bold Italic', result: '𝙅𝙖𝙣𝙜𝙖𝙣 𝙇𝙪𝙥𝙖 𝙁𝙤𝙡𝙡𝙤𝙬', id: 'ex-jlf-bi' },
       { name: 'Cute Circles', result: 'Ⓙⓐⓝⓖⓐⓝ Ⓛⓤⓟⓐ Ⓕⓞⓛⓛⓞⓦ', id: 'ex-jlf-circ' },
     ]},
     { label: 'Game On', normal: 'Game On', styles: [
-      { name: 'Gamer Decor', result: '꧁༺ 𝙴𝘼𝙈𝙀 𝙊𝙉 ༻꧂', id: 'ex-go-decor' },
+      { name: 'Gamer Decor', result: '꧁༺ 𝙶𝙰𝙼𝙴 𝙊𝙉 ༻꧂', id: 'ex-go-decor' },
       { name: 'Gothic', result: '𝔊𝔞𝔪𝔢 𝔒𝔫', id: 'ex-go-gothic' },
     ]},
   ];
@@ -100,11 +100,35 @@ export function SeoGuideSection({ onCopy }: SeoGuideSectionProps) {
             Panduan & Informasi Generator
           </span>
           <h2 className="mt-4 text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white font-poppins tracking-tight leading-tight">
-            Panduan Teks Estetik & Generator Font Unicode
+            Panduan Teks Estetik & Edit Nama Aesthetic
           </h2>
           <p className="mt-6 text-base sm:text-xl text-slate-600 dark:text-slate-300 leading-relaxed font-sans">
-            Alat generator praktis yang membantu Anda membuat gaya tulisan estetik, font unik, dan karakter keren secara gratis tanpa perlu mengunduh aplikasi tambahan. Ketik teks pilihan Anda di generator, pilih gaya favorit, lalu salin dan tempel (copy paste) ke media sosial atau game pilihan Anda.
+            Sebagai <strong>aesthetic text generator</strong> gratis di Indonesia, Tulisan Aesthetic membantu Anda mengubah ketikan biasa menjadi <strong>tulisan estetik</strong> dan melakukan <strong>edit nama aesthetic</strong> secara instan tanpa aplikasi. Cukup ketik nama atau kalimat di kolom atas, pilih gaya favorit, lalu salin ke bio Instagram, TikTok, WhatsApp, atau nickname game.
           </p>
+        </div>
+
+        {/* Dedicated Guide: Edit Nama Aesthetic & Ketikan Estetik */}
+        <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-900 border border-purple-500/20 shadow-lg">
+          <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white font-poppins mb-3">
+            Cara Edit Nama Aesthetic &amp; Buat Nama Estetik Tanpa Aplikasi
+          </h3>
+          <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+            Ingin <strong>edit nama aesthetic</strong> untuk nama tampilan (display name) Instagram, TikTok, WhatsApp, atau profil game? Ketik nama Anda pada generator di atas (atau klik tombol <em>Edit Nama Aesthetic</em>), lalu pilih gaya yang mudah dibaca seperti Small Caps, Script, atau Bold. Karena menggunakan karakter Unicode standar, hasil <strong>ketikan aesthetic</strong> tetap rapi saat ditempel di Android maupun iPhone.
+          </p>
+          <div className="flex flex-wrap gap-3 text-xs sm:text-sm font-semibold">
+            <Link href="/font" className="text-purple-600 dark:text-pink-400 hover:underline inline-flex items-center gap-1">
+              Ubah Font Aesthetic (18+ Kategori) <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+            <Link href="/font/huruf-keren" className="text-purple-600 dark:text-pink-400 hover:underline inline-flex items-center gap-1">
+              Huruf Keren &amp; Cantik <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+            <Link href="/font/tebal" className="text-purple-600 dark:text-pink-400 hover:underline inline-flex items-center gap-1">
+              Tulisan Tebal Aesthetic <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+            <Link href="/game" className="text-purple-600 dark:text-pink-400 hover:underline inline-flex items-center gap-1">
+              Nickname Game Aesthetic <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
 
         {/* Overview Box: Apa Itu & Cara Kerja Ringkas */}

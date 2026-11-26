@@ -222,9 +222,9 @@ export default function FontHubClientPage() {
         <section className="relative pt-6 pb-12 bg-gradient-to-b from-slate-900 via-slate-900/80 to-slate-950 border-b border-slate-800/80">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <FontGenerator
-              title="Direktori Font Generator Aesthetic"
-              subtitle="Pusat konversi teks Unicode terlengkap di Indonesia. Jelajahi 18+ variasi gaya huruf keren, tulisan tebal, miring kursif, gelembung, gothic, dan font berkilau yang siap disalin untuk Bio Instagram, TikTok, WhatsApp & Game."
-              defaultText="Tulisan Aesthetic"
+              title="Ubah Font Aesthetic — Direktori 18+ Gaya Huruf"
+              subtitle="Web font aesthetic untuk ubah font biasa menjadi 18+ kategori gaya font Unicode: tebal, miring kursif, gelembung, gothic, dan glitch yang siap disalin untuk Bio Instagram, TikTok, WhatsApp & Game."
+              defaultText="Ubah Font Aesthetic"
               isH1={true}
               onCopy={showToast}
             />

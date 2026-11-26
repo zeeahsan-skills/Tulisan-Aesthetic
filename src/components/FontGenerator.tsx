@@ -19,6 +19,11 @@ import { getFontPageConfig } from '@/lib/font-page-configs';
 import { useZoom } from '@/hooks/useZoom';
 import { ZoomSlider } from '@/components/ZoomSlider';
 
+interface QuickPreset {
+  label: string;
+  value: string;
+}
+
 interface FontGeneratorProps {
   title?: string;
   subtitle?: string;
@@ -28,6 +33,7 @@ interface FontGeneratorProps {
   isH1?: boolean;
   pageSlug?: string;
   customStyles?: FontStyle[];
+  quickPresets?: QuickPreset[];
 }
 
 export function FontGenerator({
@@ -39,6 +45,7 @@ export function FontGenerator({
   isH1 = false,
   pageSlug,
   customStyles,
+  quickPresets,
 }: FontGeneratorProps) {
   // Load configuration if pageSlug is provided
   const config = pageSlug ? getFontPageConfig(pageSlug) : undefined;
@@ -262,6 +269,24 @@ export function FontGenerator({
             rows={2}
             className="w-full px-4 py-3 sm:py-4 text-lg sm:text-2xl font-medium rounded-2xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-purple-900/50 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-purple-500/50 transition-all resize-none shadow-inner"
           />
+
+          {quickPresets && quickPresets.length > 0 && (
+            <div className="mt-3 flex flex-wrap items-center gap-2">
+              <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 mr-1">
+                Coba cepat:
+              </span>
+              {quickPresets.map((preset) => (
+                <button
+                  key={preset.label}
+                  type="button"
+                  onClick={() => setInputText(preset.value)}
+                  className="px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/10 hover:bg-purple-500/20 text-purple-700 dark:text-pink-300 border border-purple-500/20 transition"
+                >
+                  {preset.label}
+                </button>
+              ))}
+            </div>
+          )}
 
           {/* Action Row */}
           <div className="mt-4 flex flex-wrap items-center gap-3">

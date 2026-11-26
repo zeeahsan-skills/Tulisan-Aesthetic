@@ -2,28 +2,28 @@ import type { Metadata } from 'next';
 import FontTebalClientPage from './FontTebalClientPage';
 
 export const metadata: Metadata = {
-  title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
+  title: 'Font Tebal Aesthetic - Generator Tulisan Tebal Bold',
   description:
-    'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
+    'Generator tulisan tebal aesthetic (bold Unicode) untuk bio Instagram, WhatsApp & TikTok. Ubah teks biasa jadi huruf tebal keren copy paste gratis.',
   keywords: [
+    'tulisan tebal aesthetic',
+    'font tebal aesthetic',
+    'font aesthetic tebal',
     'font tebal',
     'tulisan tebal',
     'huruf tebal',
-    'bold text',
     'bold unicode',
     'bold font generator',
-    'tulisan bold',
     'teks tebal copy paste',
-    'font bio instagram tebal',
   ],
   authors: [{ name: 'Tulisan Aesthetic Team' }],
   alternates: {
     canonical: 'https://tulisan-aesthetic.vercel.app/font/tebal',
   },
   openGraph: {
-    title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
+    title: 'Font Tebal Aesthetic - Generator Tulisan Tebal Bold',
     description:
-      'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
+      'Generator tulisan tebal aesthetic (bold Unicode) untuk bio Instagram, WhatsApp & TikTok. Ubah teks biasa jadi huruf tebal keren copy paste gratis.',
     url: 'https://tulisan-aesthetic.vercel.app/font/tebal',
     siteName: 'Tulisan Aesthetic',
     locale: 'id_ID',
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Font Tebal Generator - Converter Tulisan Tebal Bold Unicode',
+    title: 'Font Tebal Aesthetic - Generator Tulisan Tebal Bold',
     description:
-      'Ubah teks biasa menjadi tulisan tebal (bold) Unicode untuk bio Instagram, WA & TikTok. Copy paste instan, gratis.',
+      'Generator tulisan tebal aesthetic (bold Unicode) untuk bio Instagram, WhatsApp & TikTok. Ubah teks biasa jadi huruf tebal keren copy paste gratis.',
   },
   robots: 'index, follow',
 };

@@ -20,10 +20,10 @@ export function HurufKerenAbout() {
               Panduan Lengkap
             </span>
             <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white font-poppins leading-tight">
-              Apa Itu Huruf Keren?
+              Apa Itu Huruf Keren &amp; Huruf Cantik?
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              <strong>Huruf Keren</strong> (atau biasa disebut <em>tulisan keren</em>, <em>font keren</em>, dan <em>tulisan aesthetic</em>) adalah sebutan untuk kumpulan variasi teks unik berbasis karakter <strong>Unicode</strong> yang dirancang untuk mengubah tampilan alfabet standar menjadi bentuk visual yang stylish, dekoratif, dan menarik perhatian.
+              <strong>Huruf Keren</strong> (sering juga dicari sebagai <em>huruf cantik</em>, <em>tulisan font keren</em>, dan <em>tulisan cantik online</em>) adalah kumpulan variasi teks unik berbasis karakter <strong>Unicode</strong> yang dirancang untuk mengubah alfabet standar menjadi bentuk visual yang stylish, dekoratif, dan rapi.
             </p>
             <p className="mt-3 text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
               Berbeda dari file font biasa (seperti format .TTF atau .OTF) yang harus diinstal terlebih dahulu di perangkat komputer atau smartphone, <strong>Huruf Keren</strong> memanfaatkan ribuan simbol matematika, alfabet khusus, serta karakter enclosed yang sudah tertanam secara universal di dalam sistem operasi modern.

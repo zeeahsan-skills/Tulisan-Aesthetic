@@ -20,10 +20,10 @@ export function FontTebalAbout() {
               Penjelasan Utama
             </span>
             <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white font-poppins leading-tight">
-              Apa Itu Font Tebal?
+              Apa Itu Font Tebal Aesthetic?
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              <strong>Font Tebal</strong> (atau <em>tulisan tebal</em>, <em>huruf tebal</em>, dan <em>bold text Unicode</em>) adalah bentuk tampilan karakter alfabet yang dipetakan ke titik kode <strong>Mathematical Alphanumeric Symbols</strong> di dalam standar Unicode. Teks tebal ini secara khusus dirancang dengan garis strokes berbobot tinggi (heavy weight) sehingga tampak menonjol dan tegas.
+              <strong>Font Tebal Aesthetic</strong> (atau <em>tulisan tebal aesthetic</em>, <em>huruf tebal</em>, dan <em>bold text Unicode</em>) adalah bentuk tampilan karakter alfabet yang dipetakan ke titik kode <strong>Mathematical Alphanumeric Symbols</strong> di dalam standar Unicode. Teks tebal ini dirancang dengan garis berbobot tinggi (heavy weight) agar tampak menonjol, tegas, dan tetap estetik.
             </p>
             <p className="mt-3 text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
               Di platform seperti Instagram, TikTok, WhatsApp, dan Facebook, opsi format tebal bawaan sering kali terbatas atau bahkan tidak ada. Dengan menggunakan <strong>Font Tebal Generator</strong>, karakter biasa diubah secara instan menjadi simbol bold Unicode yang siap disalin dan ditempel di aplikasi mana pun.
